@@ -1,0 +1,17 @@
+JJINTERN V2 — A SHAPE WITH A JOB
+User revision: vertical TikTok, less stretched, clearer, higherfps; decorative ribbon must transition into something useful.
+
+Selected mechanism: a tangled blue ribbon untangles into the frame of a real company search; actual typed Microsoft input resolves to its genuine company result; that same frame becomes an upward action arrow alongside JJIntern.com. The shape is a narrative tool, not a repeating rotating ornament. Rotation settles before the demonstration and the product viewport stays still during input/result.
+
+Alternatives: simply cropping the landscape version leaves small type and repeats an unresolved sculpture; rejected. Morphing the ribbon into the JJ logo would require inventing/tracing an asset; rejected. Using the ribbon as an abstract arrow without a product reveal still lacks a concrete payoff; rejected.
+
+Format: 20 seconds, native 1080×1920 at120fps (2400frames), plus60fps TikTok uploadcopy (1200frames). Same original no-sample synthesizedscore. Larger natural type, compact compositions, no nonuniform scaling. Essential copy in conservative house region x90–900 y240–1480. Physical-device/uploadpreview not performed; this region is not claimed as a universal TikTok safezone.
+
+0–3: Your next / internship? One compact tangled ribbon below the type.
+3–6: Find your / focus. Finance + tech internships. Ribbon opens into a rounded searchviewport.
+6–10: Search a / company. Real public UI types Microsoft with edited timing.
+10–13.5: Microsoft, / found. Hold genuine input/result. Company directory; check current roles separately.
+13.5–17: Your next / move. The same frame collapses into an action arrow; no idle spinning.
+17–20: Find your / next move. Authentic mark, JJIntern.com and Explore companies. Stable final hold.
+
+Evidence: fresh loggedout public company-directory capture on17October2026 at15:43Europe/Stockholm. Exact Microsoft input/result. Source/hashfiles in ../vertical-captures/. Consistent authentic crop x32,y430,width716,height400 excludes headline live-rolecounts and card vacancycount. Intermediate PNGs are genuine states; timing is edited and makes no product-latency claim. No employer endorsement, activevacancy or offer is implied.

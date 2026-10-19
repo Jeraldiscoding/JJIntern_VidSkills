@@ -1,0 +1,515 @@
+{
+  "version": "1.0.0",
+  "maintained_at": "2026-10-17",
+  "date_context": "Europe/Stockholm; research date, not an intake year",
+  "records": [
+    {
+      "id": "OPP-GIC-ELIGIBILITY-20261017",
+      "type": "opportunity",
+      "status": "editorial_approved",
+      "claim_text": "GIC advertises an internship programme that welcomes university students from every academic discipline, subject to its stated study-stage and other requirements.",
+      "employer": "GIC",
+      "exact_role_or_programme": "GIC Internship Programme",
+      "role_scope": "programme_overview_not_individual_vacancy",
+      "requisition_id": null,
+      "location": {
+        "advertised_work_location": null,
+        "country": null,
+        "eligibility_geography": "University students worldwide; any nationality according to the programme page",
+        "status": "placement_city_unconfirmed",
+        "note": "GIC's Singapore headquarters does not establish a Singapore placement for this programme. This is an eligibility discovery relevant to Singapore students, not a confirmed Singapore vacancy."
+      },
+      "programme_year": null,
+      "programme_year_status": "not_specified_on_inspected_page",
+      "compensation": {
+        "amount": null,
+        "currency_iso": null,
+        "pay_period": null,
+        "base_or_total": null,
+        "gross_or_net": null,
+        "employer_confirmed_or_reported_estimate": null,
+        "status": "not_published_on_inspected_page",
+        "original_source_wording": null,
+        "derived_calculation": null,
+        "calculation_formula": null,
+        "fx_source_and_date": null,
+        "context_to_show": [
+          "No compensation claim is approved."
+        ]
+      },
+      "availability": {
+        "status": "unknown",
+        "intake": null,
+        "deadline": null,
+        "application_url": "https://impress.ai/html-widget/chat-widget/0676bfce-4b1a-441e-bcfe-e3ad0c57c210/",
+        "application_destination_inspected": false,
+        "basis": "The official programme page was readable. Following its Apply link returned HTTP 403 through the research browser. An active intake, year, vacancy and placement location could not be confirmed."
+      },
+      "sources": [
+        {
+          "url_or_repo_path": "https://gic.careers/programmes/gic-internship-programme/",
+          "owner": "GIC",
+          "primary": true,
+          "source_type": "employer_programme_page",
+          "published_at": null,
+          "checked_at": "2026-10-17",
+          "inspection_method": "Full browser text inspected, then the live public page was opened in isolated logged-out Chrome and programme, eligibility and technology-selection screenshots were captured and visually inspected.",
+          "supporting_section": "Opening description; What Are We Looking For?; Selection Process for Technology Track; Who is this for?",
+          "finding_paraphrase": "Twelve-week programme. University students in their penultimate or pre-penultimate year, from any nationality or discipline, with no previous full-time work experience. Fields include investment, technology and corporate functions. Technology candidates face domain-specific technical assessment.",
+          "short_quote_optional": "any academic discipline",
+          "evidence_asset_path": "creative/assets/captures/gic-manifest.json",
+          "access_limitations": "Programme source screenshots inspected; publication rights and final video phone-readability remain pending. Current intake, year, placement city, pay and deadline are not established; application destination previously returned 403 and was not reopened for this capture."
+        },
+        {
+          "url_or_repo_path": "https://gic.careers/programmes/",
+          "owner": "GIC",
+          "primary": true,
+          "source_type": "employer_programmes_index",
+          "published_at": null,
+          "checked_at": "2026-10-17",
+          "inspection_method": "Browser opened and read programme index.",
+          "supporting_section": "GIC Internship Programme",
+          "finding_paraphrase": "Independently on this index, GIC identifies the same study-stage and discipline eligibility and twelve-week duration.",
+          "short_quote_optional": null,
+          "evidence_asset_path": null,
+          "access_limitations": "Programme overview; no particular intake, vacancy or placement confirmed."
+        }
+      ],
+      "qualifications": {
+        "must_appear_on_screen_with_claim": [
+          "With an affirmative subject-eligibility claim: university students, penultimate or pre-penultimate year, and no prior full-time work experience must appear adjacent from the first frame of that claim and throughout its shot.",
+          "With a technology-track suitability or selection claim: technical assessment applies. This belongs beside the track claim, not every earlier employer reference.",
+          "With programme proof or intake/location guidance: intake and placement location are unconfirmed. A clearly labelled question about programme scope need not carry every eligibility condition before it has made an eligibility assertion."
+        ],
+        "must_appear_in_caption_or_destination": [
+          "Official programme source and check date",
+          "Any nationality is an eligibility statement, not a visa or work-authorisation guarantee",
+          "Programme year, placement, live openings, deadline and pay must be checked with GIC",
+          "No GIC listing on JJIntern has been established"
+        ],
+        "unknowns": [
+          "Programme year",
+          "Placement city",
+          "Current application status",
+          "Deadline",
+          "Pay",
+          "Individual vacancy requirements",
+          "Work-authorisation arrangements"
+        ]
+      },
+      "allowed_wording": [
+        "GIC: beyond finance degrees? (Question-led opening; label University programme and resolve with qualified primary-source proof.)",
+        "All disciplines welcome. (Only with adjacent university study-stage and prior-work conditions listed in this record.)",
+        "Check GIC's programme requirements and current intake.",
+        "The programme includes a technology track; technical assessment applies."
+      ],
+      "prohibited_inferences": [
+        "2027 applications are open",
+        "A confirmed Singapore internship placement",
+        "Every student qualifies",
+        "Polytechnic students qualify for this university programme",
+        "Any major guarantees admission, suitability or a job offer",
+        "No technical skills are needed",
+        "A GIC role is listed on JJIntern",
+        "Any salary, visa entitlement or return-offer guarantee"
+      ],
+      "jjintern_listing_verified": false,
+      "jjintern_listing_evidence": null,
+      "review": {
+        "researcher": "Creative-system research agent",
+        "checked_at": "2026-10-17",
+        "recheck_on_publication_day": true,
+        "release_hold": [
+          "Campaign usage/rights review for genuine employer captures",
+          "Recheck exact eligibility wording on publication day; final rendered phone/placement QA",
+          "For an availability-led version, inspect the application destination and confirm year and location first"
+        ],
+        "check_history": [
+          {
+            "date": "2026-10-17",
+            "result": "Programme text confirmed; application target inaccessible (403); availability stays unknown."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "Script QA revision: question-led opening; first affirmative subject-eligibility beat carries adjacent university/year/previous-work conditions. Technical assessment is qualified with its own track claim. No new source check performed."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "Public programme reopened in isolated logged-out Chrome. B1/B2/B3 real source screenshots captured and visually inspected; crop regions and hashes recorded in gic-manifest.json. Eligibility remains supported. Application destination not reopened; availability, intake and location remain unknown."
+          }
+        ]
+      }
+    },
+    {
+      "id": "EXCLUDED-TEMASEK-OWNER-ANECDOTE",
+      "type": "salary",
+      "status": "excluded",
+      "claim_text": "Owner-reported anecdote that a friend earned S$12.5k at Temasek; not independently verified.",
+      "employer": "Temasek",
+      "exact_role_or_programme": null,
+      "role_scope": "unknown",
+      "requisition_id": null,
+      "location": {
+        "advertised_work_location": null,
+        "country": null,
+        "eligibility_geography": null,
+        "status": "unknown"
+      },
+      "programme_year": null,
+      "programme_year_status": "unknown",
+      "compensation": {
+        "amount": 12500,
+        "currency_iso": "SGD",
+        "pay_period": null,
+        "base_or_total": null,
+        "gross_or_net": null,
+        "employer_confirmed_or_reported_estimate": "unverified_owner_anecdote",
+        "status": "excluded_from_marketing",
+        "original_source_wording": "S$12.5k",
+        "derived_calculation": null,
+        "calculation_formula": null,
+        "fx_source_and_date": null,
+        "context_to_show": [
+          "No marketing use; do not guess pay period, role, year, location or compensation basis."
+        ]
+      },
+      "availability": {
+        "status": "unknown",
+        "intake": null,
+        "deadline": null,
+        "application_url": null,
+        "application_destination_inspected": false,
+        "basis": "No opportunity source supplied."
+      },
+      "sources": [
+        {
+          "url_or_repo_path": "Owner task statement supplied 2026-10-17",
+          "owner": "JJIntern owner",
+          "primary": false,
+          "source_type": "unverified_anecdote",
+          "published_at": null,
+          "checked_at": "2026-10-17",
+          "inspection_method": "Read user request; no independent corroboration.",
+          "supporting_section": "Copy and claims",
+          "finding_paraphrase": "Owner expressly says anecdote is not independently verified evidence.",
+          "short_quote_optional": null,
+          "evidence_asset_path": null,
+          "access_limitations": "Underlying employee, offer, contract and employer evidence unavailable."
+        }
+      ],
+      "qualifications": {
+        "must_appear_on_screen_with_claim": [],
+        "must_appear_in_caption_or_destination": [],
+        "unknowns": [
+          "Exact role",
+          "Location",
+          "Programme year",
+          "Pay period",
+          "Base versus total",
+          "Gross versus net",
+          "Independent source"
+        ]
+      },
+      "allowed_wording": [],
+      "prohibited_inferences": [
+        "Temasek pays interns S$12.5k per month",
+        "The anecdote represents typical compensation",
+        "The figure is employer-confirmed",
+        "Annualised or summer earnings calculated from this anecdote"
+      ],
+      "jjintern_listing_verified": false,
+      "jjintern_listing_evidence": null,
+      "review": {
+        "researcher": "Creative-system research agent",
+        "checked_at": "2026-10-17",
+        "recheck_on_publication_day": true,
+        "release_hold": [
+          "Obtain an independently verifiable source covering all compensation context before proposing any salary claim."
+        ],
+        "check_history": [
+          {
+            "date": "2026-10-17",
+            "result": "Excluded as instructed by owner."
+          }
+        ]
+      }
+    },
+    {
+      "id": "PROD-CHECK-CADENCE-OWNER-20261017",
+      "type": "product_operation",
+      "status": "editorial_approved",
+      "claim_text": "JJIntern checks for internship postings every 30 minutes, according to the responsible product owner on 17 October 2026.",
+      "employer": null,
+      "exact_role_or_programme": null,
+      "role_scope": "scheduled_discovery_cadence_not_individual_vacancy",
+      "requisition_id": null,
+      "location": {
+        "advertised_work_location": null,
+        "country": null,
+        "eligibility_geography": null,
+        "status": "not_applicable_product_operation"
+      },
+      "programme_year": null,
+      "programme_year_status": "not_applicable_product_operation",
+      "compensation": {
+        "amount": null,
+        "currency_iso": null,
+        "pay_period": null,
+        "base_or_total": null,
+        "gross_or_net": null,
+        "employer_confirmed_or_reported_estimate": null,
+        "status": "not_applicable_no_compensation_claim",
+        "original_source_wording": null,
+        "derived_calculation": null,
+        "calculation_formula": null,
+        "fx_source_and_date": null,
+        "context_to_show": []
+      },
+      "availability": {
+        "status": "unknown",
+        "intake": null,
+        "deadline": null,
+        "application_url": null,
+        "application_destination_inspected": false,
+        "basis": "Not an opportunity or availability claim; no specific new Microsoft vacancy is established by this record."
+      },
+      "sources": [
+        {
+          "url_or_repo_path": "Conversation: product-owner revision request, 2026-10-17; evidence register P06 at creative/product/evidence.md",
+          "owner": "JJIntern product owner",
+          "primary": true,
+          "source_type": "direct_responsible_owner_confirmation",
+          "published_at": "2026-10-17",
+          "checked_at": "2026-10-17",
+          "inspection_method": "Read the owner's current direction and operational statement in the user request; no independent code, scheduler or run-log test.",
+          "supporting_section": "User revision: product is more than search; “we scrape every 30 minute and then find the companies.”",
+          "finding_paraphrase": "Owner confirms a scheduled 30-minute scraping/check cadence and wants the creative to explain the discovery workflow and reduced checking burden.",
+          "short_quote_optional": "we scrape every 30 minute",
+          "evidence_asset_path": "creative/product/evidence.md#p06--owner-confirmed-scheduled-discovery-cadence",
+          "access_limitations": "No scheduler configuration, monitoring data, coverage list, ingestion trace, delivery timing or specific new employer posting independently observed."
+        }
+      ],
+      "qualifications": {
+        "must_appear_on_screen_with_claim": [
+          "A depicted employer-posting event must be labelled Example posting from its first frame and throughout the event unless independently verified as an actual current event.",
+          "Separate the scheduled check beat from the fast editorial data-flight transition so the animation does not assert instant detection."
+        ],
+        "must_appear_in_caption_or_destination": [
+          "30-minute check cadence confirmed by the product owner on 17 October 2026; employer-posting and data-flight sequence is illustrative, not a measured real-time ingest."
+        ],
+        "unknowns": [
+          "Employer/source coverage",
+          "Scheduler configuration and execution reliability",
+          "Detection and ingestion latency",
+          "Alert setup and delivery latency",
+          "Specific currently new Microsoft vacancy",
+          "End-to-end delivery of any depicted example posting"
+        ]
+      },
+      "allowed_wording": [
+        "We check every 30 minutes.",
+        "JJIntern checks for internship postings every 30 minutes.",
+        "Spend less time checking."
+      ],
+      "prohibited_inferences": [
+        "Never miss an internship.",
+        "Every internship or every employer is covered.",
+        "Every source is successfully checked every 30 minutes.",
+        "A new employer posting is visible instantly on JJIntern.",
+        "Checks every 30 minutes guarantees a maximum 30-minute end-to-end arrival time.",
+        "A Telegram or other notification is delivered as soon as a role appears.",
+        "Microsoft has just released a specific internship, without separately verified vacancy evidence.",
+        "An employer shown as an example endorses or partners with JJIntern.",
+        "Edited data-flight animation measures real processing speed."
+      ],
+      "jjintern_listing_verified": false,
+      "jjintern_listing_evidence": null,
+      "review": {
+        "researcher": "Pipeline story and claims agent",
+        "checked_at": "2026-10-17",
+        "recheck_on_publication_day": true,
+        "release_hold": [
+          "Inspect the actual export for readable Example posting labelling and no instant-arrival implication.",
+          "Use and inspect a current authentic JJIntern capture; no fabricated listings or notification UI.",
+          "Complete ordinary rendered readability, rights, privacy and platform-preview checks."
+        ],
+        "check_history": [
+          {
+            "date": "2026-10-17",
+            "result": "Owner's latest statement provides current direct confirmation for 30-minute check cadence. Approved only the listed wording; coverage, execution and latency remain unverified. Earlier lack-of-owner-evidence statement updated without replacing historical public capture observations."
+          }
+        ]
+      }
+    },
+    {
+      "id": "CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017",
+      "type": "creative_product_journey",
+      "status": "editorial_approved",
+      "claim_text": "JJIntern handles internship discovery while the student focuses on applying; the user-requested editorial label Microsoft SWE Internship resolves to the original JJIntern logo.",
+      "employer": "Microsoft appears only in the user-requested editorial source label; no current vacancy or endorsement established.",
+      "exact_role_or_programme": "Microsoft SWE Internship (user-requested editorial label; not verified as an exact live role title)",
+      "role_scope": "editorial_role_label_and_discovery_metaphor_not_current_vacancy_or_timing_claim",
+      "requisition_id": null,
+      "location": {
+        "advertised_work_location": null,
+        "country": null,
+        "eligibility_geography": null,
+        "status": "not_an_eligibility_or_placement_claim"
+      },
+      "programme_year": null,
+      "programme_year_status": "no_intake_claim",
+      "compensation": {
+        "amount": null,
+        "currency_iso": null,
+        "pay_period": null,
+        "base_or_total": null,
+        "gross_or_net": null,
+        "employer_confirmed_or_reported_estimate": null,
+        "status": "no_compensation_claim",
+        "original_source_wording": null,
+        "derived_calculation": null,
+        "calculation_formula": null,
+        "fx_source_and_date": null,
+        "context_to_show": []
+      },
+      "availability": {
+        "status": "unknown",
+        "intake": null,
+        "deadline": null,
+        "application_url": null,
+        "application_destination_inspected": false,
+        "basis": "Revision05 uses only a user-requested editorial source label and original JJIntern logo. No employer page, feed row or current vacancy is depicted or verified."
+      },
+      "sources": [
+        {
+          "url_or_repo_path": "https://careers.microsoft.com/v2/global/en/students",
+          "owner": "Microsoft",
+          "primary": true,
+          "source_type": "public_employer_programme_capture",
+          "checked_at": "2026-10-17",
+          "inspection_method": "Isolated public Chrome capture and visual inspection",
+          "supporting_section": "Internship programs / Global university internships",
+          "finding_paraphrase": "Authentic programme context and employer identity; no newly posted vacancy inferred.",
+          "evidence_asset_path": "creative/archive/rectangle/captures/microsoft-programmes-capture-record.json",
+          "access_limitations": "No role-specific application or current intake verified."
+        },
+        {
+          "url_or_repo_path": "creative/product/evidence.md#p07--completed-fresh-public-feed-and-microsoft-role-search",
+          "owner": "JJIntern public site",
+          "primary": true,
+          "source_type": "public_loaded_feed_capture",
+          "checked_at": "2026-10-17",
+          "finding_paraphrase": "Authentic pre-handoff unfiltered feed displays roles; no row or date changed by this creative."
+        },
+        {
+          "url_or_repo_path": "creative/product/evidence.md#p06--owner-confirmed-scheduled-discovery-cadence",
+          "owner": "JJIntern product owner",
+          "primary": true,
+          "source_type": "owner_confirmation",
+          "checked_at": "2026-10-17",
+          "finding_paraphrase": "Owner describes scheduled internship discovery checks every 30 minutes. Cadence retained internally; no latency promise in this creative."
+        },
+        {
+          "url_or_repo_path": "creative/archive/rectangle/revision-02/captures/capture-record.json",
+          "owner": "JJIntern public site",
+          "primary": true,
+          "source_type": "observed_public_theme_filter_scroll",
+          "checked_at": "2026-10-17",
+          "finding_paraphrase": "Real theme toggle, Tech-tab click and scroll produced the captured light feed. Header and filters remained sticky. No content or dates edited.",
+          "access_limitations": "No current employer availability, ingestion event, complete classification or persistence verified."
+        }
+      ],
+      "qualifications": {
+        "must_appear_on_screen_with_claim": [],
+        "must_appear_in_caption_or_destination": [
+          "Source date and programme context when source explanation is needed. Fast data movement is editorial, not a measured detection or ingestion event."
+        ],
+        "unknowns": [
+          "Current Microsoft individual vacancy",
+          "Actual ingestion event",
+          "Detection and ingestion latency",
+          "Complete employer or internship coverage",
+          "Personal matching",
+          "Application submission or hiring outcome"
+        ]
+      },
+      "allowed_wording": [
+        "Found.",
+        "We handle the finding.",
+        "You focus on applying.",
+        "JJIntern"
+      ],
+      "prohibited_inferences": [
+        "Microsoft just published a vacancy",
+        "The source programme was added as a new feed row",
+        "Instant or real-time ingestion",
+        "Complete coverage or personal matching",
+        "Auto-application",
+        "Guaranteed hiring",
+        "Employer endorsement"
+      ],
+      "jjintern_listing_verified": false,
+      "jjintern_listing_evidence": "Historical P07 and P09 evidence retained below. Revision05 has no feed capture and does not claim Microsoft listing or ingestion.",
+      "review": {
+        "researcher": "Primary production agent with asset and reference reviewers",
+        "checked_at": "2026-10-17",
+        "recheck_on_publication_day": true,
+        "release_hold": [
+          "Physical-phone and intended placement overlay preview",
+          "Subjective speaker/headphone audition of final mix"
+        ],
+        "check_history": [
+          {
+            "date": "2026-10-17",
+            "result": "New authentic-source revision replaces old fictional posting treatment. User prohibits Example posting on screen; no new event is represented. User resolves flight as two seconds4.500–6.500. Three actual stills produced; no film/audio produced."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "User requested lighter background, better browser, simpler packet and cleaner feed. Revision02 uses a pale mineral set, slim neutral chrome, three abstract packet marks and fresh authentic light Tech feed. Three revised stills inspected; visual approval remains pending before animation/audio."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "User requested a simple potentially cartoonish direction. Revision03 uses flat presentation browsers, actual cropped Microsoft heading/photo/subtitle, an abstract data tile and two complete P09 feed rows without navigation/filter stacks. No new facts, fabricated vacancy or ingestion event. Three stills rendered; visual approval still pending before animation/audio."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "User requested no person/photo in careers scene and original JJIntern logo instead of receiving browser. Revision04 composes genuine Microsoft heading/subtitle pixels with an editorial briefcase/document illustration, explicitly not an exact employer interface. Original JJIntern raster mark is unchanged; real P09 two-row feed crop is intact; packet matches revision03. Native and digital phone-equivalent stills inspected. Style-frame approval remains pending before animation/audio."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "User requested only the JJIntern logo at destination and Microsoft SWE Internship at source. Revision05 contains just that editorial role label on a white tile, unchanged packet and original logo only. Prior programme and feed captures are removed. No live vacancy or authentic feed proof is asserted. Three actual stills rendered; approval pending before animation/audio."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "User expressly approved revision05 styleframes in attached production brief. A 5-second continuous compression/flight/handoff test was rendered and inspected; payoff text overlap refined. Full 18.000-second 1080x1920 original animation and newly synthesized score rendered in native 120 fps and 60 fps; final encoded checks recorded in revision-05/review/final-qa.json. Editorial scope unchanged; no new product or vacancy facts. Physical-phone, platform preview and subjective audio audition remain pending. No publication."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "User rejected revision05 slow pacing and asked for faster morph, packet travel and polished effects. Revision06 is a tighter 12-second editorial cut: 0.24-second continuous compression; 0.60-second flight across 505px; larger packet; shared-camera arrival and restrained directional exposure; freshly synthesized score. Prior 18-second/two-second-flight timing is superseded by latest pacing correction. Claim scope unchanged: speed impression only, no numerical product latency, instant/real-time, current vacancy or outcome claim. Local motion test inspected and logo echoes reduced before final export."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "Latest user feedback distinguishes timing: only the morph should be fast, then pause to show packet, then about four seconds of progressively faster movement with background streaks, logo, possible update motif and slower words. Revision07 restores18 seconds:0.24-second morph,0.76-second packet hold,4.00-second accelerating flight, abstract information update beneath intact original logo and longer copy transitions. Update is unlabelled graphic information receipt, not a real app notification or verified ingestion event. No new product fact or performance claim. Prior versions retained; local production only."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "User requested revision08 with a more intricate morph, source ding, longer flight with faster initial movement and air resistance, physical packet entry into a JJIntern receiver, shorter payoff and a wholly new non-lounge synthesized score. Revision08 retains the editorial Microsoft SWE Internship label and exact finding/applying copy. Glyph-to-cell packing, curved airflow and an open receiving port with progressive hard-mask occlusion are abstract motion graphics, not an authentic JJIntern interface, verified vacancy, actual ingestion event or measured discovery speed. Original logo proportions and asset are preserved. Actual rendered stills and motion source inspected; morph letter containment and cell-to-bar continuity repairs inspected in refreshed frames and accepted. Final encoded export/audio validation remains separate. No new product fact, employer endorsement or hiring promise established; no publication."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "User requested revision09 with substantially faster visible packet travel, a stronger graphic capture and a new drum-led score. Revision09 uses two rightward travel passes joined by an explicit editorial directional whip, followed by split receiving jaws, three abstract information ribbons, hard-mask packet entry, closure and a rectangular pressure accent. The original logo remains an intact asset on its own plane; exact finding/applying copy is retained. These are authored motion metaphors, not authentic product UI, a verified new Microsoft vacancy, an actual ingestion trace or measured discovery latency. Actual rendered boards and native capture frames inspected; final encoded/audio review is recorded separately. No new product fact, employer affiliation or hiring outcome established; no publication."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "User requested revision10 with the Microsoft source already moving during packing, no packed pause, stronger background motion, a slowly opposing JJIntern receiver and a second ding with Found in a bubble above the original logo instead of a standalone title. Revision10 preserves the two-pass editorial travel and inherited information ribbons, uses a single drifting receiving packet with shared occlusion geometry, and keeps the exact finding/applying copy and original intact logo. Rendered boards and native morph, entry and combined receipt frames were inspected. The Found bubble is an editorial discovery label, not authentic app UI, a verified current Microsoft vacancy, an actual ingestion event or measured product speed. No new product, employer or hiring claim was established. Final encoded/audio review and existing external release checks remain separate; no publication."
+          },
+          {
+            "date": "2026-10-17",
+            "result": "User requested revision11 with the data packet fixed during the speed shot, JJIntern approaching from the right, slower convergence into the receiver and a short Found bubble above a stationary centered logo. Revision11 holds the packet at fixed position/scale for four seconds, then closes the gap and uses a shared moving aperture for physical entry before centering the intact original mark. The separate Found screen remains removed and exact finding/applying copy is retained. Rendered boards and native convergence/result frames were inspected; one transient payoff-accent overlap with the fading logo was repaired and re-inspected in the refreshed native 9.820 frame. Motion remains an editorial discovery metaphor, not authentic product UI, a verified current Microsoft vacancy, actual ingestion event, employer relationship or measured product speed. No new product fact or outcome claim was established. Encoded/audio checks and existing external release checks remain separate; no publication."
+          }
+        ]
+      }
+    }
+  ],
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

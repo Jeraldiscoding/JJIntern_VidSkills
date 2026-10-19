@@ -1,0 +1,67 @@
+A CLEARER SIGNAL — NEW ORIGINAL V3 SCORE
+
+The new cue follows a posting through JJIntern's checking pipeline to a
+clear destination. It replaces the previous composition completely.
+Duration: 20.000 seconds. Stereo 48 kHz, 24-bit PCM. Tempo: 120 BPM.
+
+Musical intent
+0–2.5 s: Sparse F-sharp-minor tension, a quiet low pulse and a few dry
+clock marks leave space for “Still checking career pages?”
+2.55 / 2.80 s: An exposed custom two-note FM-glass ding marks the new
+posting. E5 rises to B5, an open fifth, with newly synthesized tuned
+partials. It is an original instrument and interval event, not a branded
+recording. The backing stays restrained so its cause is readable.
+4–6 s: A D-major colour opens the harmony while the clock and tonal
+sequencer gain momentum under the 30-minute checking line.
+6–10 s: A deliberate sixteenth-note sequence and dry, syncopated drums
+support the fast data tunnel. An ascending phrase, dominant harmony and
+brief pickup roll produce escalation with musical structure.
+10–14 s: A strong Amaj9 arrival marks the real website/feed destination.
+The tunnel's fast figure becomes quieter eighth-note accompaniment, while
+a distinct rising melody now carries the confidence and payoff.
+14–17 s: The melody reaches its highest hopeful notes, with a clear space
+between phrases. This is the emotional “worry less” section.
+17–20 s: The dominant resolves to Amaj9. Rhythmic activity clears for the
+CTA/logo, with a few quiet melodic punctuation notes and a smooth final
+half-second fade to silence.
+
+Synthesis and mix
+Every oscillator, FM strike, additive partial, percussion noise transient,
+transition and stereo reflection is computed by the local Python source.
+No samples, recordings, vocal chops, stock loops, external music generation
+or sampled impulse responses. Low bass and kick are centered; sequencer
+details move across the stereo field. Short computed reflections preserve
+precision. Light sidechain ducking, subsonic filtering, soft saturation and
+two-pass EBU R128 mastering control the mix. Exact final loudness and true
+peak are recorded in score-manifest.json after every build.
+
+Decisions and discarded routes
+- Kept a tonal data rhythm so the fast tunnel has an audible direction.
+- Replaced the prior dreamier pad/glass arrangement with drier, shorter
+  note envelopes and more purposeful subdivisions.
+- Discarded a constant whoosh and arbitrary fast noise: these mask copy
+  without communicating a posting being processed.
+- Discarded a loud beat under the posting ding: the cue needs to stand
+  out as a cause, followed by the pipeline response.
+- Discarded a maximal trailer impact for the destination: the warm major
+  arrival communicates relief more clearly than an aggressive bass blast.
+- Removed doubled kick layers at arrival downbeats to keep transients
+  clean and avoid unnecessary low-end saturation.
+
+Iterations
+1. Wrote the minor-tension → dominant pipeline → major-destination arc.
+2. Composed the two-note posting ding and a separate destination melody.
+3. Arranged sixteenth-note flow, then reduced it after the 10-second arrival.
+4. Synthesized all instruments, controlled overlap and cleaned the low end.
+5. Measured, mastered and re-measured the delivered WAV.
+
+Rebuild from the workspace root
+/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 creative/archive/pipeline/audio/build_score.py
+
+Dependencies already available: numpy, scipy, ffmpeg. Seed: 730171026.
+Delivery: jjintern-pipeline-original-score.wav
+Source: build_score.py
+Cue timeline, all events, build runtime and measured master: score-manifest.json
+
+All work is isolated in creative/archive/pipeline/audio/. Previous audio
+and visual source files are unchanged.

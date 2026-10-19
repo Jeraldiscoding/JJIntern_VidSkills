@@ -1,0 +1,38 @@
+REVISION 06 — FAST CUT
+User correction: the previous motion felt slow; faster morph and packet travel,
+more polished directional effects, conveying speed as a visual impression.
+The latest pacing request supersedes the earlier 18-second / 2-second-flight
+schedule. This cut is 12.000 seconds. Revision 05 files are preserved.
+
+0.000–1.800 Source. Approved typography and tile, quick 0.24-second entrance.
+1.800–2.040 Snap compression. Same boundary and text-to-bar connection.
+2.040–2.640 Accelerating flight. Packet 435x 255, x 70→575;505 px in 0.60s.
+2.640–2.880 Connected handoff. One shared camera translation after contact,
+not independent object motion. Original logo revealed intact with a short
+90 ms directional exposure; all secondary effects clear before 2.880.
+2.880–4.200 Logo. Exact approved centered composition.
+4.200–4.820 Found. Larger 152 px type with a quick 0.16-second reveal.
+4.820–5.180 Two-line payoff reveal; second line slightly offset.
+5.180–9.200 Both lines fully readable, stationary.
+9.200–12.000 JJIntern sign-off. Settled by 9.480.
+
+Relative to v 05: compression 1.5→0.24 seconds; flight 2.0→0.60 seconds;
+travel 215.4→505 px; average on-screen travel speed 107.7→841.7 px/s.
+No speed number appears in the film. These are editorial timings, not product
+performance measurements. No real-time, instant, vacancy or outcome claim.
+
+Original logo remains unchanged at 420x 420. Approved palette and system type
+remain. New score is wholly oscillator/noise synthesis; no sample or recording.
+
+Reproduction from workspace root with isolated local Chrome on port 9356:
+python3 creative/archive/rectangle/revision-06/audio/build_score.py
+node creative/archive/rectangle/revision-06/source/render-motion.mjs 9356 stills
+node creative/archive/rectangle/revision-06/source/render-motion.mjs 9356 test
+node creative/archive/rectangle/revision-06/source/render-motion.mjs 9356 full
+python3 creative/archive/rectangle/revision-06/source/verify-motion.py
+node creative/archive/rectangle/revision-06/source/check-playback.mjs 9356 final
+
+Deliveries:1080x 1920, native 120 fps master and 60 fps delivery; both 12.000s.
+Review: see review/motion-review.txt and review/final-qa.json.
+Phone/placement preview and subjective speaker/headphone listening remain
+external checks. No publishing occurred.

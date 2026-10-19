@@ -1,0 +1,134 @@
+Create a premium 18.000-second vertical motion-graphics advertisement for JJIntern using the approved revision 05 design.
+
+WORKSPACE AND APPROVED REFERENCES
+
+Work in:
+/Users/jeraldlim/Desktop/JJIntern_Videos
+
+Read creative/AGENTS.md and the relevant product, brand and QA instructions. Use the JJIntern grounding, video and QA skills.
+
+The approved visual references are:
+- creative/showreel/rectangle/revision-05/styleframes/01-source.png
+- creative/showreel/rectangle/revision-05/styleframes/02-packet.png
+- creative/showreel/rectangle/revision-05/styleframes/03-logo.png
+
+Reproducible design source:
+creative/showreel/rectangle/revision-05/source/styleframes.html
+
+Original JJIntern logo:
+creative/assets/evidence/product/logo-mark.png
+
+The style frames are approved. Proceed to a short motion test, inspect and refine it, then produce the full animation and audio. Do not restart style exploration or request the same visual approval again.
+
+VISUAL DIRECTION
+
+Match the approved clean, flat graphic style:
+- Pale blue background: #edf3ff.
+- White source tile and packet.
+- Dark ink: #203145.
+- Blue accent: #0071e3.
+- Crisp system-sans typography, generous spacing and restrained rounded corners.
+
+The source contains only:
+Microsoft
+SWE Internship
+
+The receiving scene contains only the original JJIntern logo.
+
+No browser chrome, website screenshots, feed rows, people, photographs, briefcase illustration, source URL or additional labels. No black studio, realistic metal, bevels, reflections, 3D perspective or decorative clutter.
+
+Preserve the original logo’s proportions, colour and silhouette. Use the supplied asset directly; do not redraw, recolour or deform it. Account for its transparent padding when centring it.
+
+CORE STORY
+
+The Microsoft SWE Internship source tile compresses visibly into a simple rectangular information packet. The packet accelerates left to right for exactly two seconds and arrives at JJIntern’s logo. The payoff communicates that JJIntern handles discovery while the student focuses on applying.
+
+“Microsoft SWE Internship” is the user-selected editorial source label. Do not add details suggesting a verified current vacancy, new posting or actual ingestion event.
+
+EXACT TIMELINE
+
+0.000–3.000 — SOURCE
+
+Show the approved white tile with “Microsoft” above the larger “SWE Internship”.
+
+Introduce it with one small synthesized ding and a controlled settling motion. Establish it promptly and hold it clearly for reading.
+
+3.000–4.500 — CONTINUOUS COMPRESSION
+
+Transform the same tile into the approved rectangular packet.
+
+The tile boundary becomes the packet boundary. Its text compacts into three abstract information bars. A narrow blue accent establishes the leading right edge.
+
+Keep the transformation visibly connected. Do not cut to a replacement object. Anchor the compression consistently so horizontal flight begins at exactly 4.500 seconds without a positional jump.
+
+4.500–6.500 — TWO-SECOND ACCELERATING FLIGHT
+
+Move the packet LEFT TO RIGHT continuously for exactly two seconds.
+
+Use:
+u = clamp((t - 4.500) / 2.000, 0, 1)
+x(u) = x_start + (x_end - x_start) * (0.12*u + 0.88*u^3)
+
+This provides positive initial velocity and increasing speed. Do not ease out or brake before contact.
+
+At 120 fps:
+- Flight frames: 540–779.
+- Arrival: frame 780.
+
+At 60 fps:
+- Flight frames: 270–389.
+- Arrival: frame 390.
+
+Keep the packet large enough to understand. It must visibly travel rightward; camera tracking must not cancel its movement.
+
+Use the approved simple trailing strokes on its LEFT. Lengthen them with increasing velocity. Keep the thin pressure arc near the RIGHT leading edge restrained. Maintain a crisp rectangular silhouette and legible information bars.
+
+No spinning, smoke, fire, tunnels or exaggerated distortion.
+
+6.500–10.000 — JJINTERN LOGO
+
+At exactly 6.500 seconds, the packet reaches the logo’s receiving position.
+
+Create a short, connected handoff from the packet’s blue leading edge into a reveal of the original JJIntern logo. Reveal the intact asset through a clean mask or opacity transition; never warp it into a new shape.
+
+Complete the transition by approximately 7.100 seconds. Settle into the approved centred logo composition and hold.
+
+Only the original logo remains on the pale blue background. No feed, browser, accompanying “JJIntern” text or additional graphics.
+
+10.000–15.000 — PAYOFF
+
+At 10.000 seconds, introduce:
+“Found.”
+
+Use one small harmonic opening and a confident readable scale.
+
+Between 10.600 and 11.300 seconds, transition into:
+“We handle the finding.
+You focus on applying.”
+
+Reveal the first line, then the second with a slight rhythmic offset. Hold both fully readable from 11.300 through 15.000 seconds.
+
+Maintain visual continuity through the blue information accent and measured transitions. Avoid disconnected title slides or unnecessary movement while reading.
+
+Do not add “Instant”, “Real-time”, a numeric checking interval, availability claims or hiring promises. The flight is an editorial metaphor, not a measurement of discovery speed.
+
+15.000–18.000 — FINAL SIGN-OFF
+
+Resolve to the text:
+“JJIntern”
+
+This final textual sign-off follows the original brief and is separate from the earlier logo-only receiving scene.
+
+Settle promptly and hold through the final frame. No tagline, URL, button or additional CTA.
+
+SOUND
+
+Compose an entirely new contemporary groove using mathematical synthesis.
+
+Use dry percussion, warm oscillator bass and restrained evolving harmony. Every sound must originate from oscillators, deterministic noise, filters and envelopes.
+
+No samples, recordings, stock loops, reused soundtrack or voiceover.
+
+Synchronize:
+- One delicate ding with the source entrance.
+- Quiet friction and closure

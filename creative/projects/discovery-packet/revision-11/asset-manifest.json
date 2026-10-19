@@ -1,0 +1,35 @@
+{
+  "revision": 11,
+  "date": "2026-10-17",
+  "timezone": "Europe/London",
+  "duration": 18,
+  "latest_user_direction": "Stationary packet against speeding background; receiver enters from right and both converge to centre; packet enters; brief Found over a stationary centred logo",
+  "claim": "CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017",
+  "graphic_scope": "Editorial discovery metaphor; no verified product event",
+  "inputs": [
+    {
+      "path": "creative/assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c"
+    },
+    {
+      "path": "creative/projects/discovery-packet/revision-11/source/motion.html",
+      "sha256": "54fbbc1373a1f269365101135629b22eeb7eeaab956fe47dbc148226e96026a4"
+    },
+    {
+      "path": "creative/projects/discovery-packet/revision-11/source/render-motion.mjs",
+      "sha256": "871be598801a17e9ce9d699402ffeeaf7184e5a31607e8938e63877431a7f78b"
+    },
+    {
+      "path": "creative/projects/discovery-packet/revision-11/audio/build_score.py",
+      "sha256": "a3671a4c9718678a42c7eac8f8b9946ce3fada4c01085981d26f85f7af8d7829"
+    },
+    {
+      "path": "creative/projects/discovery-packet/revision-11/audio/jjintern-revision-11-original-score.wav",
+      "sha256": "57bc81b3ce28d713ea155a94d609468e14096c3e73a49602c3fc3a3afddd2c67"
+    }
+  ],
+  "audio_provenance": "Existing original160BPM composition retained; whip removed and effects retimed. Mathematical synthesis only.",
+  "logo_treatment": "Original unchanged RGBA asset; uniform scale and translation; centred and stationary for Found",
+  "publishing": false,
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

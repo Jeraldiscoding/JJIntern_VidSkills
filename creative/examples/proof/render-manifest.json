@@ -1,0 +1,150 @@
+{
+  "captureChecked": "2026-10-17",
+  "intendedPlacement": "Organic Instagram Reel; actual placement preview pending",
+  "purpose": "Local timing proof using discrete real public UI states; no latency/vacancy/outcome claim",
+  "tools": {
+    "node": "v25.1.0",
+    "host": "Darwin 25.5.0 arm64",
+    "chrome": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/155.0.8059.84",
+      "revision": "@5869fe313571d75152b77813cf0a4ee26a4e6df0",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "jsVersion": "15.5.35.25"
+    },
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "reproduction": "node creative/scripts/render-proof.mjs PORT",
+  "crop": {
+    "raw": {
+      "x": 32,
+      "y": 430,
+      "width": 716,
+      "height": 490
+    },
+    "canvas": {
+      "x": 90,
+      "y": 610,
+      "width": 804,
+      "height": 550
+    }
+  },
+  "sound": "No audio; silent comprehension intentional",
+  "media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p",
+        "avg_frame_rate": "30/1",
+        "nb_frames": "360"
+      }
+    ],
+    "format": {
+      "duration": "12.000000",
+      "size": "219698"
+    }
+  },
+  "sources": [
+    {
+      "path": "creative/scripts/cdp.mjs",
+      "sha256": "d7c7d3fe16dcb6c96a7391b5d62927c1faeebd5fef5ddbfe2f93c58bacc254f7",
+      "bytes": 1673
+    },
+    {
+      "path": "creative/scripts/capture-public.mjs",
+      "sha256": "96320a69a583e4fe598fc6102cd851259752fc4fd1b4ee8f55b9baa79b029870",
+      "bytes": 4396
+    },
+    {
+      "path": "creative/scripts/render-proof.mjs",
+      "sha256": "4302bb70563acd53603e0259084f9bc15457c085157564301f42b28fdf411987",
+      "bytes": 6025
+    },
+    {
+      "path": "creative/examples/proof/scene.html",
+      "sha256": "428ddf17c18cb65413339e2690c2c76a8a67f2f62187b9f0b06e88971f26b608",
+      "bytes": 2743
+    },
+    {
+      "path": "creative/examples/proof/company-search-rough.mp4",
+      "sha256": "f90aa8c166c24bfe4f4bcc52c0c60486335c870c64c21da19b29c623420a68a2",
+      "bytes": 219698
+    },
+    {
+      "path": "creative/examples/proof/transcript.vtt",
+      "sha256": "bcae9af4fdaa421e8cf0be1c1da31a1ccdfb9bd256f365e5e85fb450e979b656",
+      "bytes": 612
+    },
+    {
+      "path": "creative/examples/proof/caption.txt",
+      "sha256": "1d1e6d944e800aa0213a561fbdc9fcb97f9e9cc42122f7f1f793bded6a9ff12b",
+      "bytes": 422
+    },
+    {
+      "path": "creative/examples/proof/brand-tokens-2026-10-17.json",
+      "sha256": "fe89915619942e34a54642f5a9e6e7d30efc085d7c84b278f5167c660923509b",
+      "bytes": 8226,
+      "original_path": "creative/brand/tokens.json",
+      "archive_note": "Original token bytes preserved when owner marketing direction changed on2026-10-19; original hash and proof media unchanged."
+    },
+    {
+      "path": "creative/assets/captures/capture-record.json",
+      "sha256": "635359fe10438fd313530ae96ba8a673e41b63b292e6a6fe744b1e98ca9197a5",
+      "bytes": 26011
+    },
+    {
+      "path": "creative/assets/captures/directory-empty.png",
+      "sha256": "7fdca97834ca78cac122d5f12dc6fbea9eb1a74f88241306a47d02e350748d79",
+      "bytes": 152174
+    },
+    {
+      "path": "creative/assets/captures/directory-01.png",
+      "sha256": "0fc648ff7869868f5dd496329179784acc6c9b572ac9f9d0cb78f69177573992",
+      "bytes": 145751
+    },
+    {
+      "path": "creative/assets/captures/directory-02.png",
+      "sha256": "d08cb12b681084ab328fdab2e4950855e8972fd8ad70f0077ed1dd09c62ed33e",
+      "bytes": 142743
+    },
+    {
+      "path": "creative/assets/captures/directory-03.png",
+      "sha256": "e51383fef333d35658ef583c143759e5a90937b885270513d5b62d0f93041b06",
+      "bytes": 87248
+    },
+    {
+      "path": "creative/assets/captures/directory-04.png",
+      "sha256": "ec3d8377eee586d58a22fabdfa530d544de324840718a6292a54c8aec0cc9991",
+      "bytes": 87345
+    },
+    {
+      "path": "creative/assets/captures/directory-05.png",
+      "sha256": "94e3bb6b861e6a28dc84521ab1309fd52b7003658798d45807c3f1bf223bdd90",
+      "bytes": 87728
+    },
+    {
+      "path": "creative/assets/captures/directory-06.png",
+      "sha256": "f01d9653a67cc799080203a89a38e221224789f8577dc1a6d02554df65ed5550",
+      "bytes": 88120
+    },
+    {
+      "path": "creative/assets/captures/directory-07.png",
+      "sha256": "359463de34d146f88e6d5ec3eb99d2afe05ed36ebf08c830513260e5ffd0b926",
+      "bytes": 88464
+    },
+    {
+      "path": "creative/assets/captures/directory-08.png",
+      "sha256": "fcc6d1e759a2481579550f6646a3ef8730bbab2ba916c3470d72ba80d37d88f9",
+      "bytes": 88615
+    },
+    {
+      "path": "creative/assets/captures/directory-09.png",
+      "sha256": "926553dd039d11af82d0a233ef849905e5c89724784a8238db5d43255f17426c",
+      "bytes": 88757
+    }
+  ]
+}

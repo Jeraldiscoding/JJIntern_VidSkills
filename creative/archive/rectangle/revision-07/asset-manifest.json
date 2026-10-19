@@ -1,0 +1,29 @@
+{
+  "revision": 7,
+  "date": "2026-10-17",
+  "duration": 18,
+  "latest_user_direction": "Only morph fast, pause packet, four-second acceleration with background streaks, logo/update, slower words",
+  "claim": "CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017",
+  "update_scope": "Abstract information receipt; no real application state or current posting",
+  "inputs": [
+    {
+      "path": "creative/assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-07/source/motion.html",
+      "sha256": "893ee3c9fbe111a47aa2334f0fdadd7f4a9596c4fcddb4313f7ab9eda75196d7"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-07/audio/build_score.py",
+      "sha256": "22f4b0a4ffe89b37b91398dd3527b4c807d6a381ef5bdf645317914ee292ba8e",
+      "pre_relocation_sha256": "2701f9884a92a15dc67225eaa6aef94627a4bcfd25c7982d90ec179c6c5a5b74"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-07/audio/jjintern-revision-07-original-score.wav",
+      "sha256": "8928a3683b72e58fe38f009306ed4f9eff5ee75d70906e77dce3844fecea2b78"
+    }
+  ],
+  "publishing": false,
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

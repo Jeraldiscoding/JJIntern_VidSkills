@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-17",
+  "claim_id": "CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017",
+  "scope": "Approved editorial role label and abstract discovery metaphor; no live vacancy or ingestion claim",
+  "user_approval": "Current production-request.txt expressly approves revision05 design and full production after motion test",
+  "inputs": [
+    {
+      "path": "creative/assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c",
+      "bytes": 165756
+    },
+    {
+      "path": "creative/archive/rectangle/revision-05/source/styleframes.html",
+      "sha256": "2a019746caaba380c2708da58da626e291d2d6695be16366f77f9ec09f3308f3",
+      "bytes": 4310
+    },
+    {
+      "path": "creative/archive/rectangle/revision-05/styleframes/01-source.png",
+      "sha256": "b98b641336e14d4d67e13b7c2a49489b48fa946ee9f68b48479738d99770d76d",
+      "bytes": 69733
+    },
+    {
+      "path": "creative/archive/rectangle/revision-05/styleframes/02-packet.png",
+      "sha256": "1f238f7620314b6dfe382e1e9d18cd21ad464d8ea958927402af5ca450d133d6",
+      "bytes": 54350
+    },
+    {
+      "path": "creative/archive/rectangle/revision-05/styleframes/03-logo.png",
+      "sha256": "7749e90bf058118debc68bfcd1f95a606400aece6a2edd08de0619f731d42969",
+      "bytes": 174302
+    },
+    {
+      "path": "creative/archive/rectangle/revision-05/source/motion.html",
+      "sha256": "97d24f22df6d8d0dcc4eb8cbf35d34e713754a97d21588dcbe37d7cda4b9eba9",
+      "bytes": 7974
+    },
+    {
+      "path": "creative/archive/rectangle/revision-05/audio/build_score.py",
+      "sha256": "0a904bdfeaf73182c3b216077e7d7b3b817006eb82e76a1c48673101f1a54fbc",
+      "bytes": 16682,
+      "pre_relocation_sha256": "4d7c00e23c2ef9d9e1692f289c58a4d4520c293e26da1f89269b1ac986d4ddc0"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-05/audio/jjintern-revision-05-original-score.wav",
+      "sha256": "69b6435e019796902f02e350748b7756006fcf3e9d83a6e40e323c4579e73e77",
+      "bytes": 5184102
+    }
+  ],
+  "only_external_visual_asset": "Original logo-mark.png, source B03; color, silhouette, and aspect preserved",
+  "other_visuals": "Native Canvas rectangles, strokes and macOS system-sans text. No redistributed font files.",
+  "audio": "New mathematical synthesis; see audio/audio-manifest.json",
+  "publish_action": false,
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

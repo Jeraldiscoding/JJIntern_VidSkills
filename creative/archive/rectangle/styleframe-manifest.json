@@ -1,0 +1,85 @@
+{
+  "stage": "styleframes awaiting approval",
+  "date": "2026-10-17",
+  "size": [
+    1080,
+    1920
+  ],
+  "flight": {
+    "start": 4.5,
+    "end": 6.5,
+    "seconds": 2,
+    "confirmed_by_user": true,
+    "native_frames": [
+      540,
+      779
+    ],
+    "arrival_frame": 780
+  },
+  "inputs": {
+    "MICROSOFT_IMAGE": {
+      "path": "../captures/microsoft-internship-programmes-540.png",
+      "sha256": "59befb651bcd65ad2533a74e072377a8215285e7af5b8d6501beded35d953ee8"
+    },
+    "FEED_IMAGE": {
+      "path": "../../pipeline/captures/feed-loaded.png",
+      "sha256": "0b1c0ba8e01cef6739c25380f5335ff04b9c9e91876287df8338e864078d7d21"
+    }
+  },
+  "outputs": [
+    {
+      "path": "styleframes/01-browser.png",
+      "sha256": "917547b399df411290c5e00ea0629d5cc874a3de3af0d2de914dac140f0dd259"
+    },
+    {
+      "path": "styleframes/02-speed.png",
+      "sha256": "36d3c9c9c20ebee648b82e2a962002f63eacd5f6fa282215e90d0cfa95e2f319"
+    },
+    {
+      "path": "styleframes/03-feed.png",
+      "sha256": "2ade9fcb965c9ee42f8b06d9f42f41c8fa6bd2d07bc0029a11d39f9a34722868"
+    }
+  ],
+  "scene": {
+    "width": 1080,
+    "height": 1920,
+    "font": "-apple-system,BlinkMacSystemFont,\"SF Pro Display\",\"Helvetica Neue\",Arial,sans-serif",
+    "stage": "three still approval studies; no animation or audio",
+    "ms": [
+      1620,
+      2340
+    ],
+    "feed": [
+      1560,
+      3376
+    ]
+  },
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.84",
+    "revision": "@5869fe313571d75152b77813cf0a4ee26a4e6df0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.25"
+  },
+  "actual_deliverable": "three still approval frames; no video or audio",
+  "supersampling": [
+    2160,
+    3840
+  ],
+  "crops": {
+    "microsoft": [
+      0,
+      110,
+      1620,
+      1490
+    ],
+    "feed": [
+      0,
+      0,
+      1560,
+      2268
+    ]
+  },
+  "review_notes": "review/final-stills-qa.md",
+  "direction": "direction.md"
+}

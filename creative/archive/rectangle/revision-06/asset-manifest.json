@@ -1,0 +1,37 @@
+{
+  "revision": 6,
+  "date": "2026-10-17",
+  "duration": 12,
+  "reason": "User rejected prior slow pacing and requested faster connected morph/travel with more polished effects",
+  "claim": "CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017",
+  "scope": "Editorial discovery metaphor; speed impression, not a measured latency promise",
+  "inputs": [
+    {
+      "path": "creative/assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-05/styleframes/01-source.png",
+      "sha256": "b98b641336e14d4d67e13b7c2a49489b48fa946ee9f68b48479738d99770d76d"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-05/styleframes/03-logo.png",
+      "sha256": "7749e90bf058118debc68bfcd1f95a606400aece6a2edd08de0619f731d42969"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-06/source/motion.html",
+      "sha256": "a11f150178241aedc771a94013c022834d58108f90e4c272c2f51de2bb1ff850"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-06/audio/build_score.py",
+      "sha256": "eb4b666a8adcd8f68304a88feddc4eaa5cde3ffbd3535e903de72705d7c12510",
+      "pre_relocation_sha256": "2758d9726900667b5f7f2f00a2384c264020b92bc1619f6df44e89da810d7480"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-06/audio/jjintern-revision-06-original-score.wav",
+      "sha256": "9d26609a7e6c816eb7cf3d2508726b3ad2ca6fab7b73b2db01507abf31fca04b"
+    }
+  ],
+  "publishing": false,
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

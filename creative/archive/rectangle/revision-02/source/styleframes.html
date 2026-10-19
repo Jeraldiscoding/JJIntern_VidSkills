@@ -1,0 +1,44 @@
+<!doctype html><html><head><meta charset="utf-8"><title>JJIntern — Mineral studio / revision 02</title><style>html,body{margin:0;background:#e6eaec}canvas{display:block;width:1080px;height:1920px}</style></head><body><canvas id="frame" width="1080" height="1920"></canvas><script>
+/* STUDIO */
+const canvas=document.getElementById('frame'),ctx=canvas.getContext('2d');
+const font='-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Arial,sans-serif';
+const microsoft=new Image(),feed=new Image();microsoft.src='MICROSOFT_IMAGE';feed.src='FEED_IMAGE';
+const studio=createRectangleStudio();
+function surface(w,h){const c=document.createElement('canvas');c.width=w;c.height=h;return c;}
+function text(c,value,x,y,size=30,color='#bfc1c7',weight=400){c.fillStyle=color;c.font=weight+' '+size+'px '+font;c.fillText(value,x,y);}
+function browser(source,url,crop,title){
+  const [sx,sy,sw,sh]=crop;const w=sw,chrome=112,c=surface(w,sh+chrome),x=c.getContext('2d');
+  const metal=x.createLinearGradient(0,0,0,chrome);metal.addColorStop(0,'#f6f7f7');metal.addColorStop(1,'#e7eaeb');x.fillStyle=metal;x.fillRect(0,0,w,chrome);
+  x.fillStyle='#b3bbc0';for(let i=0;i<3;i++){x.beginPath();x.arc(46+i*31,56,7,0,Math.PI*2);x.fill();}
+  text(x,title,160,74,52,'#424c54',500);
+  const addressX=w*.49;
+  x.fillStyle='rgba(255,255,255,.68)';x.beginPath();x.roundRect(addressX,25,w-addressX-28,63,15);x.fill();
+  x.textAlign='center';text(x,url,addressX+(w-addressX-28)/2,67,32,'#65727d');x.textAlign='left';
+  x.fillStyle='#dfe3e5';x.fillRect(0,chrome-1,w,1);
+  x.drawImage(source,sx,sy,sw,sh,0,chrome,sw,sh);
+  return c;
+}
+let msBrowser,feedBrowser,packet;
+window.ready=Promise.all([microsoft.decode(),feed.decode(),document.fonts.ready]).then(()=>{
+  msBrowser=browser(microsoft,'careers.microsoft.com', [0,110,1620,1490],'Microsoft Careers');
+  feedBrowser=browser(feed,'jjintern.com/feed',[0,0,1720,2274],'JJIntern');
+  packet=surface(1600,920);const p=packet.getContext('2d');
+  // The final compacted surface retains only three abstract row marks in the
+  // shader. The future continuous morph must connect actual source rows to them.
+  return {width:1080,height:1920,font:font,stage:'three still approval studies; no animation or audio',ms:[microsoft.width,microsoft.height],feed:[feed.width,feed.height]};
+});
+window.drawFrame=function(n){
+  const texture=n===1?msBrowser:n===2?packet:feedBrowser;
+  const halfWidth=n===1?1.78:1.76;
+  const halfHeight=halfWidth*texture.height/texture.width;
+  const art=studio.render(n,texture,[halfWidth,halfHeight]);ctx.drawImage(art,0,0,1080,1920);
+  return canvas.toDataURL('image/png').split(',')[1];
+};
+window.makeBoard=function(){
+  const board=surface(1620,1100),b=board.getContext('2d');b.fillStyle='#e6eaec';b.fillRect(0,0,1620,1100);
+  const titles=['01  /  SOURCE BROWSER','02  /  RECTANGULAR PACKET','03  /  RECEIVING FEED'];
+  const subtitles=['Quiet chrome · authentic programme page','Satin metal · three marks · inset blue seam','Fresh real feed · clean receiving plane'];
+  for(let i=1;i<=3;i++){drawFrame(i);b.drawImage(canvas,(i-1)*540,0,540,960);text(b,titles[i-1],(i-1)*540+30,1003,20,'#24323e',550);text(b,subtitles[i-1],(i-1)*540+30,1036,17,'#5b6b79');}
+  return board.toDataURL('image/png').split(',')[1];
+};
+</script></body></html>

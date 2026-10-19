@@ -1,0 +1,93 @@
+<!doctype html><html><head><meta charset="utf-8"><title>JJIntern — revision 05 motion</title><style>html,body{margin:0;background:#edf3ff}canvas{display:block;width:1080px;height:1920px}</style></head><body><canvas id="frame" width="2160" height="3840"></canvas><script>
+'use strict';
+// Deterministic original animation, based on the approved revision-05 stills.
+const canvas=document.getElementById('frame'),ctx=canvas.getContext('2d');
+const font='-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Arial,sans-serif';
+const C={bg:'#edf3ff',paper:'#ffffff',ink:'#203145',muted:'#687c93',blue:'#0071e3'};
+const logo=new Image();logo.src='LOGO_IMAGE';
+const output=document.createElement('canvas');output.width=1080;output.height=1920;const ox=output.getContext('2d');
+const clamp=x=>Math.max(0,Math.min(1,x)),mix=(a,b,u)=>a+(b-a)*u;
+const smooth=x=>{x=clamp(x);return x*x*x*(x*(x*6-15)+10)};
+const ease=x=>1-Math.pow(1-clamp(x),3);
+const phase=(t,a,b)=>clamp((t-a)/(b-a));
+const packetScale=0.62, PW=580*packetScale,PH=340*packetScale;
+const X0=65,X1=640-PW,Y=960-PH/2;
+function rr(x,y,w,h,r,fill,stroke=null,lw=2){ctx.beginPath();ctx.roundRect(x,y,Math.max(0,w),Math.max(0,h),Math.min(r,h/2,w/2));if(fill){ctx.fillStyle=fill;ctx.fill()}if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=lw;ctx.stroke()}}
+function line(x1,y1,x2,y2,color,width){ctx.strokeStyle=color;ctx.lineWidth=width;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(x1,y1);ctx.lineTo(x2,y2);ctx.stroke()}
+function text(value,x,y,size,weight=500,color=C.ink){ctx.fillStyle=color;ctx.font=`${weight} ${size}px ${font}`;ctx.fillText(value,x,y)}
+function alpha(a,fn){if(a<=0)return;ctx.save();ctx.globalAlpha*=clamp(a);fn();ctx.restore()}
+function centered(value,y,size,weight=550,color=C.ink){ctx.font=`${weight} ${size}px ${font}`;text(value,(1080-ctx.measureText(value).width)/2,y,size,weight,color)}
+function bg(){ctx.setTransform(2,0,0,2,0,0);ctx.globalAlpha=1;ctx.fillStyle=C.bg;ctx.fillRect(0,0,1080,1920)}
+function source(t){
+ const q=ease(phase(t,0,.58)),sc=1-.018*(1-q),dy=18*(1-q)-1.4*Math.sin(q*Math.PI);
+ ctx.save();ctx.translate(540,960+dy);ctx.scale(sc,sc);ctx.translate(-540,-960);
+ alpha(.72+.28*q,()=>{rr(110,790,860,340,30,C.paper);text('Microsoft',174,919,48,500,C.muted);text('SWE Internship',174,1016,78,550)});ctx.restore();
+}
+function compression(t){
+ const p=smooth(phase(t,3,4.5));
+ const x=mix(110,X0,p),y=mix(790,Y,p),w=mix(860,PW,p),h=mix(340,PH,p),r=mix(30,25*packetScale,p);
+ rr(x,y,w,h,r,C.paper);
+ alpha(smooth(phase(p,.22,.88)),()=>{
+  rr(x,y,w,h,r,null,C.blue,2.48);
+  ctx.save();ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.clip();
+  ctx.fillStyle='#e8f2ff';ctx.fillRect(x,y,42*packetScale*p,h);
+  ctx.fillStyle=C.blue;ctx.fillRect(x+w-11*packetScale,y+78*packetScale,11*packetScale,h-156*packetScale);ctx.restore();
+ });
+ // Three text runs keep their source origin, compress, and coalesce into bars.
+ ctx.font=`550 78px ${font}`;const internshipX=174+ctx.measureText('SWE ').width;
+ const runs=[['Microsoft',174,919,48,500,C.muted,94,89,228,'#305c91'],['SWE ',174,1016,78,550,C.ink,94,157,158,'#8eadd1'],['Internship',internshipX,1016,78,550,C.ink,94,225,263,'#8eadd1']];
+ for(const [value,sx,sy,size,weight,color,tx,ty,len,barcolor] of runs){
+  const px=mix(sx,x+tx*packetScale,p),py=mix(sy,y+ty*packetScale+4*packetScale,p);
+  const syScale=mix(1,.085,p),sxScale=mix(1,.43,p);
+  alpha(1-smooth(phase(p,.52,.90)),()=>{ctx.save();ctx.translate(px,py);ctx.scale(sxScale,syScale);text(value,0,0,size,weight,color);ctx.restore()});
+  alpha(smooth(phase(p,.50,.94)),()=>line(px,py-4*packetScale,px+len*packetScale,py-4*packetScale,barcolor,15*packetScale));
+ }
+ alpha(smooth(phase(p,.68,1)),()=>line(x+426*packetScale,y+170*packetScale,x+w-12*packetScale,y+170*packetScale,C.blue,4*packetScale));
+}
+function packet(x,y,tail=0,opacity=1){alpha(opacity,()=>{
+ if(tail>0){
+  const ys=[81,169,258],lens=[58,39,76],colors=['#91b6e6','#b3cceb','#91b6e6'];
+  for(let i=0;i<3;i++)line(x-24*packetScale-tail*lens[i],y+ys[i]*packetScale,x-(18+i*5)*packetScale,y+ys[i]*packetScale,colors[i],(i===1?6:7)*packetScale);
+ }
+ rr(x,y,PW,PH,25*packetScale,C.paper,C.blue,4*packetScale);
+ ctx.save();ctx.beginPath();ctx.roundRect(x,y,PW,PH,25*packetScale);ctx.clip();ctx.fillStyle='#e8f2ff';ctx.fillRect(x,y,42*packetScale,PH);ctx.fillStyle=C.blue;ctx.fillRect(x+PW-11*packetScale,y+78*packetScale,11*packetScale,PH-156*packetScale);ctx.restore();
+ line(x+94*packetScale,y+89*packetScale,x+322*packetScale,y+89*packetScale,'#305c91',15*packetScale);
+ line(x+94*packetScale,y+157*packetScale,x+252*packetScale,y+157*packetScale,'#8eadd1',15*packetScale);
+ line(x+94*packetScale,y+225*packetScale,x+357*packetScale,y+225*packetScale,'#8eadd1',15*packetScale);
+ line(x+426*packetScale,y+170*packetScale,x+PW-12*packetScale,y+170*packetScale,C.blue,4*packetScale);
+ if(tail>0){ctx.strokeStyle='#a9c7ee';ctx.lineWidth=3*packetScale;ctx.beginPath();ctx.moveTo(x+PW+27*packetScale,y+105*packetScale);ctx.quadraticCurveTo(x+PW+48*packetScale,y+170*packetScale,x+PW+27*packetScale,y+235*packetScale);ctx.stroke()}
+ })}
+function flightState(t){const u=phase(t,4.5,6.5);return {u,x:X0+(X1-X0)*(.12*u+.88*u*u*u),velocity:(X1-X0)/2*(.12+2.64*u*u)}}
+function flight(t){const f=flightState(t),enter=smooth(phase(t,4.5,4.68));packet(f.x,Y,enter*(.22+1.40*f.u*f.u))}
+function intactLogo(dx=0,opacity=1,reveal=1){alpha(opacity,()=>{ctx.save();ctx.beginPath();ctx.rect(330+dx,715,420*reveal,420);ctx.clip();ctx.drawImage(logo,330+dx,715,420,420);ctx.restore()})}
+function handoff(t){
+ const q=phase(t,6.5,7.1),travel=smooth(q),dx=268.984375*(1-travel);
+ // Contact at x=640 is the visible left edge of the padded original logo.
+ // The packet continues at its arrival velocity while its contents hand off.
+ const fade=1-smooth(phase(q,0,.44));
+ packet(X1+flightState(6.5).velocity*(t-6.5),Y,1.62,fade);
+ intactLogo(dx,smooth(phase(q,0,.58)),smooth(phase(q,0,.76)));
+ alpha(Math.sin(Math.PI*clamp(q/.70))*.85,()=>line(640-268.984375*travel,919,640-268.984375*travel,1001,C.blue,5*packetScale));
+}
+function payoff(t){
+ const opening=ease(phase(t,10,10.26));
+ // The blue information accent carries the reveal after the logo has cleared.
+ const foundOut=1-smooth(phase(t,10.6,10.76));
+ alpha(opening*foundOut,()=>{centered('Found.',1005-8*(1-opening),132,580);});
+ const accentIn=ease(phase(t,10,10.3));
+ alpha(accentIn,()=>rr(536,823,8,46,4,C.blue));
+ const a=smooth(phase(t,10.76,11.03)),b=smooth(phase(t,10.92,11.3));
+ alpha(a,()=>centered('We handle the finding.',963+12*(1-a),67,550));
+ alpha(b,()=>centered('You focus on applying.',1054+12*(1-b),67,550));
+}
+function signoff(t){
+ const out=smooth(phase(t,15,15.16)),q=smooth(phase(t,15.16,15.4));
+ if(out<1){alpha(1-out,()=>{centered('We handle the finding.',963-8*out,67,550);centered('You focus on applying.',1054-8*out,67,550)});}
+ alpha(1-q,()=>rr(536,823,8,46,4,C.blue));
+ alpha(q,()=>centered('JJIntern',1000+10*(1-q),117,580));
+}
+window.drawScene=function(t){bg();if(t<3)source(t);else if(t<4.5)compression(t);else if(t<6.5)flight(t);else if(t<7.1)handoff(t);else if(t<10)intactLogo(0,1-smooth(phase(t,9.88,10)));else if(t<15)payoff(t);else signoff(t);};
+window.framePNG=function(t,width=1080){drawScene(t);if(output.width!==width){output.width=width;output.height=Math.round(width*16/9)}ox.clearRect(0,0,output.width,output.height);ox.drawImage(canvas,0,0,output.width,output.height);return output.toDataURL('image/png').split(',')[1]};
+window.ready=Promise.all([logo.decode(),document.fonts.ready]).then(()=>({width:1080,height:1920,duration:18,supersampling:[2160,3840],font,logo:[logo.width,logo.height],packet:{scale:packetScale,startX:X0,endX:X1,width:PW,height:PH,leadingEdgeAtContact:640},flight:{start:4.5,end:6.5,formula:'x_start+(x_end-x_start)*(0.12*u+0.88*u^3)',cameraTracking:false},source:'Approved revision05 editorial source; no current-vacancy assertion'}));
+window.ready.then(()=>drawScene(0));
+</script></body></html>

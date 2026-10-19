@@ -1,0 +1,56 @@
+JJINTERN REVISION 02 — AUTHENTIC LIGHT FEED
+
+Checked 17 October 2026, Europe/Stockholm. Public https://jjintern.com/feed.
+Fresh isolated logged-out Chrome profile /tmp/jjintern-rectangle-revision02-public-9356,
+CDP port 9356. No personal account, signup, employer handoff or application.
+All production PNGs: 1720 x 3360 pixels, from an actual 430 x 840 CSS viewport
+at device scale factor 4. Viewport values were asserted during capture.
+
+Preferred asset
+feed-light-tech-scrolled.png: real light-theme public feed, actual Tech tab
+selected, actual document scrollY=100. The site's authentic sticky header
+and sticky filters remain visible while the aggregate role metrics scroll
+out. First displayed roles include Tencent Large Language Models Research
+Intern, DBS 2027 DBS Internship (Technology and AI & Data Science), SAP Full
+Stack Developer Intern (AI topics) SAP Business AI Singapore, and Visier Inc.
+Software Developer Intern (January to June 2027).
+
+Other evidence/assets
+feed-dark-before.png: loaded All roles state before the theme toggle.
+feed-light-all.png: same loaded All roles state after the actual theme button.
+feed-light-tech.png: settled Tech-filtered state with aggregate metrics visible.
+feed-light-tech-loading.png: authentic transient loading state only; DO NOT USE
+as completed feed proof. It is retained because the first readiness check saw
+stale Set status text before the fetch began. The later result loaded and was
+captured. The reproducer was corrected to require actual filtered results.
+
+Verified interactions
+1. The visible Switch to light mode button was clicked using real CDP pointer
+   press/release events. Root class changed dark -> light; computed body
+   background changed rgb(11,11,12) -> rgb(255,255,255).
+2. The actual visible Tech category button was clicked; the loaded result set
+   changed from the All roles list to the Tech-filtered list. Query remained
+   empty. This demonstrates only that observed public category filtering.
+3. The real document was scrolled 100 CSS pixels. Actual CSS sticky behaviour
+   preserved header/filter context. No header was transplanted or recomposed.
+
+Source fidelity
+No DOM text, CSS, role dates, counts, employer marks, rows or layout were
+changed. No screenshot recolouring or UI retyping was used. These are real
+existing feed results, not a new Microsoft row or measured ingestion event.
+Displayed ages and availability are JJIntern site data, not employer-confirmed
+current vacancies. The scene may resolve into this existing feed without
+implying the packet literally created a row or set of results.
+
+Keep each chosen screenshot contiguous and preserve natural proportions.
+Suggested tighter proof crop from the preferred asset: x=0,y=0,w=1720,h=2280
+retains the sticky site header, selected Tech controls, and first three full
+roles (Tencent, DBS, SAP), while excluding unrelated lower rows/navigation.
+Alternatively crop height=1720 for the header/controls plus first two full rows.
+Verify the actual final edge visually if changing this crop.
+
+capture-record.json records inputs, observed text, styles, controls, scroll
+and screenshot SHA-256 hashes. manifest.json covers every file in this folder.
+capture-feed-light.mjs is the reproducer for an explicitly isolated public
+Chrome port. It restores All roles/dark using real controls before the test.
+The capture browser was closed at completion. No animation, audio or publishing.

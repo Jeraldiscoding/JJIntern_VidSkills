@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>JJIntern / Your next move</title>
+<style>html,body{margin:0;background:#0b0b0c;overflow:hidden}canvas{display:block;width:1920px;height:1080px}</style>
+<canvas id="film" width="1920" height="1080" aria-label="JJIntern: Find your next move. Finance and technology internship discovery for Singapore students."></canvas>
+<script>
+'use strict';
+const W=1920,H=1080,PI=Math.PI,TAU=PI*2;
+const c=document.querySelector('#film'),g=c.getContext('2d',{alpha:false});
+const ink='#0b0b0c',paper='#f5f5f7',blue='#0071e3',muted='#a1a1a6';
+const sans='-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif';
+const mono='ui-monospace, "SFMono-Regular", Menlo, monospace';
+const serif=new FontFace('Instrument','url(../../assets/evidence/product/instrument-serif-latin-italic-400.woff2)',{style:'italic',weight:'400'});
+const mark=new Image();mark.src='../../assets/evidence/product/logo-mark.png';
+const clamp=(n,a=0,b=1)=>Math.max(a,Math.min(b,n));
+const mix=(a,b,t)=>a+(b-a)*t;
+const smooth=n=>{n=clamp(n);return n*n*(3-2*n)};
+const expo=n=>1-Math.pow(2,-10*clamp(n));
+const ease=n=>1-Math.pow(1-clamp(n),4);
+const io=n=>{n=clamp(n);return n<.5?8*n*n*n*n:1-Math.pow(-2*n+2,4)/2};
+const outback=n=>{n=clamp(n)-1;return 1+2.70158*n*n*n+1.70158*n*n};
+function rng(seed){return()=>{seed=(Math.imul(seed,1664525)+1013904223)|0;return(seed>>>0)/4294967296}}
+const random=rng(21807);
+function bg(col=ink){g.globalAlpha=1;g.fillStyle=col;g.fillRect(0,0,W,H)}
+function line(x1,y1,x2,y2,col=paper,width=1,alpha=1){g.save();g.globalAlpha=alpha;g.strokeStyle=col;g.lineWidth=width;g.beginPath();g.moveTo(x1,y1);g.lineTo(x2,y2);g.stroke();g.restore()}
+function circle(x,y,r,col=blue,alpha=1){g.save();g.globalAlpha=alpha;g.fillStyle=col;g.beginPath();g.arc(x,y,Math.max(.01,r),0,TAU);g.fill();g.restore()}
+function txt(s,x,y,size=80,weight=600,col=paper,opt={}){
+ g.save();g.translate(x,y);if(opt.rot)g.rotate(opt.rot);if(opt.scale)g.scale(opt.scale,opt.scale);
+ g.globalAlpha=opt.alpha??1;g.fillStyle=col;g.strokeStyle=col;g.lineWidth=opt.stroke??1;
+ g.font=opt.serif?`italic 400 ${size}px Instrument`:`${weight} ${size}px ${opt.mono?mono:sans}`;
+ g.textBaseline='alphabetic';g.textAlign=opt.align||'left';g.letterSpacing=`${opt.spacing??(-size*.042)}px`;
+ if(opt.outline)g.strokeText(s,0,0);else g.fillText(s,0,0);g.restore();
+}
+function reveal(s,x,y,size,t,col=paper,opt={}){
+ const v=ease(t);g.save();g.beginPath();g.rect(opt.align==='center'?0:x-20,y-size*1.15,W,size*1.5);g.clip();
+ txt(s,x,y+(1-v)*size*1.15,size,opt.weight??600,col,{...opt,alpha:clamp(t*5)});g.restore();
+}
+function bracket(x,y,s=20,col=paper,a=.3){line(x-s,y,x+s,y,col,1,a);line(x,y-s,x,y+s,col,1,a)}
+function arrow(x,y,l,col=blue,a=1){g.save();g.globalAlpha=a;g.strokeStyle=col;g.lineWidth=4;g.beginPath();g.moveTo(x,y);g.lineTo(x+l,y-l);g.moveTo(x+l-34,y-l);g.lineTo(x+l,y-l);g.lineTo(x+l,y-l+34);g.stroke();g.restore()}
+function small(s,x,y,col=muted,opt={}){txt(s,x,y,19,450,col,{mono:true,spacing:1.5,...opt})}
+function brand(t,light=false){
+ const col=light?ink:paper;
+ txt('JJ Intern',84,76,27,600,col,{spacing:-.7});circle(201,68,3.4,blue);
+ small('INTERNSHIP DISCOVERY',W-84,74,light?'#54545a':muted,{align:'right',spacing:2.2});
+ line(84,101,W-84,101,col,1,.12);
+ const n=Math.floor(clamp(t/20)*40);for(let i=0;i<40;i++)line(84+i*12,1008,84+i*12,1015,i<=n?blue:(light?'#d2d2d7':'#38383a'),i%4===0?2:1,1);
+ small('SINGAPORE / FINANCE + TECH',84,1051,light?'#6e6e73':muted,{spacing:1});
+ small('JJINTERN.COM',W-84,1051,light?'#6e6e73':muted,{align:'right',spacing:1});
+}
+
+// Material sculpture: original parametric ribbon, lit per fragment in WebGL.
+// It is an abstract trajectory, never a substitute or redraw of the brand mark.
+const glc=document.createElement('canvas');glc.width=W;glc.height=H;
+const gl=glc.getContext('webgl',{alpha:true,antialias:true,premultipliedAlpha:false,preserveDrawingBuffer:true});
+if(!gl)throw new Error('WebGL is required for the original ribbon sculpture.');
+const vs=`attribute vec3 aP;attribute vec3 aN;uniform mat3 uR;uniform vec2 uCentre;uniform float uScale;uniform float uPerspective;varying vec3 vN;varying vec3 vP;
+void main(){vec3 p=uR*aP;vP=p;vN=uR*aN;float depth=1.0+uPerspective*p.z;vec2 xy=(p.xy*uScale/depth+uCentre);gl_Position=vec4(xy.x/960.0-1.0,1.0-xy.y/540.0,p.z*.07,1.0);}`;
+const fs=`precision highp float;varying vec3 vN;varying vec3 vP;uniform float uSilver;uniform float uFade;
+void main(){vec3 n=normalize(vN);if(!gl_FrontFacing)n=-n;vec3 V=normalize(vec3(0.1,-0.2,7.0)-vP);vec3 L=normalize(vec3(-0.5,-1.0,2.5));vec3 L2=normalize(vec3(1.5,.5,1.8));float d=max(0.,dot(n,L));float d2=max(0.,dot(n,L2));vec3 R=reflect(-V,n);float strip=exp(-pow((R.y+.2)*5.2,2.0));float strip2=exp(-pow((R.x-.8)*12.,2.));float spec=pow(max(0.,dot(reflect(-L,n),V)),48.);float fres=pow(1.-abs(dot(n,V)),3.);vec3 base=mix(vec3(.003,.14,.45),vec3(.3,.34,.4),uSilver);vec3 color=base*(.28+d*.7+d2*.25)+vec3(.06,.34,.75)*fres*.45; color+=vec3(.68,.84,1.)*strip*.58+vec3(.7,.85,1.)*strip2*.48+vec3(.9,.95,1.)*spec*.7; color=mix(color,vec3(.76,.85,.96),fres*.3);gl_FragColor=vec4(pow(color,vec3(.82)),uFade);}`;
+function shader(type,src){const s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));return s}
+const prog=gl.createProgram();gl.attachShader(prog,shader(gl.VERTEX_SHADER,vs));gl.attachShader(prog,shader(gl.FRAGMENT_SHADER,fs));gl.linkProgram(prog);gl.useProgram(prog);
+const posB=gl.createBuffer(),normB=gl.createBuffer(),idxB=gl.createBuffer();
+const seg=280,sides=20,N=(seg+1)*(sides+1),positions=new Float32Array(N*3),normals=new Float32Array(N*3),indices=[];
+for(let i=0;i<seg;i++)for(let j=0;j<sides;j++){const a=i*(sides+1)+j,b=a+sides+1;indices.push(a,b,a+1,b,b+1,a+1)}
+gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,idxB);gl.bufferData(gl.ELEMENT_ARRAY_BUFFER,new Uint16Array(indices),gl.STATIC_DRAW);
+const uniforms=Object.fromEntries(['uR','uCentre','uScale','uPerspective','uSilver','uFade'].map(s=>[s,gl.getUniformLocation(prog,s)]));
+const sub=(a,b)=>a.map((x,i)=>x-b[i]),add=(a,b)=>a.map((x,i)=>x+b[i]),mul=(a,b)=>a.map(x=>x*b);
+const norm=a=>{let d=Math.hypot(...a);return a.map(x=>x/(d||1))};
+const cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]];
+function path(u,m){
+ const a=[(1.6+.53*Math.cos(3*u))*Math.cos(2*u),(1.6+.53*Math.cos(3*u))*Math.sin(2*u),.68*Math.sin(3*u)];
+ const b=[2.0*Math.cos(u),1.7*Math.sin(u),.45*Math.sin(2*u)];
+ return a.map((v,i)=>mix(v,b[i],m));
+}
+function geometry(m,t){
+ for(let i=0;i<=seg;i++){
+  const u=i/seg*TAU,p=path(u,m),T=norm(sub(path(u+.002,m),path(u-.002,m))),B=norm(cross(T,[0,0,1])),C=norm(cross(T,B));
+  const tw=u*.5+t*.15,w=add(mul(B,Math.cos(tw)),mul(C,Math.sin(tw))),h=add(mul(B,-Math.sin(tw)),mul(C,Math.cos(tw)));
+  for(let j=0;j<=sides;j++){
+   const a=j/sides*TAU,ca=Math.cos(a),sa=Math.sin(a),xx=Math.sign(ca)*Math.pow(Math.abs(ca),.5)*.32,yy=Math.sign(sa)*Math.pow(Math.abs(sa),.65)*.052;
+   const v=add(p,add(mul(w,xx),mul(h,yy))),nn=norm(add(mul(w,ca*.13),mul(h,sa)));
+   const k=(i*(sides+1)+j)*3;positions.set(v,k);normals.set(nn,k);
+  }
+ }
+}
+function rotation(ax,ay,az){
+ const cx=Math.cos(ax),sx=Math.sin(ax),cy=Math.cos(ay),sy=Math.sin(ay),cz=Math.cos(az),sz=Math.sin(az);
+ return new Float32Array([cy*cz,cy*sz,-sy,sx*sy*cz-cx*sz,sx*sy*sz+cx*cz,sx*cy,cx*sy*cz+sx*sz,cx*sy*sz-sx*cz,cx*cy]);
+}
+function sculpture(t,{x=1280,y=550,scale=200,morph=0,rx=.3,ry=.5,rz=.1,silver=0,alpha=1,perspective=.06}={}){
+ geometry(morph,t);gl.viewport(0,0,W,H);gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.enable(gl.DEPTH_TEST);gl.depthFunc(gl.LEQUAL);
+ gl.disable(gl.CULL_FACE);gl.useProgram(prog);
+ for(const [buf,arr,name] of [[posB,positions,'aP'],[normB,normals,'aN']]){gl.bindBuffer(gl.ARRAY_BUFFER,buf);gl.bufferData(gl.ARRAY_BUFFER,arr,gl.DYNAMIC_DRAW);const at=gl.getAttribLocation(prog,name);gl.enableVertexAttribArray(at);gl.vertexAttribPointer(at,3,gl.FLOAT,false,0,0)}
+ gl.uniformMatrix3fv(uniforms.uR,false,rotation(rx,ry,rz));gl.uniform2f(uniforms.uCentre,x,y);gl.uniform1f(uniforms.uScale,scale);gl.uniform1f(uniforms.uPerspective,perspective);gl.uniform1f(uniforms.uSilver,silver);gl.uniform1f(uniforms.uFade,alpha);
+ gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,idxB);gl.drawElements(gl.TRIANGLES,indices.length,gl.UNSIGNED_SHORT,0);g.drawImage(glc,0,0);
+}
+
+const labels=['SOFTWARE','FINANCE','DATA','QUANT','PRODUCT','TECHNOLOGY','CONSULTING','ENGINEERING','RESEARCH','RISK','STRATEGY','YOUR NEXT MOVE'];
+const stars=Array.from({length:120},()=>({x:random()*W,y:random()*H,r:random()*1.6+.3,p:random()*TAU}));
+const grain=document.createElement('canvas');grain.width=256;grain.height=256;const ng=grain.getContext('2d'),nd=ng.createImageData(256,256);
+for(let i=0;i<nd.data.length;i+=4){const v=Math.floor(random()*255);nd.data[i]=nd.data[i+1]=nd.data[i+2]=v;nd.data[i+3]=255}ng.putImageData(nd,0,0);
+function texture(t,light=false){g.save();g.globalAlpha=light?.023:.032;g.globalCompositeOperation=light?'multiply':'screen';const pattern=g.createPattern(grain,'repeat');g.fillStyle=pattern;g.translate((Math.floor(t*12)%4)*32,(Math.floor(t*9)%3)*48);g.fillRect(-160,-160,W+320,H+320);g.restore()}
+function orbitField(t,fade=1,collapse=0){
+ const cx=1270,cy=530,rot=t*.25;
+ g.save();g.globalAlpha=fade;
+ for(let ring=0;ring<4;ring++){
+  g.beginPath();for(let k=0;k<=150;k++){
+   const a=k/150*TAU,r=310+ring*92,xx=Math.cos(a+rot)*r,yy=Math.sin(a+rot)*r*.53,z=Math.sin(a+rot)*r*.65;
+   const x=cx+xx/(1+z/1700),y=cy+yy/(1+z/1700);if(k===0)g.moveTo(x,y);else g.lineTo(x,y);
+  }g.strokeStyle=ring===1?blue:'#52525a';g.lineWidth=ring===1?2:1;g.globalAlpha=fade*(ring===1?.65:.36);g.stroke();
+ }
+ for(let i=0;i<labels.length;i++){
+  const a=i/labels.length*TAU+rot,r=380+(i%3)*100,z=Math.sin(a)*r*.62,p=1/(1+z/1500);
+  const x=mix(cx+Math.cos(a)*r*p,960+(i-5)*140,collapse),y=mix(cy+Math.sin(a)*r*.53*p,540,collapse);
+  txt(labels[i],x,y,26*p,500,i===2?paper:muted,{alpha:fade*(.35+.65*(1-z/1100)),align:'center',spacing:1.2,rot:Math.sin(a)*.08*(1-collapse)});
+  circle(x-40*p,y-35*p,2.2*p,i===2?blue:muted,fade*.6);
+ }
+ g.restore();
+}
+function pathLine(t,progress=1,white=false,offset=0){
+ g.save();g.beginPath();const end=Math.floor(180*clamp(progress));
+ for(let i=0;i<=end;i++){const u=i/180,x=-100+u*2120,y=540+Math.sin(u*TAU-1.5+t*.25)*160*(1-u*.5)+offset;if(i===0)g.moveTo(x,y);else g.lineTo(x,y)}
+ g.strokeStyle=white?paper:blue;g.lineWidth=white?2:5;g.stroke();g.restore();
+}
+function sceneA(t){
+ bg();brand(t);const entry=ease(t/.7),depart=io((t-2.45)/.55);
+ for(const p of stars)circle(p.x,p.y,p.r,paper,.13*entry*(1-depart));
+ orbitField(t,entry*.85,0);
+ g.save();g.translate(-depart*200,0);g.globalAlpha=1-depart;
+ small('01 / THE POSSIBILITIES',88,226,muted,{alpha:entry});
+ reveal('Too many',82,454,166,(t-.15)/.8);
+ reveal('directions?',77,649,183,(t-.45)/.8,paper,{serif:true});
+ reveal('Your internship search starts with a direction.',88,777,31,(t-.9)/.55,paper,{weight:400,spacing:-.4});
+ g.restore();
+ const travel=io((t-2.2)/.8);if(travel>0){g.save();g.globalAlpha=travel;pathLine(t,travel);circle(mix(-50,1970,travel),540+Math.sin(travel*TAU-1.5+t*.25)*160*(1-travel*.5),11,blue);g.restore()}
+}
+function sceneB(t){
+ const q=t-3;bg();brand(t);const settle=io(q/1.25),out=io((q-2.35)/.65);
+ orbitField(t,(1-settle)*.7,settle);
+ for(let i=0;i<7;i++){const yy=220+i*100;line(88,yy,1832,yy,paper,1,.055*(1-out))}
+ const ss=1+out*.7;
+ sculpture(t,{x:1320+out*400,y:535,scale:(182+settle*16)*(1+out*2),morph:1-settle,rx:.15+q*.2,ry:.3+q*.25,rz:-.3,silver:.08,alpha:clamp(q*3)});
+ g.save();g.globalAlpha=1-out;g.translate(-out*150,0);
+ small('02 / A CLEARER DIRECTION',88,226);
+ reveal('Find your',82,470,155,q/.65);
+ reveal('focus.',74,696,274,(q-.2)/.8,paper,{serif:true});
+ line(90,782,310+300*settle,782,blue,5,settle);
+ small('FOLLOW YOUR INTEREST.',88,852,paper,{alpha:smooth((q-.85)/.5),spacing:2});
+ g.restore();
+ if(out>0){g.save();g.fillStyle=paper;g.beginPath();g.arc(2140,540,out*2400,0,TAU);g.fill();g.restore()}
+}
+function sceneC(t){
+ const q=t-6;bg(paper);brand(t,true);
+ small('03 / CHOOSE YOUR FIELD',88,226,'#6e6e73');
+ const enter=ease(q/.8),exit=io((q-3.45)/.55);
+ // The ribbon crosses between typographic planes: a visible metaphor for discovery.
+ txt('FINANCE',78,455+90*(1-enter),211,650,ink,{alpha:enter});
+ txt('+ TECH',74,683,226,650,ink,{outline:true,stroke:1.7,alpha:enter});
+ sculpture(t,{x:1350-exit*170,y:557,scale:233+exit*160,morph:.1+.28*Math.sin(q*.65),rx:.3+q*.21,ry:.9+q*.32,rz:-.35+q*.05,silver:0,alpha:1,perspective:.07});
+ g.save();g.beginPath();g.rect(0,565,1130,145);g.clip();txt('+ TECH',74,683,226,650,ink,{alpha:enter});g.restore();
+ reveal('internships.',86,830,100,(q-.65)/.75,ink,{serif:true});
+ small('EXPLORE WHAT INTERESTS YOU.',88,923,'#54545a',{alpha:smooth((q-1.2)/.6)});
+ arrow(1105,862,100,blue,smooth((q-1.2)/.5));
+ if(exit>0){g.fillStyle=ink;g.fillRect(0,H*(1-exit),W,H*exit)}
+}
+function sceneD(t){
+ const q=t-10;bg();brand(t);const en=ease(q/.75),out=io((q-3.35)/.65);
+ // Camera passes through a wide lens into a central, geographically specific composition.
+ const push=1-ease(q/.9),spread=smooth((q-.3)/1.0);
+ small('04 / A PLACE TO BEGIN',88,196,muted,{alpha:1-out});
+ txt('SINGAPORE',960,383,268,600,paper,{align:'center',outline:true,stroke:1.4,alpha:en*(1-out)*.42,spacing:-8});
+ for(let i=0;i<48;i++){
+  const a=i/48*TAU+.3,r=280+((i*73)%230),tail=push*(100+i%5*40);
+  line(960+Math.cos(a)*r,540+Math.sin(a)*r*.65,960+Math.cos(a)*(r+tail),540+Math.sin(a)*(r+tail)*.65,i%5===0?blue:paper,1,push*.45);
+ }
+ g.save();g.globalAlpha=en*(1-out);
+ for(let i=0;i<4;i++){
+  g.beginPath();g.ellipse(960,545,390+i*60,210+i*43,.15*Math.sin(q*.5),0,TAU);g.strokeStyle=i===0?blue:'#c7c7cc';g.lineWidth=i===0?1.8:1;g.globalAlpha=en*(1-out)*(i===0?.45:.12);g.stroke();
+ }
+ g.restore();
+ sculpture(t,{x:960,y:520,scale:202+push*320+out*120,morph:smooth(q/3)*.92,rx:1.0-q*.1,ry:.7+q*.25,rz:-.2,silver:.28,alpha:en});
+ g.save();g.globalAlpha=1-out;
+ reveal('A place to begin.',960,858,127,(q-.35)/.8,paper,{serif:true,align:'center'});
+ txt('Internship discovery for Singapore students.',960,934,37,400,paper,{align:'center',alpha:smooth((q-.85)/.7),spacing:-.6});
+ g.restore();bracket(1724,530,15,paper,.4*en);bracket(196,530,15,paper,.4*en);
+ if(out>0){g.save();g.globalAlpha=out;g.fillStyle=blue;g.beginPath();g.moveTo(-100,1080);g.lineTo(W+100,1080-1700*out);g.lineTo(W+100,1080);g.closePath();g.fill();g.restore()}
+}
+function sceneE(t){
+ const q=t-14;bg();
+ // Each half-second adds a word; the phrase then holds as one invitation.
+ const words=[['FIND',85,395,280],['YOUR',969,395,280],['NEXT',85,730,280],['MOVE.',969,730,280]];
+ const active=Math.min(3,Math.floor(q*2));
+ for(let i=0;i<4;i++){
+  const local=q-i*.5;if(local<0)continue;const v=ease(local/.42),dx=(1-v)*(i%2?220:-220);
+  g.save();g.beginPath();g.rect(i%2?955:70,i<2?145:480,910,280);g.clip();
+  txt(words[i][0],words[i][1]+dx,words[i][2],words[i][3],650,i===active?paper:'#727279',{alpha:v,spacing:-13});g.restore();
+ }
+ // A blue trajectory threads the assembled phrase and points at the destination.
+ const end=smooth((q-1.4)/.8);g.save();g.beginPath();for(let i=0;i<=Math.floor(end*180);i++){const u=i/180,x=86+u*1746,y=862-56*Math.sin(u*TAU);if(!i)g.moveTo(x,y);else g.lineTo(x,y)}g.strokeStyle=blue;g.lineWidth=7;g.stroke();g.restore();
+ brand(t);small('YOUR INTEREST. YOUR DIRECTION.',88,946,paper,{alpha:smooth((q-1.5)/.6),spacing:2});
+ const out=io((q-2.5)/.5);if(out>0){g.save();g.globalAlpha=out;g.fillStyle=ink;g.fillRect(0,0,W,H);g.restore()}
+}
+function sceneF(t){
+ const q=t-17;bg();const e=ease(q/.6);
+ // Final line is a resting trajectory; domain stays readable to the last frame.
+ g.save();g.globalAlpha=.24*e;for(let i=0;i<5;i++){
+  g.beginPath();for(let j=0;j<=140;j++){const u=j/140,x=800+u*1400,y=1050-u*770+Math.sin(u*PI*2+i*.32)*80+i*35;if(!j)g.moveTo(x,y);else g.lineTo(x,y)}g.strokeStyle=i===2?blue:'#38383a';g.lineWidth=i===2?5:1;g.stroke()
+ }g.restore();
+ g.save();g.globalAlpha=e;g.drawImage(mark,88,121,104,104);txt('JJ Intern',218,191,48,550,paper,{spacing:-1.6});circle(399,179,5,blue);g.restore();
+ reveal('Find your',83,431,142,q/.36);
+ reveal('next move.',76,642,232,(q-.04)/.4,paper,{serif:true});
+ const domain=ease((q-.08)/.38);line(88,747,842,747,paper,1,.2*domain);
+ txt('JJIntern.com',88,852,79,550,paper,{alpha:domain,spacing:-2});arrow(760,854,72,blue,domain);
+ txt('Explore finance + tech internships.',90,929,42,400,'#c7c7cc',{alpha:domain,spacing:-.6});
+}
+window.drawScene=function(t){t=clamp(t,0,19.999999);g.setTransform(1,0,0,1,0,0);g.globalAlpha=1;g.globalCompositeOperation='source-over';
+ if(t<3)sceneA(t);else if(t<6)sceneB(t);else if(t<10)sceneC(t);else if(t<14)sceneD(t);else if(t<17)sceneE(t);else sceneF(t);
+ texture(t,t>=6&&t<9.7);
+};
+window.ready=Promise.all([serif.load().then(f=>document.fonts.add(f)),mark.decode()]).then(()=>document.fonts.ready).then(()=>{
+ if(!document.fonts.check('italic 400 100px Instrument'))throw Error('Serif font unavailable');window.drawScene(0);return {renderer:gl.getParameter(gl.RENDERER),vendor:gl.getParameter(gl.VENDOR),font:'system -apple-system; Instrument Serif italic 400',size:[W,H]};
+});
+window.playFilm=function(){let start;function f(n){start??=n;const t=(n-start)/1000;if(t<20){drawScene(t);requestAnimationFrame(f)}}requestAnimationFrame(f)};
+</script></html>

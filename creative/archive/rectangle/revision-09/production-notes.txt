@@ -1,0 +1,72 @@
+REVISION 09 — SPEED, CHANNELS, IMPACT
+18.000 seconds. 1080x1920. Native 120 fps master and 60 fps delivery.
+User direction: cooler music with stronger drum effects; faster packet motion;
+a more emphatic graphic capture into JJIntern. Prior revisions are preserved.
+
+TIMELINE
+0.000–2.000: approved Microsoft / SWE Internship source; isolated ding0.180.
+2.000–2.550: approved revised glyph-to-cell morph, three tracks and leading-edge lock.
+2.550–3.100: stable packet pause.
+3.100–5.150: first accelerating rightward pass, x70 to1080. The packet's trailing
+edge exits precisely when the directional whip begins; no empty waiting beat.
+5.150–5.320: deliberate directional match-on-action reframe using flat streaks.
+5.320–7.100: second pass enters immediately at speed from x-330 to350. Receiver
+enters during the first0.300s, then its split jaws open6.550–6.950 before contact.
+7.100–7.600: opaque incoming packet physically passes behind the receiver lip.
+Its three information bars extend into channels and become three routed ribbons.
+The original JJIntern logo remains intact on an opaque center plane.
+7.600–7.820: after all tracks clear, the two jaws clamp;6px recoil and ONE thin
+expanding rectangular pressure outline punctuate the main drum impact.
+7.820–8.800: receiver moves to center. Original mark scales uniformly210→450,
+then settles420; shell halves peel into flat rails and clear away.
+8.800–10.200: centered intact logo hold; short transition into information rule.
+10.200–11.100: Found.
+11.100 /11.350: staggered payoff lines, fully readable11.700–14.000.
+14.000–14.550: JJIntern signoff transition, stable through final frame.
+
+MOTION
+This is explicitly two cinematic shots, not a single continuous camera model.
+Pass1 v=clamp((t-3.1)/2.05): x=70+1010*(.55*v+.45*v^3).
+Pass1 speed270.98→936.10px/s. Initial speed is6.10 times revision08's44.4px/s.
+Pass2 v=clamp((t-5.32)/1.78): x=-330+680*(.85*v+.15*v^3).
+Pass2 speed324.72→496.63px/s. It starts in motion rather than relaunching slowly.
+Total rightward displacement1690px over3.83s of visible-shot movement;
+revision08 displaced370px over5s. The editorial reframe is0.170s.
+Packet435x255 in shot1,330x193.45 in shot2. Scale change occurs offscreen.
+Background velocity parameter1600+10400*u^2, integrated over the four-second
+flight, with fixed depth factors. Actual packet travel carries the speed effect.
+Capture q=clamp((t-7.1)/.5): x=350+352*(.70*q+.30*q^3), clipped atx702.
+At7.600 its trailing edge is behind the lip; the last ribbon tail has cleared.
+No opacity disappearance during packet entry. Logo colour/aspect/silhouette stay
+unchanged; the supplied PNG is drawn directly at uniform scales only.
+
+SOUND
+New original160 BPM electro-break composition with a recurring three-note hook,
+layered kick/snare/clap, open/closed/crash cymbals, pitched tom fills, syncopated
+bass and drum stops. Launch, whip, contact, clamp and brand takeover have distinct
+cues. The source ding remains exposed. See audio/ for synthesis source, complete
+cue manifest, loudness analysis and waveform. No samples, recordings or voiceover.
+
+COPY AND CLAIMS
+Microsoft / SWE Internship
+Found.
+We handle the finding.
+You focus on applying.
+JJIntern
+Claim record CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017.
+The source label, flight, jaws and routed tracks are editorial graphics, not a
+verified current/new vacancy, product UI, ingestion event or speed measurement.
+No auto-apply or hiring claim is added. Original18-second duration is retained.
+
+REPRODUCTION
+With an isolated local Chrome debug session on port9359, from workspace root:
+python3 creative/archive/rectangle/revision-09/audio/build_score.py
+node creative/archive/rectangle/revision-09/source/render-motion.mjs 9359 stills
+node creative/archive/rectangle/revision-09/source/render-motion.mjs 9359 test
+node creative/archive/rectangle/revision-09/source/render-motion.mjs 9359 full
+python3 creative/archive/rectangle/revision-09/source/verify-motion.py
+node creative/archive/rectangle/revision-09/source/check-playback.mjs 9359 final
+
+Review records distinguish encoded-image/technical checks from listening.
+Subjective audio audition, physical-phone playback and upload-preview checks are
+not claimed. No publishing occurred.

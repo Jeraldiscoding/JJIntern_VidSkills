@@ -1,0 +1,42 @@
+FINAL REVIEW — JJINTERN / YOUR NEXT MOVE
+17 October 2026, Europe/Stockholm
+
+Local deliverable: COMPLETE. No publishing or external upload performed.
+
+Media verification: PASS
+1920×1080, progressive H.264 High profile, yuv420p, BT.709 metadata.
+Exactly 20.000 seconds; 60/1 constant frame rate; 1200 declared and decoded video frames.
+Stereo AAC, 48 kHz, approximately 320 kb/s. MP4 size: 72,410,529 bytes.
+Full FFmpeg video/audio decode completed with no errors.
+Encoded audio measured -14.15 LUFS integrated, -1.03 dB true peak, 3.20 LU range. No peak clipping.
+
+Actual inspections
+- Twelve full-size source storyboard frames and the composite storyboard.
+- Independent concept, still and encoded-rough reviews.
+- Eighty encoded rough samples at 4 fps over the complete timeline.
+- Forty encoded final samples at 2 fps over the complete timeline.
+- Final full-size poster and last encoded frame at 19.983333 seconds.
+- Encoded frames adjacent to both major light/dark transitions: 5.8, 6.05, 9.8 and 10.05 seconds.
+- Two automated real-time Chrome playback passes, one muted and one with audio enabled. Both reached time 20.0 and ended with readyState 4 and no media errors. Browser scheduling reported five dropped presentation frames during the first pass and one additional drop during the second pass, while parallel verification was running. Both passes decoded all 1200 file frames. This is an environment playback observation, not a missing-frame export.
+
+Visual findings
+Essential phrases complete their reveal and have stable reading time. The main invitation resolves the opening question. Large finance/tech type and the Singapore audience caption make the subject clear. The end title and domain remain visible to the final frame. The brief near-white field at the iris boundary and wipe-covered dark field are intentional transitions; there is no persistent lost scene. The centred portal adds a new composition after the two asymmetric sections. Authentic logo proportions/colour are preserved at modest size. No private information, employer affiliation, live vacancy, outcome, salary or unverified feature is depicted.
+
+Rubric, 0–2 per criterion; no total or view prediction
+Idea 2 — choosing a direction is legible without effects.
+Hook 2 — “Too many directions?” is readable and tied to internships.
+Payoff 2 — a single path and clear JJIntern destination resolve the question.
+Shot value 2 — question, focus, categories, audience, invitation and destination add distinct meaning.
+Product 1 — truthful brand positioning; intentionally no tested product input/result demonstration.
+Copy 2 — brief invitations and grounded audience/category wording.
+Design 2 — large type, one recurring object, dark/light contrast and a centred spatial middle.
+Motion 2 — labels organize, path connects, ribbon changes shape, type assembles; 1200 deterministic frames.
+Readability/accessibility 1 — desktop/export and small contact-sheet inspection performed; physical-phone check not performed.
+Claims 2 — P01 and B01–B04 plus fresh public homepage positioning; no unsupported inference found.
+CTA 2 — single real domain, settled by approximately 17.46 s and visible until the end.
+Distinctness 2 — original spatial brand film differs from the workspace company-search rough.
+
+Hard failures observed: none within the performed inspections.
+
+Limits
+Automated sound-enabled playback and loudness/waveform/source checks do not assert subjective human listening. Physical-device and social-platform upload previews remain unperformed; they were not part of this local landscape résumé delivery. Native source/font assets are retained locally with their provenance. External source redistribution should retain and resolve asset licence notices through the normal owner process.

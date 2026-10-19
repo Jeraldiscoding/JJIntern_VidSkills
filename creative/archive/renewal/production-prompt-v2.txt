@@ -1,0 +1,50 @@
+Create a premium 18-second vertical motion-graphics advertisement for JJIntern.
+
+WORKSPACE AND REFERENCES
+Work in /Users/jeraldlim/Desktop/JJIntern_Videos. Read creative/AGENTS.md, creative/product/brief.md, creative/product/evidence.md, creative/brand/guide.md and creative/brand/tokens.json. Use the JJIntern grounding, video and QA skills. The latest user revision in this prompt supersedes the earlier folded-sheet approval direction: browser opening, compact rectangular packet, increasing acceleration, aerodynamic streaks and a JJIntern-only final frame. Do not put “Example posting” on screen. Use authentic captured page content to achieve this, without inventing a newly published Microsoft vacancy.
+
+Treat all earlier finished JJIntern videos as rejected drafts. Reuse authentic product captures and original brand assets where appropriate. Research the actual film frames at https://buck.co/work/microsoft-surface; existing decoded frames and the inspection record are in creative/showreel/renewal/reference/. Adapt its broad studio reflections, coherent material thickness, restrained camera and abstract motion resolving to product proof. Create a new composition and material treatment for this revision.
+
+CORE STORY
+A real Microsoft internship-related page appears inside a refined web browser. The page's information compresses visibly into a compact rectangular data packet. The packet accelerates LEFT TO RIGHT for exactly one second, with increasingly long trailing streaks and a subtle pressure effect around its leading edge. It enters a JJIntern browser and resolves directly into the authentic internship feed. The payoff explains recurring checks and consolidated discovery. Finish on JJIntern alone.
+
+ART DIRECTION
+Make this feel like a major technology-company campaign: graphite studio, satin silver/pearl packet, thin polished edges, broad softbox reflections, local blue information accents, crisp system-sans typography and natural perspective. The rectangular packet should have precise slightly softened edges and a meaningful information seam. Keep it substantial and in the near field. It must remain recognizable as the compressed information from the browser. Let reflection movement reveal its volume. Avoid a blue plastic payment-card appearance, wireframe tunnels, receding objects, arbitrary spins, giant static type slides and detached screenshot panels.
+
+TIMELINE — EXACTLY 18.000 SECONDS
+
+0.000–3.000 — BROWSER / MICROSOFT
+Show a beautifully lit, proportionate browser window containing a genuine Microsoft internship-related page, framed tightly enough to read its identity and internship context. It appears with a single delicate material ding and a short controlled settling motion; then hold for reading. Use a clean isolated public capture. Candidate primary source: https://careers.microsoft.com/v2/global/en/students, particularly its real Internship programs section. This page was reopened on 17 October 2026; its programme information does not establish a newly posted individual vacancy. A verified current role page can replace it if genuinely captured and checked before production. Do not add a fake “Just posted” stamp, fabricated role, date or employer interface. No Example posting label.
+
+3.000–4.500 — CONTINUOUS MORPH
+The browser content compresses into the rectangular packet through a coherent geometric transformation. The page plane, text rows and browser boundary become the packet's face, data marks and thin edge. Keep a visible causal connection throughout; do not cut away and substitute an unrelated object. Fold/compact locally without starting the horizontal journey early. A blue information seam leads the eye toward its right-facing edge. Quiet material friction and a few small closure sounds follow the actual geometry.
+
+4.500–5.500 — EXACTLY ONE SECOND OF ACCELERATING FLIGHT
+Move the packet LEFT TO RIGHT continuously, accelerating through the entire interval. No late braking or ease-out. Use an explicit screen-space position function such as x(u)=x_start+(x_end-x_start)*(0.12*u+0.88*u*u*u), where u=(t-4.500)/1.000, clamped to [0,1]. This gives nonzero initial speed and increasing speed while preserving exact endpoints. All flight displacement occurs within this one-second range: native frames 540–659; arrival is frame 660. At 60 fps the flight is frames 270–329; arrival is frame 330.
+
+Maintain depth and substantial projected scale. Position the packet initially left of centre and finish at a receiving browser on the right; camera tracking may preserve readability but must not erase its visible rightward movement. Streaks trail to the LEFT, grow longer and denser with velocity, and taper and dissipate naturally. Introduce a restrained compressed air/pressure contour at the leading RIGHT edge, a close surface shimmer and fine displaced air flowing around its corners. Keep the packet's material silhouette crisp with physically consistent directional motion blur. The air should communicate resistance and speed without making the object soft, inflating it, adding fire or smoke, or forming a sci-fi tunnel. A newly synthesized movement sound brightens and pans left to right with velocity.
+
+5.500–10.000 — ARRIVAL / JJINTERN FEED
+The accelerating leading edge meets a receiving JJIntern browser at exactly 5.500 s. The packet's rectangular face becomes the feed plane through an edge-aligned reveal. Resolve the transition by about 6.100 s and leave the real feed settled and readable for the remaining time. Frame the feed large, with useful role content and sufficient site context; preserve all original proportions.
+
+Use authentic public captures, including creative/showreel/pipeline/captures/feed-loaded.png if suitable, or a fresh successful public capture. The arriving information can reveal the existing authentic feed. A literal Microsoft ingestion/new-row update must use a genuine documented before-and-after; none is currently established. Do not invent a new row, alter a posting date, increment a count, simulate an alert, or turn the historical Microsoft Research Intern entry dated 1 Sept into a new vacancy. A captured real page refresh may be used at its observed scope, without attributing an unverified new vacancy to it. Make the arrival feel immediate as an edit; do not present the animation as a measurement of ingestion speed.
+
+10.000–15.000 — PAYOFF
+Use this exact supported copy, with economical sequential reveals and a stable reading hold:
+“Internship updates.
+One place.”
+“We check every 30 minutes.”
+“Can you beat that?”
+
+Reveal the main two lines at 10.000 s, the cadence by 11.000 s, and the short challenge at about 13.500 s. Keep the cadence clearly readable through 15.000 s. Carry the information seam/reflection from the preceding scene into the composition so this feels like a continuous resolution rather than a new static slide. “Real-time updates” and instant delivery are not established by a 30-minute checking schedule. The short challenge is rhetorical; do not add claims about being fastest, exclusive, complete or better than a named competitor.
+
+15.000–18.000 — BRAND RESOLUTION
+Resolve to “JJIntern” alone. A clean textual brand sign-off is requested, rather than a claim that a newly typeset lockup is an official wordmark asset. Settle promptly and hold through the final frame. No tagline, URL, button or extra CTA on this final brand-only frame. The real JJIntern browser may show jjintern.com/feed earlier during the proof beat. Respect original logo proportions if any original mark is used elsewhere.
+
+SOUND
+Compose an entirely new, tightly synchronized contemporary groove from mathematical synthesis. Use dry percussion, warm oscillator bass and restrained evolving harmony. All sounds must originate from oscillators, deterministic noise, filters and envelopes: no samples, recordings, stock loops or reused earlier soundtrack. One tasteful small metal ding introduces the browser; friction follows the morph; airflow follows packet velocity; a short controlled contact marks arrival; a confident harmonic resolution supports the brand ending. No generic notification beeps, repetitive plucked arpeggios or oversized trailer impacts. Keep the whole story understandable muted.
+
+DELIVERY AND WORKFLOW
+This prompt is the revised proposal, not approval to render the full video. First create 2–3 revised actual style frames showing the browser, rectangular speed treatment and receiving feed, with this concise direction. Wait for the user's approval before full animation/audio production. The previous folded-packet frames are historical exploration, not approval of the revised rectangle/browser direction.
+
+After approval, inspect a motion test of the morph, accelerating one-second flight and direct arrival before the full render. Render a native 120 fps 1080×1920 master: exactly 2,160 independently evaluated frames over 18.000 seconds, not interpolated or duplicated lower-rate footage. Export a high-quality 60 fps TikTok MP4 from alternate original frames: 1,080 frames, same duration. Preserve square pixels, sharp text, smooth gradients, authentic UI and natural object proportions. Use high-quality encoding and synchronized audio. Inspect the encoded full film with sound and muted, key transitions, actual duration/frame count and final brand frame. Judge whether it looks and feels good; technical checks alone are insufficient. Deliver both MP4s, reproducible source, and a brief account of decisions, iterations and elapsed time. Do not publish.

@@ -1,0 +1,88 @@
+{
+  "kind": "Actual real-time browser playback and decoded-frame capture; no claim of subjective audio audition",
+  "mode": "test",
+  "passes": [
+    {
+      "muted": true,
+      "observations": [
+        {
+          "time": 0.515236,
+          "duration": 3.4,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 36,
+          "droppedFrames": 1,
+          "muted": true
+        },
+        {
+          "time": 1.116603,
+          "duration": 3.4,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 73,
+          "droppedFrames": 1,
+          "muted": true
+        },
+        {
+          "time": 1.71723,
+          "duration": 3.4,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 109,
+          "droppedFrames": 1,
+          "muted": true
+        },
+        {
+          "time": 2.302018,
+          "duration": 3.4,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 144,
+          "droppedFrames": 1,
+          "muted": true
+        },
+        {
+          "time": 2.891863,
+          "duration": 3.4,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 179,
+          "droppedFrames": 1,
+          "muted": true
+        },
+        {
+          "time": 3.4,
+          "duration": 3.4,
+          "ended": true,
+          "paused": true,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 204,
+          "droppedFrames": 1,
+          "muted": true
+        },
+        {
+          "time": 3.4,
+          "duration": 3.4,
+          "ended": true,
+          "paused": true,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 204,
+          "droppedFrames": 1,
+          "muted": true
+        }
+      ]
+    }
+  ]
+}

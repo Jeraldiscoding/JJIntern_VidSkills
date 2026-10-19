@@ -1,0 +1,16 @@
+[
+  {
+    "approved": "styleframes/01-source.png",
+    "rendered": "stills/0.600s.png",
+    "approved_sha256": "b98b641336e14d4d67e13b7c2a49489b48fa946ee9f68b48479738d99770d76d",
+    "rendered_sha256": "b98b641336e14d4d67e13b7c2a49489b48fa946ee9f68b48479738d99770d76d",
+    "byte_identical": true
+  },
+  {
+    "approved": "styleframes/03-logo.png",
+    "rendered": "stills/7.100s.png",
+    "approved_sha256": "7749e90bf058118debc68bfcd1f95a606400aece6a2edd08de0619f731d42969",
+    "rendered_sha256": "7749e90bf058118debc68bfcd1f95a606400aece6a2edd08de0619f731d42969",
+    "byte_identical": true
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "source": "creative/archive/vertical-captures-4x/directory-empty.png",
+    "crop": {
+      "x": 64,
+      "y": 860,
+      "width": 1432,
+      "height": 800
+    },
+    "detail_window": {
+      "x": 64,
+      "y": 860,
+      "width": 1000,
+      "height": 800
+    },
+    "output": "creative/archive/vertical/product/directory-empty.png",
+    "sha256": "711e2464cae98908fe258fb2b929d5fee23435848024189362375ff207dad6fa"
+  },
+  {
+    "source": "creative/archive/vertical-captures-4x/directory-01.png",
+    "crop": {
+      "x": 64,
+      "y": 860,
+      "width": 1432,
+      "height": 800
+    },
+    "detail_window": {
+      "x": 64,
+      "y": 860,
+      "width": 1000,
+      "height": 800
+    },
+    "output": "creative/archive/vertical/product/directory-01.png",
+    "sha256": "2efbf43de0b3477f61819ae9c4793ba09d1ca42feb5a105827e10b1ed87dacef"
+  },
+  {
+    "source": "creative/archive/vertical-captures-4x/directory-02.png",
+    "crop": {
+      "x": 64,
+      "y": 860,
+      "width": 1432,
+      "height": 800
+    },
+    "detail_window": {
+      "x": 64,
+      "y": 860,
+      "width": 1000,
+      "height": 800
+    },
+    "output": "creative/archive/vertical/product/directory-02.png",
+    "sha256": "46d39bed54faa5a260853c129decfb871995cc0dabf7d1e3edd38f81e9645a21"
+  },
+  {
+    "source": "creative/archive/vertical-captures-4x/directory-03.png",
+    "crop": {
+      "x": 64,
+      "y": 860,
+      "width": 1432,
+      "height": 800
+    },
+    "detail_window": {
+      "x": 64,
+      "y": 860,
+      "width": 1000,
+      "height": 800
+    },
+    "output": "creative/archive/vertical/product/directory-03.png",
+    "sha256": "d171ef8b5b933f2cf6ffe40ecfd8910e455564720d9c863636baff719f294187"
+  },
+  {
+    "source": "creative/archive/vertical-captures-4x/directory-04.png",
+    "crop": {
+      "x": 64,
+      "y": 860,
+      "width": 1432,
+      "height": 800
+    },
+    "detail_window": {
+      "x": 64,
+      "y": 860,
+      "width": 1000,
+      "height": 800
+    },
+    "output": "creative/archive/vertical/product/directory-04.png",
+    "sha256": "7e424496aba60b4045a971684db310695871c381ce915efd1ad8efd3370a07c6"
+  },
+  {
+    "source": "creative/archive/vertical-captures-4x/directory-05.png",
+    "crop": {
+      "x": 64,
+      "y": 860,
+      "width": 1432,
+      "height": 800
+    },
+    "detail_window": {
+      "x": 64,
+      "y": 860,
+      "width": 1000,
+      "height": 800
+    },
+    "output": "creative/archive/vertical/product/directory-05.png",
+    "sha256": "97c6db68e60165f91e6b9fd0ce5922a9dc3e6bbf1b65cdc4e195209d46592372"
+  },
+  {
+    "source": "creative/archive/vertical-captures-4x/directory-06.png",
+    "crop": {
+      "x": 64,
+      "y": 860,
+      "width": 1432,
+      "height": 800
+    },
+    "detail_window": {
+      "x": 64,
+      "y": 860,
+      "width": 1000,
+      "height": 800
+    },
+    "output": "creative/archive/vertical/product/directory-06.png",
+    "sha256": "55955b7b92eac2b9584008053f1ca5524d98f668feb64c0338bf6fe27f22ffd0"
+  },
+  {
+    "source": "creative/archive/vertical-captures-4x/directory-07.png",
+    "crop": {
+      "x": 64,
+      "y": 860,
+      "width": 1432,
+      "height": 800
+    },
+    "detail_window": {
+      "x": 64,
+      "y": 860,
+      "width": 1000,
+      "height": 800
+    },
+    "output": "creative/archive/vertical/product/directory-07.png",
+    "sha256": "e0f3dc4a9b574196751303a7349f6d989ce1a95b215ac674d46023b77c3033b3"
+  },
+  {
+    "source": "creative/archive/vertical-captures-4x/directory-08.png",
+    "crop": {
+      "x": 64,
+      "y": 860,
+      "width": 1432,
+      "height": 800
+    },
+    "detail_window": {
+      "x": 64,
+      "y": 860,
+      "width": 1000,
+      "height": 800
+    },
+    "output": "creative/archive/vertical/product/directory-08.png",
+    "sha256": "12687aa117697c630e6105f6f2197c8bca60d47c0a49d9751c2345e28c628b50"
+  },
+  {
+    "source": "creative/archive/vertical-captures-4x/directory-09.png",
+    "crop": {
+      "x": 64,
+      "y": 860,
+      "width": 1432,
+      "height": 800
+    },
+    "detail_window": {
+      "x": 64,
+      "y": 860,
+      "width": 1000,
+      "height": 800
+    },
+    "output": "creative/archive/vertical/product/directory-09.png",
+    "sha256": "cc8f82f8b4a47414565de5e214de0e64b6e1516cc08426bb9dbd2df4dd60d1e7"
+  }
+]

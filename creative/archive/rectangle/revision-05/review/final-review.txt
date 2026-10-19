@@ -1,0 +1,45 @@
+JJIntern revision 05 — independent final creative review
+Reviewed 17 October 2026, Europe/Stockholm. Reviewer: claims_qa agent.
+
+OUTCOME
+The approved visual direction is preserved in the rendered motion and inspected encoded files. No remaining visual or copy repair is required. The source-to-packet-to-logo sequence is understandable without sound, the exact payoff resolves the premise, and the final sign-off is held through the last frame. Delivery is locally complete; all required encoded checks in final-qa.json pass; public release remains conditional on subjective listening, physical-phone playback, actual placement preview and final campaign rights confirmation. No publication was performed.
+
+EVIDENCE ACTUALLY INSPECTED
+Approved source/packet/logo PNGs and reproducible styleframes.html; motion.html before and after refinement; all four rendered motion boards; native 4.100,4.500,6.650,6.800,11.300 samples; all six encoded 120 fps contact sheets at 360 px per frame; native decoded 60 fps frames 06,07,11–16,18–20,22,23; corrected final browser playback captures 02,05,06,08,10,11,13,15,17 at 360x640; test and final playback reports; approved-frame-comparison.json; technical evidence in final-qa.json.
+
+The settled rendered source 0.600 s PNG is byte-identical to approved 01-source.png (SHA-256 b98b641336e14d4d67e13b7c2a49489b48fa946ee9f68b48479738d99770d76d). The settled rendered logo 7.100 s PNG is byte-identical to approved 03-logo.png (SHA-256 7749e90bf058118debc68bfcd1f95a606400aece6a2edd08de0619f731d42969). These are lossless rendered-PNG comparisons, not a claim that compressed MP4 pixels are byte-identical. Encoded frames were inspected separately and retain the approved appearance.
+
+The original 512x512 logo hash remains 56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c. Its approved 420 px uniform draw and visible center are preserved. The short handoff uses an intact-asset mask and translation; no reshaping or recolouring occurs.
+
+REFINEMENTS VERIFIED
+The motion-test review identified a real Found./first-line overlap at 10.800 and a corresponding sign-off crossfade risk. Revised opacity windows clear Found. by 10.760 before the first line appears, and clear payoff text by 15.160 before JJIntern appears. The blue accent bridges these brief transitions. Actual refreshed and encoded 10.800 samples no longer contain overlapping words; both lines are fully readable at 11.300. The final wordmark is stable from 15.400 through the final frame. The logo fades immediately before 10.000 so it does not overlap Found.
+
+RUBRIC (0 missing/fails; 1 partial with explicit limitation; 2 clear and supported; no summed score)
+Idea — 2. Source information resolves into the product brand and a clear student benefit: attention can return to applying. The effect-free premise remains understandable. Repair: none.
+Hook — 2. Microsoft/SWE Internship is established promptly with clear type hierarchy at 360 px equivalent. It is an editorial source label with no date or vacancy cue. Repair: none.
+Payoff — 2. Found. resolves to the exact two-line discovery/applying message, fully readable 11.300–15.000. Repair: none after text collision fix.
+Shot value — 2. Source establishes context, compression creates information, flight connects, logo receives, payoff explains, sign-off resolves. No decorative scene interrupts that sequence. Repair: none.
+Product — 1. The brand connection is clear and the original asset is authentic, but this brief intentionally supplies an editorial metaphor rather than a tested product action/result. Limitation: this film cannot serve as evidence of ingestion, timing, matching or applying behavior; do not describe it as a product demo. No UI addition is appropriate.
+Copy — 2. Exact user-selected words and punctuation are preserved. No urgency, eligibility, availability, numeric cadence, instant/real-time wording or hiring promise was added. Repair: none.
+Design — 2. Flat pale-blue/white composition, dark system sans, restrained corner geometry and purposeful blue match approved references. Source and logo holds match approved lossless stills exactly. Repair: none.
+Motion — 2. The same tile boundary narrows into the packet; three text runs coalesce into information bars; the packet moves rightward while left trails lengthen; the masked original logo settles by 7.100. The flight source exactly implements the requested increasing-speed cubic 4.500–6.500 with no camera tracking. Encoded samples bracket the transition and contact frames without a visual jump. Stable reading holds follow. Repair: none identified in inspected sequences; exact encoded tracking is documented independently in final-qa.json.
+Readability/accessibility — 1. Native encoded and 360 px-equivalent frames are unclipped and readable, and the story is understandable from muted visual samples. Nominal palette contrast is 11.89:1 for ink on pale blue and 13.24:1 for ink on white; the 48 px Microsoft label's 4.29:1 is above the large-text benchmark. Limitation: physical-phone viewing and actual platform overlays have not been checked; these remain release tasks.
+Claims — 2. CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017 supports the precise editorial scope. There is no fabricated website, feed row, employer logo, private account data or asserted current event. Flight duration is a motion requirement, not a product latency measurement. Repair: none.
+CTA — N/A. The user explicitly requires JJIntern alone with no URL, tagline, button or additional CTA. Adding one to satisfy a generic rubric would violate this brief.
+Distinctness — 1. The continuous compression/flight/edge handoff is materially different from disconnected slide-card motion. Limitation: no comprehensive external campaign archive or recent-post performance comparison was conducted; no novelty or performance guarantee is claimed.
+
+TECHNICAL AND PLAYBACK EVIDENCE
+Both delivered versions are 1080x1920 H.264 with 48 kHz stereo AAC. Actual container, video and audio presentation durations are 18.000 seconds. The 120 fps master contains 2160 frames with arrival at frame 780 / 6.500 seconds; 60 fps contains 1080 frames with arrival at 390 / 6.500 seconds. Full decoder checks reported no errors. Final-qa.json is the authoritative automated result and documents frame timestamps, compression-boundary continuity, encoded flight tracking, final-frame stability and the original asset hash. Its finalized automated_passed result is true, with all 12 required checks passing per export. Leading-blue-stripe tracking confirms the accelerating screen path within approximately 0.368 px / 0.400 px for 120 / 60 fps. The earlier top-border centroid bias was a measurement artifact; the verifier replaced it with this visible-edge measurement.
+
+The corrected 60 fps browser pass reached 18.000/ended without media errors. The muted pass decoded 1080 frames with 0 drops; the subsequent sound-enabled pass decoded another 1080 frames with 1 initial dropped frame in the instrumented session. Browser sound-enabled decoding is not subjective listening. The early 5-second test screenshots had a viewport mismatch and were not used to certify phone readability; corrected final captures and encoded contact sheets provide that digital check.
+
+The mathematical soundtrack's PCM/AAC verification reports approximately -16.04 LUFS integrated, -1.0 dBTP true-peak headroom and zero clipped samples. The score is 18.000 seconds; AAC decoding can expose padding after the presentation end, separately documented in the automated report. No subjective judgment of groove, timbre, speaker translation or cue balance is asserted here. Human headphone/speaker audition remains pending.
+
+HARD-FAILURE REVIEW
+No fabricated feature, interface, salary, testimonial, employer affiliation, vacancy availability or result found. No private data, broken glyph, clipped essential text, incorrect link, fake logo or unresolved hook found. This is continuous product-brand motion, not repeated animated slide cards. Original user-supplied logo provenance and oscillator/noise synthesis are recorded; final campaign rights confirmation remains a release check rather than an invented asset substitute.
+
+STATUS
+Concept: selected and user-approved; exact brief executed.
+Assets: available; original logo intact, provenance/hash recorded, approved source/logo holds matched.
+Artifact: both full video/audio exports rendered; actual decoded frames and digital phone-equivalent sequence inspected. Final automated result is recorded separately in final-qa.json.
+Release: conditional on subjective listening, real-phone viewing, actual upload/placement preview and final campaign rights confirmation. These external checks do not negate completion of authorized local production. No publishing or external messaging occurred.

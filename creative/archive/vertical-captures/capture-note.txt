@@ -1,0 +1,49 @@
+FRESH JJINTERN PUBLIC DIRECTORY SEARCH — VERTICAL REVISION
+
+Checked: 2026-10-17 15:43 Europe/Stockholm (13:43 UTC).
+Source: https://jjintern.com/companies
+Session: fresh isolated, logged-out, headless Chrome; CDP port 9346;
+temporary profile /tmp/jjintern-vertical-evidence-9346-20261017a.
+Viewport: 390 x 844 CSS pixels, deviceScaleFactor 2, mobile true;
+actual screenshot dimensions 780 x 1688 pixels; dark system preference.
+
+Input/result verified
+The directory started with an empty search and many company tiles.
+Actual mouse events focused the real public input. Nine Input.insertText
+events entered M / i / c / r / o / s / o / f / t, with a screenshot after
+each character. The final query is Microsoft and the final companyNames
+array contains exactly Microsoft. Nonmatching company tiles disappear.
+The final screenshot was visually inspected. Background, type stack and
+served shared stylesheet match the historical same-day dark capture.
+
+Assets
+directory-empty.png: genuine starting state.
+directory-01.png through directory-09.png: genuine discrete typed states.
+capture-record.json: observed query, body text, company names and CSS.
+manifest.json: source/date and SHA-256 checksums for the captured assets.
+capture.mjs: reproducible capture script adapted from the existing public
+capture tool; writes into this separate directory only.
+
+Safe scope
+Verifies only that public company-directory search filters visible company
+tiles by company name. Does not establish an open vacancy, employer
+partnership, save/watchlist persistence, alerts, application or hiring result.
+Editorial timing is not a product-response-speed measurement.
+
+Newly visible site displays
+The page header eventually displays 1218 live roles and the Microsoft card
+eventually displays 1 role. These were not checked against an employer's
+own vacancy page. The starting state still displays Loading roles and
+dashes. Keep numerical role displays outside the creative crop when the
+only supported claim is the demonstrated company-name search.
+
+Crop guidance for this exact PNG geometry
+The original suggested x32 y430 width716 height490 includes the search,
+company tile and its unverified role count near source y850.
+Using x32 y430 width716 height400 ends at y830: it retains the search,
+company title and description while excluding the role count. The crop is
+an editorial reframe of genuine captured pixels, not an invented interface.
+
+No authentication, personal profile, account creation, form submission,
+production-data mutation or public publishing occurred. The original
+historical captures and shared evidence files were not changed.

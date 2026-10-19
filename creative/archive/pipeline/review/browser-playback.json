@@ -1,0 +1,117 @@
+{
+  "performed": "Automated real-time browser decoding; visual assessment is recorded separately. This does not assert subjective human audio listening.",
+  "passes": [
+    {
+      "muted": true,
+      "wallSeconds": 21.014,
+      "observations": [
+        {
+          "time": 4.161046,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 255,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 8.362926,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 507,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 12.566155,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 759,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 16.771325,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1012,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 20,
+          "ended": true,
+          "paused": true,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1200,
+          "droppedFrames": 0,
+          "muted": true
+        }
+      ]
+    },
+    {
+      "muted": false,
+      "wallSeconds": 21.79,
+      "observations": [
+        {
+          "time": 4.656003,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1483,
+          "droppedFrames": 2,
+          "muted": false
+        },
+        {
+          "time": 8.86192,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1735,
+          "droppedFrames": 2,
+          "muted": false
+        },
+        {
+          "time": 13.109377,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1990,
+          "droppedFrames": 2,
+          "muted": false
+        },
+        {
+          "time": 17.359163,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 2245,
+          "droppedFrames": 2,
+          "muted": false
+        },
+        {
+          "time": 20,
+          "ended": true,
+          "paused": true,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 2400,
+          "droppedFrames": 2,
+          "muted": false
+        }
+      ]
+    }
+  ]
+}

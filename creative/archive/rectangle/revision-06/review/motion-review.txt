@@ -1,0 +1,18 @@
+Revision 06 — creative motion-test judgment
+17 October 2026. Reviewer: claims_qa agent.
+
+Recommend the full render. The small logo-echo refinement has been applied and inspected. Keep the current timing and shared-camera handoff. This is a substantially stronger response to the user's pacing complaint; the centered-reveal fallback is not needed.
+
+The quick collapse now leads directly into a packet that covers a meaningful distance across the frame. The source has enough time to register, then the mechanism does its work without waiting. The larger packet remains easy to recognize while moving. Trails communicate speed without overwhelming the white shape or the three information bars. The transition is quick enough that the action feels connected to the source rather than a second scene starting.
+
+The risky post-contact camera move works better than the proposed geometry sounded: the fading packet remains visible alongside the arriving logo and both share the same translation. This supplies a visual bridge across the direction change. In the actual decoded test sequence, the handoff moves from the packet's leading edge to the original mark and quickly resolves to one clean centered logo. The resulting beat reads as one arrival, not an unrelated logo entering from the opposite direction. Do not add a longer reveal, extra pause or more impact graphics.
+
+Polish applied and rechecked: the original 2.700-second sample made the three temporal logo echoes individually apparent, especially at native size. Their opacity has now been reduced from .035*(4-j) to .015*(4-j), with timing and the sharp main mark preserved. The refreshed native 2.700-second still is cleaner: the original silhouette owns the arrival and the echoes read as a light exposure. No further reduction or additional effect is needed. The image resolves entirely crisp for the settled hold.
+
+The updated Found. scale has more confidence. The thin horizontal blue accent gives a cleaner visual connection than the previous upright tick. The two-line payoff remains readable and the final sign-off is calm. Avoid adding movement to those reading holds. The user asked for a faster mechanism, not continuous distraction.
+
+Inspection basis: all four rendered boards; native 2.700-second handoff still; source timing and geometry; an actual MP4-decoded action sequence at 1.800, 1.900, 2.000, 2.100, 2.200, 2.300, 2.400, 2.500, 2.600, 2.650, 2.700, 2.750, 2.800 and 2.883 seconds. The temporary review sheet is /tmp/jjintern-r06-test-action-review.png. Root is separately running real-time browser playback. This review uses actual decoded visual samples and their timing; it does not claim subjective audio listening or that a metadata pass establishes premium taste.
+
+No new product-speed wording was added. The fast action remains an editorial impression of discovery, not a numerical latency promise. Original logo proportions and exact source/payoff copy are preserved.
+
+Decision: proceed with the 12-second full film using the now-applied quieter logo echoes. Relative to revision 05, the decisive collapse, substantially longer rightward travel and quick shared-camera arrival create a much crisper visual rhythm. Further decoration would dilute it. This assessment is based on decoded samples, timing and refreshed rendered frames, not a claim of human normal-speed viewing. Physical-phone viewing, real placement preview and subjective headphone/speaker audition remain separate checks.

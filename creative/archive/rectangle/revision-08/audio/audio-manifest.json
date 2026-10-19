@@ -1,0 +1,1557 @@
+{
+  "title": "JJIntern revision08 \u2014 original electronic breakbeat showreel cue",
+  "source": "build_score.py",
+  "output": "jjintern-revision-08-original-score.wav",
+  "provenance": "New composition and timbre design. Every sound is produced from analytic oscillators, seeded noise, resonant filters, saturation and envelopes. No previous audio, samples, recordings, stock loops, soundfonts, voiceover or impulse-response files are used. Rhythmic tail repeats are synthesized analytically.",
+  "external_audio_inputs": [],
+  "voiceover": false,
+  "duration_seconds": 18.0,
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "pcm_bit_depth": 24,
+  "samples_per_channel": 864000,
+  "tempo_bpm": 144,
+  "beat_seconds": 0.4166666666666667,
+  "random_seed": 80831081,
+  "tonal_palette": "F-sharp minor/pentatonic bass riff; octave/fifth power accents; no chord pads.",
+  "structure": "Isolated ding; sparse broken opening; mechanical morph; packet silence; three 144 BPM breakbeat bars spanning the full five-second flight; separate contact/swallow/lock; Found and readable payoff groove; 14-second brand downbeat; two-second rhythmic tail; decaying FM echoes.",
+  "timbre_changes_from_prior_revisions": [
+    "No sustained pads or major-ninth harmony",
+    "No soft pluck motif",
+    "Ten-harmonic saw bass through saturation and a resonant envelope filter",
+    "Dry noise/body snares and syncopated kick patterns",
+    "High-index metallic FM accents",
+    "Deliberate packet and pre-sign-off silence",
+    "144 BPM broken rhythm instead of half-time lounge groove"
+  ],
+  "synchronization": [
+    {
+      "at_s": 0.18,
+      "event": "prominent isolated editorial source ding"
+    },
+    {
+      "from_s": 2.0,
+      "to_s": 2.55,
+      "event": "fast granular morph texture"
+    },
+    {
+      "at_s": 2.08,
+      "event": "morph sync click one"
+    },
+    {
+      "at_s": 2.24,
+      "event": "morph sync click two"
+    },
+    {
+      "at_s": 2.42,
+      "event": "morph sync click three"
+    },
+    {
+      "at_s": 2.55,
+      "event": "packet lock"
+    },
+    {
+      "from_s": 2.72,
+      "to_s": 3.025,
+      "event": "quiet packet pause"
+    },
+    {
+      "at_s": 3.1,
+      "event": "launch and first breakbeat downbeat"
+    },
+    {
+      "from_s": 3.1,
+      "to_s": 8.1,
+      "event": "five-second accelerating air resistance, rhythm and brightness"
+    },
+    {
+      "at_s": 8.1,
+      "event": "receiver contact impact"
+    },
+    {
+      "at_s": 9.05,
+      "event": "swallowed latch within descending filtered texture"
+    },
+    {
+      "at_s": 9.25,
+      "event": "short final receiver lock"
+    },
+    {
+      "at_s": 10.2,
+      "event": "Found octave/fifth accent"
+    },
+    {
+      "at_s": 11.1,
+      "event": "first line edit tick"
+    },
+    {
+      "at_s": 11.35,
+      "event": "second line edit tick"
+    },
+    {
+      "from_s": 13.87,
+      "to_s": 14.0,
+      "event": "pre-resolve pocket"
+    },
+    {
+      "at_s": 14.0,
+      "event": "strong brand resolve"
+    },
+    {
+      "from_s": 14.0,
+      "to_s": 16.0,
+      "event": "tapered rhythmic tail"
+    },
+    {
+      "from_s": 16.0,
+      "to_s": 18.0,
+      "event": "decaying synthesized FM repeats, then zero endpoint"
+    }
+  ],
+  "flight_rhythm": {
+    "instantaneous_rate_hz_start_end": [
+      3.2,
+      12.0
+    ],
+    "integrated_phase": "5 * (3.2*u + 8.8*u^3/3)",
+    "tick_times_s": [
+      3.4113928730164162,
+      3.716412139531235,
+      4.009879993411664,
+      4.2884517028084925,
+      4.550582346945452,
+      4.796095164673465,
+      5.025671019806145,
+      5.240434916837534,
+      5.441680562918213,
+      5.630709878403172,
+      5.808750338316008,
+      5.976919214052691,
+      6.136213810748336,
+      6.287514987695863,
+      6.431596724700034,
+      6.569137824087624,
+      6.700733751147231,
+      6.826907674552535,
+      6.9481203346515255,
+      7.064778658168484,
+      7.177243177876539,
+      7.285834375265926,
+      7.390838082192181,
+      7.49251007482369,
+      7.591079981561938,
+      7.686754611654555,
+      7.779720796004289,
+      7.870147817667407,
+      7.958189497020362
+    ],
+    "intervals_s": [
+      0.3050192665148188,
+      0.29346785388042873,
+      0.27857170939682874,
+      0.26213064413695975,
+      0.24551281772801303,
+      0.22957585513267986,
+      0.2147638970313892,
+      0.20124564608067885,
+      0.18902931548495872,
+      0.178040459912836,
+      0.16816887573668282,
+      0.15929459669564494,
+      0.15130117694752698,
+      0.14408173700417137,
+      0.1375410993875903,
+      0.13159592705960677,
+      0.12617392340530387,
+      0.12121266009899045,
+      0.11665832351695826,
+      0.11246451970805538,
+      0.10859119738938716,
+      0.10500370692625438,
+      0.10167199263150906,
+      0.09856990673824839,
+      0.09567463009261701,
+      0.09296618434973425,
+      0.09042702166311756,
+      0.08804167935295482
+    ],
+    "strictly_decreasing_intervals_verified": true
+  },
+  "mastering": {
+    "target_integrated_lufs": -14.5,
+    "true_peak_ceiling_dbtp": -1.2,
+    "normalization_type": "dynamic",
+    "raw_synthesis_stats": {
+      "peak_dbfs": -11.087159217483391,
+      "rms_dbfs": -29.921934120386485
+    }
+  },
+  "measured_final": {
+    "integrated_lufs": -14.74,
+    "true_peak_dbtp": -1.17,
+    "loudness_range_lu": 11.4,
+    "sample_peak_dbfs": -1.1928213329253379,
+    "duration_seconds": 18.0,
+    "samples_per_channel": 864000,
+    "last_stereo_sample": [
+      0.0,
+      0.0
+    ],
+    "clipped_samples": 0
+  },
+  "aac_256k_roundtrip_check": {
+    "integrated_lufs": -14.71,
+    "true_peak_dbtp": -1.07
+  },
+  "inspection": {
+    "performed": [
+      "source and timing inspection",
+      "duration/sample count/codec verification",
+      "integrated loudness and true-peak analysis",
+      "endpoints and clipping",
+      "accelerating flight interval verification",
+      "256 kbps AAC encode/decode check",
+      "waveform image generated for visual inspection"
+    ],
+    "not_performed": [
+      "subjective human listening",
+      "physical-phone playback"
+    ],
+    "limitation": "Synthesis architecture, timing and measurements were inspected; subjective listening is not claimed."
+  },
+  "sha256": "84e1cf3dabc382419e545425f7b902db7520fde38c4f870bb35fa8ae42c96bed",
+  "events": [
+    {
+      "start_s": 0.18,
+      "duration_s": 0.66,
+      "gain": 0.115,
+      "pan": 0,
+      "kind": "prominent isolated source ding",
+      "fundamental_hz": 1479.9776908465376
+    },
+    {
+      "start_s": 0.6,
+      "duration_s": 0.24,
+      "gain": 0.17,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 0.6,
+      "duration_s": 0.22,
+      "gain": 0.11,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2340.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 0.8083333333,
+      "duration_s": 0.046,
+      "gain": 0.019,
+      "pan": -0.22,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 1.0166666667,
+      "duration_s": 0.17,
+      "gain": 0.105,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 1.4333333333,
+      "duration_s": 0.24,
+      "gain": 0.175,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 1.4333333333,
+      "duration_s": 0.19,
+      "gain": 0.105,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2340.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 1.6416666667,
+      "duration_s": 0.046,
+      "gain": 0.023,
+      "pan": 0.2,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 1.72,
+      "duration_s": 0.13,
+      "gain": 0.026,
+      "pan": -0.19,
+      "kind": "metallic FM hit",
+      "carrier_hz": 416,
+      "modulator_ratio": 2.73,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 1.85,
+      "duration_s": 0.11,
+      "gain": 0.075,
+      "pan": 0.07,
+      "kind": "ghost snare"
+    },
+    {
+      "start_s": 2.0,
+      "duration_s": 0.55,
+      "gain": 0.039,
+      "pan": -0.06,
+      "kind": "morph granulation and friction",
+      "direction": "up"
+    },
+    {
+      "start_s": 2.08,
+      "duration_s": 0.029,
+      "gain": 0.068,
+      "pan": -0.22,
+      "kind": "morph sync click one",
+      "frequency_hz": 2860
+    },
+    {
+      "start_s": 2.24,
+      "duration_s": 0.031,
+      "gain": 0.075,
+      "pan": 0.14,
+      "kind": "morph sync click two",
+      "frequency_hz": 2140
+    },
+    {
+      "start_s": 2.42,
+      "duration_s": 0.033,
+      "gain": 0.08,
+      "pan": -0.08,
+      "kind": "morph sync click three",
+      "frequency_hz": 1650
+    },
+    {
+      "start_s": 2.55,
+      "duration_s": 0.12,
+      "gain": 0.065,
+      "pan": 0,
+      "kind": "packet lock",
+      "carrier_hz": 335,
+      "modulator_ratio": 1.71,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 3.035,
+      "duration_s": 0.065,
+      "gain": 0.034,
+      "pan": -0.06,
+      "kind": "short launch intake",
+      "direction": "up"
+    },
+    {
+      "start_s": 3.1,
+      "duration_s": 0.028,
+      "gain": 0.04,
+      "pan": -0.25,
+      "kind": "launch edge",
+      "frequency_hz": 1200
+    },
+    {
+      "start_s": 3.1,
+      "duration_s": 0.24,
+      "gain": 0.21,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 3.1,
+      "duration_s": 0.26,
+      "gain": 0.125,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2340.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 3.1,
+      "duration_s": 5.0,
+      "kind": "five-second textured air-resistance rise",
+      "gain": 0.048,
+      "initial_level_fraction": 0.32,
+      "cutoff_start_end_hz": [
+        1900,
+        8100
+      ],
+      "pan_start_end": [
+        -0.45,
+        0.45
+      ],
+      "deterministic_noise_seed": 80831391
+    },
+    {
+      "start_s": 3.4113928730164162,
+      "duration_s": 0.03,
+      "gain": 0.01256050717142955,
+      "pan": -0.26263285523803004,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 5449.46857904788,
+      "normalized_flight_progress": 0.06227857460328323
+    },
+    {
+      "start_s": 3.4125,
+      "duration_s": 0.13,
+      "gain": 0.125,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2340.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 3.5166666666666666,
+      "duration_s": 0.17,
+      "gain": 0.128,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 3.716412139531235,
+      "duration_s": 0.03,
+      "gain": 0.013109541851156222,
+      "pan": -0.2260305432562518,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 5595.877826974993,
+      "normalized_flight_progress": 0.123282427906247
+    },
+    {
+      "start_s": 3.725,
+      "duration_s": 0.24,
+      "gain": 0.17,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 3.725,
+      "duration_s": 0.17,
+      "gain": 0.125,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2340.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 3.725,
+      "duration_s": 0.16,
+      "gain": 0.035,
+      "pan": -0.25,
+      "kind": "metallic FM hit",
+      "carrier_hz": 510,
+      "modulator_ratio": 2.73,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 4.009879993411664,
+      "duration_s": 0.03,
+      "gain": 0.013637783988140995,
+      "pan": -0.1908144007906003,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 5736.742396837599,
+      "normalized_flight_progress": 0.18197599868233283
+    },
+    {
+      "start_s": 4.245833333333334,
+      "duration_s": 0.24,
+      "gain": 0.17,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 4.245833333333334,
+      "duration_s": 0.16,
+      "gain": 0.125,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 40,
+      "fundamental_hz": 82.4068892282175,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2340.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 4.2884517028084925,
+      "duration_s": 0.03,
+      "gain": 0.014139213065055287,
+      "pan": -0.15738579566298086,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 5870.456817348077,
+      "normalized_flight_progress": 0.23769034056169858
+    },
+    {
+      "start_s": 4.35,
+      "duration_s": 0.17,
+      "gain": 0.128,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 4.550582346945452,
+      "duration_s": 0.03,
+      "gain": 0.014611048224501814,
+      "pan": -0.1259301183665457,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 5996.279526533817,
+      "normalized_flight_progress": 0.2901164693890905
+    },
+    {
+      "start_s": 4.5583333333,
+      "duration_s": 0.16,
+      "gain": 0.035,
+      "pan": 0.25,
+      "kind": "metallic FM hit",
+      "carrier_hz": 735,
+      "modulator_ratio": 2.73,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 4.766666666666667,
+      "duration_s": 0.24,
+      "gain": 0.21,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 4.766666666666667,
+      "duration_s": 0.22,
+      "gain": 0.125,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2662.5,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 4.796095164673465,
+      "duration_s": 0.03,
+      "gain": 0.015052971296412239,
+      "pan": -0.09646858023918412,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 6114.1256790432635,
+      "normalized_flight_progress": 0.33921903293469313
+    },
+    {
+      "start_s": 5.025671019806145,
+      "duration_s": 0.03,
+      "gain": 0.015466207835651061,
+      "pan": -0.06891947762326253,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 6224.32208950695,
+      "normalized_flight_progress": 0.3851342039612291
+    },
+    {
+      "start_s": 5.079166666666667,
+      "duration_s": 0.24,
+      "gain": 0.17,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 5.079166666666667,
+      "duration_s": 0.14,
+      "gain": 0.125,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 42,
+      "fundamental_hz": 92.4986056779086,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2662.5,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 5.183333333333334,
+      "duration_s": 0.17,
+      "gain": 0.128,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 5.240434916837534,
+      "duration_s": 0.03,
+      "gain": 0.015852782850307563,
+      "pan": -0.043147809979495855,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 6327.408760082017,
+      "normalized_flight_progress": 0.42808698336750695
+    },
+    {
+      "start_s": 5.441680562918213,
+      "duration_s": 0.03,
+      "gain": 0.016215025013252785,
+      "pan": -0.01899833244981436,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 6424.0066702007425,
+      "normalized_flight_progress": 0.4683361125836427
+    },
+    {
+      "start_s": 5.6,
+      "duration_s": 0.24,
+      "gain": 0.21,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 5.6,
+      "duration_s": 0.23,
+      "gain": 0.125,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2662.5,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 5.630709878403172,
+      "duration_s": 0.03,
+      "gain": 0.01655527778112571,
+      "pan": 0.003685185408380698,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 6514.740741633523,
+      "normalized_flight_progress": 0.5061419756806345
+    },
+    {
+      "start_s": 5.8083333333,
+      "duration_s": 0.16,
+      "gain": 0.035,
+      "pan": -0.18,
+      "kind": "metallic FM hit",
+      "carrier_hz": 620,
+      "modulator_ratio": 2.73,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 5.808333333333334,
+      "duration_s": 0.24,
+      "gain": 0.17,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 5.808750338316008,
+      "duration_s": 0.03,
+      "gain": 0.016875750608968815,
+      "pan": 0.025050040597920986,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 6600.200162391684,
+      "normalized_flight_progress": 0.5417500676632017
+    },
+    {
+      "start_s": 5.9125,
+      "duration_s": 0.11,
+      "gain": 0.048,
+      "pan": 0.07,
+      "kind": "ghost snare"
+    },
+    {
+      "start_s": 5.976919214052691,
+      "duration_s": 0.03,
+      "gain": 0.017178454585294843,
+      "pan": 0.045230305686322914,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 6680.921222745292,
+      "normalized_flight_progress": 0.5753838428105382
+    },
+    {
+      "start_s": 6.016666666666667,
+      "duration_s": 0.17,
+      "gain": 0.128,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 6.136213810748336,
+      "duration_s": 0.03,
+      "gain": 0.017465184859347005,
+      "pan": 0.06434565728980035,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 6757.382629159201,
+      "normalized_flight_progress": 0.6072427621496672
+    },
+    {
+      "start_s": 6.225,
+      "duration_s": 0.13,
+      "gain": 0.125,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 33,
+      "fundamental_hz": 55.0,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2662.5,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 6.287514987695863,
+      "duration_s": 0.03,
+      "gain": 0.017737526977852552,
+      "pan": 0.08250179852350359,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 6830.007194094014,
+      "normalized_flight_progress": 0.6375029975391726
+    },
+    {
+      "start_s": 6.431596724700034,
+      "duration_s": 0.03,
+      "gain": 0.01799687410446006,
+      "pan": 0.09979160696400413,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 6899.1664278560165,
+      "normalized_flight_progress": 0.6663193449400069
+    },
+    {
+      "start_s": 6.433333333333334,
+      "duration_s": 0.24,
+      "gain": 0.21,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 6.433333333333334,
+      "duration_s": 0.26,
+      "gain": 0.125,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2985.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 6.569137824087624,
+      "duration_s": 0.03,
+      "gain": 0.018244448083357723,
+      "pan": 0.11629653889051494,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 6965.18615556206,
+      "normalized_flight_progress": 0.6938275648175249
+    },
+    {
+      "start_s": 6.700733751147231,
+      "duration_s": 0.03,
+      "gain": 0.018481320752065017,
+      "pan": 0.13208805013766778,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7028.352200550671,
+      "normalized_flight_progress": 0.7201467502294463
+    },
+    {
+      "start_s": 6.826907674552535,
+      "duration_s": 0.03,
+      "gain": 0.018708433814194562,
+      "pan": 0.14722892094630424,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7088.915683785217,
+      "normalized_flight_progress": 0.7453815349105071
+    },
+    {
+      "start_s": 6.85,
+      "duration_s": 0.16,
+      "gain": 0.035,
+      "pan": 0.18,
+      "kind": "metallic FM hit",
+      "carrier_hz": 830,
+      "modulator_ratio": 2.73,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 6.8500000000000005,
+      "duration_s": 0.17,
+      "gain": 0.128,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 6.9481203346515255,
+      "duration_s": 0.03,
+      "gain": 0.018926616602372746,
+      "pan": 0.1617744401581831,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7147.097760632732,
+      "normalized_flight_progress": 0.7696240669303052
+    },
+    {
+      "start_s": 7.064778658168484,
+      "duration_s": 0.03,
+      "gain": 0.01913660158470327,
+      "pan": 0.17577343898021808,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7203.093755920872,
+      "normalized_flight_progress": 0.7929557316336968
+    },
+    {
+      "start_s": 7.1625000000000005,
+      "duration_s": 0.24,
+      "gain": 0.17,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 7.1625000000000005,
+      "duration_s": 0.15,
+      "gain": 0.125,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 40,
+      "fundamental_hz": 82.4068892282175,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2985.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 7.177243177876539,
+      "duration_s": 0.03,
+      "gain": 0.01933903772017777,
+      "pan": 0.18926918134518472,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7257.076725380739,
+      "normalized_flight_progress": 0.8154486355753079
+    },
+    {
+      "start_s": 7.285834375265926,
+      "duration_s": 0.03,
+      "gain": 0.019534501875478668,
+      "pan": 0.20230012503191114,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7309.200500127645,
+      "normalized_flight_progress": 0.8371668750531853
+    },
+    {
+      "start_s": 7.390838082192181,
+      "duration_s": 0.03,
+      "gain": 0.019723508547945925,
+      "pan": 0.21490056986306166,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7359.602279452247,
+      "normalized_flight_progress": 0.8581676164384362
+    },
+    {
+      "start_s": 7.4750000000000005,
+      "duration_s": 0.24,
+      "gain": 0.17,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 7.4750000000000005,
+      "duration_s": 0.15,
+      "gain": 0.125,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2985.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 7.49251007482369,
+      "duration_s": 0.03,
+      "gain": 0.01990651813468264,
+      "pan": 0.22710120897884284,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7408.404835915371,
+      "normalized_flight_progress": 0.878502014964738
+    },
+    {
+      "start_s": 7.591079981561938,
+      "duration_s": 0.03,
+      "gain": 0.02008394396681149,
+      "pan": 0.23892959778743256,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7455.71839114973,
+      "normalized_flight_progress": 0.8982159963123877
+    },
+    {
+      "start_s": 7.6833333333,
+      "duration_s": 0.16,
+      "gain": 0.035,
+      "pan": -0.16,
+      "kind": "metallic FM hit",
+      "carrier_hz": 470,
+      "modulator_ratio": 2.73,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 7.683333333333334,
+      "duration_s": 0.17,
+      "gain": 0.128,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 7.686754611654555,
+      "duration_s": 0.03,
+      "gain": 0.020256158300978197,
+      "pan": 0.2504105533985466,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7501.642213594187,
+      "normalized_flight_progress": 0.9173509223309111
+    },
+    {
+      "start_s": 7.779720796004289,
+      "duration_s": 0.03,
+      "gain": 0.02042349743280772,
+      "pan": 0.26156649552051475,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7546.265982082059,
+      "normalized_flight_progress": 0.9359441592008579
+    },
+    {
+      "start_s": 7.870147817667407,
+      "duration_s": 0.03,
+      "gain": 0.020586266071801335,
+      "pan": 0.2724177381200889,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7589.6709524803555,
+      "normalized_flight_progress": 0.9540295635334815
+    },
+    {
+      "start_s": 7.8916666666666675,
+      "duration_s": 0.24,
+      "gain": 0.17,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 7.8916666666666675,
+      "duration_s": 0.15,
+      "gain": 0.125,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2985.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 7.958189497020362,
+      "duration_s": 0.03,
+      "gain": 0.02074474109463665,
+      "pan": 0.2829827396424434,
+      "kind": "accelerating air-rhythm tick",
+      "upper_noise_filter_hz": 7631.930958569774,
+      "normalized_flight_progress": 0.9716378994040724
+    },
+    {
+      "start_s": 7.995833333333334,
+      "duration_s": 0.11,
+      "gain": 0.052,
+      "pan": 0.07,
+      "kind": "ghost snare"
+    },
+    {
+      "start_s": 8.1,
+      "duration_s": 0.34,
+      "gain": 0.265,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 43
+    },
+    {
+      "start_s": 8.1,
+      "duration_s": 0.36,
+      "gain": 0.14,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2985.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 8.1,
+      "duration_s": 0.24,
+      "gain": 0.1,
+      "pan": 0.05,
+      "kind": "receiver contact impact",
+      "carrier_hz": 270,
+      "modulator_ratio": 1.63,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 8.82,
+      "duration_s": 0.36,
+      "gain": 0.072,
+      "pan": -0.06,
+      "kind": "receiver swallow filter fall",
+      "direction": "down"
+    },
+    {
+      "start_s": 9.05,
+      "duration_s": 0.035,
+      "gain": 0.077,
+      "pan": -0.04,
+      "kind": "receiver swallowed latch",
+      "frequency_hz": 920
+    },
+    {
+      "start_s": 9.25,
+      "duration_s": 0.13,
+      "gain": 0.064,
+      "pan": 0,
+      "kind": "receiver final lock",
+      "carrier_hz": 382,
+      "modulator_ratio": 1.37,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 10.2,
+      "duration_s": 0.24,
+      "gain": 0.23,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 10.2,
+      "duration_s": 0.32,
+      "gain": 0.14,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2447.5,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 10.2,
+      "duration_s": 0.27,
+      "gain": 0.064,
+      "pan": -0.15,
+      "kind": "Found octave power accent",
+      "carrier_hz": 184.9972113558172,
+      "modulator_ratio": 2.0,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 10.2,
+      "duration_s": 0.23,
+      "gain": 0.036,
+      "pan": 0.15,
+      "kind": "Found fifth accent",
+      "carrier_hz": 277.1826309768721,
+      "modulator_ratio": 2.0,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 10.4083333333,
+      "duration_s": 0.046,
+      "gain": 0.019,
+      "pan": 0.23,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 10.6166666667,
+      "duration_s": 0.17,
+      "gain": 0.105,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 10.825,
+      "duration_s": 0.17,
+      "gain": 0.115,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2125.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 10.825,
+      "duration_s": 0.046,
+      "gain": 0.019,
+      "pan": -0.23,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 11.0333333333,
+      "duration_s": 0.24,
+      "gain": 0.17,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 11.1,
+      "duration_s": 0.027,
+      "gain": 0.025,
+      "pan": -0.13,
+      "kind": "first payoff line edit tick",
+      "frequency_hz": 1720
+    },
+    {
+      "start_s": 11.2416666667,
+      "duration_s": 0.046,
+      "gain": 0.019,
+      "pan": 0.23,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 11.35,
+      "duration_s": 0.027,
+      "gain": 0.025,
+      "pan": 0.13,
+      "kind": "second payoff line edit tick",
+      "frequency_hz": 2190
+    },
+    {
+      "start_s": 11.45,
+      "duration_s": 0.22,
+      "gain": 0.115,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2125.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 11.45,
+      "duration_s": 0.17,
+      "gain": 0.105,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 11.6583333333,
+      "duration_s": 0.046,
+      "gain": 0.019,
+      "pan": -0.23,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 11.8666666667,
+      "duration_s": 0.24,
+      "gain": 0.17,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 12.075,
+      "duration_s": 0.17,
+      "gain": 0.115,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 40,
+      "fundamental_hz": 82.4068892282175,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2125.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 12.075,
+      "duration_s": 0.046,
+      "gain": 0.019,
+      "pan": 0.23,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 12.2833333333,
+      "duration_s": 0.17,
+      "gain": 0.105,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 12.4916666667,
+      "duration_s": 0.046,
+      "gain": 0.019,
+      "pan": -0.23,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 12.7,
+      "duration_s": 0.2,
+      "gain": 0.115,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2125.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 12.7,
+      "duration_s": 0.24,
+      "gain": 0.17,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 12.9083333333,
+      "duration_s": 0.046,
+      "gain": 0.019,
+      "pan": 0.23,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 13.1166666667,
+      "duration_s": 0.17,
+      "gain": 0.105,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 13.325,
+      "duration_s": 0.17,
+      "gain": 0.115,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2125.0,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 13.325,
+      "duration_s": 0.24,
+      "gain": 0.17,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 13.5333333333,
+      "duration_s": 0.046,
+      "gain": 0.019,
+      "pan": -0.23,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 14.0,
+      "duration_s": 0.32,
+      "gain": 0.245,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 46
+    },
+    {
+      "start_s": 14.0,
+      "duration_s": 0.48,
+      "gain": 0.145,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 2017.5,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 14.0,
+      "duration_s": 0.3,
+      "gain": 0.08,
+      "pan": -0.1,
+      "kind": "brand resolve octave",
+      "carrier_hz": 184.9972113558172,
+      "modulator_ratio": 2.0,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 14.0,
+      "duration_s": 0.25,
+      "gain": 0.039,
+      "pan": 0.12,
+      "kind": "brand resolve fifth",
+      "carrier_hz": 277.1826309768721,
+      "modulator_ratio": 2.0,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 14.2083333333,
+      "duration_s": 0.046,
+      "gain": 0.019,
+      "pan": -0.15,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 14.4166666667,
+      "duration_s": 0.17,
+      "gain": 0.09,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 14.625,
+      "duration_s": 0.24,
+      "gain": 0.16,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 14.625,
+      "duration_s": 0.18,
+      "gain": 0.1,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 1802.5,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 14.8333333333,
+      "duration_s": 0.046,
+      "gain": 0.017,
+      "pan": -0.15,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 15.0416666667,
+      "duration_s": 0.17,
+      "gain": 0.068,
+      "pan": 0.07,
+      "kind": "dry noise-and-oscillator snare"
+    },
+    {
+      "start_s": 15.25,
+      "duration_s": 0.24,
+      "gain": 0.13,
+      "pan": 0,
+      "kind": "punchy clipped-sine kick",
+      "body_hz": 52
+    },
+    {
+      "start_s": 15.25,
+      "duration_s": 0.18,
+      "gain": 0.085,
+      "pan": 0,
+      "kind": "gritty resonant bass stab",
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "harmonics": 10,
+      "distortion_drive": 2.6,
+      "filter_cutoff_start_hz": 1802.5,
+      "filter_cutoff_floor_hz": 190,
+      "filter_envelope_decay_s": 0.052,
+      "filter_damping": 0.58
+    },
+    {
+      "start_s": 15.4583333333,
+      "duration_s": 0.046,
+      "gain": 0.014,
+      "pan": -0.15,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 15.58,
+      "duration_s": 0.23,
+      "gain": 0.035,
+      "pan": 0.32,
+      "kind": "synthesized rhythmic tail repeat",
+      "carrier_hz": 467,
+      "modulator_ratio": 2.73,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 15.6666666667,
+      "duration_s": 0.11,
+      "gain": 0.047,
+      "pan": 0.07,
+      "kind": "ghost snare"
+    },
+    {
+      "start_s": 15.825,
+      "duration_s": 0.255,
+      "gain": 0.016800000000000002,
+      "pan": -0.32,
+      "kind": "synthesized rhythmic tail repeat",
+      "carrier_hz": 467,
+      "modulator_ratio": 2.65,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 15.875,
+      "duration_s": 0.046,
+      "gain": 0.011,
+      "pan": -0.15,
+      "kind": "dry high-pass metallic tick",
+      "upper_noise_filter_hz": 6700
+    },
+    {
+      "start_s": 16.07,
+      "duration_s": 0.28,
+      "gain": 0.008064,
+      "pan": 0.32,
+      "kind": "synthesized rhythmic tail repeat",
+      "carrier_hz": 467,
+      "modulator_ratio": 2.57,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 16.315,
+      "duration_s": 0.30500000000000005,
+      "gain": 0.00387072,
+      "pan": -0.32,
+      "kind": "synthesized rhythmic tail repeat",
+      "carrier_hz": 467,
+      "modulator_ratio": 2.49,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 16.56,
+      "duration_s": 0.33,
+      "gain": 0.0018579456,
+      "pan": 0.32,
+      "kind": "synthesized rhythmic tail repeat",
+      "carrier_hz": 467,
+      "modulator_ratio": 2.41,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 16.805,
+      "duration_s": 0.355,
+      "gain": 0.0008918138879999999,
+      "pan": -0.32,
+      "kind": "synthesized rhythmic tail repeat",
+      "carrier_hz": 467,
+      "modulator_ratio": 2.33,
+      "initial_fm_index": 8.85
+    },
+    {
+      "start_s": 17.05,
+      "duration_s": 0.38,
+      "gain": 0.00042807066624,
+      "pan": 0.32,
+      "kind": "synthesized rhythmic tail repeat",
+      "carrier_hz": 467,
+      "modulator_ratio": 2.25,
+      "initial_fm_index": 8.85
+    }
+  ]
+}

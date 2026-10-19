@@ -1,0 +1,32 @@
+{
+  "checked": "2026-10-17",
+  "captured_at_utc": "2026-10-17T14:02:06.617Z",
+  "action": "Actual Open application click on Microsoft Research Intern opened the generic employer portal; isolated JJIntern UI subsequently displayed Applied. No application or form was submitted.",
+  "before": [
+    {
+      "id": "5465D6B1B2F2036BFF191CD299A6590F",
+      "type": "page",
+      "title": "JJ Intern — Real-time internship alerts for Singapore students",
+      "url": "https://jjintern.com/feed"
+    }
+  ],
+  "after": [
+    {
+      "id": "87A1C8E46B5A3D35A43700E1157E6C46",
+      "type": "page",
+      "title": "Careers at Microsoft",
+      "url": "https://apply.careers.microsoft.com/careers"
+    },
+    {
+      "id": "5465D6B1B2F2036BFF191CD299A6590F",
+      "type": "page",
+      "title": "JJ Intern — Real-time internship alerts for Singapore students",
+      "url": "https://jjintern.com/feed"
+    }
+  ],
+  "samePage": {
+    "url": "https://jjintern.com/feed",
+    "text": "JJ Intern\nSign in\nFind\nTargets\nPlan\nTrack\nOPEN ROLES\n1,218\nLAST 24H\n8\nAll roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓\nMicrosoft\n1 Sept\nResearch Intern\n—\nOther\n·\n1 Sept\n↗\nApplied\n\nMicrosoft\n\nResearch Intern\nSingapore, Singapore, Singapore\nUnknown\nPosted 1 Sept\nvia Microsoft\n\nLast seen at source 21h ago.\n\nABOUT THIS ROLE\n\nMicrosoft is hiring a research intern in Singapore, Singapore, Singapore. Part of the Other track. Apply directly through the company portal.\n\nDETAILS\nLocation\nSingapore, Singapore, Singapore\nPeriod\nUnknown\nPosted\n1 Sept\nSource\nMicrosoft\nType\nInternship\nTRACKS\nOther\nSTATUS\n↗\nApplied\nOpen application →\nvia Microsoft\nSynapxe\n2w ago\nUni Internship Jan to July 2027 - Microsoft Dynamics CRM System Implementation & Testing\nSpring Off-cycle\nOther\n·\n2w ago\n+\nSet status\n\n2 roles · you've seen them all"
+  },
+  "limit": "Generic employer destination does not confirm a role-specific current vacancy. Clean feed/search screenshots predate the Applied UI side effect."
+}

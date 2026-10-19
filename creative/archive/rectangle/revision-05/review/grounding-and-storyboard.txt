@@ -1,0 +1,49 @@
+Revision 05 — independent grounding and motion storyboard
+Reviewed: 17 October 2026, Europe/Stockholm.
+Scope: user-approved three style frames and requested 18.000-second animation.
+
+AUTHORIZATION AND EVIDENCE
+The current user attachment explicitly approves revision 05, authorizes the short motion test/refinement and the full animation/audio. Historical “awaiting approval” notes describe earlier status; they do not require another approval. This review does not alter those historical notes or the global claims ledger.
+
+Applicable claim: CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017 in creative/claims/ledger.json. Its editorial-approved scope permits Found. / We handle the finding. / You focus on applying. / JJIntern. Microsoft SWE Internship is a user-selected editorial label, not a verified current vacancy, exact live role title, employer endorsement, new posting or actual ingestion event. Availability and ingestion latency remain unknown. The new brief has no live product UI or demonstrated interaction; a fresh website capture is unnecessary for this abstract treatment. Historical feed/programme evidence remains contextual only.
+
+The owner's check cadence is not on-screen copy for this version. No numeric interval, Instant, Real-time, complete coverage, matching, application automation or hiring promise may be added. The two-second flight is an editorial transition, not measured discovery speed.
+
+Approved design was independently inspected: 01-source.png, 02-packet.png, 03-logo.png and source/styleframes.html. Palette is background #edf3ff, white surfaces, ink #203145 and blue #0071e3. Source typography follows the supplied system-sans stack. No browser, feed, photographs, people, extra source labels, domain, briefcase, decorative 3D or altered logo.
+
+LOGO AND GEOMETRY
+The original 512x512 RGBA logo at creative/assets/evidence/product/logo-mark.png has SHA-256 56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c. Direct PNG alpha analysis found nonzero-alpha bbox [45,102,478,491]; alpha>=128 bbox [50,111,464,486]. These are half-open pixel bounds.
+
+Approved whole-image draw rectangle [330,715,420,420] gives solid silhouette bbox approximately [371.016,806.055,710.625,1113.672] and solid center [540.820,959.863]. Fringe bbox is approximately [366.914,798.672,722.109,1117.773]. Center the visible mark, not the square file. Preserve square scale, original pixels and colour. Never redraw, warp, trace or recolour it.
+
+The approved packet is 580x340. At its exact still position it has insufficient horizontal room for an intelligible flight plus fully visible receiver. A continuous compression to approximately 0.62 scale (360x211) is a reasonable motion adaptation; the three bars remain legible at phone-equivalent size. Example staging: packet left65/right425 at4.500, then right640 at6.500; intact logo solid left640 appears at contact, then settles to the approved centered draw rectangle by7.100. At contact the initial logo draw x is about598.984 and its full-alpha right991.093, keeping the intact asset on-screen. The entire logo can translate uniformly during the handoff without deforming it. This is a staging recommendation, not a replacement approval frame.
+
+Avoid a 0.74 packet plus receiver centered around915: it risks clipping the logo during reveal and requires an unnecessarily large recenter movement. Keep a stationary camera, measurable positive horizontal packet displacement and no precontact braking. A right-edge pulse or mask may connect packet and logo, but all connector/packet/trail graphics must disappear by the completed logo-only hold.
+
+SHOT PLAN / EXACT COPY / PURPOSE
+0.000–3.000 SOURCE: White tile contains only Microsoft above larger SWE Internship. Small settling movement plus one delicate synthesized ding; establish promptly, then hold. Purpose: immediate understandable source label. No employer mark or vacancy metadata.
+3.000–4.500 COMPRESSION: The same boundary narrows into the rectangular packet; lettering compacts into three abstract bars and the leading right edge becomes blue. Transform geometry continuously; no tile replacement or jump at4.500. Quiet synthesized friction/closure follows the compression.
+4.500–6.500 FLIGHT: Packet travels left to right for exactly2.000 seconds with x=x_start+(x_end-x_start)*(0.12*u+0.88*u^3), u=clamp((t-4.500)/2,0,1). Trail strokes stay left and lengthen with speed; restrained pressure arc stays right. No spin, smoke, fire, tunnel, distorted silhouette, camera cancellation or ease-out. Purpose: connect source information to destination.
+6.500–10.000 RECEIVER: Arrival occurs exactly6.500; connected blue-edge handoff reveals the original intact logo through mask/opacity. Complete by approximately7.100, settle at approved center and hold. Only original logo on pale background after handoff; no JJIntern text, feed or lingering graphics.
+10.000–10.600 FOUND: Introduce exactly Found. with a small harmonic opening and confident readable scale. Keep the graphic link measured and brief.
+10.600–11.300 PAYOFF REVEAL: Transition to We handle the finding. then You focus on applying. with a slight rhythmic offset. Both full lines must be readable by11.300.
+11.300–15.000 PAYOFF HOLD: Exact two lines remain stable and readable. No unnecessary movement, URL or added claims.
+15.000–18.000 SIGN-OFF: Resolve promptly to JJIntern alone and hold through final frame. This textual sign-off is separately authorized; the earlier receiver remains logo only. No tagline, button, URL or added CTA.
+
+AUDIO SCOPE
+Entirely new deterministic mathematical synthesis: dry percussion, warm oscillator bass, restrained evolving harmony, oscillators/noise/filters/envelopes only. No samples, recordings, stock loops, reused soundtrack or voiceover. The supplied attachment ends at “Quiet friction and closure”; no additional omitted text is assumed. Required timing cues include source ding and compression friction/closure; small harmonic opening at10.000 is separately required in the timeline. Compose restrained flight/contact and final resolution cues as reversible implementation choices. Document synthesis sources and verify exact18.000 duration, no clipping/clicks and intelligible low-volume balance.
+
+QA ACCEPTANCE / SPECIFIC RISKS
+Timing: Inspect actual encoded duration and frame count, not only renderer configuration. At120fps flight frames540–779, contact780 and total2160 frames; at60fps frames270–389, contact390 and total1080 frames. Last frame begins17.991667 or17.983333 respectively and holds sign-off; exact stream end18.000.
+Continuity: Inspect frames bracketing3.000,4.500,6.500 and7.100. Boundary and three bars must be related, flight position continuous, speed increasing, handoff causally connected. Static camera prevents cancellation. Logo proportion remains1:1 whole-asset throughout.
+Readability: Source exact lines clear at digital360px width; both payoff lines fully visible11.300–15.000; sign-off stable through end. Inspect actual full-resolution and phone-equivalent encoded frames for clipping, font fallback, contrast, artifacts and small-logo edge softness.
+Content: Only permitted text/graphics in each beat. No live-vacancy implication or extra claim. No private data exists in the abstract source/mark assets. Original logo provenance retained; synthesized soundtrack has no sampled source dependency.
+Review: Inspect short motion test before full render; record concrete fixes. Inspect final representative frames and continuous muted playback; inspect final audio and sound playback using available tooling. Never mark physical-phone, upload-preview or perceptual listening performed if it was not.
+
+RUBRIC INTERPRETATION
+Idea/hook/payoff: selected source-to-discovery-relief concept and exact payoff are coherent; final motion must prove the connection.
+Shot value/motion: compression, flight and handoff have jobs; reading holds must remain stable. A disconnected slideshow would fail.
+Product/claims: this is an explicitly editorial brand metaphor, not tested UI proof. Do not imply the film establishes discovery latency or ingestion.
+Copy/design: user-approved source and exact payoff take precedence over proposed default dark style. The user explicitly prohibits a CTA, so rubric CTA should be N/A with this brief recorded, not repaired by adding a URL.
+Distinctness: source boundary morph and edge handoff differ from repeated slide-card animation; actual continuous render still needs review.
+Status now: concept selected/user-approved; assets available and original logo inspected; motion artifact pending; release conditional on actual render checks plus physical-phone/placement preview. Pending external release checks do not stop reversible local rendering.

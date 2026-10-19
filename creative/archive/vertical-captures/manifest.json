@@ -1,0 +1,89 @@
+{
+  "checked": "2026-10-17",
+  "captured_at_utc": "2026-10-17T13:43:03.379Z",
+  "timezone": "Europe/Stockholm",
+  "source": "https://jjintern.com/companies",
+  "context": "Public logged-out screenshots; not employer-confirmed vacancies or a licence grant",
+  "files": [
+    {
+      "path": "capture-record.json",
+      "sha256": "362b7332cf3ae6f3593344d0005baad52a4d7ec3436a95cb68dcafdfe59a3169",
+      "bytes": 25144
+    },
+    {
+      "path": "directory-empty.png",
+      "sha256": "36860de91f1fe570fe43099e29eb444b8efceb1286fb289cb927ae58a9cce968",
+      "bytes": 140352
+    },
+    {
+      "path": "directory-01.png",
+      "sha256": "0a28764b195f28189a3fab5bdc8f30adbb715975c96b4bd71c5a6e8645666656",
+      "bytes": 140095
+    },
+    {
+      "path": "directory-02.png",
+      "sha256": "fca48134966dc16500b3d3e0608e07e5bc0fa3dd67ab0ba2392df89dbebf128a",
+      "bytes": 139114
+    },
+    {
+      "path": "directory-03.png",
+      "sha256": "7ea45ee30cfaadca0fd3664070113ad2dca7088a638589477ed0c91a205cf6eb",
+      "bytes": 82428
+    },
+    {
+      "path": "directory-04.png",
+      "sha256": "c3e4aeeb20a7072ec7c4dabcf4cf4f9867e049e43d5b297cea1bab4a722ffc99",
+      "bytes": 82548
+    },
+    {
+      "path": "directory-05.png",
+      "sha256": "838f1926b5ac17cd6c72534b22c94cb1cfb58b8e052e5d75f34d55902987caad",
+      "bytes": 82984
+    },
+    {
+      "path": "directory-06.png",
+      "sha256": "8b15600be9d8d6e7ff618272ced2143f29114942b158c8cd64eb9258bfcc6086",
+      "bytes": 83392
+    },
+    {
+      "path": "directory-07.png",
+      "sha256": "921b977fca921f4cb84c20beaa6f18b800eaa75c6d0be01c2b954e86a0d12810",
+      "bytes": 83742
+    },
+    {
+      "path": "directory-08.png",
+      "sha256": "a98013d1d4c5e155445b80b9d13c12d49e1ea1cbbef6eaea8eec0af1b9e8cb40",
+      "bytes": 83903
+    },
+    {
+      "path": "directory-09.png",
+      "sha256": "93f49026ddff577b8b9ed6ba10407350e40b3f17c0726ee8d628210d16c10a3f",
+      "bytes": 88476
+    },
+    {
+      "path": "capture-note.txt",
+      "sha256": "b9eb39a91a5fed80b6105e57c985cf0628398f97d17148593bd572a9ef6f9ab3",
+      "bytes": 2633
+    },
+    {
+      "path": "capture.mjs",
+      "sha256": "dee04c5c700fb29fab35b5e4862d9a888c67844eb1edcca02b14ada5168bed9a",
+      "bytes": 4531
+    }
+  ],
+  "viewport": {
+    "css_width": 390,
+    "css_height": 844,
+    "device_scale_factor": 2,
+    "png_width": 780,
+    "png_height": 1688,
+    "mobile": true
+  },
+  "session": {
+    "logged_in": false,
+    "isolated_profile": true,
+    "cdp_port": 9346
+  },
+  "verified_behavior": "Actual typed company-name search Microsoft narrows visible companyNames to exactly Microsoft",
+  "limits": "No employer-confirmed vacancy, save/watchlist persistence, alert, application, partnership or hiring outcome verified. Edited capture timing is not a speed measurement."
+}

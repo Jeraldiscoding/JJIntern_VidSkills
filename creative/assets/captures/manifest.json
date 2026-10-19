@@ -1,0 +1,62 @@
+{
+  "checked": "2026-10-17",
+  "source": "https://jjintern.com/companies",
+  "context": "Public logged-out screenshots; not employer-confirmed vacancies or a licence grant",
+  "files": [
+    {
+      "path": "capture-record.json",
+      "sha256": "635359fe10438fd313530ae96ba8a673e41b63b292e6a6fe744b1e98ca9197a5",
+      "bytes": 26011
+    },
+    {
+      "path": "directory-empty.png",
+      "sha256": "7fdca97834ca78cac122d5f12dc6fbea9eb1a74f88241306a47d02e350748d79",
+      "bytes": 152174
+    },
+    {
+      "path": "directory-01.png",
+      "sha256": "0fc648ff7869868f5dd496329179784acc6c9b572ac9f9d0cb78f69177573992",
+      "bytes": 145751
+    },
+    {
+      "path": "directory-02.png",
+      "sha256": "d08cb12b681084ab328fdab2e4950855e8972fd8ad70f0077ed1dd09c62ed33e",
+      "bytes": 142743
+    },
+    {
+      "path": "directory-03.png",
+      "sha256": "e51383fef333d35658ef583c143759e5a90937b885270513d5b62d0f93041b06",
+      "bytes": 87248
+    },
+    {
+      "path": "directory-04.png",
+      "sha256": "ec3d8377eee586d58a22fabdfa530d544de324840718a6292a54c8aec0cc9991",
+      "bytes": 87345
+    },
+    {
+      "path": "directory-05.png",
+      "sha256": "94e3bb6b861e6a28dc84521ab1309fd52b7003658798d45807c3f1bf223bdd90",
+      "bytes": 87728
+    },
+    {
+      "path": "directory-06.png",
+      "sha256": "f01d9653a67cc799080203a89a38e221224789f8577dc1a6d02554df65ed5550",
+      "bytes": 88120
+    },
+    {
+      "path": "directory-07.png",
+      "sha256": "359463de34d146f88e6d5ec3eb99d2afe05ed36ebf08c830513260e5ffd0b926",
+      "bytes": 88464
+    },
+    {
+      "path": "directory-08.png",
+      "sha256": "fcc6d1e759a2481579550f6646a3ef8730bbab2ba916c3470d72ba80d37d88f9",
+      "bytes": 88615
+    },
+    {
+      "path": "directory-09.png",
+      "sha256": "926553dd039d11af82d0a233ef849905e5c89724784a8238db5d43255f17426c",
+      "bytes": 88757
+    }
+  ]
+}

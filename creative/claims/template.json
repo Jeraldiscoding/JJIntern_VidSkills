@@ -1,0 +1,72 @@
+{
+  "id": "REPLACE-WITH-STABLE-ID",
+  "type": "opportunity",
+  "status": "draft",
+  "claim_text": null,
+  "employer": null,
+  "exact_role_or_programme": null,
+  "role_scope": "unknown",
+  "requisition_id": null,
+  "location": {
+    "advertised_work_location": null,
+    "country": null,
+    "eligibility_geography": null,
+    "status": "unknown"
+  },
+  "programme_year": null,
+  "programme_year_status": "unknown",
+  "compensation": {
+    "amount": null,
+    "currency_iso": null,
+    "pay_period": null,
+    "base_or_total": null,
+    "gross_or_net": null,
+    "employer_confirmed_or_reported_estimate": null,
+    "status": "unknown",
+    "original_source_wording": null,
+    "derived_calculation": null,
+    "calculation_formula": null,
+    "fx_source_and_date": null,
+    "context_to_show": []
+  },
+  "availability": {
+    "status": "unknown",
+    "intake": null,
+    "deadline": null,
+    "application_url": null,
+    "application_destination_inspected": false,
+    "basis": null
+  },
+  "sources": [
+    {
+      "url_or_repo_path": null,
+      "owner": null,
+      "primary": false,
+      "source_type": "unknown",
+      "published_at": null,
+      "checked_at": null,
+      "inspection_method": null,
+      "supporting_section": null,
+      "finding_paraphrase": null,
+      "short_quote_optional": null,
+      "evidence_asset_path": null,
+      "access_limitations": null
+    }
+  ],
+  "qualifications": {
+    "must_appear_on_screen_with_claim": [],
+    "must_appear_in_caption_or_destination": [],
+    "unknowns": []
+  },
+  "allowed_wording": [],
+  "prohibited_inferences": [],
+  "jjintern_listing_verified": false,
+  "jjintern_listing_evidence": null,
+  "review": {
+    "researcher": null,
+    "checked_at": null,
+    "recheck_on_publication_day": true,
+    "release_hold": [],
+    "check_history": []
+  }
+}

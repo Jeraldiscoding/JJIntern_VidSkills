@@ -1,0 +1,85 @@
+{
+  "checked_date": "2026-10-17",
+  "timezone": "Europe/Stockholm",
+  "access": "public read-only; unsigned fresh Chrome profile for screenshot",
+  "source_code_verified": false,
+  "files": [
+    {
+      "path": "landing-public.html",
+      "source_url": "https://jjintern.com/",
+      "bytes": 61525,
+      "sha256": "829a9c0ce520cfa8cb84205a17172d6040ce58632ef5db738c7a147b5ca48bed",
+      "observation": "Downloaded public original"
+    },
+    {
+      "path": "feed-public.html",
+      "source_url": "https://jjintern.com/feed",
+      "bytes": 35233,
+      "sha256": "8698b9b95f569f72a94b89efcab5f9f175b3ef8dc6b39d93428d8b355a7a56c3",
+      "observation": "Downloaded public original"
+    },
+    {
+      "path": "companies-public.html",
+      "source_url": "https://jjintern.com/companies",
+      "bytes": 289811,
+      "sha256": "526f5f55a9a1eb37aef1ce196da6f2041eb367f6f819d7602f2da932d3725853",
+      "observation": "Downloaded public original"
+    },
+    {
+      "path": "signup-public.html",
+      "source_url": "https://jjintern.com/signup",
+      "bytes": 19055,
+      "sha256": "45b4fa8f8d9209300c6e6e8b18790fa22d6489a4dc4cc97f4cda1b65a444e501",
+      "observation": "Downloaded public original"
+    },
+    {
+      "path": "app-public.css",
+      "source_url": "https://jjintern.com/_next/static/css/9d23ca9966e1dc43.css",
+      "bytes": 47607,
+      "sha256": "a1bb2034d3a196873e5fefa15ac08ca811aebef98e30daf5830be16b855cc37b",
+      "observation": "Downloaded public original"
+    },
+    {
+      "path": "landing-public.css",
+      "source_url": "https://jjintern.com/_next/static/css/621b384274a7e820.css",
+      "bytes": 25619,
+      "sha256": "be7689977147f2f4461d0d0e7d81f3acf4d801abde0231338b47a7797b2c0184",
+      "observation": "Downloaded public original"
+    },
+    {
+      "path": "logo-mark.png",
+      "source_url": "https://jjintern.com/logo-mark.png",
+      "bytes": 165756,
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c",
+      "observation": "Downloaded public original"
+    },
+    {
+      "path": "instrument-serif-latin-regular-400.woff2",
+      "source_url": "https://jjintern.com/_next/static/media/e6099e249fd938cc-s.p.woff2",
+      "bytes": 15040,
+      "sha256": "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d",
+      "observation": "Downloaded public original"
+    },
+    {
+      "path": "instrument-serif-latin-italic-400.woff2",
+      "source_url": "https://jjintern.com/_next/static/media/9cc5b37ab1350db7-s.p.woff2",
+      "bytes": 15684,
+      "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702",
+      "observation": "Downloaded public original"
+    },
+    {
+      "path": "feed-desktop-2026-10-17.png",
+      "source_url": "https://jjintern.com/feed",
+      "bytes": 58655,
+      "sha256": "edf1ac0fd5a4bbe382a9621198141484dc400cf2f841672b19e379140173b638",
+      "observation": "Loading metrics and rows; not evidence of live vacancies"
+    },
+    {
+      "path": "../companies-mobile.png",
+      "source_url": "https://jjintern.com/companies",
+      "bytes": 152174,
+      "sha256": "7fdca97834ca78cac122d5f12dc6fbea9eb1a74f88241306a47d02e350748d79",
+      "observation": "Initial public logged-out mobile directory screenshot,390x844 CSSpx,scale2,darkpreference; counts are transient product displays"
+    }
+  ]
+}

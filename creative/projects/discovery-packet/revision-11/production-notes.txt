@@ -1,0 +1,74 @@
+REVISION 11 — LOCKED PACKET, CENTRED CAPTURE, BRIEF FOUND
+18.000 seconds, 1080x1920, native 120 fps master and 60 fps delivery.
+Previous revisions preserved. No publishing.
+
+LATEST DIRECTION
+Hold the data packet in place during its fast travel; use the background to convey speed.
+JJIntern comes from the right toward the middle. The packet moves gently toward it,
+enters through the aperture, and resolves to a stationary central logo with a short Found bubble.
+
+SHOT LIST — EXACT COPY, MOTION, PURPOSE AND SOUND
+0.000–2.000: White Microsoft / SWE Internship source tile on the established pale blue field.
+Original source ding at0.180. This is an editorial role label, not a live listing.
+2.000–2.550: The same source compresses into its three data tracks. Its centre eases
+from540 to360 while the left edge moves only110→142.5. Background starts moving.
+The morph resolves to a packet atx142.5,y832.5,width435,height255 with zero velocity.
+2.550–6.550: Exactly four seconds of fixed foreground position and scale. Background
+streaks and streamlines build speed; the camera does not pan and there is no whip/cut.
+This staging gives the packet apparent speed while keeping its silhouette readable.
+6.550–8.050: The packet glides42px right. JJIntern's white receiver enters from the
+right and approaches the packet; the field decelerates. The original logo is visible
+inside the receiver. At8.050 packet right edge and receiver mouth meet at619.5.
+8.050–8.750: The packet continues gently right as the receiver moves left to exact
+centre. Its three data bars extend into routed ribbons and disappear through the
+moving aperture. Packet stays opaque; its disappearance is geometric occlusion.
+Capture sound effects follow contact8.050 and swallow8.750.
+8.750–9.050: Receiver is centred and stops. Aperture closes by8.880, shell clears,
+and the unchanged original mark grows uniformly210→380. No logo translation.
+9.050–9.900: The source-style ding repeats as a white Found. bubble appears above
+the centred mark. Logo position and size remain fixed. Bubble fully visible9.210;
+both fade9.720–9.900. The complete Found beat lasts0.850s, replacing the prior2.6s drift.
+9.900 /10.150: We handle the finding. / You focus on applying.
+10.500–14.000: Readable two-line payoff, preserving discovery versus applying.
+14.000–14.550: Final JJIntern text signoff resolves, then holds to18.000.
+
+GEOMETRY AND CONTINUITY
+smooth(v)=6v^5-15v^4+10v^3, clamped to0..1.
+Flight x142.5,y832.5,scale1 throughout2.550–6.550.
+Approach q=smooth((t-6.55)/1.5): packet x142.5+42q; receiver x1120+(619.5-1120)q.
+Contact at8.050: packet right184.5+435=619.5=receiver left.
+Entry q=smooth((t-8.05)/.7): packet global left184.5+(392-184.5)q;
+receiver left619.5+(370-619.5)q; local clipping plane is receiver left+22.
+Both approach and entry have zero endpoint velocities; no positional boundary jump.
+At8.750 packet trailing edge reaches the clipping plane392 and is fully hidden.
+Receiver centre is370+170=540. Original logo stays centred at540,960 thereafter.
+Found9.050–9.900 changes opacity only for the logo; no drift or scale animation.
+
+SPEED FIELD
+22 thick blue/white horizontal streak rows. Integrated velocity grows3000→24000px/s
+over2.000–6.550, then eases tozero by8.750. No phase reset, no foreground travel,
+no duplicate ghost packets. Airflow wraps the fixed silhouette; it fades into entry.
+
+SOUND AND ASSETS
+Original160BPM composition retained, effects retimed to the new choreography.
+Old5.15–5.32 whip removed. Original source ding repeated at9.050.
+Original logo PNG unchanged: uniform scale and translation only, then stationary.
+All audio is reproducible mathematical synthesis, with no external recordings.
+See audio/build_score.py and its manifest for event times and loudness.
+
+CLAIMS
+The Microsoft SWE Internship source, data flight, receiver and Found bubble are
+editorial discovery graphics, not actual product UI, a current vacancy, newly posted
+opening, employer affiliation, verified ingestion event or measured product speed.
+Exact payoff retains the distinction between finding and applying.
+Existing claim: CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017.
+
+REPRODUCTION
+Isolated local Chrome port9370:
+python3 creative/projects/discovery-packet/revision-11/audio/build_score.py
+node creative/projects/discovery-packet/revision-11/source/render-motion.mjs 9370 stills
+node creative/projects/discovery-packet/revision-11/source/render-motion.mjs 9370 test
+node creative/projects/discovery-packet/revision-11/source/render-motion.mjs 9370 full
+python3 creative/projects/discovery-packet/revision-11/source/verify-motion.py
+node creative/projects/discovery-packet/revision-11/source/check-playback.mjs 9370 final
+Human listening, physical-phone and upload-preview checks are not claimed.

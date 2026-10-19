@@ -1,0 +1,35 @@
+{
+  "revision": 10,
+  "date": "2026-10-17",
+  "timezone": "Europe/London",
+  "duration": 18,
+  "latest_user_direction": "Moving Microsoft morph; no pause; receiver drifting left; much stronger speed background; repeated ding and Found bubble over logo instead of standalone Found screen",
+  "claim": "CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017",
+  "graphic_scope": "Editorial continuous morph, two flight shots, moving abstract receiver and logo/Found bubble; no verified product event",
+  "inputs": [
+    {
+      "path": "creative/assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-10/source/motion.html",
+      "sha256": "4102129807ce8004001f51ee3f28cd6b00df2429c044dce03725d1894e3cc1dd"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-10/source/render-motion.mjs",
+      "sha256": "e9df73a2b0f078fe43c652b9b607ab71c634671525dad1ebf99ed0b05e96cbe6"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-10/audio/build_score.py",
+      "sha256": "03bb89da9d5f58c3b430a0affd8f17c62dc0139304542fff06b1cdbfdbbf135c"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-10/audio/jjintern-revision-10-original-score.wav",
+      "sha256": "7ca4d9f6b6b5c06f62baf7e66715d36161dff42a85c75631cdf1e1c36d9051cb"
+    }
+  ],
+  "audio_provenance": "Reproducible revision09 composition retained, launch effects adjusted and source ding repeated; all mathematical synthesis, no external audio",
+  "logo_treatment": "Original unchanged RGBA asset with uniform scale and translation",
+  "publishing": false,
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

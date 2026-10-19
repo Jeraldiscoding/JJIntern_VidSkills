@@ -1,0 +1,53 @@
+REVISION 07 — PAUSE, ACCELERATE, ARRIVE
+18.000 seconds. 1080x1920. Native 120 fps master and 60 fps delivery.
+User correction: only the morph should be quick, followed by a packet pause;
+then about four seconds of increasing speed, with background streaks; then
+logo, a small update beat, and calmer text timing. Prior cuts are preserved.
+
+TIMELINE
+0.000–2.000: source tile, Microsoft / SWE Internship.
+2.000–2.240: fast connected compression into the rectangular packet.
+2.240–3.000: completely still packet hold, no background streaks.
+3.000–7.000: four-second accelerating flight. The packet travels rightward
+from x70 to x575. Background streaks travel leftward, with increasing speed,
+length and number; the same progression builds in the original synthesis.
+7.000–7.450: connected handoff and shared camera move into original logo.
+7.450–8.100: clean, centered original logo hold.
+8.100–9.150: small abstract information capsule below logo, with a blue pulse
+and a filling second bar. This is a graphic update motif, not a real app UI,
+notification, verified posting, vacancy count or product-state recording.
+9.500–10.800: Found. Slow 0.4-second introduction and readable hold.
+10.800–11.350: first line reveals; 11.150–11.800: second line reveals.
+11.800–15.300: both payoff lines fully readable and stationary.
+15.300–15.900: measured transition to JJIntern; hold through final frame.
+
+FLIGHT
+u=clamp((t-3)/4,0,1)
+x=70+505*(0.06*u+0.94*u^3)
+Screen-space velocity is positive and increasing: 7.575 to 363.6 px/s.
+Background velocity parameter grows from 80 to 5280 px/s; each depth row
+uses a fixed multiplier. Its integrated displacement prevents false
+acceleration from a velocity-only positional formula. Streak length and row
+entrances build with the same u. No flight camera movement cancels travel.
+The packet is completely sharp at its core, with short directional exposures.
+Original logo is drawn intact at 420x420. No aspect change or recolouring.
+
+ASSETS AND CLAIMS
+Approved revision05 source/logo compositions, original logo-mark.png and
+macOS system-sans stack. No external photographs, app screens or font files.
+Claim record: CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017. The source label
+is editorial; the acceleration and update are visual metaphors. No measured
+latency, live vacancy, real-time, count, delivery or hiring claim is made.
+All sound is fresh mathematical synthesis; see audio/ for source and manifest.
+
+REPRODUCTION
+With an isolated local Chrome debug session on port 9357, from workspace root:
+python3 creative/archive/rectangle/revision-07/audio/build_score.py
+node creative/archive/rectangle/revision-07/source/render-motion.mjs 9357 stills
+node creative/archive/rectangle/revision-07/source/render-motion.mjs 9357 test
+node creative/archive/rectangle/revision-07/source/render-motion.mjs 9357 full
+python3 creative/archive/rectangle/revision-07/source/verify-motion.py
+node creative/archive/rectangle/revision-07/source/check-playback.mjs 9357 final
+
+Review records are in review/. Physical-phone/placement preview and subjective
+speaker/headphone listening remain external checks. No publication occurred.

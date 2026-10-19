@@ -1,0 +1,113 @@
+{
+  "stage": "revision04 styleframes awaiting approval",
+  "revision": 4,
+  "date": "2026-10-17",
+  "size": [
+    1080,
+    1920
+  ],
+  "actual_deliverable": "three flat graphic style frames; no video or audio",
+  "supersampling": [
+    2160,
+    3840
+  ],
+  "crops": {
+    "microsoft_heading": [
+      75,
+      232,
+      780,
+      100
+    ],
+    "microsoft_subtitle": [
+      145,
+      995,
+      705,
+      70
+    ],
+    "feed": [
+      0,
+      720,
+      1720,
+      980
+    ],
+    "logo": "whole original square image, unchanged colour and proportions"
+  },
+  "source_treatment": "editorial illustrated programme overview with genuine heading pixels; not an exact Microsoft interface screenshot",
+  "palette": {
+    "background": "#edf3ff",
+    "ink": "#203145",
+    "accent": "#0071e3"
+  },
+  "flight": {
+    "start": 4.5,
+    "end": 6.5,
+    "seconds": 2,
+    "confirmed_by_user": true
+  },
+  "inputs": {
+    "MICROSOFT_IMAGE": {
+      "path": "../../captures/microsoft-internship-programmes-540.png",
+      "sha256": "59befb651bcd65ad2533a74e072377a8215285e7af5b8d6501beded35d953ee8"
+    },
+    "FEED_IMAGE": {
+      "path": "../../revision-02/captures/feed-light-tech-scrolled.png",
+      "sha256": "c238bd0e5942822049795f8ea6b37386ba90724e09d564e3a21002b4c9fc328f"
+    },
+    "LOGO_IMAGE": {
+      "path": "../../../../assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c"
+    }
+  },
+  "outputs": [
+    {
+      "path": "styleframes/01-careers.png",
+      "sha256": "3a5f3e31c706a4c096189e289892e43884164eca6321195e337504b0f304d86d"
+    },
+    {
+      "path": "styleframes/02-packet.png",
+      "sha256": "1f238f7620314b6dfe382e1e9d18cd21ad464d8ea958927402af5ca450d133d6"
+    },
+    {
+      "path": "styleframes/03-logo-feed.png",
+      "sha256": "be76b44634538b7c44bc56e176991c6e8af982ef5bb34f9cbd20da6e7e426d45"
+    },
+    {
+      "path": "styleframes/approval-board.png",
+      "sha256": "1353144aa77b045bdbc1e6f271736d0a42d1e58110501f68edca700803438193"
+    },
+    {
+      "path": "styleframes/phone-board.png",
+      "sha256": "382902c173e4112c7a341ac4fa8681608f4d57a0df6a3b039037580ba472fc6c"
+    }
+  ],
+  "scene": {
+    "width": 1080,
+    "height": 1920,
+    "internal": [
+      2160,
+      3840
+    ],
+    "stage": "revision04 actual stills only",
+    "style": "editorial careers illustration; original JJIntern mark; no receiving browser",
+    "font": "-apple-system,BlinkMacSystemFont,\"SF Pro Display\",\"Helvetica Neue\",Arial,sans-serif",
+    "ms": [
+      1620,
+      2340
+    ],
+    "feed": [
+      1720,
+      3360
+    ],
+    "logo": [
+      512,
+      512
+    ]
+  },
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.84",
+    "revision": "@5869fe313571d75152b77813cf0a4ee26a4e6df0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.25"
+  }
+}

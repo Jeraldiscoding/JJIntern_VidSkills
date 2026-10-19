@@ -1,0 +1,168 @@
+{
+  "version": "1.0.0",
+  "source_url": "https://gic.careers/programmes/gic-internship-programme/",
+  "source_owner": "GIC",
+  "checked_at": "2026-10-17",
+  "date_context": "User context Europe/Stockholm",
+  "browser_context": "Isolated logged-out Chrome, existing local CDP session explicitly supplied for this task",
+  "capture_notes": {
+    "cookie_banner_previously_dismissed_via_actual_accept_control": true,
+    "chat_widget_close_attempted_via_actual_ui": false,
+    "dom_or_source_text_modified": false,
+    "application_destination_not_opened_in_this_capture": true,
+    "body_transcripts_omitted": true,
+    "source_chat_widget_visible_outside_recommended_crops": true
+  },
+  "claim_id": "OPP-GIC-ELIGIBILITY-20261017",
+  "unknowns": [
+    "Programme year",
+    "Live intake/application availability",
+    "Placement city",
+    "Pay"
+  ],
+  "assets": [
+    {
+      "id": "B1",
+      "path": "creative/assets/captures/B1-gic-programme-2026-10-17.png",
+      "source_url": "https://gic.careers/programmes/gic-internship-programme/",
+      "source_owner": "GIC",
+      "source_section": "Programme title and opening eligibility description",
+      "checked_at": "2026-10-17",
+      "capture_method": "Isolated logged-out Chrome; real viewport screenshot via CDP; no DOM or website-text changes",
+      "viewport": {
+        "width": 1280,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "heading_identifier": "GIC Internship Programme",
+      "heading_viewport_bounds": {
+        "text": "GIC Internship Programme",
+        "x": 63,
+        "y": 220.625,
+        "width": 710,
+        "height": 55
+      },
+      "sha256": "603bf4ebfa434b8d481d1ea369874122399784c803c8746eebf8a984e5d77f1a",
+      "bytes": 409357,
+      "recommended_crops_css_pixels": [
+        {
+          "purpose": "Context: real programme heading and full opening description",
+          "x": 45,
+          "y": 215,
+          "width": 770,
+          "height": 235
+        },
+        {
+          "purpose": "Shot 2 readable evidence phrase; retain adjacent editorial eligibility conditions and source label",
+          "x": 223,
+          "y": 323,
+          "width": 230,
+          "height": 37
+        }
+      ],
+      "visual_review_status": "source_screenshot_inspected",
+      "privacy": "Public page; no authenticated account used",
+      "rights_status": "Factual proof capture; campaign usage/rights review still required",
+      "visual_review_date": "2026-10-17",
+      "visual_review_findings": "Viewed full screenshot: programme title and opening discipline eligibility are readable and unobstructed. Recommended production crops exclude source-owned Apply button, people and chat widget. Use the phrase crop only with adjacent editorial conditions and GIC attribution.",
+      "production_render_readability_status": "not_rendered; phone and placement checks pending"
+    },
+    {
+      "id": "B2",
+      "path": "creative/assets/captures/B2-gic-eligibility-2026-10-17.png",
+      "source_url": "https://gic.careers/programmes/gic-internship-programme/",
+      "source_owner": "GIC",
+      "source_section": "University eligibility including study stage and previous full-time work condition",
+      "checked_at": "2026-10-17",
+      "capture_method": "Isolated logged-out Chrome; real viewport screenshot via CDP; no DOM or website-text changes",
+      "viewport": {
+        "width": 1280,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "scroll": {
+        "x": 0,
+        "y": 3376
+      },
+      "heading_identifier": "Who is this for?",
+      "heading_viewport_bounds": {
+        "text": "Who is this for?",
+        "x": 713.1875,
+        "y": 170.453125,
+        "width": 441.8125,
+        "height": 35.1875
+      },
+      "sha256": "88da95db9634bc5ed2db26d3a392100731281d9e1b279b9da944561311959bb3",
+      "bytes": 700330,
+      "recommended_crops_css_pixels": [
+        {
+          "purpose": "Eligibility heading and full university/year/previous-work paragraph; excludes Apply button and promotional people",
+          "x": 700,
+          "y": 162,
+          "width": 510,
+          "height": 190
+        },
+        {
+          "purpose": "Shot 2 enlarged authentic subject-eligibility phrase; keep university/year/previous-work editorial conditions adjacent",
+          "x": 709,
+          "y": 258,
+          "width": 180,
+          "height": 30
+        }
+      ],
+      "visual_review_status": "source_screenshot_inspected",
+      "privacy": "Public page; no authenticated account used",
+      "rights_status": "Factual proof capture; campaign usage/rights review still required",
+      "visual_review_date": "2026-10-17",
+      "visual_review_findings": "Viewed full screenshot: eligibility heading and complete university/study-stage/previous-work paragraph are readable and unobstructed. Recommended crop excludes the promotional people, Apply button, ongoing-application paragraph and chat widget.",
+      "production_render_readability_status": "not_rendered; phone and placement checks pending"
+    },
+    {
+      "id": "B3",
+      "path": "creative/assets/captures/B3-gic-selection-2026-10-17.png",
+      "source_url": "https://gic.careers/programmes/gic-internship-programme/",
+      "source_owner": "GIC",
+      "source_section": "Technology-track selection and technical assessment",
+      "checked_at": "2026-10-17",
+      "capture_method": "Isolated logged-out Chrome; real viewport screenshot via CDP; no DOM or website-text changes",
+      "viewport": {
+        "width": 1280,
+        "height": 1000,
+        "devicePixelRatio": 1
+      },
+      "scroll": {
+        "x": 0,
+        "y": 2751
+      },
+      "heading_identifier": "Selection Process for Technology Track",
+      "heading_viewport_bounds": {
+        "text": "Selection Process for Technology Track",
+        "x": 45,
+        "y": 160.421875,
+        "width": 1190,
+        "height": 35.1875
+      },
+      "sha256": "2aefa29272e1fd3b47dc04228e4bf2c83cde06aa8f403109014b939ef0bf6b57",
+      "bytes": 683246,
+      "recommended_crops_css_pixels": [
+        {
+          "purpose": "Technical-rounds heading and domain-specific assessment explanation; use with employer attribution",
+          "x": 454,
+          "y": 355,
+          "width": 372,
+          "height": 155
+        }
+      ],
+      "visual_review_status": "source_screenshot_inspected",
+      "privacy": "Public page; no authenticated account used",
+      "rights_status": "Factual proof capture; campaign usage/rights review still required",
+      "visual_review_date": "2026-10-17",
+      "visual_review_findings": "Viewed full screenshot: technology selection heading, technical-rounds label and domain-specific assessment explanation are readable. Recommended technical-rounds crop excludes photos, rolling-application sentence and chat widget.",
+      "production_render_readability_status": "not_rendered; phone and placement checks pending"
+    }
+  ]
+}

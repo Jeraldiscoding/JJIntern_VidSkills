@@ -1,0 +1,121 @@
+{
+  "kind": "Actual real-time browser playback and decoded-frame capture; no claim of subjective audio audition",
+  "mode": "test",
+  "passes": [
+    {
+      "muted": true,
+      "observations": [
+        {
+          "time": 0.512621,
+          "duration": 5,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 37,
+          "droppedFrames": 1,
+          "muted": true
+        },
+        {
+          "time": 1.468322,
+          "duration": 5,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 94,
+          "droppedFrames": 12,
+          "muted": true
+        },
+        {
+          "time": 2.053798,
+          "duration": 5,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 129,
+          "droppedFrames": 12,
+          "muted": true
+        },
+        {
+          "time": 2.642422,
+          "duration": 5,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 164,
+          "droppedFrames": 12,
+          "muted": true
+        },
+        {
+          "time": 3.240612,
+          "duration": 5,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 200,
+          "droppedFrames": 12,
+          "muted": true
+        },
+        {
+          "time": 3.819848,
+          "duration": 5,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 235,
+          "droppedFrames": 12,
+          "muted": true
+        },
+        {
+          "time": 4.398097,
+          "duration": 5,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 270,
+          "droppedFrames": 12,
+          "muted": true
+        },
+        {
+          "time": 4.987093,
+          "duration": 5,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 300,
+          "droppedFrames": 12,
+          "muted": true
+        },
+        {
+          "time": 5,
+          "duration": 5,
+          "ended": true,
+          "paused": true,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 300,
+          "droppedFrames": 12,
+          "muted": true
+        },
+        {
+          "time": 5,
+          "duration": 5,
+          "ended": true,
+          "paused": true,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 300,
+          "droppedFrames": 12,
+          "muted": true
+        }
+      ]
+    }
+  ]
+}

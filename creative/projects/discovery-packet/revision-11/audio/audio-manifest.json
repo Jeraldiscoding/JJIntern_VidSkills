@@ -1,0 +1,2310 @@
+{
+  "title": "JJIntern revision11 \u2014 stationary flight, convergence and capture",
+  "source": "build_score.py",
+  "output": "jjintern-revision-11-original-score.wav",
+  "provenance": "Reproducible staging adaptation of revision10, retaining the original revision09 160 BPM composition, musical hook, timbres and seed. Whip-specific effects are removed; capture, brand sting and copy cues are retimed. A cleaner existing groove section extends the convergence. Every sound is synthesized anew from analytic oscillators, a mathematically generated band-limited saw table, deterministic noise, resonant filters and envelopes. No prior WAV, sample, recording, loop, soundfont, voiceover or external impulse response is read.",
+  "external_audio_inputs": [],
+  "voiceover": false,
+  "duration_seconds": 18.0,
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "pcm_bit_depth": 24,
+  "samples_per_channel": 864000,
+  "tempo_bpm": 160,
+  "beat_seconds": 0.375,
+  "random_seed": 91603181,
+  "musical_hook": {
+    "notes": [
+      "F#4",
+      "A4",
+      "E4"
+    ],
+    "midi": [
+      66,
+      69,
+      64
+    ],
+    "rhythm_in_beats": [
+      0,
+      0.75,
+      1.5
+    ],
+    "timbre": "Detuned band-limited saws, pulse difference, saturation and an envelope-controlled resonant filter",
+    "development": "Opening teaser; two flight statements and an octave variation; motif-based brand sting; payoff reprise; final F# resolution and echoes"
+  },
+  "kit": [
+    "Layered sub/body/beater kick",
+    "Tuned body-and-wire snare",
+    "Stereo three-burst noise claps",
+    "Open and closed broad cymbals",
+    "Short crash cymbal",
+    "Pitched toms and snare fills"
+  ],
+  "arrangement": "Retains the 160 BPM electro-break composition, full kit, three-note hook, bass and fills. Air begins at 2.0, builds during the stationary-packet speed field from 2.55 to 6.55, decelerates during convergence to 8.05 and tapers through intake to 8.75. Contact, swallow and latch have separate cues. The unchanged source-style ding repeats at 9.05 for the settled logo and Found bubble; payoff ticks occur at 9.9 and 10.15. The sign-off and tail remain at their existing times.",
+  "changes_from_revision10": [
+    "Removed the 5.15\u20135.32 whip filter, snare glitch, tom, pre-whip cymbal roll, 5.32 crash and master-bus glitch stop",
+    "Replaced two air segments with one continuous build/deceleration/capture profile from 2.0 to 8.75",
+    "Retimed capture fill/contact to 8.05, swallow impact to 8.75 and latch to 8.88",
+    "Retimed the identical second ding to 9.05 and payoff ticks to 9.9/10.15",
+    "Retained the musical material, extending its cleaner groove through convergence; sign-off remains at 14.0"
+  ],
+  "synchronization": [
+    {
+      "at_s": 0.18,
+      "event": "isolated source ding"
+    },
+    {
+      "from_s": 2.0,
+      "to_s": 2.55,
+      "event": "fast morph friction"
+    },
+    {
+      "at_s": 2.08,
+      "event": "morph click one"
+    },
+    {
+      "at_s": 2.24,
+      "event": "morph click two"
+    },
+    {
+      "at_s": 2.42,
+      "event": "morph click three"
+    },
+    {
+      "at_s": 2.5,
+      "event": "high-speed field intake"
+    },
+    {
+      "at_s": 2.55,
+      "event": "morph closure and stationary-packet speed-field onset"
+    },
+    {
+      "from_s": 2.0,
+      "to_s": 8.75,
+      "event": "continuous morph, flight, convergence and capture air profile"
+    },
+    {
+      "from_s": 2.55,
+      "to_s": 6.55,
+      "event": "four-second stationary-packet flight air build"
+    },
+    {
+      "from_s": 2.725,
+      "to_s": 3.1,
+      "event": "retained snare/tom musical pickup"
+    },
+    {
+      "at_s": 3.1,
+      "event": "retained groove boost with crash and hook"
+    },
+    {
+      "from_s": 6.55,
+      "to_s": 8.05,
+      "event": "air brightness and level ease down during convergence"
+    },
+    {
+      "from_s": 7.675,
+      "to_s": 8.05,
+      "event": "retimed capture drum fill"
+    },
+    {
+      "at_s": 8.05,
+      "event": "capture contact"
+    },
+    {
+      "from_s": 8.07,
+      "to_s": 8.75,
+      "event": "descending intake texture and tom pickup"
+    },
+    {
+      "at_s": 8.75,
+      "event": "swallow impact: layered kick, snare/clap, crash and octave body"
+    },
+    {
+      "at_s": 8.88,
+      "event": "tiny mechanical latch and motif-based brand sting"
+    },
+    {
+      "at_s": 9.05,
+      "event": "second identical source-style ding for settled logo/Found bubble"
+    },
+    {
+      "from_s": 9.05,
+      "to_s": 9.9,
+      "event": "brief Found hold with retained music"
+    },
+    {
+      "at_s": 10.2,
+      "event": "underlying groove continues without the former standalone Found accent"
+    },
+    {
+      "at_s": 9.9,
+      "event": "first copy-line tick"
+    },
+    {
+      "at_s": 10.15,
+      "event": "second copy-line tick"
+    },
+    {
+      "from_s": 13.942,
+      "to_s": 14.0,
+      "event": "short pre-sign-off stop"
+    },
+    {
+      "at_s": 14.0,
+      "event": "strong sign-off downbeat and hook"
+    },
+    {
+      "from_s": 14.0,
+      "to_s": 16.0,
+      "event": "rhythmic tail with full F# resolution"
+    },
+    {
+      "from_s": 16.0,
+      "to_s": 18.0,
+      "event": "decaying analytically synthesized hook echoes"
+    }
+  ],
+  "mastering": {
+    "target_integrated_lufs": -14,
+    "internal_true_peak_ceiling_dbtp": -1.5,
+    "required_wav_true_peak_max_dbtp": -1.3,
+    "normalization_type": "dynamic",
+    "raw_synthesis_stats": {
+      "peak_dbfs": -9.29415359440204,
+      "rms_dbfs": -27.352736981691677
+    }
+  },
+  "measured_final": {
+    "integrated_lufs": -14.32,
+    "true_peak_dbtp": -1.34,
+    "loudness_range_lu": 8.9,
+    "sample_peak_dbfs": -1.3442084660904166,
+    "duration_seconds": 18.0,
+    "samples_per_channel": 864000,
+    "last_stereo_sample": [
+      0.0,
+      0.0
+    ],
+    "clipped_samples": 0
+  },
+  "aac_320k_roundtrip_check": {
+    "integrated_lufs": -14.34,
+    "true_peak_dbtp": -1.17
+  },
+  "inspection": {
+    "performed": [
+      "composition, source and timing inspection",
+      "duration/sample count/codec check",
+      "integrated loudness and true-peak analysis",
+      "zero endpoints and no clipped samples",
+      "320 kbps AAC encode/decode headroom check",
+      "waveform generated for inspection"
+    ],
+    "not_performed": [
+      "subjective human listening",
+      "physical-phone playback"
+    ],
+    "limitation": "Source, musical arrangement and measurements are inspected; subjective listening is not claimed."
+  },
+  "sha256": "57bc81b3ce28d713ea155a94d609468e14096c3e73a49602c3fc3a3afddd2c67",
+  "events": [
+    {
+      "start_s": 0.18,
+      "duration_s": 0.66,
+      "kind": "source ding",
+      "gain": 0.092,
+      "pan": 0,
+      "fundamental_hz": 1479.9776908465376,
+      "identical_synthesis_parameters": true
+    },
+    {
+      "start_s": 0.65,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.175,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 0.65,
+      "duration_s": 0.24,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.095,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1425.0
+    },
+    {
+      "start_s": 0.65,
+      "duration_s": 0.19,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.038,
+      "pan": -0.13,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.78
+    },
+    {
+      "start_s": 0.8375,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.02,
+      "pan": 0.28,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 0.93125,
+      "duration_s": 0.15,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.0342,
+      "pan": 0.12,
+      "midi": 69,
+      "fundamental_hz": 440.0,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.78
+    },
+    {
+      "start_s": 1.025,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.095,
+      "pan": -0.025
+    },
+    {
+      "start_s": 1.0319999999999998,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 1.0379999999999998,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 1.2125,
+      "duration_s": 0.31,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.035719999999999995,
+      "pan": -0.06,
+      "midi": 64,
+      "fundamental_hz": 329.6275569128699,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.78
+    },
+    {
+      "start_s": 1.4,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.17,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 1.4,
+      "duration_s": 0.23,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.095,
+      "pan": 0,
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "filter_initial_hz": 1425.0
+    },
+    {
+      "start_s": 1.5875,
+      "duration_s": 0.255,
+      "kind": "open cymbal",
+      "gain": 0.023,
+      "pan": 0.28,
+      "decay_s": 0.076
+    },
+    {
+      "start_s": 1.775,
+      "duration_s": 0.135,
+      "kind": "ghost snare",
+      "gain": 0.079,
+      "pan": -0.025
+    },
+    {
+      "start_s": 2.0,
+      "duration_s": 0.55,
+      "kind": "fast morph friction",
+      "gain": 0.038,
+      "pan": -0.05,
+      "descending": false
+    },
+    {
+      "start_s": 2.0,
+      "duration_s": 6.75,
+      "kind": "stationary-flight air build, convergence deceleration and capture taper",
+      "gain": 0.037,
+      "filter_floor_peak_hz": [
+        1700,
+        7800
+      ],
+      "build_range_s": [
+        2.55,
+        6.55
+      ],
+      "deceleration_range_s": [
+        6.55,
+        8.05
+      ],
+      "capture_taper_range_s": [
+        8.05,
+        8.75
+      ]
+    },
+    {
+      "start_s": 2.08,
+      "duration_s": 0.036,
+      "kind": "morph sync click one",
+      "gain": 0.057,
+      "pan": 0,
+      "frequency_hz": 2600
+    },
+    {
+      "start_s": 2.24,
+      "duration_s": 0.036,
+      "kind": "morph sync click two",
+      "gain": 0.062,
+      "pan": 0,
+      "frequency_hz": 2050
+    },
+    {
+      "start_s": 2.42,
+      "duration_s": 0.036,
+      "kind": "morph sync click three",
+      "gain": 0.067,
+      "pan": 0,
+      "frequency_hz": 1510
+    },
+    {
+      "start_s": 2.5,
+      "duration_s": 0.05,
+      "kind": "high-speed field intake",
+      "gain": 0.032,
+      "pan": -0.05,
+      "descending": false
+    },
+    {
+      "start_s": 2.55,
+      "duration_s": 0.036,
+      "kind": "morph closure and high-speed field onset",
+      "gain": 0.072,
+      "pan": 0,
+      "frequency_hz": 890
+    },
+    {
+      "start_s": 2.55,
+      "duration_s": 0.14,
+      "kind": "pitched drum-fill tom",
+      "gain": 0.055,
+      "pan": 0,
+      "midi": 42,
+      "fundamental_hz": 92.4986056779086
+    },
+    {
+      "start_s": 2.725,
+      "duration_s": 0.135,
+      "kind": "ghost snare",
+      "gain": 0.073,
+      "pan": -0.025
+    },
+    {
+      "start_s": 2.81875,
+      "duration_s": 0.16,
+      "kind": "pitched drum-fill tom",
+      "gain": 0.105,
+      "pan": -0.24,
+      "midi": 54,
+      "fundamental_hz": 184.9972113558172
+    },
+    {
+      "start_s": 2.9125,
+      "duration_s": 0.18,
+      "kind": "pitched drum-fill tom",
+      "gain": 0.13,
+      "pan": 0.22,
+      "midi": 45,
+      "fundamental_hz": 110.0
+    },
+    {
+      "start_s": 3.00625,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.115,
+      "pan": -0.025
+    },
+    {
+      "start_s": 3.01325,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 3.01925,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 3.1,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.205,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 3.1,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.018,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 3.1,
+      "duration_s": 0.24,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.107,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1425.0
+    },
+    {
+      "start_s": 3.1,
+      "duration_s": 0.68,
+      "kind": "short crash cymbal",
+      "gain": 0.064,
+      "pan": -0.15,
+      "decay_s": 0.19
+    },
+    {
+      "start_s": 3.1,
+      "duration_s": 0.19,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.048,
+      "pan": -0.13,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.16
+    },
+    {
+      "start_s": 3.2875,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.023,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 3.38125,
+      "duration_s": 0.135,
+      "kind": "ghost snare",
+      "gain": 0.041,
+      "pan": -0.025
+    },
+    {
+      "start_s": 3.38125,
+      "duration_s": 0.13,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.107,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1425.0
+    },
+    {
+      "start_s": 3.38125,
+      "duration_s": 0.15,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.0432,
+      "pan": 0.12,
+      "midi": 69,
+      "fundamental_hz": 440.0,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.16
+    },
+    {
+      "start_s": 3.475,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.118,
+      "pan": -0.025
+    },
+    {
+      "start_s": 3.475,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.018,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 3.482,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 3.488,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 3.6625,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.177,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 3.6625,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.023,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 3.6625,
+      "duration_s": 0.19,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.107,
+      "pan": 0,
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "filter_initial_hz": 1425.0
+    },
+    {
+      "start_s": 3.6625,
+      "duration_s": 0.31,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.04512,
+      "pan": -0.06,
+      "midi": 64,
+      "fundamental_hz": 329.6275569128699,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.16
+    },
+    {
+      "start_s": 3.85,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.018,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 4.0375,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.023,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 4.13125,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.177,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 4.13125,
+      "duration_s": 0.2,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.107,
+      "pan": 0,
+      "midi": 40,
+      "fundamental_hz": 82.4068892282175,
+      "filter_initial_hz": 1425.0
+    },
+    {
+      "start_s": 4.225,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.118,
+      "pan": -0.025
+    },
+    {
+      "start_s": 4.225,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.018,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 4.225,
+      "duration_s": 0.19,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.044,
+      "pan": -0.13,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.26
+    },
+    {
+      "start_s": 4.231999999999999,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 4.2379999999999995,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 4.4125,
+      "duration_s": 0.255,
+      "kind": "open cymbal",
+      "gain": 0.023,
+      "pan": 0.24,
+      "decay_s": 0.076
+    },
+    {
+      "start_s": 4.50625,
+      "duration_s": 0.15,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.039599999999999996,
+      "pan": 0.12,
+      "midi": 69,
+      "fundamental_hz": 440.0,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.26
+    },
+    {
+      "start_s": 4.6,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.205,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 4.6,
+      "duration_s": 0.25,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.112,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1675.0
+    },
+    {
+      "start_s": 4.7875,
+      "duration_s": 0.31,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.041359999999999994,
+      "pan": -0.06,
+      "midi": 64,
+      "fundamental_hz": 329.6275569128699,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.26
+    },
+    {
+      "start_s": 4.7875,
+      "duration_s": 0.255,
+      "kind": "open cymbal",
+      "gain": 0.026,
+      "pan": 0.28,
+      "decay_s": 0.076
+    },
+    {
+      "start_s": 4.975,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.116,
+      "pan": -0.025
+    },
+    {
+      "start_s": 4.981999999999999,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 4.9879999999999995,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 5.32,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.21115,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 5.32,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.018539999999999997,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 5.32,
+      "duration_s": 0.28,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.11021,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1575.0000000000002
+    },
+    {
+      "start_s": 5.32,
+      "duration_s": 0.19,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.048,
+      "pan": -0.13,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.35
+    },
+    {
+      "start_s": 5.5075,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.02369,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 5.60125,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.18231,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 5.60125,
+      "duration_s": 0.15,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.0432,
+      "pan": 0.12,
+      "midi": 69,
+      "fundamental_hz": 440.0,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.35
+    },
+    {
+      "start_s": 5.695,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.12154,
+      "pan": -0.025
+    },
+    {
+      "start_s": 5.695,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.018539999999999997,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 5.702,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 5.708,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 5.8825,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.02369,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 5.8825,
+      "duration_s": 0.31,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.04512,
+      "pan": -0.06,
+      "midi": 64,
+      "fundamental_hz": 329.6275569128699,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.35
+    },
+    {
+      "start_s": 5.97625,
+      "duration_s": 0.15,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.11021,
+      "pan": 0,
+      "midi": 33,
+      "fundamental_hz": 55.0,
+      "filter_initial_hz": 1575.0000000000002
+    },
+    {
+      "start_s": 6.07,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.21115,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 6.07,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.018539999999999997,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 6.07,
+      "duration_s": 0.19,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.042,
+      "pan": -0.13,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.43
+    },
+    {
+      "start_s": 6.2575,
+      "duration_s": 0.135,
+      "kind": "ghost snare",
+      "gain": 0.042230000000000004,
+      "pan": -0.025
+    },
+    {
+      "start_s": 6.2575,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.02369,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 6.2575,
+      "duration_s": 0.16,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.11021,
+      "pan": 0,
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "filter_initial_hz": 1575.0000000000002
+    },
+    {
+      "start_s": 6.35125,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.012360000000000001,
+      "pan": -0.22,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 6.35125,
+      "duration_s": 0.15,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.0378,
+      "pan": 0.12,
+      "midi": 81,
+      "fundamental_hz": 880.0,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.43
+    },
+    {
+      "start_s": 6.445,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.12154,
+      "pan": -0.025
+    },
+    {
+      "start_s": 6.445,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.018539999999999997,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 6.452,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 6.458,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 6.6325,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.18231,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 6.6325,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.02369,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 6.6325,
+      "duration_s": 0.15,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.11021,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1575.0000000000002
+    },
+    {
+      "start_s": 6.6325,
+      "duration_s": 0.31,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.03948,
+      "pan": -0.06,
+      "midi": 64,
+      "fundamental_hz": 329.6275569128699,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.43
+    },
+    {
+      "start_s": 6.82,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.17,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 6.82,
+      "duration_s": 0.27,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.096,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1425.0
+    },
+    {
+      "start_s": 7.0075,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.022,
+      "pan": 0.28,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 7.195,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.09,
+      "pan": -0.025
+    },
+    {
+      "start_s": 7.3825,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.02,
+      "pan": 0.28,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 7.57,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.17,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 7.57,
+      "duration_s": 0.2,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.093,
+      "pan": 0,
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "filter_initial_hz": 1175.0
+    },
+    {
+      "start_s": 7.675000000000001,
+      "duration_s": 0.135,
+      "kind": "ghost snare",
+      "gain": 0.073,
+      "pan": -0.025
+    },
+    {
+      "start_s": 7.768750000000001,
+      "duration_s": 0.16,
+      "kind": "pitched drum-fill tom",
+      "gain": 0.105,
+      "pan": -0.24,
+      "midi": 54,
+      "fundamental_hz": 184.9972113558172
+    },
+    {
+      "start_s": 7.862500000000001,
+      "duration_s": 0.18,
+      "kind": "pitched drum-fill tom",
+      "gain": 0.13,
+      "pan": 0.22,
+      "midi": 45,
+      "fundamental_hz": 110.0
+    },
+    {
+      "start_s": 7.956250000000001,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.115,
+      "pan": -0.025
+    },
+    {
+      "start_s": 7.96325,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 7.969250000000001,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 8.05,
+      "duration_s": 0.34,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.205,
+      "pan": 0,
+      "strong": true,
+      "sub_hz": 49,
+      "body_hz": 98
+    },
+    {
+      "start_s": 8.05,
+      "duration_s": 0.27,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.122,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1675.0
+    },
+    {
+      "start_s": 8.05,
+      "duration_s": 0.2,
+      "kind": "pitched drum-fill tom",
+      "gain": 0.1,
+      "pan": 0,
+      "midi": 42,
+      "fundamental_hz": 92.4986056779086
+    },
+    {
+      "start_s": 8.05,
+      "duration_s": 0.68,
+      "kind": "short crash cymbal",
+      "gain": 0.035,
+      "pan": -0.1,
+      "decay_s": 0.19
+    },
+    {
+      "start_s": 8.07,
+      "duration_s": 0.68,
+      "kind": "receiver swallow texture",
+      "gain": 0.055,
+      "pan": -0.05,
+      "descending": true
+    },
+    {
+      "start_s": 8.17,
+      "duration_s": 0.036,
+      "kind": "receiver intake articulation",
+      "gain": 0.031,
+      "pan": 0,
+      "frequency_hz": 1150
+    },
+    {
+      "start_s": 8.4,
+      "duration_s": 0.036,
+      "kind": "receiver intake articulation",
+      "gain": 0.033,
+      "pan": 0,
+      "frequency_hz": 1450
+    },
+    {
+      "start_s": 8.46875,
+      "duration_s": 0.14,
+      "kind": "pitched drum-fill tom",
+      "gain": 0.085,
+      "pan": -0.23,
+      "midi": 54,
+      "fundamental_hz": 184.9972113558172
+    },
+    {
+      "start_s": 8.5625,
+      "duration_s": 0.15,
+      "kind": "pitched drum-fill tom",
+      "gain": 0.11,
+      "pan": 0.22,
+      "midi": 45,
+      "fundamental_hz": 110.0
+    },
+    {
+      "start_s": 8.63,
+      "duration_s": 0.036,
+      "kind": "receiver intake articulation",
+      "gain": 0.035,
+      "pan": 0,
+      "frequency_hz": 1800
+    },
+    {
+      "start_s": 8.65625,
+      "duration_s": 0.135,
+      "kind": "ghost snare",
+      "gain": 0.088,
+      "pan": -0.025
+    },
+    {
+      "start_s": 8.75,
+      "duration_s": 0.34,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.25,
+      "pan": 0,
+      "strong": true,
+      "sub_hz": 49,
+      "body_hz": 98
+    },
+    {
+      "start_s": 8.75,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.132,
+      "pan": -0.025
+    },
+    {
+      "start_s": 8.75,
+      "duration_s": 0.68,
+      "kind": "short crash cymbal",
+      "gain": 0.067,
+      "pan": 0.12,
+      "decay_s": 0.19
+    },
+    {
+      "start_s": 8.75,
+      "duration_s": 0.38,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.132,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1487.5
+    },
+    {
+      "start_s": 8.75,
+      "duration_s": 0.37,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.045,
+      "pan": -0.12,
+      "midi": 54,
+      "fundamental_hz": 184.9972113558172,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.1
+    },
+    {
+      "start_s": 8.75,
+      "duration_s": 0.28,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.025,
+      "pan": 0.12,
+      "midi": 61,
+      "fundamental_hz": 277.1826309768721,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.0
+    },
+    {
+      "start_s": 8.757,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 8.763,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 8.88,
+      "duration_s": 0.036,
+      "kind": "receiver tiny latch",
+      "gain": 0.043,
+      "pan": 0,
+      "frequency_hz": 970
+    },
+    {
+      "start_s": 8.88,
+      "duration_s": 0.19,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.046,
+      "pan": -0.13,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.05
+    },
+    {
+      "start_s": 8.9875,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.02,
+      "pan": 0.28,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 9.05,
+      "duration_s": 0.66,
+      "kind": "same source-style ding for logo/Found bubble",
+      "gain": 0.092,
+      "pan": 0,
+      "fundamental_hz": 1479.9776908465376,
+      "identical_synthesis_parameters": true
+    },
+    {
+      "start_s": 9.16125,
+      "duration_s": 0.15,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.0414,
+      "pan": 0.12,
+      "midi": 69,
+      "fundamental_hz": 440.0,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.05
+    },
+    {
+      "start_s": 9.175,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.082,
+      "pan": -0.025
+    },
+    {
+      "start_s": 9.3625,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.021,
+      "pan": 0.28,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 9.4425,
+      "duration_s": 0.31,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.043239999999999994,
+      "pan": -0.06,
+      "midi": 64,
+      "fundamental_hz": 329.6275569128699,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.05
+    },
+    {
+      "start_s": 9.55,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.16,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 9.55,
+      "duration_s": 0.23,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.091,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1175.0
+    },
+    {
+      "start_s": 9.7375,
+      "duration_s": 0.255,
+      "kind": "open cymbal",
+      "gain": 0.022,
+      "pan": 0.28,
+      "decay_s": 0.076
+    },
+    {
+      "start_s": 9.9,
+      "duration_s": 0.036,
+      "kind": "first payoff line edit tick",
+      "gain": 0.022,
+      "pan": 0,
+      "frequency_hz": 1450
+    },
+    {
+      "start_s": 9.925,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.075,
+      "pan": -0.025
+    },
+    {
+      "start_s": 10.15,
+      "duration_s": 0.036,
+      "kind": "second payoff line edit tick",
+      "gain": 0.022,
+      "pan": 0,
+      "frequency_hz": 1800
+    },
+    {
+      "start_s": 10.2,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.19065,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 10.2,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.016739999999999998,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 10.2,
+      "duration_s": 0.24,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.09951,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1425.0
+    },
+    {
+      "start_s": 10.3875,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.02139,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 10.48125,
+      "duration_s": 0.135,
+      "kind": "ghost snare",
+      "gain": 0.038130000000000004,
+      "pan": -0.025
+    },
+    {
+      "start_s": 10.48125,
+      "duration_s": 0.13,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.09951,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1425.0
+    },
+    {
+      "start_s": 10.575,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.10974,
+      "pan": -0.025
+    },
+    {
+      "start_s": 10.575,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.016739999999999998,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 10.581999999999999,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 10.588,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 10.7625,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.16461,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 10.7625,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.02139,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 10.7625,
+      "duration_s": 0.19,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.09951,
+      "pan": 0,
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "filter_initial_hz": 1425.0
+    },
+    {
+      "start_s": 10.95,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.016739999999999998,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 11.1375,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.02139,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 11.23125,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.16461,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 11.23125,
+      "duration_s": 0.2,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.09951,
+      "pan": 0,
+      "midi": 40,
+      "fundamental_hz": 82.4068892282175,
+      "filter_initial_hz": 1425.0
+    },
+    {
+      "start_s": 11.325,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.10974,
+      "pan": -0.025
+    },
+    {
+      "start_s": 11.325,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.016739999999999998,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 11.331999999999999,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 11.338,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 11.5125,
+      "duration_s": 0.255,
+      "kind": "open cymbal",
+      "gain": 0.02139,
+      "pan": 0.24,
+      "decay_s": 0.076
+    },
+    {
+      "start_s": 11.7,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.1845,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 11.7,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.0162,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 11.7,
+      "duration_s": 0.25,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.0963,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1725.0
+    },
+    {
+      "start_s": 11.8875,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.0207,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 11.98125,
+      "duration_s": 0.135,
+      "kind": "ghost snare",
+      "gain": 0.0369,
+      "pan": -0.025
+    },
+    {
+      "start_s": 11.98125,
+      "duration_s": 0.15,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.0963,
+      "pan": 0,
+      "midi": 42,
+      "fundamental_hz": 92.4986056779086,
+      "filter_initial_hz": 1725.0
+    },
+    {
+      "start_s": 12.075,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.1062,
+      "pan": -0.025
+    },
+    {
+      "start_s": 12.075,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.0162,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 12.075,
+      "duration_s": 0.19,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.036,
+      "pan": -0.13,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.9
+    },
+    {
+      "start_s": 12.081999999999999,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 12.088,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 12.2625,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.0207,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 12.35625,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.1593,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 12.35625,
+      "duration_s": 0.15,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.0324,
+      "pan": 0.12,
+      "midi": 69,
+      "fundamental_hz": 440.0,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.9
+    },
+    {
+      "start_s": 12.45,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.0162,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 12.45,
+      "duration_s": 0.21,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.0963,
+      "pan": 0,
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "filter_initial_hz": 1725.0
+    },
+    {
+      "start_s": 12.6375,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.1593,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 12.6375,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.0207,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 12.6375,
+      "duration_s": 0.31,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.033839999999999995,
+      "pan": -0.06,
+      "midi": 64,
+      "fundamental_hz": 329.6275569128699,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.9
+    },
+    {
+      "start_s": 12.825,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.1062,
+      "pan": -0.025
+    },
+    {
+      "start_s": 12.825,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.0162,
+      "pan": 0.24,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 12.831999999999999,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 12.838,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 12.91875,
+      "duration_s": 0.15,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.0963,
+      "pan": 0,
+      "midi": 40,
+      "fundamental_hz": 82.4068892282175,
+      "filter_initial_hz": 1725.0
+    },
+    {
+      "start_s": 13.0125,
+      "duration_s": 0.255,
+      "kind": "open cymbal",
+      "gain": 0.0207,
+      "pan": 0.24,
+      "decay_s": 0.076
+    },
+    {
+      "start_s": 13.2,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.178,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 13.2,
+      "duration_s": 0.24,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.098,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1425.0
+    },
+    {
+      "start_s": 13.3875,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.02,
+      "pan": 0.28,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 13.575,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.094,
+      "pan": -0.025
+    },
+    {
+      "start_s": 13.581999999999999,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 13.588,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 13.625,
+      "duration_s": 0.135,
+      "kind": "ghost snare",
+      "gain": 0.073,
+      "pan": -0.025
+    },
+    {
+      "start_s": 13.71875,
+      "duration_s": 0.16,
+      "kind": "pitched drum-fill tom",
+      "gain": 0.105,
+      "pan": -0.24,
+      "midi": 54,
+      "fundamental_hz": 184.9972113558172
+    },
+    {
+      "start_s": 13.8125,
+      "duration_s": 0.18,
+      "kind": "pitched drum-fill tom",
+      "gain": 0.13,
+      "pan": 0.22,
+      "midi": 45,
+      "fundamental_hz": 110.0
+    },
+    {
+      "start_s": 13.90625,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.095,
+      "pan": -0.025
+    },
+    {
+      "start_s": 14.0,
+      "duration_s": 0.34,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.225,
+      "pan": 0,
+      "strong": true,
+      "sub_hz": 49,
+      "body_hz": 98
+    },
+    {
+      "start_s": 14.0,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.105,
+      "pan": -0.025
+    },
+    {
+      "start_s": 14.0,
+      "duration_s": 0.68,
+      "kind": "short crash cymbal",
+      "gain": 0.055,
+      "pan": 0.16,
+      "decay_s": 0.19
+    },
+    {
+      "start_s": 14.0,
+      "duration_s": 0.39,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.128,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1250.0
+    },
+    {
+      "start_s": 14.0,
+      "duration_s": 0.19,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.047,
+      "pan": -0.13,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.0
+    },
+    {
+      "start_s": 14.007,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 14.013,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 14.1875,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.023,
+      "pan": 0.28,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 14.28125,
+      "duration_s": 0.15,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.042300000000000004,
+      "pan": 0.12,
+      "midi": 69,
+      "fundamental_hz": 440.0,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.0
+    },
+    {
+      "start_s": 14.375,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.089,
+      "pan": -0.025
+    },
+    {
+      "start_s": 14.382,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 14.388,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 14.5625,
+      "duration_s": 0.31,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.04418,
+      "pan": -0.06,
+      "midi": 64,
+      "fundamental_hz": 329.6275569128699,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 1.0
+    },
+    {
+      "start_s": 14.75,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.17,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 14.75,
+      "duration_s": 0.23,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.098,
+      "pan": 0,
+      "midi": 37,
+      "fundamental_hz": 69.29565774421802,
+      "filter_initial_hz": 1112.5
+    },
+    {
+      "start_s": 14.9375,
+      "duration_s": 0.255,
+      "kind": "open cymbal",
+      "gain": 0.024,
+      "pan": 0.28,
+      "decay_s": 0.076
+    },
+    {
+      "start_s": 15.125,
+      "duration_s": 0.225,
+      "kind": "fat layered body-and-wire snare",
+      "gain": 0.071,
+      "pan": -0.025
+    },
+    {
+      "start_s": 15.125,
+      "duration_s": 0.19,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.029,
+      "pan": -0.13,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.72
+    },
+    {
+      "start_s": 15.132,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.042,
+      "pan": -0.23
+    },
+    {
+      "start_s": 15.138,
+      "duration_s": 0.17,
+      "kind": "three-burst filtered-noise clap",
+      "gain": 0.036,
+      "pan": 0.23
+    },
+    {
+      "start_s": 15.40625,
+      "duration_s": 0.15,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.0261,
+      "pan": 0.12,
+      "midi": 69,
+      "fundamental_hz": 440.0,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.72
+    },
+    {
+      "start_s": 15.5,
+      "duration_s": 0.29,
+      "kind": "layered sub/body/beater kick",
+      "gain": 0.135,
+      "pan": 0,
+      "strong": false,
+      "sub_hz": 52,
+      "body_hz": 98
+    },
+    {
+      "start_s": 15.5,
+      "duration_s": 0.34,
+      "kind": "syncopated resonant sub-bass",
+      "gain": 0.085,
+      "pan": 0,
+      "midi": 30,
+      "fundamental_hz": 46.2493028389543,
+      "filter_initial_hz": 1025.0
+    },
+    {
+      "start_s": 15.6875,
+      "duration_s": 0.31,
+      "kind": "three-note gritty synth hook",
+      "gain": 0.02726,
+      "pan": -0.06,
+      "midi": 64,
+      "fundamental_hz": 329.6275569128699,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.72
+    },
+    {
+      "start_s": 15.6875,
+      "duration_s": 0.055,
+      "kind": "closed cymbal",
+      "gain": 0.017,
+      "pan": 0.28,
+      "decay_s": 0.014
+    },
+    {
+      "start_s": 15.78125,
+      "duration_s": 0.2,
+      "kind": "pitched drum-fill tom",
+      "gain": 0.055,
+      "pan": -0.16,
+      "midi": 45,
+      "fundamental_hz": 110.0
+    },
+    {
+      "start_s": 15.875,
+      "duration_s": 0.255,
+      "kind": "open cymbal",
+      "gain": 0.015,
+      "pan": 0.19,
+      "decay_s": 0.076
+    },
+    {
+      "start_s": 15.95,
+      "duration_s": 0.38,
+      "kind": "resolved synth-hook tail repeat",
+      "gain": 0.021,
+      "pan": -0.22,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.55
+    },
+    {
+      "start_s": 16.325,
+      "duration_s": 0.38,
+      "kind": "resolved synth-hook tail repeat",
+      "gain": 0.00966,
+      "pan": 0.22,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.55
+    },
+    {
+      "start_s": 16.7,
+      "duration_s": 0.38,
+      "kind": "resolved synth-hook tail repeat",
+      "gain": 0.004443600000000001,
+      "pan": -0.22,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.55
+    },
+    {
+      "start_s": 17.075,
+      "duration_s": 0.38,
+      "kind": "resolved synth-hook tail repeat",
+      "gain": 0.0020440560000000003,
+      "pan": 0.22,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.55
+    },
+    {
+      "start_s": 17.45,
+      "duration_s": 0.38,
+      "kind": "resolved synth-hook tail repeat",
+      "gain": 0.0009402657600000001,
+      "pan": -0.22,
+      "midi": 66,
+      "fundamental_hz": 369.9944227116344,
+      "detune_ratio": [
+        0.998,
+        1.002
+      ],
+      "bright": 0.55
+    }
+  ]
+}

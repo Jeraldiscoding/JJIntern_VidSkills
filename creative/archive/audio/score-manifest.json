@@ -1,0 +1,1508 @@
+{
+  "title": "Signal to Possibility",
+  "duration_seconds": 20.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "tempo_bpm": 120,
+  "meter": "4/4",
+  "bars": 10,
+  "key": "D major",
+  "harmonic_colour": "major ninth / suspended added ninth",
+  "originality": "Every oscillator, noise source, drum transient, delay and reverb tap is synthesized in this file. No samples, recordings, stock loops, external music model or impulse response.",
+  "seed": 17102026,
+  "cues": [
+    {
+      "s": 0,
+      "cue": "Spark: intimate five-note mallet signature, soft sub pulse"
+    },
+    {
+      "s": 3,
+      "cue": "Fragments: rapid antiphonal motif and percussion pickup"
+    },
+    {
+      "s": 6,
+      "cue": "Focus: full swung garage groove and rounded bass"
+    },
+    {
+      "s": 10,
+      "cue": "Expand: stereo glass counterline opens the harmony"
+    },
+    {
+      "s": 14,
+      "cue": "Climax: highest motif register and sixteenth-note detail"
+    },
+    {
+      "s": 17,
+      "cue": "Resolve: drums clear for Dmaj9 brand chord"
+    },
+    {
+      "s": 19.45,
+      "cue": "Smooth final tail fade to silence"
+    }
+  ],
+  "events": [
+    {
+      "seconds": 0,
+      "kind": "tonal pad",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 0,
+      "kind": "opening sub",
+      "gain": 0.65,
+      "pan": 0.0
+    },
+    {
+      "seconds": 0.0,
+      "kind": "opening pulse",
+      "gain": 0.65,
+      "pan": 0.0
+    },
+    {
+      "seconds": 0.03,
+      "kind": "signature mallet",
+      "gain": 0.8,
+      "pan": -0.15
+    },
+    {
+      "seconds": 0.03,
+      "kind": "opening sparkle",
+      "gain": 0.26,
+      "pan": 0.5
+    },
+    {
+      "seconds": 0.5,
+      "kind": "signature mallet",
+      "gain": 0.7,
+      "pan": 0.22
+    },
+    {
+      "seconds": 0.5,
+      "kind": "opening tick",
+      "gain": 0.42,
+      "pan": 0.35
+    },
+    {
+      "seconds": 0.875,
+      "kind": "signature mallet",
+      "gain": 0.58,
+      "pan": -0.25
+    },
+    {
+      "seconds": 1.25,
+      "kind": "signature mallet",
+      "gain": 0.82,
+      "pan": 0.15
+    },
+    {
+      "seconds": 1.25,
+      "kind": "opening tick",
+      "gain": 0.42,
+      "pan": -0.35
+    },
+    {
+      "seconds": 1.75,
+      "kind": "signature mallet",
+      "gain": 0.43,
+      "pan": 0.35
+    },
+    {
+      "seconds": 2,
+      "kind": "tonal pad",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 2.0,
+      "kind": "opening tick",
+      "gain": 0.42,
+      "pan": 0.35
+    },
+    {
+      "seconds": 2.25,
+      "kind": "signature mallet",
+      "gain": 0.72,
+      "pan": -0.25
+    },
+    {
+      "seconds": 2.45,
+      "kind": "rising transition",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 2.5,
+      "kind": "opening tick",
+      "gain": 0.42,
+      "pan": 0.35
+    },
+    {
+      "seconds": 2.625,
+      "kind": "signature mallet",
+      "gain": 0.55,
+      "pan": 0.15
+    },
+    {
+      "seconds": 3.0,
+      "kind": "fragment arpeggio",
+      "gain": 0.59,
+      "pan": 0.52
+    },
+    {
+      "seconds": 3.0,
+      "kind": "fragment hat",
+      "gain": 0.7,
+      "pan": 0.22760074405499087
+    },
+    {
+      "seconds": 3,
+      "kind": "synth impact",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 3,
+      "kind": "impact bloom",
+      "gain": 0.095,
+      "pan": 0.0
+    },
+    {
+      "seconds": 3.2188,
+      "kind": "fragment arpeggio",
+      "gain": 0.59,
+      "pan": -0.52
+    },
+    {
+      "seconds": 3.4375,
+      "kind": "fragment arpeggio",
+      "gain": 0.59,
+      "pan": 0.52
+    },
+    {
+      "seconds": 3.6562,
+      "kind": "fragment arpeggio",
+      "gain": 0.59,
+      "pan": -0.52
+    },
+    {
+      "seconds": 3.75,
+      "kind": "fragment hat",
+      "gain": 0.7,
+      "pan": -0.03478704141459686
+    },
+    {
+      "seconds": 3.875,
+      "kind": "fragment arpeggio",
+      "gain": 0.59,
+      "pan": 0.52
+    },
+    {
+      "seconds": 4,
+      "kind": "tonal pad",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 4,
+      "kind": "opening sub",
+      "gain": 0.65,
+      "pan": 0.0
+    },
+    {
+      "seconds": 4.0,
+      "kind": "kick",
+      "gain": 0.34559999999999996,
+      "pan": 0.0
+    },
+    {
+      "seconds": 4.0,
+      "kind": "synth hat",
+      "gain": 0.48,
+      "pan": -0.32
+    },
+    {
+      "seconds": 4.0938,
+      "kind": "fragment arpeggio",
+      "gain": 0.59,
+      "pan": -0.52
+    },
+    {
+      "seconds": 4.285,
+      "kind": "synth hat",
+      "gain": 0.48,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 4.3125,
+      "kind": "fragment arpeggio",
+      "gain": 0.59,
+      "pan": 0.52
+    },
+    {
+      "seconds": 4.5,
+      "kind": "fragment hat",
+      "gain": 0.7,
+      "pan": -0.17051107936117832
+    },
+    {
+      "seconds": 4.5,
+      "kind": "snare",
+      "gain": 0.36,
+      "pan": -0.07
+    },
+    {
+      "seconds": 4.5,
+      "kind": "synth hat",
+      "gain": 0.48,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 4.5312,
+      "kind": "fragment arpeggio",
+      "gain": 0.59,
+      "pan": -0.52
+    },
+    {
+      "seconds": 4.75,
+      "kind": "fragment arpeggio",
+      "gain": 0.59,
+      "pan": 0.52
+    },
+    {
+      "seconds": 4.75,
+      "kind": "kick",
+      "gain": 0.34559999999999996,
+      "pan": 0.0
+    },
+    {
+      "seconds": 4.785,
+      "kind": "synth hat",
+      "gain": 0.48,
+      "pan": -0.32
+    },
+    {
+      "seconds": 4.9688,
+      "kind": "fragment arpeggio",
+      "gain": 0.59,
+      "pan": -0.52
+    },
+    {
+      "seconds": 5.0,
+      "kind": "synth hat",
+      "gain": 0.48,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 5.0,
+      "kind": "rising transition",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 5.125,
+      "kind": "kick",
+      "gain": 0.34559999999999996,
+      "pan": 0.0
+    },
+    {
+      "seconds": 5.1875,
+      "kind": "fragment arpeggio",
+      "gain": 0.59,
+      "pan": 0.52
+    },
+    {
+      "seconds": 5.25,
+      "kind": "fragment hat",
+      "gain": 0.7,
+      "pan": 0.3146159648143635
+    },
+    {
+      "seconds": 5.285,
+      "kind": "synth hat",
+      "gain": 0.48,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 5.375,
+      "kind": "ghost snare",
+      "gain": 0.48,
+      "pan": 0.4
+    },
+    {
+      "seconds": 5.4062,
+      "kind": "fragment arpeggio",
+      "gain": 0.59,
+      "pan": -0.52
+    },
+    {
+      "seconds": 5.5,
+      "kind": "fragment hat",
+      "gain": 0.7,
+      "pan": 0.2447340110792842
+    },
+    {
+      "seconds": 5.5,
+      "kind": "snare",
+      "gain": 0.36,
+      "pan": 0.08
+    },
+    {
+      "seconds": 5.5,
+      "kind": "synth hat",
+      "gain": 0.48,
+      "pan": -0.32
+    },
+    {
+      "seconds": 5.75,
+      "kind": "fragment hat",
+      "gain": 0.7,
+      "pan": -0.160275751750384
+    },
+    {
+      "seconds": 5.785,
+      "kind": "synth hat",
+      "gain": 0.48,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 5.875,
+      "kind": "ghost snare",
+      "gain": 0.48,
+      "pan": -0.25
+    },
+    {
+      "seconds": 6,
+      "kind": "tonal pad",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 6,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 6.0,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 6.0,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.32
+    },
+    {
+      "seconds": 6,
+      "kind": "lead arpeggio",
+      "gain": 0.7,
+      "pan": 0.06350400362694025
+    },
+    {
+      "seconds": 6,
+      "kind": "synth impact",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 6,
+      "kind": "impact bloom",
+      "gain": 0.12350000000000001,
+      "pan": 0.0
+    },
+    {
+      "seconds": 6,
+      "kind": "falling transition",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 6.285,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 6.375,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 6.375,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": -0.4496817550389201
+    },
+    {
+      "seconds": 6.5,
+      "kind": "snare",
+      "gain": 0.75,
+      "pan": -0.07
+    },
+    {
+      "seconds": 6.5,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 6.625,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": 0.09680399463951699
+    },
+    {
+      "seconds": 6.75,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 6.785,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.32
+    },
+    {
+      "seconds": 7.0,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 7.0,
+      "kind": "lead arpeggio",
+      "gain": 0.7,
+      "pan": 0.4151718946077031
+    },
+    {
+      "seconds": 7.125,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 7.25,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 7.285,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 7.375,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": -0.24480949990021642
+    },
+    {
+      "seconds": 7.5,
+      "kind": "snare",
+      "gain": 0.75,
+      "pan": 0.08
+    },
+    {
+      "seconds": 7.5,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.32
+    },
+    {
+      "seconds": 7.625,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 7.75,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 7.75,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": -0.3278992391222265
+    },
+    {
+      "seconds": 7.785,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 8,
+      "kind": "tonal pad",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 8,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 8.0,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 8.0,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.32
+    },
+    {
+      "seconds": 8,
+      "kind": "lead arpeggio",
+      "gain": 0.7,
+      "pan": -0.34056112288856777
+    },
+    {
+      "seconds": 8.285,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 8.375,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": -0.22872558487466627
+    },
+    {
+      "seconds": 8.5,
+      "kind": "snare",
+      "gain": 0.75,
+      "pan": -0.07
+    },
+    {
+      "seconds": 8.5,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 8.625,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": 0.42209998954863254
+    },
+    {
+      "seconds": 8.75,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 8.785,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.32
+    },
+    {
+      "seconds": 8.875,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 9.0,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 9.0,
+      "kind": "lead arpeggio",
+      "gain": 0.7,
+      "pan": 0.0782502684211951
+    },
+    {
+      "seconds": 9.0,
+      "kind": "rising transition",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 9.125,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 9.25,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 9.285,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 9.375,
+      "kind": "ghost snare",
+      "gain": 1.0,
+      "pan": 0.4
+    },
+    {
+      "seconds": 9.375,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": -0.44999559294781655
+    },
+    {
+      "seconds": 9.5,
+      "kind": "snare",
+      "gain": 0.75,
+      "pan": 0.08
+    },
+    {
+      "seconds": 9.5,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.32
+    },
+    {
+      "seconds": 9.75,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": 0.0821696105840103
+    },
+    {
+      "seconds": 9.785,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 9.875,
+      "kind": "ghost snare",
+      "gain": 1.0,
+      "pan": -0.25
+    },
+    {
+      "seconds": 10,
+      "kind": "tonal pad",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 10,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 10.0,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 10.0,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.32
+    },
+    {
+      "seconds": 10,
+      "kind": "lead arpeggio",
+      "gain": 0.7,
+      "pan": -0.4315159235984123
+    },
+    {
+      "seconds": 10,
+      "kind": "glass counterline",
+      "gain": 0.6,
+      "pan": -0.35
+    },
+    {
+      "seconds": 10,
+      "kind": "synth impact",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 10,
+      "kind": "impact bloom",
+      "gain": 0.12350000000000001,
+      "pan": 0.0
+    },
+    {
+      "seconds": 10,
+      "kind": "falling transition",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 10.285,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 10.375,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 10.375,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": 0.20251983320127792
+    },
+    {
+      "seconds": 10.5,
+      "kind": "snare",
+      "gain": 0.75,
+      "pan": -0.07
+    },
+    {
+      "seconds": 10.5,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 10.625,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": 0.3593192006805706
+    },
+    {
+      "seconds": 10.75,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 10.75,
+      "kind": "glass counterline",
+      "gain": 0.55,
+      "pan": 0.28
+    },
+    {
+      "seconds": 10.785,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.32
+    },
+    {
+      "seconds": 11.0,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 11.0,
+      "kind": "lead arpeggio",
+      "gain": 0.7,
+      "pan": -0.33061429368215794
+    },
+    {
+      "seconds": 11.125,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 11.25,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 11.285,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 11.375,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": -0.24145781310019573
+    },
+    {
+      "seconds": 11.5,
+      "kind": "snare",
+      "gain": 0.75,
+      "pan": 0.08
+    },
+    {
+      "seconds": 11.5,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.32
+    },
+    {
+      "seconds": 11.5,
+      "kind": "glass counterline",
+      "gain": 0.68,
+      "pan": -0.15
+    },
+    {
+      "seconds": 11.625,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 11.75,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 11.75,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": 0.41669209926388223
+    },
+    {
+      "seconds": 11.785,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 12,
+      "kind": "tonal pad",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 12,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 12.0,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 12.0,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.32
+    },
+    {
+      "seconds": 12,
+      "kind": "lead arpeggio",
+      "gain": 0.7,
+      "pan": -0.12573697418951665
+    },
+    {
+      "seconds": 12.25,
+      "kind": "glass counterline",
+      "gain": 0.55,
+      "pan": 0.3
+    },
+    {
+      "seconds": 12.285,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 12.375,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": 0.4475694506000293
+    },
+    {
+      "seconds": 12.5,
+      "kind": "snare",
+      "gain": 0.75,
+      "pan": -0.07
+    },
+    {
+      "seconds": 12.5,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 12.625,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": -0.03381800420781419
+    },
+    {
+      "seconds": 12.75,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 12.785,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.32
+    },
+    {
+      "seconds": 12.875,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 13.0,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 13.0,
+      "kind": "lead arpeggio",
+      "gain": 0.7,
+      "pan": -0.4355135988800677
+    },
+    {
+      "seconds": 13,
+      "kind": "glass counterline",
+      "gain": 0.55,
+      "pan": -0.25
+    },
+    {
+      "seconds": 13.125,
+      "kind": "kick",
+      "gain": 0.72,
+      "pan": 0.0
+    },
+    {
+      "seconds": 13.15,
+      "kind": "rising transition",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 13.25,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 13.285,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 13.375,
+      "kind": "ghost snare",
+      "gain": 1.0,
+      "pan": 0.4
+    },
+    {
+      "seconds": 13.375,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": 0.18907516657198842
+    },
+    {
+      "seconds": 13.5,
+      "kind": "snare",
+      "gain": 0.75,
+      "pan": 0.08
+    },
+    {
+      "seconds": 13.5,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.32
+    },
+    {
+      "seconds": 13.5,
+      "kind": "glass counterline",
+      "gain": 0.5,
+      "pan": 0.22
+    },
+    {
+      "seconds": 13.75,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": 0.3681097935546124
+    },
+    {
+      "seconds": 13.785,
+      "kind": "synth hat",
+      "gain": 1.0,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 13.875,
+      "kind": "ghost snare",
+      "gain": 1.0,
+      "pan": -0.25
+    },
+    {
+      "seconds": 14,
+      "kind": "tonal pad",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 14,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 14.0,
+      "kind": "kick",
+      "gain": 0.7704,
+      "pan": 0.0
+    },
+    {
+      "seconds": 14.0,
+      "kind": "synth hat",
+      "gain": 1.07,
+      "pan": -0.32
+    },
+    {
+      "seconds": 14,
+      "kind": "lead arpeggio",
+      "gain": 0.7,
+      "pan": 0.2956439694234551
+    },
+    {
+      "seconds": 14,
+      "kind": "glass counterline",
+      "gain": 0.7,
+      "pan": -0.25
+    },
+    {
+      "seconds": 14.0,
+      "kind": "climax detail",
+      "gain": 0.36,
+      "pan": 0.0
+    },
+    {
+      "seconds": 14,
+      "kind": "synth impact",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 14,
+      "kind": "impact bloom",
+      "gain": 0.15200000000000002,
+      "pan": 0.0
+    },
+    {
+      "seconds": 14,
+      "kind": "falling transition",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 14.25,
+      "kind": "climax detail",
+      "gain": 0.24,
+      "pan": -0.6475069957432965
+    },
+    {
+      "seconds": 14.285,
+      "kind": "synth hat",
+      "gain": 1.07,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 14.375,
+      "kind": "kick",
+      "gain": 0.7704,
+      "pan": 0.0
+    },
+    {
+      "seconds": 14.375,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": 0.2811257791893866
+    },
+    {
+      "seconds": 14.375,
+      "kind": "climax detail",
+      "gain": 0.24,
+      "pan": 0.5158841115019492
+    },
+    {
+      "seconds": 14.5,
+      "kind": "snare",
+      "gain": 0.8025,
+      "pan": -0.07
+    },
+    {
+      "seconds": 14.5,
+      "kind": "synth hat",
+      "gain": 1.07,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 14.625,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": -0.39586309198725156
+    },
+    {
+      "seconds": 14.625,
+      "kind": "climax detail",
+      "gain": 0.24,
+      "pan": -0.3487723967002827
+    },
+    {
+      "seconds": 14.75,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 14.75,
+      "kind": "glass counterline",
+      "gain": 0.55,
+      "pan": 0.3
+    },
+    {
+      "seconds": 14.75,
+      "kind": "climax detail",
+      "gain": 0.24,
+      "pan": 0.6276775547570307
+    },
+    {
+      "seconds": 14.785,
+      "kind": "synth hat",
+      "gain": 1.07,
+      "pan": -0.32
+    },
+    {
+      "seconds": 15.0,
+      "kind": "synth hat",
+      "gain": 1.07,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 15.0,
+      "kind": "lead arpeggio",
+      "gain": 0.7,
+      "pan": -0.1400037097415073
+    },
+    {
+      "seconds": 15.0,
+      "kind": "climax detail",
+      "gain": 0.36,
+      "pan": 0.223154703732932
+    },
+    {
+      "seconds": 15.125,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 15.125,
+      "kind": "climax detail",
+      "gain": 0.24,
+      "pan": 0.24781281957571324
+    },
+    {
+      "seconds": 15.25,
+      "kind": "kick",
+      "gain": 0.7704,
+      "pan": 0.0
+    },
+    {
+      "seconds": 15.25,
+      "kind": "glass counterline",
+      "gain": 0.5,
+      "pan": -0.3
+    },
+    {
+      "seconds": 15.285,
+      "kind": "synth hat",
+      "gain": 1.07,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 15.375,
+      "kind": "ghost snare",
+      "gain": 1.07,
+      "pan": 0.4
+    },
+    {
+      "seconds": 15.375,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": 0.44577331006269166
+    },
+    {
+      "seconds": 15.375,
+      "kind": "climax detail",
+      "gain": 0.24,
+      "pan": 0.620285311420253
+    },
+    {
+      "seconds": 15.5,
+      "kind": "snare",
+      "gain": 0.8025,
+      "pan": 0.08
+    },
+    {
+      "seconds": 15.5,
+      "kind": "synth hat",
+      "gain": 1.07,
+      "pan": -0.32
+    },
+    {
+      "seconds": 15.5,
+      "kind": "climax detail",
+      "gain": 0.36,
+      "pan": -0.32616304566337123
+    },
+    {
+      "seconds": 15.625,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 15.75,
+      "kind": "kick",
+      "gain": 0.7704,
+      "pan": 0.0
+    },
+    {
+      "seconds": 15.75,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": -0.01891095872347836
+    },
+    {
+      "seconds": 15.75,
+      "kind": "climax detail",
+      "gain": 0.24,
+      "pan": 0.5315480654421872
+    },
+    {
+      "seconds": 15.785,
+      "kind": "synth hat",
+      "gain": 1.07,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 15.875,
+      "kind": "ghost snare",
+      "gain": 1.07,
+      "pan": -0.25
+    },
+    {
+      "seconds": 15.875,
+      "kind": "climax detail",
+      "gain": 0.24,
+      "pan": -0.6446562547380252
+    },
+    {
+      "seconds": 16,
+      "kind": "tonal pad",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 16,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 16.0,
+      "kind": "kick",
+      "gain": 0.7704,
+      "pan": 0.0
+    },
+    {
+      "seconds": 16.0,
+      "kind": "synth hat",
+      "gain": 1.07,
+      "pan": -0.32
+    },
+    {
+      "seconds": 16,
+      "kind": "lead arpeggio",
+      "gain": 0.7,
+      "pan": 0.4452112109805218
+    },
+    {
+      "seconds": 16,
+      "kind": "glass counterline",
+      "gain": 0.52,
+      "pan": 0.25
+    },
+    {
+      "seconds": 16.125,
+      "kind": "climax detail",
+      "gain": 0.24,
+      "pan": 0.02645061727741216
+    },
+    {
+      "seconds": 16.25,
+      "kind": "climax detail",
+      "gain": 0.24,
+      "pan": -0.4581919143192646
+    },
+    {
+      "seconds": 16.285,
+      "kind": "synth hat",
+      "gain": 1.07,
+      "pan": -0.03999999999999998
+    },
+    {
+      "seconds": 16.3,
+      "kind": "rising transition",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 16.375,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": -0.14378363713002315
+    },
+    {
+      "seconds": 16.5,
+      "kind": "snare",
+      "gain": 0.8025,
+      "pan": -0.07
+    },
+    {
+      "seconds": 16.5,
+      "kind": "synth hat",
+      "gain": 1.07,
+      "pan": 0.24000000000000005
+    },
+    {
+      "seconds": 16.625,
+      "kind": "lead arpeggio",
+      "gain": 0.49,
+      "pan": -0.39395347860979285
+    },
+    {
+      "seconds": 16.75,
+      "kind": "kick",
+      "gain": 0.7704,
+      "pan": 0.0
+    },
+    {
+      "seconds": 16.785,
+      "kind": "synth hat",
+      "gain": 1.07,
+      "pan": -0.32
+    },
+    {
+      "seconds": 16.875,
+      "kind": "rounded bass",
+      "gain": 0.9,
+      "pan": 0.0
+    },
+    {
+      "seconds": 17,
+      "kind": "synth impact",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 17,
+      "kind": "impact bloom",
+      "gain": 0.13299999999999998,
+      "pan": 0.0
+    },
+    {
+      "seconds": 17,
+      "kind": "resolved tonic",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 17,
+      "kind": "final Dmaj9",
+      "gain": 1.05,
+      "pan": 0.0
+    },
+    {
+      "seconds": 17.0,
+      "kind": "resolved chord bloom",
+      "gain": 0.45,
+      "pan": -0.5
+    },
+    {
+      "seconds": 17.016,
+      "kind": "resolved chord bloom",
+      "gain": 0.45,
+      "pan": -0.25
+    },
+    {
+      "seconds": 17.032,
+      "kind": "resolved chord bloom",
+      "gain": 0.45,
+      "pan": 0.0
+    },
+    {
+      "seconds": 17.048,
+      "kind": "resolved chord bloom",
+      "gain": 0.3,
+      "pan": 0.25
+    },
+    {
+      "seconds": 17.064,
+      "kind": "resolved chord bloom",
+      "gain": 0.3,
+      "pan": 0.5
+    },
+    {
+      "seconds": 17.75,
+      "kind": "closing signature",
+      "gain": 0.38,
+      "pan": -0.25
+    },
+    {
+      "seconds": 18.25,
+      "kind": "closing signature",
+      "gain": 0.38,
+      "pan": 0.25
+    },
+    {
+      "seconds": 18.75,
+      "kind": "closing signature",
+      "gain": 0.38,
+      "pan": 0.0
+    }
+  ],
+  "build_seconds": 3.171,
+  "premaster_peak_dbfs": -2.878,
+  "premaster_rms_dbfs": -17.343,
+  "master": {
+    "file": "jjintern-original-score.wav",
+    "bits_per_sample": 24,
+    "integrated_lufs": -14.13,
+    "true_peak_dbtp": -1.0,
+    "loudness_range_lu": 3.2,
+    "normalization": "FFmpeg two-pass EBU R128 loudnorm; -14 LUFS / -1 dBTP targets"
+  }
+}

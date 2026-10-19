@@ -1,0 +1,251 @@
+{
+  "mode": "test",
+  "scene": {
+    "width": 1080,
+    "height": 1920,
+    "duration": 18,
+    "timeline": {
+      "compress": 2,
+      "packed": 2.55,
+      "launch": 2.55,
+      "approach": 6.55,
+      "arrival": 8.05,
+      "swallowed": 8.75,
+      "latched": 8.88,
+      "settled": 9.05,
+      "found": 9.05,
+      "payoff": 9.9,
+      "readable": 10.5,
+      "signoff": 14,
+      "end": 18
+    },
+    "supersampling": [
+      2160,
+      3840
+    ],
+    "font": "-apple-system,BlinkMacSystemFont,\"SF Pro Display\",\"Helvetica Neue\",Arial,sans-serif",
+    "logo": [
+      512,
+      512
+    ],
+    "packet": {
+      "width": 435,
+      "height": 255,
+      "startX": 142.5,
+      "endX": 184.5,
+      "contactScale": 1
+    },
+    "morph": {
+      "from": 2,
+      "to": 2.55,
+      "center": "mix(540,360,smooth(v))",
+      "endLeft": 142.5,
+      "endVelocity": 0
+    },
+    "flight": {
+      "start": 2.55,
+      "end": 6.55,
+      "position": [
+        142.5,
+        832.5
+      ],
+      "scale": 1,
+      "foregroundVelocity": 0,
+      "background": "22 stronger streak rows; integrated velocity3000→24000px/s; decelerates6.55–8.75",
+      "whip": false
+    },
+    "handoff": {
+      "approach": [
+        6.55,
+        8.05
+      ],
+      "packetX": [
+        142.5,
+        184.5
+      ],
+      "receiverX": [
+        1120,
+        619.5,
+        370
+      ],
+      "contact": 8.05,
+      "swallowed": 8.75,
+      "latched": 8.88,
+      "mechanism": "Packet and receiver converge slowly; packet enters through moving aperture; original logo locks at centre540 before Found"
+    },
+    "found": {
+      "at": 9.05,
+      "until": 9.9,
+      "placement": "Short bubble above stationary centred original logo",
+      "logoCenter": [
+        540,
+        960
+      ],
+      "secondDing": 9.05,
+      "standaloneTitle": false,
+      "nextCopy": 9.9
+    },
+    "source": "Revision11: stationary hero packet with moving speed field, continuous centred convergence, brief stationary logo/Found. Editorial metaphor, no measured product-speed or vacancy claim."
+  },
+  "start": 0,
+  "duration": 10.2,
+  "fps": 60,
+  "frames": 612,
+  "width": 720,
+  "height": 1280,
+  "renderSeconds": 5.255,
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.84",
+    "revision": "@5869fe313571d75152b77813cf0a4ee26a4e6df0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.25"
+  },
+  "logo": {
+    "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/assets/evidence/product/logo-mark.png",
+    "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c",
+    "treatment": "Original RGBA asset unchanged; uniform scale and translation only"
+  },
+  "sourceSha256": "e8ecd37f43da265dd7e77d28294cbf9a86f29734e891301d430eca03fbd854ff",
+  "outputs": [
+    {
+      "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/JJIntern-revision11-motion-test.mp4",
+      "bytes": 692390,
+      "sha256": "edf1135ffca1f3f09ce3c5290e5ac8f56813c8b335aa1704c06e7076c14c238e",
+      "media": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64002a",
+            "width": 720,
+            "height": 1280,
+            "coded_width": 720,
+            "coded_height": 1280,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "9:16",
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 156672,
+            "duration": "10.200000",
+            "bit_rate": "537265",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "612",
+            "extradata_size": 48,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "encoder": "Lavc62.28.102 libx264"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/JJIntern-revision11-motion-test.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "10.200000",
+          "size": "692390",
+          "bit_rate": "543050",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.12.102"
+          }
+        }
+      }
+    }
+  ],
+  "command": [
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-y",
+    "-f",
+    "image2pipe",
+    "-framerate",
+    "60",
+    "-vcodec",
+    "png",
+    "-i",
+    "pipe:0",
+    "-map",
+    "0:v:0",
+    "-vf",
+    "scale=in_range=full:out_range=limited:out_color_matrix=bt709,setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709,setsar=1",
+    "-r",
+    "60",
+    "-fps_mode",
+    "cfr",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "veryfast",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.2",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "-t",
+    "10.2",
+    "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/showreel/rectangle/revision-11/JJIntern-revision11-motion-test.mp4"
+  ],
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

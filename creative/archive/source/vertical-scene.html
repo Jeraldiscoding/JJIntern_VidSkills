@@ -1,0 +1,147 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>JJIntern — One shape, one next step</title>
+<style>html,body{margin:0;background:#0b0b0c;overflow:hidden}canvas{display:block;width:1080px;height:1920px}</style>
+<canvas id="film" width="1080" height="1920" aria-label="A blue ribbon becomes the frame of a real JJIntern company search, then an action arrow."></canvas>
+<script>
+'use strict';
+const W=1080,H=1920,PI=Math.PI,TAU=PI*2;
+const c=document.querySelector('#film'),g=c.getContext('2d',{alpha:false});g.imageSmoothingEnabled=true;g.imageSmoothingQuality='high';
+const ink='#0b0b0c',paper='#f5f5f7',blue='#0071e3',muted='#6e6e73';
+const sans='-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif';
+const serif=new FontFace('Instrument','url(../../assets/evidence/product/instrument-serif-latin-italic-400.woff2)',{style:'italic',weight:'400'});
+const mark=new Image();mark.src='../../assets/evidence/product/logo-mark.png';
+const captures=['directory-empty',...Array.from({length:9},(_,i)=>`directory-${String(i+1).padStart(2,'0')}`)].map(n=>{const i=new Image();i.src=`../vertical/product/${n}.png`;return i});
+const clamp=(n,a=0,b=1)=>Math.max(a,Math.min(b,n)),mix=(a,b,t)=>a+(b-a)*t;
+const ease=n=>1-Math.pow(1-clamp(n),4),smooth=n=>{n=clamp(n);return n*n*(3-2*n)};
+const io=n=>{n=clamp(n);return n<.5?8*n*n*n*n:1-Math.pow(-2*n+2,4)/2};
+function bg(col){g.globalAlpha=1;g.fillStyle=col;g.fillRect(0,0,W,H)}
+function txt(s,x,y,size=100,col=ink,o={}){
+ g.save();g.translate(x,y);g.globalAlpha=o.alpha??1;
+ g.font=o.serif?`italic 400 ${size}px Instrument`:`${o.weight??550} ${size}px ${sans}`;
+ g.textBaseline='alphabetic';g.textAlign=o.align??'center';g.letterSpacing=`${o.spacing??(-size*.032)}px`;g.fillStyle=col;
+ if(o.max&&g.measureText(s).width>o.max)throw Error(`Copy exceeds vertical inset: ${s}`);
+ g.fillText(s,0,0);g.restore();
+}
+function line(x1,y1,x2,y2,col=blue,w=2,a=1){g.save();g.globalAlpha=a;g.strokeStyle=col;g.lineWidth=w;g.beginPath();g.moveTo(x1,y1);g.lineTo(x2,y2);g.stroke();g.restore()}
+function dot(x,y,r,col=blue,a=1){g.save();g.globalAlpha=a;g.fillStyle=col;g.beginPath();g.arc(x,y,Math.max(.01,r),0,TAU);g.fill();g.restore()}
+function header(light=false,alpha=1){
+ const col=light?paper:ink;txt('JJ Intern',500,257,37,col,{weight:600,alpha});dot(580,248,4,blue,alpha);
+}
+function headline(a,b,t,col=ink,{size=112,serifSize=145,alpha=1}={}){
+ const en=ease(t/.55),en2=ease((t-.10)/.6);
+ txt(a,500,424+(1-en)*55,size,col,{alpha:clamp(t*5)*alpha,max:810});
+ txt(b,500,589+(1-en2)*65,serifSize,col,{serif:true,alpha:clamp((t-.10)*5)*alpha,max:810});
+}
+function caption(s,y,a=1,col=ink,size=44){txt(s,500,y,size,col,{weight:400,alpha:a,spacing:-.65,max:810})}
+function roundRect(x,y,w,h,r){g.beginPath();g.roundRect(x,y,w,h,r)}
+// Material sculpture: original parametric ribbon, lit per fragment in WebGL.
+// It is an abstract trajectory, never a substitute or redraw of the brand mark.
+const glc=document.createElement('canvas');glc.width=W*2;glc.height=H*2;
+const gl=glc.getContext('webgl',{alpha:true,antialias:true,premultipliedAlpha:false,preserveDrawingBuffer:true});
+if(!gl)throw new Error('WebGL is required for the original ribbon sculpture.');
+const vs=`attribute vec3 aP;attribute vec3 aN;uniform mat3 uR;uniform vec2 uCentre;uniform float uScale;uniform float uPerspective;varying vec3 vN;varying vec3 vP;
+void main(){vec3 p=uR*aP;vP=p;vN=uR*aN;float depth=1.0+uPerspective*p.z;vec2 xy=(p.xy*uScale/depth+uCentre);gl_Position=vec4(xy.x/540.0-1.0,1.0-xy.y/960.0,p.z*.07,1.0);}`;
+const fs=`precision highp float;varying vec3 vN;varying vec3 vP;uniform float uSilver;uniform float uFade;
+void main(){vec3 n=normalize(vN);if(!gl_FrontFacing)n=-n;vec3 V=normalize(vec3(0.1,-0.2,7.0)-vP);vec3 L=normalize(vec3(-0.5,-1.0,2.5));vec3 L2=normalize(vec3(1.5,.5,1.8));float d=max(0.,dot(n,L));float d2=max(0.,dot(n,L2));vec3 R=reflect(-V,n);float strip=exp(-pow((R.y+.2)*5.2,2.0));float strip2=exp(-pow((R.x-.8)*12.,2.));float spec=pow(max(0.,dot(reflect(-L,n),V)),48.);float fres=pow(1.-abs(dot(n,V)),3.);vec3 base=mix(vec3(.003,.14,.45),vec3(.3,.34,.4),uSilver);vec3 color=base*(.28+d*.7+d2*.25)+vec3(.06,.34,.75)*fres*.45; color+=vec3(.68,.84,1.)*strip*.58+vec3(.7,.85,1.)*strip2*.48+vec3(.9,.95,1.)*spec*.7; color=mix(color,vec3(.76,.85,.96),fres*.3);gl_FragColor=vec4(pow(color,vec3(.82)),uFade);}`;
+function shader(type,src){const s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));return s}
+const prog=gl.createProgram();gl.attachShader(prog,shader(gl.VERTEX_SHADER,vs));gl.attachShader(prog,shader(gl.FRAGMENT_SHADER,fs));gl.linkProgram(prog);gl.useProgram(prog);
+const posB=gl.createBuffer(),normB=gl.createBuffer(),idxB=gl.createBuffer();
+const seg=280,sides=20,N=(seg+1)*(sides+1),positions=new Float32Array(N*3),normals=new Float32Array(N*3),indices=[];
+for(let i=0;i<seg;i++)for(let j=0;j<sides;j++){const a=i*(sides+1)+j,b=a+sides+1;indices.push(a,b,a+1,b,b+1,a+1)}
+gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,idxB);gl.bufferData(gl.ELEMENT_ARRAY_BUFFER,new Uint16Array(indices),gl.STATIC_DRAW);
+const uniforms=Object.fromEntries(['uR','uCentre','uScale','uPerspective','uSilver','uFade'].map(s=>[s,gl.getUniformLocation(prog,s)]));
+const sub=(a,b)=>a.map((x,i)=>x-b[i]),add=(a,b)=>a.map((x,i)=>x+b[i]),mul=(a,b)=>a.map(x=>x*b);
+const norm=a=>{let d=Math.hypot(...a);return a.map(x=>x/(d||1))};
+const cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]];
+const arrowPoints=[[-1.35,1.1],[-1.05,1.4],[.8,-.45],[.8,.2],[1.2,.2],[1.2,-1.1],[-.1,-1.1],[-.1,-.7],[.5,-.7]];
+function arrowPoint(u){
+ const v=(u/TAU%1)*arrowPoints.length,i=Math.floor(v),f=v-i;
+ const a=arrowPoints[i%arrowPoints.length],b=arrowPoints[(i+1)%arrowPoints.length];return[mix(a[0],b[0],f),mix(a[1],b[1],f),0];
+}
+let frameMorph=0,arrowMorph=0,frameTall=0;
+function path(u,m){
+ const knot=[(1.6+.53*Math.cos(3*u))*Math.cos(2*u),(1.6+.53*Math.cos(3*u))*Math.sin(2*u),.68*Math.sin(3*u)];
+ const co=Math.cos(u),si=Math.sin(u);
+ const frame=[2.0*Math.sign(co)*Math.pow(Math.abs(co),.24),mix(1.2,1.65,frameTall)*Math.sign(si)*Math.pow(Math.abs(si),.24),0];
+ const a=arrowPoint((u+TAU)%TAU);
+ return knot.map((v,i)=>mix(mix(v,frame[i],frameMorph),a[i],arrowMorph));
+}
+function geometry(m,t){
+ for(let i=0;i<=seg;i++){
+  const u=i/seg*TAU,p=path(u,m),T=norm(sub(path(u+.002,m),path(u-.002,m))),B=norm(cross(T,[0,0,1])),C=norm(cross(T,B));
+  const tw=(u*.5+t*.10)*(1-frameMorph),w=add(mul(B,Math.cos(tw)),mul(C,Math.sin(tw))),h=add(mul(B,-Math.sin(tw)),mul(C,Math.cos(tw)));
+  for(let j=0;j<=sides;j++){
+   const a=j/sides*TAU,ca=Math.cos(a),sa=Math.sin(a),xx=Math.sign(ca)*Math.pow(Math.abs(ca),.5)*mix(.28,.052,frameMorph),yy=Math.sign(sa)*Math.pow(Math.abs(sa),.65)*mix(.055,.022,frameMorph);
+   const v=add(p,add(mul(w,xx),mul(h,yy))),nn=norm(add(mul(w,ca*.13),mul(h,sa)));
+   const k=(i*(sides+1)+j)*3;positions.set(v,k);normals.set(nn,k);
+  }
+ }
+}
+function rotation(ax,ay,az){
+ const cx=Math.cos(ax),sx=Math.sin(ax),cy=Math.cos(ay),sy=Math.sin(ay),cz=Math.cos(az),sz=Math.sin(az);
+ return new Float32Array([cy*cz,cy*sz,-sy,sx*sy*cz-cx*sz,sx*sy*sz+cx*cz,sx*cy,cx*sy*cz+sx*sz,cx*sy*sz-sx*cz,cx*cy]);
+}
+function sculpture(t,{x=500,y=1040,scale=195,morph=0,rx=.3,ry=.5,rz=.1,silver=0,alpha=1,perspective=.06}={}){
+ geometry(morph,t);gl.viewport(0,0,glc.width,glc.height);gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.enable(gl.DEPTH_TEST);gl.depthFunc(gl.LEQUAL);
+ gl.disable(gl.CULL_FACE);gl.useProgram(prog);
+ for(const [buf,arr,name] of [[posB,positions,'aP'],[normB,normals,'aN']]){gl.bindBuffer(gl.ARRAY_BUFFER,buf);gl.bufferData(gl.ARRAY_BUFFER,arr,gl.DYNAMIC_DRAW);const at=gl.getAttribLocation(prog,name);gl.enableVertexAttribArray(at);gl.vertexAttribPointer(at,3,gl.FLOAT,false,0,0)}
+ gl.uniformMatrix3fv(uniforms.uR,false,rotation(rx,ry,rz));gl.uniform2f(uniforms.uCentre,x,y);gl.uniform1f(uniforms.uScale,scale);gl.uniform1f(uniforms.uPerspective,perspective);gl.uniform1f(uniforms.uSilver,silver);gl.uniform1f(uniforms.uFade,alpha);
+ gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,idxB);gl.drawElements(gl.TRIANGLES,indices.length,gl.UNSIGNED_SHORT,0);g.drawImage(glc,0,0,W,H);
+}
+
+
+function ribbon(t){
+ frameMorph=smooth((t-2.8)/3.2);arrowMorph=smooth((t-13.5)/1.7);frameTall=smooth((t-5.9)/.7);
+ const p=arrowMorph;
+ sculpture(t,{x:mix(500,790,p),y:mix(mix(1040,1000,frameMorph),1136,p),scale:mix(mix(160,195,frameMorph),66,p),rx:(.28+t*.08)*(1-frameMorph),ry:(.4+t*.09)*(1-frameMorph),rz:-.22*(1-frameMorph),silver:.05,alpha:1,perspective:.04*(1-frameMorph)});
+ // The final contour fills as a small action glyph after the morph has completed.
+ if(p>.86){g.save();g.globalAlpha=smooth((p-.86)/.14);g.translate(790,1136);g.scale(66,66);g.beginPath();arrowPoints.forEach((a,i)=>i?g.lineTo(a[0],a[1]):g.moveTo(a[0],a[1]));g.closePath();g.fillStyle=blue;g.fill();g.restore()}
+}
+function product(t){
+ const a=smooth((t-5.7)/.3)*(1-smooth((t-13.5)/.4));if(a<=0)return;
+ let state=t<7?0:Math.min(9,1+Math.floor((t-7)/.18));
+ const z=smooth((t-5.9)/.7),sw=mix(716,500,z),hh=742*400/sw;
+ g.save();g.globalAlpha=a;roundRect(129,1000-hh/2,742,hh,12);g.clip();
+ // Uniform scale only; the saved PNG is a faithful crop of the real public UI.
+ const density=captures[state].naturalWidth/716;g.drawImage(captures[state],0,0,sw*density,400*density,129,1000-hh/2,742,hh);g.restore();
+}
+function first(t){
+ header();const fade=1-smooth((t-2.65)/.35);headline('Your next','internship?',t+.2,ink,{size:112,serifSize:136,alpha:fade});
+ 
+}
+function focus(t){
+ header();const q=t-3,a=1-smooth((t-5.6)/.4);headline('Find your','focus.',q+.12,ink,{alpha:a});
+ caption('Finance + tech internships.',713,smooth((q-.35)/.45)*a,ink,45);
+}
+function searching(t){
+ header();const q=t-6;headline('Search a','company.',q+.10,ink,{size:112,serifSize:145});
+ 
+ caption('Type a name. Find the company.',1420,smooth((q-.65)/.5),ink,43);
+}
+function found(t){
+ header();const q=t-10,fade=1-smooth((t-13.15)/.35);
+ headline('Microsoft,','found.',q+.1,ink,{size:111,serifSize:155,alpha:fade});
+ caption('Company directory.',1400,fade,ink,43);
+ caption('Check current roles separately.',1456,fade,ink,42);
+}
+function destination(t){
+ const q=t-13.5;header(true,smooth((q-.5)/.4));
+ headline('Find your','next move.',q-.5,paper,{size:122,serifSize:141});
+ // The same contour becomes an action arrow as the domain arrives.
+ const e=smooth((t-16.45)/.5);g.save();g.globalAlpha=e;g.drawImage(mark,430,770,140,140);g.restore();
+ const d=smooth((t-14.8)/.5);txt('JJIntern.com',495,1166,77,paper,{weight:550,alpha:d,max:670});
+ caption('Explore companies.',1295,d,paper,49);
+ caption('Finance + tech internships',1401,d,'#c7c7cc',43);
+}
+window.drawScene=function(t){
+ t=clamp(t,0,19.99999);g.setTransform(1,0,0,1,0,0);g.globalAlpha=1;g.globalCompositeOperation='source-over';bg(paper);
+ if(t>=13.5){const r=smooth((t-13.5)/.65)*2200;g.fillStyle=ink;g.beginPath();g.arc(500,1040,r,0,TAU);g.fill()}
+ // A restrained contact shadow grounds the object; it vanishes as the object becomes a frame.
+ if(t<5.5){g.save();const a=(1-smooth((t-3)/2.5))*.12;const sh=g.createRadialGradient(500,1400,20,500,1400,300);sh.addColorStop(0,`rgba(0,0,0,${a})`);sh.addColorStop(1,'rgba(0,0,0,0)');g.fillStyle=sh;g.translate(0,1070);g.scale(1,.24);g.fillRect(100,0,800,1800);g.restore()}
+ product(t);ribbon(t);
+ if(t<3)first(t);else if(t<6)focus(t);else if(t<10)searching(t);else if(t<13.5)found(t);else destination(t);
+};
+window.ready=Promise.all([serif.load().then(f=>document.fonts.add(f)),mark.decode(),...captures.map(i=>i.decode())]).then(()=>document.fonts.ready).then(()=>{
+ if(!document.fonts.check('italic 400 100px Instrument'))throw Error('Serif unavailable');drawScene(0);
+ return {size:[W,H],font:'system sans and Instrument Serif italic 400',renderer:gl.getParameter(gl.RENDERER),uniformAspect:true,ribbonSupersampling:2,sourceCaptureDensity:4,purpose:'Knot becomes real search frame, then action arrow',captureCrop:{x:32,y:430,w:716,h:400}};
+});
+</script></html>

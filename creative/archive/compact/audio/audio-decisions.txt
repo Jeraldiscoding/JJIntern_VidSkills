@@ -1,0 +1,37 @@
+A SMALL ADVANTAGE — NEW TEN-SECOND SCORE
+
+This is a newly composed and sequenced 10-second cue, not an excerpt,
+speed-up or splice of a previous soundtrack. All sources are synthesized
+from oscillators and generated noise. No samples, loops or recordings.
+
+The arrangement uses a small, rounded bass phrase, soft dry kick, a handful
+of rim/high-percussion details and brief warm D-major/G-major colour.
+There is no repeated pluck tune, high arpeggio, loud notification melody,
+long trailer build or giant cinematic boom.
+
+0–1.65: One subtle material note at 0.18 seconds marks the posting. Its
+small sound and short decay leave the visual reveal room to read.
+1.65–2.65: Four light contacts and restrained pressure mark the fold.
+2.65–3.65: A shaped air/tonal sound moves left to right over exactly one
+second; it ends naturally as the website appears.
+3.65–6.75: The first kick, bass and short contact create the destination
+impact. A concise low motif carries the rhythm under the real feed.
+6.75–10: A warmer harmonic return supports the benefit and URL. The groove
+thins instead of adding more activity; a final low resolve at 8.65 gives
+the closing line space. The tail is fully silent by 9.9 seconds.
+
+The sounds are sine/FM/additive tones, pitch-envelope kick, noise/resonator
+contacts, filtered generated percussion and short computed reflections.
+No external sound library or sampled acoustic impulse response was used.
+Mastering and sample-count checks establish delivery limits and signal
+integrity; they are not evidence of musical taste or a claimed listening
+review. Exact master measurements and all musical events are recorded in
+score-manifest.json.
+
+Rebuild from the workspace root:
+/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 creative/archive/compact/audio/build_score.py
+
+Dependencies already present: numpy, scipy, ffmpeg. Seed: 10171026.
+Delivery: jjintern-compact-original-score.wav
+10.000 seconds / 48 kHz / stereo / 24-bit PCM.
+Only creative/archive/compact/audio/ was written.

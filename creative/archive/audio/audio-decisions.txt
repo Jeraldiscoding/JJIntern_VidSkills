@@ -1,0 +1,49 @@
+SIGNAL TO POSSIBILITY — original JJIntern score
+
+Composition and synthesis
+20.000 s; 48 kHz; stereo; 24-bit PCM; 120 BPM; 10 bars of 4/4.
+D major, with major ninths and suspended added ninths rather than stock
+triumphant orchestral chords. The hook rises in register as the picture gains
+focus. Its fragments become a syncopated arpeggio, then a wider glass line.
+The final dominant resolves at precisely 17.000 s into a Dmaj9 brand chord.
+
+Every waveform was written in Python: FM/resonator mallets, additive detuned
+pads, sine/partial bass, pitch-envelope kick, bandpassed-noise snare, metallic
+oscillator/noise hats, tonal ticks and newly synthesized transition noise.
+Stereo delay and diffusion are generated as numerical taps. No recordings,
+samples, stock loops, external music generators or sampled impulse responses.
+
+The groove is a swung, syncopated electronic/future-garage arrangement. It
+builds from a sparse opening to drums at 6 s, a glass counterline at 10 s,
+sixteenth-note details at 14 s, then leaves space for the identity at 17 s.
+Noise transitions are short and restrained. The low end is centered; pads,
+mallets, reflections and fine details occupy the stereo field. A light kick
+duck, soft saturation, subsonic filtering and EBU R128 mastering control the
+mix without erasing the arrangement's changes in density.
+
+Discarded approaches
+- A repetitive sine-beep loop: no development, little emotional arc.
+- A maximal EDM drop: too much masking and an abrupt tonal mismatch.
+- Generic trailer brass, vocal chops or a licensed beat: inappropriate to
+  the quiet precision of the brand, and incompatible with no samples.
+- A last-second hard stop: the score resolves and its final tail fades.
+
+Iteration
+1. Composed the 10-bar harmonic narrative and rising five-note signature.
+2. Arranged distinct layers for 0 / 3 / 6 / 10 / 14 / 17 s visual cue points.
+3. Synthesized the instruments and algorithmic stereo ambience.
+4. Measured the premaster, then performed two-pass EBU R128 mastering.
+5. Re-measured the delivered WAV. Exact numbers live in score-manifest.json.
+   Integrated loudness: -14.13 LUFS. True peak: -1.00 dBTP. LRA: 3.2 LU.
+
+Rebuild
+/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 creative/archive/audio/build_score.py
+
+Requires numpy, scipy and ffmpeg. On this machine those dependencies exist
+under Python 3.13; the default python3 does not have numpy installed.
+The build regenerates the premaster, measures it, masters the final file and
+records the measured final WAV. The music is deterministic (seed 17102026).
+
+Delivery file: creative/archive/audio/jjintern-original-score.wav
+Source: creative/archive/audio/build_score.py
+Event timeline, cues and measurements: creative/archive/audio/score-manifest.json

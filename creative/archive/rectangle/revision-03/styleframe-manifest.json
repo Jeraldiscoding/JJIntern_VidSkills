@@ -1,0 +1,89 @@
+{
+  "stage": "revision03 styleframes awaiting approval",
+  "revision": 3,
+  "date": "2026-10-17",
+  "size": [
+    1080,
+    1920
+  ],
+  "actual_deliverable": "three flat graphic style frames; no video or audio",
+  "supersampling": [
+    2160,
+    3840
+  ],
+  "crops": {
+    "microsoft": [
+      0,
+      110,
+      1620,
+      960
+    ],
+    "feed": [
+      0,
+      720,
+      1720,
+      980
+    ]
+  },
+  "palette": {
+    "background": "#edf3ff",
+    "ink": "#203145",
+    "accent": "#0071e3"
+  },
+  "flight": {
+    "start": 4.5,
+    "end": 6.5,
+    "seconds": 2,
+    "confirmed_by_user": true
+  },
+  "inputs": {
+    "MICROSOFT_IMAGE": {
+      "path": "../../captures/microsoft-internship-programmes-540.png",
+      "sha256": "59befb651bcd65ad2533a74e072377a8215285e7af5b8d6501beded35d953ee8"
+    },
+    "FEED_IMAGE": {
+      "path": "../../revision-02/captures/feed-light-tech-scrolled.png",
+      "sha256": "c238bd0e5942822049795f8ea6b37386ba90724e09d564e3a21002b4c9fc328f"
+    }
+  },
+  "outputs": [
+    {
+      "path": "styleframes/01-browser.png",
+      "sha256": "aa605608cfd3bcb1a31b0a80f5b7c336ee2abc7043bb66f0ce4378050f7bd291"
+    },
+    {
+      "path": "styleframes/02-packet.png",
+      "sha256": "1f238f7620314b6dfe382e1e9d18cd21ad464d8ea958927402af5ca450d133d6"
+    },
+    {
+      "path": "styleframes/03-feed.png",
+      "sha256": "f66d911e6bfb00cd7c99514b49356f35f9ddc8fb0d6164bb2a8f51e193275c4d"
+    }
+  ],
+  "scene": {
+    "width": 1080,
+    "height": 1920,
+    "internal": [
+      2160,
+      3840
+    ],
+    "stage": "revision03 actual stills only",
+    "style": "flat graphic; no photoreal materials",
+    "font": "-apple-system,BlinkMacSystemFont,\"SF Pro Display\",\"Helvetica Neue\",Arial,sans-serif",
+    "ms": [
+      1620,
+      2340
+    ],
+    "feed": [
+      1720,
+      3360
+    ]
+  },
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.84",
+    "revision": "@5869fe313571d75152b77813cf0a4ee26a4e6df0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.25"
+  }
+}

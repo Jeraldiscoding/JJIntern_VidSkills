@@ -1,0 +1,63 @@
+JJINTERN V3 — WE CHECK. YOU DISCOVER.
+
+The direction
+The film now explains JJIntern's recurring-discovery value. A student repeatedly checking career pages sees an example posting appear. JJIntern's scheduled thirty-minute check catches the information, a named data packet races toward the website, and the camera arrives at the genuine internship feed. The invitation is to spend less time checking career pages.
+
+This replaces the search-only demonstration. Search is not animated as the main product action; the real, filtered feed is the endpoint of the posting's illustrated journey.
+
+Timeline and copy
+0–2.5 s: Still checking / career pages? Editorial careers-page sheets and a repeated checking cue establish the burden.
+2.5–4 s: A new / posting. Plain editorial Microsoft / Research Intern card, labelled EXAMPLE POSTING, with a newly synthesized two-note ding.
+4–6 s: We check / every / 30 / minutes. A complete scheduled-check sweep establishes the interval before transport starts.
+6–10 s: From career pages / to your feed. The Microsoft/Research Intern data packet recedes through perspective rails, rings and fast streaks; the actual feed grows from the same vanishing point.
+10–14 s: Internships. / One feed. The genuine four-times-pixel-density JJIntern feed is held and enlarged uniformly to make the role readable. Example workflow · actual feed remains visible from the first readable product reveal.
+14–20 s: Spend less time / checking. JJIntern.com/feed. We check every30minutes. Explore the feed. The authentic brand mark arrives on the musical resolution and the CTA holds to the last frame.
+
+What was chosen
+The posting is the recurring visual subject. It begins as a labelled editorial example, becomes a packet, travels along the data path, and resolves into the real product view. The fast camera movement has a destination. The clock is separate from transport, so speed of editing does not substitute for the thirty-minute check interval.
+
+Dark JJIntern ink, off-white type and blue data paths hold the visual language together. Natural system sans and Instrument Serif italic400 are retained; no text is squeezed horizontally. The portrait layout stays inside a conservative house composition inset while allowing decorative flight trails beyond it. The actual screenshot is uniformly cropped/zoomed, with no fabricated row or notification.
+
+The new song
+The soundtrack was completely recomposed for the new story. It starts with restrained checking tension, exposes an original two-note FM-glass ding at2.55s and2.80s, builds rhythm under the check, accelerates with the6–10s data flight, lands in Amaj9 as the real feed arrives at10s, then resolves the brand/CTA at17s.
+
+Every tone, bass part, drum, noise effect and reverb/delay tap is synthesized mathematically. No samples, recordings, stock loops, external music generator, sampled impulse response or vocals. The score is exactly20.000seconds at48kHz, stereo24-bit PCM. Measured WAV:-14.18LUFS integrated,-1.42dB true peak. Reproducible source, notes and musical event manifest are in audio/.
+
+What was discarded
+The prior directory-search tutorial showed a feature without explaining the user's larger reason to care. Decorative rotating geometry lacked a useful destination. Generic tab chaos alone would repeat that problem; it now occupies only the opening. A field of opportunity pulses could imply unsupported real detection events or complete coverage. An instant-alert or never-miss guarantee was unnecessary to communicate recurring discovery and is not shown.
+
+A fresh Microsoft announcement was also rejected after capture: the genuine Research Intern row displays1Sept. The film therefore labels the event Example posting and the data flight Example workflow. The actual proof headline was changed from New postings to Internships so the old row is not presented as newly published today.
+
+Iterations performed
+1. Compared three mechanisms and selected employer example → scheduled check → data flight → authentic feed → reduced-checking benefit.
+2. Recorded the owner's new thirty-minute cadence confirmation as P06 and its claim record. It is responsible-owner information, not independently measured scheduler logs or a coverage guarantee.
+3. Loaded the real public feed, typed Microsoft through actual browser input events, captured the genuine result at4×device pixels, inspected its date and employer handoff, and recorded P07. The employer destination is a generic careers portal; current role availability was not independently established.
+4. Built the first storyboard with the example card, clock, perspective flight and real feed. Removed the moving clock packet when it overlapped minutes; enlarged the named data carrier and increased trail/rail visibility; simplified the closing benefit to Spend less time checking.
+5. Rendered a complete24fps rough with the new music. Inspected80encoded timeline samples and independent phone-width data-flight extractions. Review confirmed the causal sequence now works without relying on a search demonstration.
+6. Changed the feed headline to Internships. One feed. and kept the workflow label present from its first readable appearance. Inspected revised full-size source frames before final rendering.
+7. Rendered native120fps and60fps files directly from the same lossless source PNG stream. The60fps copy selects alternate original frames; it is not a transcode of the120fps file. Final media, decode, audio and playback checks are recorded in review/final-qa.json and review/final-review.txt.
+
+Evidence and limitations
+P06: current product-owner statement that JJIntern scrapes/checks every thirty minutes,17October2026. That supports We check every30minutes; it does not establish every-employer/every-internship coverage, zero missed opportunities or instant ingestion/delivery.
+P07: fresh logged-out public feed and actual Microsoft company-or-role search. The row is Microsoft / Research Intern /1Sept; a Synapxe title also matches Microsoft. It is an observed JJIntern listing, not employer-confirmed current hiring or a newly arrived event.
+Clean source PNGs are from before a later external-link click changed an isolated local display to Applied; no actual application was submitted, and no such status is shown in the film.
+Source URLs, exact captured states, dates, crops, bounds and hashes are preserved in captures/. Crop proofs remain actual UI. The official mark and font originals retain their existing provenance under creative/assets/evidence/product/.
+
+Format and reproduction
+20seconds;1080×1920 portrait; native120fps master2400frames and60fps TikTok copy1200frames; H.264 High, CRF15, yuv420p, square pixels, BT.709 matrix/primaries/transfer, AAC48kHz stereo320kb/s and fast-start MP4.
+Rebuild new music:
+/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 creative/archive/pipeline/audio/build_score.py
+Render using an isolated Chrome debuggingport9345:
+node creative/archive/source/render-pipeline.mjs 9345 final
+Verify:
+/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 creative/archive/source/verify_pipeline.py
+
+Local file delivery only. No external publication. Physical-phone and actual TikTok upload previews remain unperformed; house insets are not a universal safe-zone guarantee. Automated sound-enabled playback and measured audio checks do not assert subjective human listening.
+
+Measured production time
+This revision, including recomposition, fresh feed research/capture, storyboards, revisions, rough/final renders and QA: 11minutes 52.1seconds elapsed.
+Combined active production phases across all three versions: 33minutes 49.2seconds. This excludes the gaps waiting for feedback; parallel workstreams are not added together.
+Both final encodes rendered from the source PNG stream in50.3seconds.
+
+Verified delivery
+Native120master:2400frames,20.000seconds,1080×1920,9.18MB. TikTok60copy:1200frames,20.000seconds,1080×1920,7.27MB. Full video/audio decode without errors. Encoded soundtrack:-14.19LUFS integrated,-1.42dB true peak. Both automated real-time playback passes reached the end without mediaerrors. Details and inspection limits are in review/final-review.txt.

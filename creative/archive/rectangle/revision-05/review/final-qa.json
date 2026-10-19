@@ -1,0 +1,1360 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-10-17",
+  "timezone": "Europe/Stockholm",
+  "method": "Actual MP4 metadata, full decode, decoded pixels, PCM and loudness; no visual pass inferred from source",
+  "source_sha256": "97d24f22df6d8d0dcc4eb8cbf35d34e713754a97d21588dcbe37d7cda4b9eba9",
+  "geometry": {
+    "checks": [
+      {
+        "check": "flight spans exactly 4.5 to 6.5 seconds",
+        "passed": true,
+        "evidence": {
+          "start": 4.5,
+          "end": 6.5,
+          "formula": "x_start+(x_end-x_start)*(0.12*u+0.88*u^3)",
+          "cameraTracking": false
+        }
+      },
+      {
+        "check": "120 fps flight is frames 540..779; arrival is frame 780",
+        "passed": true,
+        "evidence": {
+          "flight_first": 540,
+          "flight_last": 779,
+          "arrival": 780,
+          "samples_including_arrival": 241
+        }
+      },
+      {
+        "check": "60 fps flight is frames 270..389; arrival is frame 390",
+        "passed": true,
+        "evidence": {
+          "flight_first": 270,
+          "flight_last": 389,
+          "arrival": 390,
+          "method": "every second source frame"
+        }
+      },
+      {
+        "check": "samples match specified cubic position and derivative",
+        "passed": true,
+        "evidence": {
+          "max_position_error_px": 2.5579538487363607e-13,
+          "max_velocity_error_px_s": 2.8421709430404007e-13,
+          "max_time_error_s": 8.881784197001252e-16,
+          "formula": "x0+(x1-x0)*(0.12*u+0.88*u^3)"
+        }
+      },
+      {
+        "check": "position and speed strictly increase through arrival",
+        "passed": true,
+        "evidence": {
+          "start_x": 65,
+          "arrival_x": 280.4,
+          "start_speed_px_s": 12.923999999999998,
+          "arrival_speed_px_s": 297.252
+        }
+      },
+      {
+        "check": "packet leading edge reaches contact coordinate at arrival",
+        "passed": true,
+        "evidence": {
+          "packet_width": 359.6,
+          "arrival_leading_edge": 640.0,
+          "contact_coordinate": 640
+        }
+      },
+      {
+        "check": "scene declares stationary camera",
+        "passed": true,
+        "evidence": "Source declaration, corroborated separately by encoded screen-space motion tracking."
+      }
+    ],
+    "passed": true,
+    "scene": {
+      "width": 1080,
+      "height": 1920,
+      "duration": 18,
+      "supersampling": [
+        2160,
+        3840
+      ],
+      "font": "-apple-system,BlinkMacSystemFont,\"SF Pro Display\",\"Helvetica Neue\",Arial,sans-serif",
+      "logo": [
+        512,
+        512
+      ],
+      "packet": {
+        "scale": 0.62,
+        "startX": 65,
+        "endX": 280.4,
+        "width": 359.6,
+        "height": 210.8,
+        "leadingEdgeAtContact": 640
+      },
+      "flight": {
+        "start": 4.5,
+        "end": 6.5,
+        "formula": "x_start+(x_end-x_start)*(0.12*u+0.88*u^3)",
+        "cameraTracking": false
+      },
+      "source": "Approved revision05 editorial source; no current-vacancy assertion"
+    }
+  },
+  "exports": [
+    {
+      "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/JJIntern-revision05-120fps-master.mp4",
+      "sha256": "28d6e93f99d645e6f271c2e4323274237b5487978f949eae120f5096670cf3be",
+      "bytes": 1362852,
+      "passed": true,
+      "checks": [
+        {
+          "check": "1080x1920 H.264 yuv420p",
+          "passed": true,
+          "evidence": {
+            "width": 1080,
+            "height": 1920,
+            "codec_name": "h264",
+            "profile": "High",
+            "level": 52,
+            "pix_fmt": "yuv420p"
+          }
+        },
+        {
+          "check": "BT.709 limited-range tagging",
+          "passed": true,
+          "evidence": {
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "color_range": "tv"
+          }
+        },
+        {
+          "check": "declared frame rate",
+          "passed": true,
+          "evidence": {
+            "r_frame_rate": "120/1",
+            "avg_frame_rate": "120/1"
+          }
+        },
+        {
+          "check": "exact 18.000-second presentation",
+          "passed": true,
+          "evidence": {
+            "container_duration": "18.000000",
+            "video_duration": "18.000000",
+            "audio_duration": "18.000000"
+          }
+        },
+        {
+          "check": "48 kHz stereo AAC",
+          "passed": true,
+          "evidence": {
+            "codec_name": "aac",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo"
+          }
+        },
+        {
+          "check": "faststart moov precedes mdat",
+          "passed": true,
+          "evidence": [
+            {
+              "type": "ftyp",
+              "offset": 0,
+              "bytes": 32
+            },
+            {
+              "type": "moov",
+              "offset": 32,
+              "bytes": 46288
+            },
+            {
+              "type": "free",
+              "offset": 46320,
+              "bytes": 8
+            },
+            {
+              "type": "mdat",
+              "offset": 46328,
+              "bytes": 1316524
+            }
+          ]
+        },
+        {
+          "check": "decoded frame count and constant timestamps",
+          "passed": true,
+          "evidence": {
+            "decoded_frames": 2160,
+            "expected_frames": 2160,
+            "first_pts": 0.0,
+            "last_pts": 17.991667,
+            "maximum_pts_error_s": 3.3333333604446125e-07,
+            "arrival_frame": 780,
+            "arrival_pts": 6.5
+          }
+        },
+        {
+          "check": "complete audio/video decode without errors",
+          "passed": true,
+          "evidence": "No decoder errors"
+        },
+        {
+          "check": "encoded AAC below digital and true-peak clipping",
+          "passed": true,
+          "evidence": {
+            "integrated_lufs": -16.04,
+            "true_peak_dbtp": -1.0,
+            "loudness_range_lu": 1.7,
+            "sample_peak_dbfs": -1.0020092423791962,
+            "clipped_interleaved_samples": 0,
+            "decoded_samples_per_channel": 864256,
+            "untrimmed_decoder_duration_s": 18.005333333333333,
+            "first_stereo_sample": [
+              0.0,
+              0.0
+            ],
+            "last_stereo_sample": [
+              8.803045098426665e-11,
+              -2.4361487827029293e-10
+            ],
+            "duration_note": "MP4 presentation duration is checked separately; AAC may return a padded final codec block."
+          }
+        },
+        {
+          "check": "decoded packet follows accelerating screen-space path",
+          "passed": true,
+          "evidence": {
+            "method": "Blue-weighted centroid of rightmost narrow blue stripe in 16 decoded RGB rows; pale pressure arc excluded",
+            "crop": [
+              0,
+              924,
+              1080,
+              16
+            ],
+            "first_frame": 540,
+            "last_frame": 780,
+            "sample_count": 241,
+            "expected_sample_count": 241,
+            "observed_displacement_px": 215.69513954879807,
+            "expected_displacement_px": 215.39999999999998,
+            "max_relative_position_error_px": 0.3682697941402928,
+            "rms_relative_position_error_px": 0.17832693787327636,
+            "minimum_frame_step_px": 0.020662674650679946,
+            "speed_window_s": 0.16666666666666666,
+            "window_speeds_px_s": [
+              13.296066252588275,
+              17.902251738092673,
+              26.47927242187609,
+              37.52717149220484,
+              50.67460667954765,
+              72.37759457831407,
+              96.69757249779457,
+              126.18787330316741,
+              155.79176470588254,
+              190.79506860480865,
+              231.42658346027247,
+              275.01501155823917
+            ],
+            "codec_tolerance": "Relative error below1px; individual subpixel centroid jitter up to0.25px allowed; all1/6s speed windows must be positive and strictly increasing"
+          }
+        },
+        {
+          "check": "compression-to-flight boundary has no large raster discontinuity",
+          "passed": true,
+          "evidence": {
+            "crop": [
+              0,
+              730,
+              1080,
+              460
+            ],
+            "mean_absolute_rgb_delta_0_255": 0.005215378421900161,
+            "maximum_channel_delta": 12,
+            "channel_fraction_changing_more_than_8": 2.012882447665056e-06,
+            "method": "Pixel differences in central action crop; complements screen-space tracking and visual inspection."
+          }
+        },
+        {
+          "check": "final sign-off remains stable through last frame",
+          "passed": true,
+          "evidence": {
+            "crop": [
+              0,
+              730,
+              1080,
+              460
+            ],
+            "mean_absolute_rgb_delta_0_255": 0.09752818035426732,
+            "maximum_channel_delta": 44,
+            "channel_fraction_changing_more_than_8": 0.000558239398819109,
+            "method": "Pixel differences in central action crop; complements screen-space tracking and visual inspection."
+          }
+        }
+      ],
+      "flight_pixel_tracking": {
+        "method": "Blue-weighted centroid of rightmost narrow blue stripe in 16 decoded RGB rows; pale pressure arc excluded",
+        "crop": [
+          0,
+          924,
+          1080,
+          16
+        ],
+        "first_frame": 540,
+        "last_frame": 780,
+        "sample_count": 241,
+        "expected_sample_count": 241,
+        "observed_displacement_px": 215.69513954879807,
+        "expected_displacement_px": 215.39999999999998,
+        "max_relative_position_error_px": 0.3682697941402928,
+        "rms_relative_position_error_px": 0.17832693787327636,
+        "minimum_frame_step_px": 0.020662674650679946,
+        "speed_window_s": 0.16666666666666666,
+        "window_speeds_px_s": [
+          13.296066252588275,
+          17.902251738092673,
+          26.47927242187609,
+          37.52717149220484,
+          50.67460667954765,
+          72.37759457831407,
+          96.69757249779457,
+          126.18787330316741,
+          155.79176470588254,
+          190.79506860480865,
+          231.42658346027247,
+          275.01501155823917
+        ],
+        "centroid_x_by_frame": [
+          421.3492063492063,
+          421.42857142857144,
+          421.4999404691035,
+          421.5767136847315,
+          421.6528799797006,
+          421.71051951408634,
+          421.8279569892473,
+          421.9159756771697,
+          421.9751271905031,
+          422.10371243370656,
+          422.3144424131627,
+          422.420178041543,
+          422.78922716627636,
+          422.9105504587156,
+          423.0458515283843,
+          423.1434689507495,
+          423.2710472279261,
+          423.348,
+          423.44721689059503,
+          423.49706457925635,
+          423.5652173913044,
+          423.648,
+          423.6686626746507,
+          423.81496881496884,
+          423.9327548806941,
+          424.04318181818184,
+          424.2540415704388,
+          424.48578199052133,
+          424.56119887789754,
+          424.95671981776763,
+          425.09030837004406,
+          425.19747899159665,
+          425.31237322515216,
+          425.40697674418607,
+          425.4311740890688,
+          425.5420944558522,
+          425.62757201646093,
+          425.79265091863516,
+          425.9685393258427,
+          426.3255269320843,
+          426.5489260143198,
+          426.872437357631,
+          427.05145413870247,
+          427.2132196162047,
+          427.3292181069959,
+          427.42857142857144,
+          427.4840239640539,
+          427.5686299615877,
+          427.7177742193755,
+          427.9370786516854,
+          428.2384259259259,
+          428.81531531531533,
+          429.06223175965664,
+          429.2591093117409,
+          429.3078431372549,
+          429.41603053435114,
+          429.5806451612903,
+          429.7906976744186,
+          429.95831017231797,
+          430.4622641509434,
+          430.9621380846325,
+          431.1732776617954,
+          431.3141683778234,
+          431.4504950495049,
+          431.65212981744423,
+          431.80543933054395,
+          432.08,
+          432.5444015444015,
+          433.1625,
+          433.3242574257426,
+          433.51612903225805,
+          433.6260162601626,
+          433.9518599562363,
+          434.5177304964539,
+          435.06800870511427,
+          435.3242574257426,
+          435.52834008097165,
+          435.7,
+          435.993413830955,
+          436.79690949227376,
+          437.21666666666664,
+          437.4653179190751,
+          437.53798973588687,
+          437.9564245810056,
+          438.43719806763283,
+          439.09761388286336,
+          439.4220551378446,
+          439.5857142857143,
+          439.9533333333333,
+          440.83076923076925,
+          441.2943548387097,
+          441.5357142857143,
+          441.77615062761504,
+          442.2529550827423,
+          443.07207207207205,
+          443.4117647058824,
+          443.6547619047619,
+          444.0662100456621,
+          444.8752770799468,
+          445.27282377919323,
+          445.66243444659125,
+          446.12085441259137,
+          446.9550084889643,
+          447.2343375099973,
+          447.6998591549296,
+          448.5382775119617,
+          449.1802197802198,
+          449.4268292682927,
+          449.88546255506606,
+          451.0578158458244,
+          451.33787362845254,
+          451.7659462308909,
+          452.81776765375855,
+          453.3366733466934,
+          453.74590163934425,
+          454.62409638554215,
+          455.3366733466934,
+          455.74590163934425,
+          456.8219836111896,
+          457.3366733466934,
+          457.72536687631026,
+          458.8219836111896,
+          459.44181459566073,
+          459.80969845150776,
+          461.05029585798815,
+          461.47579143389197,
+          462.24106602059356,
+          463.27777777777777,
+          463.70481534647007,
+          464.78503322739095,
+          465.4436398744871,
+          466.13677130044846,
+          467.26304075671163,
+          467.74590163934425,
+          468.84248210023867,
+          469.39212755356255,
+          470.39800995024876,
+          471.44208494208493,
+          471.95382254464283,
+          473.3136569579288,
+          473.841628959276,
+          475.179658302189,
+          475.8072805139186,
+          477.07377049180326,
+          477.5702647657841,
+          479.01773835920176,
+          479.3938053097345,
+          480.92841163310965,
+          481.7468619246862,
+          482.92841163310965,
+          483.6345733041575,
+          484.88527302813014,
+          485.54315789473685,
+          487.1576673866091,
+          487.76127359170147,
+          489.1938949299096,
+          490.11187214611874,
+          491.37450199203187,
+          492.455421686747,
+          493.5603112840467,
+          494.8729411764706,
+          495.69042769857435,
+          497.2800107541336,
+          498.16937354988397,
+          499.5120481927711,
+          500.97907488986783,
+          501.80304243394716,
+          503.26823467230446,
+          504.5,
+          505.68924302788844,
+          507.2494481236203,
+          508.22669368847716,
+          509.6219512195122,
+          511.2997858672377,
+          512.2331002331002,
+          513.7080867850099,
+          515.2428884026258,
+          516.3364928909953,
+          517.5659731032733,
+          519.3248415716097,
+          520.8382352941177,
+          521.8561946902655,
+          523.5594262295082,
+          525.2798418972332,
+          526.7972972972973,
+          527.9298245614035,
+          529.5425101214574,
+          531.3200628601362,
+          532.7821782178218,
+          534.0016977928693,
+          535.6625704045059,
+          537.5291093843396,
+          539.3852110916812,
+          541.0324825986079,
+          542.3014018691589,
+          543.7663157894737,
+          545.6609442060086,
+          547.4305019305019,
+          549.3305084745763,
+          551.0623608017818,
+          552.6374133949191,
+          554.1824362606233,
+          555.9455782312925,
+          557.7083333333334,
+          559.5579187238891,
+          561.505698005698,
+          563.4160351992178,
+          565.332,
+          567.2958057395143,
+          569.2271205357143,
+          571.2560975609756,
+          573.1225359616409,
+          575.1225359616409,
+          577.0126721763086,
+          579.0126721763086,
+          581.0126721763086,
+          583.0044272274488,
+          585.1225359616409,
+          587.1225359616409,
+          589.1974723538705,
+          591.2085106382979,
+          593.3284394380458,
+          595.4086444007859,
+          597.394,
+          599.4220227408737,
+          601.5330661322645,
+          603.6782077393075,
+          605.871921182266,
+          608.1971153846154,
+          610.8127423822715,
+          613.1049783549784,
+          615.2523943661972,
+          617.5736434108527,
+          619.731124388919,
+          621.9282700421941,
+          624.6083620419668,
+          627.1049783549784,
+          629.2572269807281,
+          631.6546591619763,
+          634.0997281442267,
+          637.0443458980044
+        ],
+        "codec_tolerance": "Relative error below1px; individual subpixel centroid jitter up to0.25px allowed; all1/6s speed windows must be positive and strictly increasing",
+        "passed": true
+      },
+      "decoded_review_frames": [
+        {
+          "index": 0,
+          "frame": 0,
+          "time_s": 0.0,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-00.png"
+        },
+        {
+          "index": 1,
+          "frame": 72,
+          "time_s": 0.6,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-01.png"
+        },
+        {
+          "index": 2,
+          "frame": 348,
+          "time_s": 2.9,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-02.png"
+        },
+        {
+          "index": 3,
+          "frame": 396,
+          "time_s": 3.3,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-03.png"
+        },
+        {
+          "index": 4,
+          "frame": 444,
+          "time_s": 3.7,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-04.png"
+        },
+        {
+          "index": 5,
+          "frame": 492,
+          "time_s": 4.1,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-05.png"
+        },
+        {
+          "index": 6,
+          "frame": 539,
+          "time_s": 4.491666666666666,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-06.png"
+        },
+        {
+          "index": 7,
+          "frame": 540,
+          "time_s": 4.5,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-07.png"
+        },
+        {
+          "index": 8,
+          "frame": 600,
+          "time_s": 5.0,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-08.png"
+        },
+        {
+          "index": 9,
+          "frame": 660,
+          "time_s": 5.5,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-09.png"
+        },
+        {
+          "index": 10,
+          "frame": 720,
+          "time_s": 6.0,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-10.png"
+        },
+        {
+          "index": 11,
+          "frame": 779,
+          "time_s": 6.491666666666666,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-11.png"
+        },
+        {
+          "index": 12,
+          "frame": 780,
+          "time_s": 6.5,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-12.png"
+        },
+        {
+          "index": 13,
+          "frame": 798,
+          "time_s": 6.65,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-13.png"
+        },
+        {
+          "index": 14,
+          "frame": 816,
+          "time_s": 6.8,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-14.png"
+        },
+        {
+          "index": 15,
+          "frame": 852,
+          "time_s": 7.1,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-15.png"
+        },
+        {
+          "index": 16,
+          "frame": 1188,
+          "time_s": 9.9,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-16.png"
+        },
+        {
+          "index": 17,
+          "frame": 1236,
+          "time_s": 10.3,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-17.png"
+        },
+        {
+          "index": 18,
+          "frame": 1296,
+          "time_s": 10.8,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-18.png"
+        },
+        {
+          "index": 19,
+          "frame": 1356,
+          "time_s": 11.3,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-19.png"
+        },
+        {
+          "index": 20,
+          "frame": 1799,
+          "time_s": 14.991666666666667,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-20.png"
+        },
+        {
+          "index": 21,
+          "frame": 1800,
+          "time_s": 15.0,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-21.png"
+        },
+        {
+          "index": 22,
+          "frame": 1848,
+          "time_s": 15.4,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-22.png"
+        },
+        {
+          "index": 23,
+          "frame": 2159,
+          "time_s": 17.991666666666667,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-frame-23.png"
+        }
+      ],
+      "contact_sheets": [
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-board-1.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-board-2.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-board-3.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-board-4.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-board-5.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-120-board-6.png"
+      ],
+      "source_to_encoded_measurements": [
+        {
+          "crop": [
+            0,
+            730,
+            1080,
+            460
+          ],
+          "mean_absolute_rgb_delta_0_255": 2.2105018786902844,
+          "maximum_channel_delta": 54,
+          "channel_fraction_changing_more_than_8": 0.003809715512614063,
+          "method": "Pixel differences in central action crop; complements screen-space tracking and visual inspection.",
+          "reference_path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/stills/0.600s.png",
+          "reference_sha256": "b98b641336e14d4d67e13b7c2a49489b48fa946ee9f68b48479738d99770d76d",
+          "encoded_frame": 72,
+          "reference_kind": "source",
+          "interpretation": "Measurement only: RGB-to-limited-range YUV420 encoding and decoding are lossy; RGB identity is not required. Decoded boards were visually inspected alongside rendered reference."
+        },
+        {
+          "crop": [
+            0,
+            730,
+            1080,
+            460
+          ],
+          "mean_absolute_rgb_delta_0_255": 2.3785252281266773,
+          "maximum_channel_delta": 28,
+          "channel_fraction_changing_more_than_8": 0.003847289318303811,
+          "method": "Pixel differences in central action crop; complements screen-space tracking and visual inspection.",
+          "reference_path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/stills/7.100s.png",
+          "reference_sha256": "7749e90bf058118debc68bfcd1f95a606400aece6a2edd08de0619f731d42969",
+          "encoded_frame": 852,
+          "reference_kind": "logo",
+          "interpretation": "Measurement only: RGB-to-limited-range YUV420 encoding and decoding are lossy; RGB identity is not required. Decoded boards were visually inspected alongside rendered reference."
+        }
+      ]
+    },
+    {
+      "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/JJIntern-revision05-60fps.mp4",
+      "sha256": "75248d1bff5b047d2d3361d2426562d184fd3e4b1d7303d1e19711c6e6b2d3fd",
+      "bytes": 1130239,
+      "passed": true,
+      "checks": [
+        {
+          "check": "1080x1920 H.264 yuv420p",
+          "passed": true,
+          "evidence": {
+            "width": 1080,
+            "height": 1920,
+            "codec_name": "h264",
+            "profile": "High",
+            "level": 42,
+            "pix_fmt": "yuv420p"
+          }
+        },
+        {
+          "check": "BT.709 limited-range tagging",
+          "passed": true,
+          "evidence": {
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "color_range": "tv"
+          }
+        },
+        {
+          "check": "declared frame rate",
+          "passed": true,
+          "evidence": {
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1"
+          }
+        },
+        {
+          "check": "exact 18.000-second presentation",
+          "passed": true,
+          "evidence": {
+            "container_duration": "18.000000",
+            "video_duration": "18.000000",
+            "audio_duration": "18.000000"
+          }
+        },
+        {
+          "check": "48 kHz stereo AAC",
+          "passed": true,
+          "evidence": {
+            "codec_name": "aac",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo"
+          }
+        },
+        {
+          "check": "faststart moov precedes mdat",
+          "passed": true,
+          "evidence": [
+            {
+              "type": "ftyp",
+              "offset": 0,
+              "bytes": 32
+            },
+            {
+              "type": "moov",
+              "offset": 32,
+              "bytes": 29924
+            },
+            {
+              "type": "free",
+              "offset": 29956,
+              "bytes": 8
+            },
+            {
+              "type": "mdat",
+              "offset": 29964,
+              "bytes": 1100275
+            }
+          ]
+        },
+        {
+          "check": "decoded frame count and constant timestamps",
+          "passed": true,
+          "evidence": {
+            "decoded_frames": 1080,
+            "expected_frames": 1080,
+            "first_pts": 0.0,
+            "last_pts": 17.983333,
+            "maximum_pts_error_s": 3.3333333604446125e-07,
+            "arrival_frame": 390,
+            "arrival_pts": 6.5
+          }
+        },
+        {
+          "check": "complete audio/video decode without errors",
+          "passed": true,
+          "evidence": "No decoder errors"
+        },
+        {
+          "check": "encoded AAC below digital and true-peak clipping",
+          "passed": true,
+          "evidence": {
+            "integrated_lufs": -16.04,
+            "true_peak_dbtp": -1.0,
+            "loudness_range_lu": 1.7,
+            "sample_peak_dbfs": -1.0020092423791962,
+            "clipped_interleaved_samples": 0,
+            "decoded_samples_per_channel": 864256,
+            "untrimmed_decoder_duration_s": 18.005333333333333,
+            "first_stereo_sample": [
+              0.0,
+              0.0
+            ],
+            "last_stereo_sample": [
+              8.803045098426665e-11,
+              -2.4361487827029293e-10
+            ],
+            "duration_note": "MP4 presentation duration is checked separately; AAC may return a padded final codec block."
+          }
+        },
+        {
+          "check": "decoded packet follows accelerating screen-space path",
+          "passed": true,
+          "evidence": {
+            "method": "Blue-weighted centroid of rightmost narrow blue stripe in 16 decoded RGB rows; pale pressure arc excluded",
+            "crop": [
+              0,
+              924,
+              1080,
+              16
+            ],
+            "first_frame": 270,
+            "last_frame": 390,
+            "sample_count": 121,
+            "expected_sample_count": 121,
+            "observed_displacement_px": 215.62290221914003,
+            "expected_displacement_px": 215.39999999999998,
+            "max_relative_position_error_px": 0.4000172516684337,
+            "rms_relative_position_error_px": 0.18775569623647842,
+            "minimum_frame_step_px": -0.09246324861635458,
+            "speed_window_s": 0.16666666666666666,
+            "window_speeds_px_s": [
+              12.833508367647482,
+              18.71420515423233,
+              26.580005915409515,
+              36.778453276047344,
+              50.76308164778163,
+              73.06087814440286,
+              96.18589236630169,
+              125.85137183172185,
+              156.97073730316015,
+              190.25797124979294,
+              231.48494159871507,
+              274.2563664596273
+            ],
+            "codec_tolerance": "Relative error below1px; individual subpixel centroid jitter up to0.25px allowed; all1/6s speed windows must be positive and strictly increasing"
+          }
+        },
+        {
+          "check": "compression-to-flight boundary has no large raster discontinuity",
+          "passed": true,
+          "evidence": {
+            "crop": [
+              0,
+              730,
+              1080,
+              460
+            ],
+            "mean_absolute_rgb_delta_0_255": 0.002012211486849168,
+            "maximum_channel_delta": 14,
+            "channel_fraction_changing_more_than_8": 4.696725711218465e-06,
+            "method": "Pixel differences in central action crop; complements screen-space tracking and visual inspection."
+          }
+        },
+        {
+          "check": "final sign-off remains stable through last frame",
+          "passed": true,
+          "evidence": {
+            "crop": [
+              0,
+              730,
+              1080,
+              460
+            ],
+            "mean_absolute_rgb_delta_0_255": 0.08625939345142243,
+            "maximum_channel_delta": 45,
+            "channel_fraction_changing_more_than_8": 0.0004783950617283951,
+            "method": "Pixel differences in central action crop; complements screen-space tracking and visual inspection."
+          }
+        }
+      ],
+      "flight_pixel_tracking": {
+        "method": "Blue-weighted centroid of rightmost narrow blue stripe in 16 decoded RGB rows; pale pressure arc excluded",
+        "crop": [
+          0,
+          924,
+          1080,
+          16
+        ],
+        "first_frame": 270,
+        "last_frame": 390,
+        "sample_count": 121,
+        "expected_sample_count": 121,
+        "observed_displacement_px": 215.62290221914003,
+        "expected_displacement_px": 215.39999999999998,
+        "max_relative_position_error_px": 0.4000172516684337,
+        "rms_relative_position_error_px": 0.18775569623647842,
+        "minimum_frame_step_px": -0.09246324861635458,
+        "speed_window_s": 0.16666666666666666,
+        "window_speeds_px_s": [
+          12.833508367647482,
+          18.71420515423233,
+          26.580005915409515,
+          36.778453276047344,
+          50.76308164778163,
+          73.06087814440286,
+          96.18589236630169,
+          125.85137183172185,
+          156.97073730316015,
+          190.25797124979294,
+          231.48494159871507,
+          274.2563664596273
+        ],
+        "centroid_x_by_frame": [
+          421.40388349514564,
+          421.482962962963,
+          421.61431411530816,
+          421.78361344537814,
+          421.97098214285717,
+          422.24766355140184,
+          422.78222222222223,
+          423.04464285714283,
+          423.22978723404253,
+          423.38388388388387,
+          423.5428015564202,
+          423.73706004140786,
+          423.9298245614035,
+          424.2172897196262,
+          424.815668202765,
+          425.1995661605206,
+          425.5584677419355,
+          425.46600449331913,
+          425.706,
+          426.0315315315315,
+          426.66183574879227,
+          427.1046999864554,
+          427.45069727261506,
+          427.5693967631192,
+          427.84909560723514,
+          428.40811455847256,
+          429.1725663716814,
+          429.5,
+          429.5973292244479,
+          429.9943779731873,
+          431.09183673469386,
+          431.43939774153074,
+          431.49113379903275,
+          432.5316255534472,
+          433.2215789473684,
+          433.46153846153845,
+          434.0190362879239,
+          435.0412786657401,
+          435.4885931558935,
+          436.0807860262009,
+          437.2215789473684,
+          437.59504132231405,
+          438.51551312649167,
+          439.38122488737366,
+          439.85042735042737,
+          441.1036717062635,
+          441.6814475025484,
+          443.0315315315315,
+          443.682092555332,
+          444.9284023668639,
+          445.682092555332,
+          447.0475059382423,
+          447.6354705274043,
+          449.26999463231346,
+          450.02466367713004,
+          451.50853889943073,
+          452.93439037725534,
+          453.74207188160676,
+          455.3392857142857,
+          456.80516431924883,
+          457.85890557939916,
+          459.32790224032584,
+          461.08890392422194,
+          462.02064693737094,
+          463.75603802672146,
+          465.43884892086334,
+          467.3203007518797,
+          468.98826291079814,
+          470.52019002375295,
+          472.1086474501109,
+          473.88988764044944,
+          475.72327044025155,
+          477.6351084812623,
+          479.6351084812623,
+          481.6351084812623,
+          483.6351084812623,
+          485.7631027253669,
+          487.87958401751507,
+          490.0185497470489,
+          492.5,
+          494.86511627906975,
+          497.2515991471215,
+          499.5,
+          501.7912317327766,
+          504.5,
+          507.25536480686696,
+          509.60818713450294,
+          512.2136363636364,
+          515.2540983606557,
+          517.7134020618556,
+          521.0269058295964,
+          523.5506692160612,
+          526.8087557603686,
+          529.6291493775933,
+          533.0022246941046,
+          535.6171079429736,
+          539.3,
+          542.2598607888631,
+          545.53228962818,
+          549.2835820895523,
+          552.7365677045619,
+          555.920177383592,
+          559.53228962818,
+          563.4188376753507,
+          567.3367346938776,
+          571.0774336283185,
+          575.1507808292946,
+          579.0,
+          583.0,
+          587.1450216450216,
+          591.3173913043478,
+          595.5046774987691,
+          599.5444602948169,
+          603.8557135334387,
+          608.4373562337065,
+          613.2397043294615,
+          617.496138996139,
+          622.1769547325102,
+          627.2397043294615,
+          631.7037516170764,
+          637.0267857142857
+        ],
+        "codec_tolerance": "Relative error below1px; individual subpixel centroid jitter up to0.25px allowed; all1/6s speed windows must be positive and strictly increasing",
+        "passed": true
+      },
+      "decoded_review_frames": [
+        {
+          "index": 0,
+          "frame": 0,
+          "time_s": 0.0,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-00.png"
+        },
+        {
+          "index": 1,
+          "frame": 36,
+          "time_s": 0.6,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-01.png"
+        },
+        {
+          "index": 2,
+          "frame": 174,
+          "time_s": 2.9,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-02.png"
+        },
+        {
+          "index": 3,
+          "frame": 198,
+          "time_s": 3.3,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-03.png"
+        },
+        {
+          "index": 4,
+          "frame": 222,
+          "time_s": 3.7,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-04.png"
+        },
+        {
+          "index": 5,
+          "frame": 246,
+          "time_s": 4.1,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-05.png"
+        },
+        {
+          "index": 6,
+          "frame": 269,
+          "time_s": 4.483333333333333,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-06.png"
+        },
+        {
+          "index": 7,
+          "frame": 270,
+          "time_s": 4.5,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-07.png"
+        },
+        {
+          "index": 8,
+          "frame": 300,
+          "time_s": 5.0,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-08.png"
+        },
+        {
+          "index": 9,
+          "frame": 330,
+          "time_s": 5.5,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-09.png"
+        },
+        {
+          "index": 10,
+          "frame": 360,
+          "time_s": 6.0,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-10.png"
+        },
+        {
+          "index": 11,
+          "frame": 389,
+          "time_s": 6.483333333333333,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-11.png"
+        },
+        {
+          "index": 12,
+          "frame": 390,
+          "time_s": 6.5,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-12.png"
+        },
+        {
+          "index": 13,
+          "frame": 399,
+          "time_s": 6.65,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-13.png"
+        },
+        {
+          "index": 14,
+          "frame": 408,
+          "time_s": 6.8,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-14.png"
+        },
+        {
+          "index": 15,
+          "frame": 426,
+          "time_s": 7.1,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-15.png"
+        },
+        {
+          "index": 16,
+          "frame": 594,
+          "time_s": 9.9,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-16.png"
+        },
+        {
+          "index": 17,
+          "frame": 618,
+          "time_s": 10.3,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-17.png"
+        },
+        {
+          "index": 18,
+          "frame": 648,
+          "time_s": 10.8,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-18.png"
+        },
+        {
+          "index": 19,
+          "frame": 678,
+          "time_s": 11.3,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-19.png"
+        },
+        {
+          "index": 20,
+          "frame": 899,
+          "time_s": 14.983333333333333,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-20.png"
+        },
+        {
+          "index": 21,
+          "frame": 900,
+          "time_s": 15.0,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-21.png"
+        },
+        {
+          "index": 22,
+          "frame": 924,
+          "time_s": 15.4,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-22.png"
+        },
+        {
+          "index": 23,
+          "frame": 1079,
+          "time_s": 17.983333333333334,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-frame-23.png"
+        }
+      ],
+      "contact_sheets": [
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-board-1.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-board-2.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-board-3.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-board-4.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-board-5.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/review/encoded-60-board-6.png"
+      ],
+      "source_to_encoded_measurements": [
+        {
+          "crop": [
+            0,
+            730,
+            1080,
+            460
+          ],
+          "mean_absolute_rgb_delta_0_255": 2.19855743424584,
+          "maximum_channel_delta": 27,
+          "channel_fraction_changing_more_than_8": 0.003193773483628556,
+          "method": "Pixel differences in central action crop; complements screen-space tracking and visual inspection.",
+          "reference_path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/stills/0.600s.png",
+          "reference_sha256": "b98b641336e14d4d67e13b7c2a49489b48fa946ee9f68b48479738d99770d76d",
+          "encoded_frame": 36,
+          "reference_kind": "source",
+          "interpretation": "Measurement only: RGB-to-limited-range YUV420 encoding and decoding are lossy; RGB identity is not required. Decoded boards were visually inspected alongside rendered reference."
+        },
+        {
+          "crop": [
+            0,
+            730,
+            1080,
+            460
+          ],
+          "mean_absolute_rgb_delta_0_255": 2.360184514224369,
+          "maximum_channel_delta": 25,
+          "channel_fraction_changing_more_than_8": 0.0030703166935050993,
+          "method": "Pixel differences in central action crop; complements screen-space tracking and visual inspection.",
+          "reference_path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/stills/7.100s.png",
+          "reference_sha256": "7749e90bf058118debc68bfcd1f95a606400aece6a2edd08de0619f731d42969",
+          "encoded_frame": 426,
+          "reference_kind": "logo",
+          "interpretation": "Measurement only: RGB-to-limited-range YUV420 encoding and decoding are lossy; RGB identity is not required. Decoded boards were visually inspected alongside rendered reference."
+        }
+      ]
+    }
+  ],
+  "perceptual_review": {
+    "status": "Decoded boards inspected; playback separately checked; listening not claimed",
+    "performed": [
+      "All six120fps contact sheets inspected at360px per panel: source, compression, flight, handoff, logo, Found, payoff and final signoff. No clipping or missing glyphs; source and full payoff are readable.",
+      "Encoded boundary pairs4.491667/4.5 and6.491667/6.5 inspected; continuous shape and left-to-right travel.",
+      "Claims QA independently inspected all six120fps encoded boards and60fps frames06/07/11-16/18-20/22-23, finding no visual issue.",
+      "Parent agent reported full18s browser playback ending at18.0 without errors: muted0dropped frames; audio-enabled1initial dropped frame. This is playback behavior, not subjective listening."
+    ],
+    "pending": [
+      "Subjective listening on headphones or speakers"
+    ],
+    "observed_limitations": [
+      "Direct source-PNG versus decoded-RGB comparison measures roughly2.2-2.4 mean8-bit channel values of change in the central crop from color conversion and lossy encoding; small edge differences are visible only in pixel comparison.",
+      "Untrimmed AAC decode returns864256samples per channel (18.005333s) due to codec padding; container, video, and audio presentation durations are18.000s. Raw score is exactly864000samples per channel."
+    ]
+  },
+  "external_release_checks_pending": [
+    "Physical phone playback",
+    "Actual platform upload preview",
+    "Final campaign rights confirmation"
+  ],
+  "publication": "Not performed or authorized by this verifier",
+  "logo_integrity": {
+    "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/assets/evidence/product/logo-mark.png",
+    "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c",
+    "expected_sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c",
+    "passed": true
+  },
+  "raw_score": {
+    "integrated_lufs": -16.03,
+    "true_peak_dbtp": -1.0,
+    "loudness_range_lu": 1.7,
+    "sample_peak_dbfs": -1.003190546677132,
+    "clipped_interleaved_samples": 0,
+    "decoded_samples_per_channel": 864000,
+    "untrimmed_decoder_duration_s": 18.0,
+    "first_stereo_sample": [
+      0.0,
+      0.0
+    ],
+    "last_stereo_sample": [
+      0.0,
+      0.0
+    ],
+    "duration_note": "MP4 presentation duration is checked separately; AAC may return a padded final codec block.",
+    "presentation_duration_s": 18.0,
+    "passed": true
+  },
+  "automated_passed": true,
+  "artifact_status": "Automated checks passed; decoded contact sheets inspected; local deliverables complete",
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

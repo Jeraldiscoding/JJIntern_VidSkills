@@ -1,0 +1,45 @@
+Revision 09 — capture choreography and motion critique
+17 October 2026. Reviewer: claims_qa agent.
+
+DESIGN INTENT
+The new request needs a substantial change in what the audience sees, not a small increase in background speed. Revision 08 moved the packet only 370 screen pixels over five seconds. Faster-looking streaks could not make that packet trajectory feel decisive. The next version needs a visible launch and travel across the frame, followed by a capture that changes the graphic construction rather than merely consuming a rectangle.
+
+SELECTED FLIGHT TREATMENT
+Production lead is implementing two rightward passes linked by a short directional whip: pass one 3.100–5.150, x 70 to 1080; whip 5.150–5.320; pass two 5.320–7.100, entering from the left and reaching the receiver mouth at x 680. This is an editorial match-on-action transition, not a claim of one continuous camera trajectory. The much greater visible travel is the right priority.
+
+Two risks need actual sequence inspection. First, avoid a dead interval after the entire packet has left the right edge: cut as its trailing edge exits, or carry the wake through the whip. Second, the incoming pass must already have momentum; do not restart with a slow ease-in that makes the packet appear to launch again. A strong or near-linear initial portion of pass two will better preserve energy across the transition. Keep the movement rightward on both sides of the edit.
+
+CAPTURE CHOREOGRAPHY
+1. Anticipate. Upper and lower receiver shell halves separate shortly before contact. The original logo stays fixed on an independent opaque center plane. The opening is visible before the packet reaches it.
+2. Transfer. As the packet crosses the aperture, its three existing information bars extend into three flat ribbons. Use their established colors and slightly stagger their timing; this preserves the relationship between contents and result. The packet boundary progressively disappears behind the aperture. The ribbons visibly enter and route behind the opaque center plane, so they cannot bleed through the transparent gaps in the original logo.
+3. Clamp. Close the jaws only after the final ribbon has cleared. Use one restrained 4–6 px overshoot and one thin rectangular pressure outline expanding approximately 20 px and disappearing in about 0.18 seconds. Avoid circles, particle bursts, confetti and layered impact decorations. The original mark must stay sharp, intact and undeformed.
+4. Resolve. Remove the shell and take the framing to the centered mark. Make this a decisive final punctuation rather than a long crossfade. Stable logo and text holds follow the action.
+
+Production timing now targets contact at 7.100, capture through 7.600, clamp 7.600–7.820, and brand takeover 7.820–8.800. This ordering gives the clamp a reason and makes the receiving action one readable event. The audio should support three distinct beats: launch, ribbon transfer and clamp. Preserve the isolated source ding before the drums enter.
+
+TASTE PRIORITIES
+The statement should come from coordinated motion and contrast: a clear source, rapid travel, a designed capture, then stillness. More decorative effects would weaken this. Keep a sharp main packet silhouette, use background streaks as supporting travel cues, and make the three ribbons inherit the bars rather than appear as an unrelated special effect. The receiver shell can displace; the original logo cannot squash, redraw or change color.
+
+CLAIM BOUNDARY
+Microsoft SWE Internship remains editorial source copy. The jaws, ribbons, port and pressure outline are abstract motion graphics, not a real JJIntern interface, verified new vacancy, actual ingestion event or measured product speed. Preserve the exact finding/applying copy. No extra latency or hiring claim is needed.
+
+ACTUAL FRAME REVIEW
+Inspected all five rendered boards and native frames at 7.340, 7.480, 7.720 and 8.050 seconds, together with the implemented flight, jaw, ribbon, logo-plane and takeover code. The implemented first pass now ends at x 1080 exactly at 5.150, preventing a dead fully-offscreen interval. Pass two starts with approximately 325 px/s of screen motion rather than easing up from rest. The actual sequence therefore has substantially more visible travel than revision 08. Both passes keep the same rightward direction and the whip is visibly an editorial transition.
+
+The capture is also a substantive change. The opening separates before contact, three distinct paths route the packet's contents toward the mark, the solid body disappears progressively through the aperture, and the shell clamps with one rectangular pressure accent. The packet remains identifiable during entry; the ribbons do not require extra particles or a circular burst. The original asset remains intact on its own plane. Keep this choreography.
+
+The one concrete takeover cleanup has been applied and re-inspected in the refreshed native 8.050-second frame: the opaque logo plane now holds until 8.18 and clears by 8.35, so the peeling shell's blue edges no longer cross the mark's transparent openings. The mark is clean and intact. The refreshed 7.340-second frame also shows extensions from the actual three packet bars toward the receiving channels; this strengthens the connection between incoming contents and routed ribbons. No further visual repair is identified in the inspected samples.
+
+A scoped revision 09 history item has been appended to the existing CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017 claim. It records editorial two-pass motion and abstract jaw/ribbon capture without adding any product, vacancy, employer or latency claim. Exact source and payoff copy remain within the established scope.
+
+This review uses actual rendered visual samples and their timing. It does not claim human normal-speed viewing or subjective listening. Encoded export inspection and the new drum-led soundtrack require their own checks. Physical-phone viewing, intended placement preview and headphone/speaker audition remain separate. Current recommendation: retain this motion and capture design and continue to final rendering. The requested backing cleanup is complete; final encoded verification remains a separate record.
+
+FINAL EXPORT REVIEW — 2026-10-17
+Root inspected decoded 60fps boards covering whip, fast approach, track extensions,
+ribbon entry, clamp, logo takeover and readable payoff. No further repairs found.
+Both files passed exact18-second duration, frame counts, full decode and audio
+headroom checks. Actual AAC: -14.34 LUFS, -1.18 dBTP, zero clipped samples.
+Browser muted pass: final time 18, cumulative decoded 1080, cumulative dropped 0, error None.
+Browser audio-enabled pass: final time 18, cumulative decoded 2160, cumulative dropped 1, error None.
+Browser audio enablement is not subjective listening. Human listening, physical
+phone and upload-preview checks remain unperformed. No publication occurred.

@@ -1,0 +1,25 @@
+JJINTERN V3 — FINAL LOCAL ARTIFACT REVIEW
+
+Status: complete local delivery. No external publication performed.
+
+Media checks passed for both MP4s: exactly20.000seconds;1080×1920;square-pixel9:16;H.264High;yuv420p;BT.709matrix/transfer/primaries;AAC48kHzstereo. Native120master:2400declaredanddecodedframes,9.18MB. TikTok60copy:1200declaredanddecodedframes,7.27MB. Both full video/audio decodes completed without errors. Encoded new score:-14.19LUFS integrated,-1.42dB true peak,3.10LU loudness range; no peak clipping.
+
+Actual inspections: first/revised source storyboards;80encodedrough samples at4fps;40encodedfinal samples at2fps;20full-sizeencoded intro/posting/cadence/carrier/flight/feed/CTA/end frames across both frame rates; independent360px-wideflightframes; independentfinal2.95/9.6/10.7/18sframes inboth files. Muted and sound-enabled real-time automated60fps browser playback both reached20seconds without mediaerrors and decodedall1200fileframes. Browser first pass showed0droppedpresentationframes;second showed2whileotherchecksraninparallel. This is not a claim of subjectivehumanhearing.
+
+Observed outcome: the film explains recurring discovery before showing the feed. The labelled example posting passes through a scheduledcheck and an identifiable datacarrier toward a visible productdestination. The genuine Microsoft/ResearchIntern row is not inserted or invented. Its1Septdate is preserved where visible; product copy saysInternships.Onefeed. The workflowlabel is present from thefirstreadablefeedframe. The benefit andURLholdtoend. No essentialclipping,privatecontent,unsupportedfreshness/coverage/latency/outcomeclaimorfalsealertfeaturefound inperformedinspections.
+
+Rubric0–2,with no aggregate qualitycertificate or viewprediction:
+Idea2 — repeatedchecking is a specific problem.
+Hook2 — Stillcheckingcareerpages? identifies that habit.
+Payoff2 — cadence,feed and lesschecking resolve the hook.
+Shotvalue2 — problem,event,schedule,transport,proof andbenefit each add a causal step.
+Product2 — realfeed wasloaded andcompany-or-rolesearch captured; workflowillustration is labelled.
+Copy2 — plain tasklanguage,exactowner-supportedcadence,noabsoluteguarantee.
+Design2 — coherentbrandpalette,naturaltype,onecarrier andstableproof.
+Motion2 — postingbecomespacket,recedesalongpath,andproductgrowsfromsameendpoint.
+Readability1 — source/encoded/small-previewchecksperformed;physicalphoneunperformed.
+Claims2 — P06/P07 andsourceassets support the actualscope.
+CTA2 — realJJIntern.com/feedroute,clearheldinvitation.
+Distinctness2 — recurringdiscoveryexplanationreplacessearch-onlydemo.
+
+Remaining external-placement checks: physicalphone andactualTikTokdraft/uploadpreview were notperformed. Houseinsetsarenotuniversalplatformsafetycertification. Owner cadence is not independentlymeasuredschedulertelemetry; no such claim is made.

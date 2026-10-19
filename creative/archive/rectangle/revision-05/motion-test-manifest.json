@@ -1,0 +1,193 @@
+{
+  "mode": "test",
+  "scene": {
+    "width": 1080,
+    "height": 1920,
+    "duration": 18,
+    "supersampling": [
+      2160,
+      3840
+    ],
+    "font": "-apple-system,BlinkMacSystemFont,\"SF Pro Display\",\"Helvetica Neue\",Arial,sans-serif",
+    "logo": [
+      512,
+      512
+    ],
+    "packet": {
+      "scale": 0.62,
+      "startX": 65,
+      "endX": 280.4,
+      "width": 359.6,
+      "height": 210.8,
+      "leadingEdgeAtContact": 640
+    },
+    "flight": {
+      "start": 4.5,
+      "end": 6.5,
+      "formula": "x_start+(x_end-x_start)*(0.12*u+0.88*u^3)",
+      "cameraTracking": false
+    },
+    "source": "Approved revision05 editorial source; no current-vacancy assertion"
+  },
+  "start": 2.5,
+  "duration": 5,
+  "fps": 60,
+  "frames": 300,
+  "width": 720,
+  "height": 1280,
+  "renderSeconds": 2.195,
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.84",
+    "revision": "@5869fe313571d75152b77813cf0a4ee26a4e6df0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.25"
+  },
+  "logo": {
+    "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/assets/evidence/product/logo-mark.png",
+    "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c",
+    "treatment": "Original RGBA asset unchanged; masked reveal and uniform translation only"
+  },
+  "sourceSha256": "e74b0821b178917e1a18df8af4e81b3d58559421c873272a70475eef64b48621",
+  "outputs": [
+    {
+      "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/JJIntern-revision05-motion-test.mp4",
+      "bytes": 170041,
+      "sha256": "7f4228ee56922f5e039cb5337378de36dc1fde1f737a114ec0f6eacbf6bf1049",
+      "media": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64002a",
+            "width": 720,
+            "height": 1280,
+            "coded_width": 720,
+            "coded_height": 1280,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "9:16",
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 76800,
+            "duration": "5.000000",
+            "bit_rate": "265352",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "300",
+            "extradata_size": 48,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "encoder": "Lavc62.28.102 libx264"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-05/JJIntern-revision05-motion-test.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "5.000000",
+          "size": "170041",
+          "bit_rate": "272065",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.12.102"
+          }
+        }
+      }
+    }
+  ],
+  "command": [
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-y",
+    "-f",
+    "image2pipe",
+    "-framerate",
+    "60",
+    "-vcodec",
+    "png",
+    "-i",
+    "pipe:0",
+    "-map",
+    "0:v:0",
+    "-vf",
+    "scale=in_range=full:out_range=limited:out_color_matrix=bt709,setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709,setsar=1",
+    "-r",
+    "60",
+    "-fps_mode",
+    "cfr",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "veryfast",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.2",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "-t",
+    "5",
+    "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/showreel/rectangle/revision-05/JJIntern-revision05-motion-test.mp4"
+  ],
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

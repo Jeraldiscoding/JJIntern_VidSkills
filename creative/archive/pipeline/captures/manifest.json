@@ -1,0 +1,162 @@
+{
+  "checked": "2026-10-17",
+  "captured_at_utc": "2026-10-17T14:01:20.529Z",
+  "timezone": "Europe/Stockholm",
+  "source": "https://jjintern.com/feed",
+  "viewport": {
+    "css_width": 390,
+    "css_height": 844,
+    "device_scale_factor": 4,
+    "png_width": 1560,
+    "png_height": 3376
+  },
+  "session": {
+    "logged_in": false,
+    "isolated_profile": true,
+    "cdp_port": 9346
+  },
+  "verified": "Loaded public feed and actual Microsoft query returning a Microsoft Research Intern row, plus Synapxe role with Microsoft in its title.",
+  "limit": "Microsoft display date 1 Sept; generic employer portal; no verified current vacancy, scrape interval or ingest latency. See capture-note.txt for isolated UI Applied side effect.",
+  "files": [
+    {
+      "path": "capture-details.mjs",
+      "sha256": "2ff6a6ac99e7eefe03dfb5139056d7dcb19d376932c8b7666ad811f49c5f70c2",
+      "bytes": 2409
+    },
+    {
+      "path": "capture-feed.mjs",
+      "sha256": "9d682c0fe5e4b42d8c474a2e8750e0991803cefda319228973906d8457b03d14",
+      "bytes": 3966
+    },
+    {
+      "path": "capture-note.txt",
+      "sha256": "d39f62e8d49e372c8daf3fa65ae327f3364ee97db9a9f2320c4da7117a50fef2",
+      "bytes": 4649
+    },
+    {
+      "path": "capture-record.json",
+      "sha256": "1699568d12b78ead4c4e08e32a23cf750939c7cd4d45dc21c31e432b3d744d35",
+      "bytes": 292073
+    },
+    {
+      "path": "crop-manifest.json",
+      "sha256": "4d22ec5635def950df4aa8078156c0bbf6b349b6a1cb8dea9f190ada703e361d",
+      "bytes": 889
+    },
+    {
+      "path": "details-dom.html",
+      "sha256": "7e219a10e83efbee7ddea3d81b060cd54e8e7a5a78918abc2edd704cd1859665",
+      "bytes": 47504
+    },
+    {
+      "path": "details-record.json",
+      "sha256": "03ebab8b7edd6783e848e3d5a6c26949a99954de601fe95de7b6c3a3b4cf891d",
+      "bytes": 50054
+    },
+    {
+      "path": "feed-loaded.png",
+      "sha256": "0b1c0ba8e01cef6739c25380f5335ff04b9c9e91876287df8338e864078d7d21",
+      "bytes": 328931
+    },
+    {
+      "path": "feed-microsoft-details.png",
+      "sha256": "286514f088cd7535f36f646c7d089e24a4168480be05a532e551fd39b2f1e3e6",
+      "bytes": 29703
+    },
+    {
+      "path": "feed-microsoft-focus.png",
+      "sha256": "c9cb13c7eacf8f623e866fd4edde01dd5705861f74e0ea0f2f2ce47b129beae5",
+      "bytes": 84524
+    },
+    {
+      "path": "feed-microsoft-role.png",
+      "sha256": "f75cc21e704bf1c85a71803defb01610f8d8b424bb54e7c61cf556f5ac832da1",
+      "bytes": 17418
+    },
+    {
+      "path": "feed-microsoft.png",
+      "sha256": "821eccce301e64c56f9cf603d45407a6455021e4424f6cf36f7cea20297dfb38",
+      "bytes": 235322
+    },
+    {
+      "path": "feed-probe.png",
+      "sha256": "b69ebba8cd43b2e5a617652874581047a7674a9dbbe1d1780566ec70bc3586b5",
+      "bytes": 329155
+    },
+    {
+      "path": "feed-search-01.png",
+      "sha256": "229e65b66e80eefdc6354f349bc67f90e8fde670da767ad0f785456389f0639a",
+      "bytes": 162789
+    },
+    {
+      "path": "feed-search-02.png",
+      "sha256": "463dc5ae8a3dfe87ce74ced6ae371b558ce1926f03be9d1c021562c40090eb4f",
+      "bytes": 162949
+    },
+    {
+      "path": "feed-search-03.png",
+      "sha256": "2ac330d0519974e82c9496ff0f5d70924b766957bf554233bb64bd4b787957c5",
+      "bytes": 170289
+    },
+    {
+      "path": "feed-search-04.png",
+      "sha256": "f39e84d112b2fabad23b78bf36bdca26829de3e5d0d7c38e2911b27291253971",
+      "bytes": 164174
+    },
+    {
+      "path": "feed-search-05.png",
+      "sha256": "bcb8b9cd547ff3069b56eba25cfc96edfa381096763a03dde00d2452988aef0f",
+      "bytes": 165037
+    },
+    {
+      "path": "feed-search-06.png",
+      "sha256": "a20f8dbd9341670681742e789afe13f63e03040de4705ddf810385ec5dc115b5",
+      "bytes": 166130
+    },
+    {
+      "path": "feed-search-07.png",
+      "sha256": "52740020054616d8a3984c42b195b3e5ead28677677c8871eafc8c9f74ef88a4",
+      "bytes": 167073
+    },
+    {
+      "path": "feed-search-08.png",
+      "sha256": "38b331e91659fb223ae7c745a28f030f16fbc37b3e8d126bc8db261634e091aa",
+      "bytes": 167284
+    },
+    {
+      "path": "feed-search-09.png",
+      "sha256": "9fd063934cf6ced00df600e324b8bc506a6fdfbce911311d4a53cea01d10f34f",
+      "bytes": 168242
+    },
+    {
+      "path": "filtered-dom.html",
+      "sha256": "4f356389aa7dac2a9eb2168114cfd65ee3dda2188f8dddcf19e0e9aca5c922f5",
+      "bytes": 43760
+    },
+    {
+      "path": "finalize-captures.mjs",
+      "sha256": "61fbbf54a0212f7eb52802d35bfcec729f249b13e3bfcc895456b3987812520e",
+      "bytes": 2800
+    },
+    {
+      "path": "probe-feed.mjs",
+      "sha256": "a210e30eb6e7cc0b07d18ce4872a865ffb15ae70d3eaf739514ae8cb32f6390d",
+      "bytes": 1484
+    },
+    {
+      "path": "probe.json",
+      "sha256": "c8b810d7d3faa29c99cbb28c93503680a0edeca4025628f2cf0a2c42a8f9347d",
+      "bytes": 7020
+    },
+    {
+      "path": "source-handoff.json",
+      "sha256": "5ca2046e56ce269fef76956be3811bede4255a09e44c7d352dc29ceb26d8c44a",
+      "bytes": 2056
+    },
+    {
+      "path": "source-handoff.mjs",
+      "sha256": "fda0a814f2ccdb0ba74282f9a65376019927e92d2bf5731225dcedbf4e993601",
+      "bytes": 1419
+    }
+  ]
+}

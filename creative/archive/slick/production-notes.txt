@@ -1,0 +1,112 @@
+JJINTERN — IN MOTION / SLICK REVISION
+17 October 2026
+
+The chosen direction
+One labelled internship posting changes material and form, becomes a solid
+blue packet, travels horizontally, and resolves into the real JJIntern feed.
+The check cadence and intended less-checking benefit then explain the value.
+This replaces the earlier isolated sculpture and receding wireframe journey.
+
+The latest user steering is incorporated: packet travel lasts exactly one
+second, from 4.65 to 5.65. Full duration remains 20 seconds. The website impact
+and new musical downbeat both land at 5.65; the following product hold ends
+at 9.50. The packet does not scale down as it travels.
+
+Visual decisions
+- A perspective-mapped posting folds its actual top/bottom panels over its
+  centre. Blue back faces replace reversed lettering as the panels turn.
+- The folded carrier becomes a real raymarched three-dimensional rounded
+  solid with physical recesses, a cobalt core, bevels and studio reflections.
+- Sideways movement, parallax and shutter trails communicate travel. A
+  narrow directional wipe matches into the actual Microsoft feed row, then
+  the same unaltered capture opens upward to show its surrounding controls.
+- The huge30 and the black/white chapter changes give the recurring check
+  cadence its own visual emphasis. Every line has a readable settled hold.
+- Actual product colours, natural system-font metrics and the original
+  modest-size raster mark retain JJIntern's observed identity.
+- No fabricated arrival notification, inserted row or rebuilt product UI.
+
+Sound decisions
+A new 128 BPM bass-led original composition replaces the previous pluck-led
+score. Sine/additive/FM oscillators and generated filtered noise create the
+entire track: kick, bass motif, dry percussion, metallic posting strike,
+tactile folding contacts, stereo launch, arrival and final resolution.
+There are no samples, stock loops, recordings or sampled impulse responses.
+A near-silent 100 ms interval before 5.65 creates contrast at the website reveal.
+The groove was resequenced for the revised arrival, rather than extending
+the old track with a duplicated segment. All sound resolves by 19.80.
+See audio/build_score.py, score-manifest.json and verification.json.
+
+What was discarded
+The receding tunnel, arbitrary data labels, repeated spinning, long flight,
+soft high-register arpeggios and repeated notification-like tones. The ad
+does not claim exhaustive coverage, instant ingestion or a new Microsoft
+vacancy. The actual row is historical, and the workflow stays illustrative.
+
+Iterations in this revision
+1. Locked the cause-and-effect story and built the new fold/packet geometry.
+2. Built an independent3D shader and a new synchronized score.
+3. Rendered a 20-second 24 fps rough and inspected phone-scale fold/launch frames.
+4. Repaired intro clipping, panel seams and back-face lettering; retained
+   authentic feed proportions and replaced zooming with a row-to-feed opening.
+5. Refined cobalt material/reflections and moved the workflow label inward.
+6. Incorporated the user's one-second flight request; retimed the reveal and
+   rebuilt/re-mastered the musical arrangement around its new downbeat.
+7. Rendered newly sampled 120 fps and 60 fps outputs from original lossless frames.
+8. Final encoded-file inspection, complete decode, metadata/frame/audio checks
+   and real-time browser playback are logged separately under review/.
+
+Reference research
+BUCK / Microsoft Surface Laptop 5 and Microsoft Security: studio case notes.
+Ordinary Folk / Google Search On 2020: five-second public preview, sampled
+frames and studio case notes. ManvsMachine / Xbox and Tendril / Windows 365:
+studio case notes. Antfood / Apple iMac Pro: published music/sound approach.
+Research does not imply full-film viewing or soundtrack listening.
+Reference footage, music and branding were not imported or sampled.
+Exact links and inspection scope are in brief.md.
+
+Product evidence
+P06 / PROD-CHECK-CADENCE-OWNER-20261017: responsible-owner confirmation of
+checks every 30 minutes, not inspected scheduler telemetry or coverage proof.
+P07: clean logged-out public feed captured 17 October 2026; actual Microsoft
+Research Intern row is dated 1 Sept. Its current employer availability was
+not confirmed. The clean pre-handoff Set status image is used.
+
+Reproduction
+Source: ../source/slick-scene.html, slick-packet.js, render-slick.mjs.
+Requires existing Node, isolated Chrome with WebGL and FFmpeg/ffprobe;
+Python3.13 with NumPy/SciPy is used only for synthesis and verification.
+Audio: /Library/Frameworks/Python.framework/Versions/3.13/bin/python3
+       creative/archive/slick/audio/build_score.py
+Video: node creative/archive/source/render-slick.mjs 9345 final
+Check: python3 creative/archive/source/verify_slick.py
+Exact encoder commands, browser version, hashes and durations are recorded
+in render-manifest.json. No service was purchased or content published.
+
+Review scope
+Sampled visual/phone-scale inspection, complete decoding, native frame
+counts, audio measurements and sound-enabled browser playback are different
+checks. No subjective human listening, physical-phone or actual TikTok
+upload-preview check is claimed. Those last placement checks remain pending.
+
+Time accounting
+This revision began at 14:23:29UTC. Final completion time, elapsed wall time
+and renderer time are appended after final verification. This revision's
+wall time includes local rendering/checks and the user's timing steering.
+Earlier versions and prior reference-plan research are not charged to this
+revision's reported elapsed time.
+
+FINAL TIME AND DELIVERY RECORD
+Completed 2026-10-17T14:40:51+00:00.
+This revision: 17 minutes 22.6 seconds elapsed wall time.
+Both final encodes from original PNG frames: 468.0 seconds.
+Prior three recorded production phases: 33 minutes 49.2 seconds.
+Combined four recorded production phases: 51 minutes 11.8 seconds.
+The combined figure excludes between-phase feedback gaps and the separate
+reference-plan research turn. Parallel agent times are not added together.
+
+120 fps master: 2400 frames, 20 seconds, 1080 x 1920, 3.70 MB.
+60 fps TikTok copy: 1200 frames, 20 seconds, 1080 x 1920, 2.87 MB.
+Full decode and metadata checks passed for both. Encoded soundtrack:
+-14.26 LUFS / -1.10 dBTP. Final independent encoded visual review passed.
+See review/final-review.txt for the browser/software playback limitations.

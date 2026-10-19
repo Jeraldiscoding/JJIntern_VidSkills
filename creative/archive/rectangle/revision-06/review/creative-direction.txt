@@ -1,0 +1,42 @@
+JJIntern revision 06 — faster editorial direction
+17 October 2026. Current user feedback supersedes the former 18-second timing: the morph and packet feel slow; the user wants faster, polished motion with the confident precision associated with premium product advertising. This is an instruction to revise, not a request for another style approval.
+
+WHY REVISION 05 FELT SLOW
+The source held for 3 seconds, compression took another 1.5 seconds, and the packet covered only 215.4 pixels over 2 seconds. The logo then occupied a 3.5-second section before any verbal payoff. The audience waits for actions that it can understand much sooner. Smooth mathematical acceleration did not compensate for the small travel distance or the time spent waiting. The brief was satisfied technically, but the pace did not create the intended impression.
+
+DECISION
+Rebuild the pace as a 12-second spot. Keep the approved visual language, authentic logo and exact editorial copy. Make compression decisive, give the packet substantially more screen-space travel, and concentrate effects around acceleration and contact. Stable text holds remain useful after the action; do not add constant movement to make the whole film appear busy.
+
+LOCKED TIMING FROM PRODUCTION LEAD
+0.000–1.800: Source. Establish Microsoft / SWE Internship promptly, with a short, controlled entrance and one small ding. The label should already be readable while the audience registers the visual.
+1.800–2.040: Compression, 0.240 seconds. The same boundary collapses into the packet; text becomes information bars. This is a quick physical action, not a prolonged shape demonstration.
+2.040–2.640: Flight, 0.600 seconds. Travel 505 pixels, left 70 to 575 with a 435 x 255 packet. Its right edge travels 505 to 1010. Position g(u)=0.32 u+0.68 u^3 gives immediate forward intent and rapidly rising speed; average speed is about 842 px/s versus 108 px/s in revision 05. Do not brake before contact or cancel flight with a moving camera.
+2.640–2.880: Contact and handoff, 0.240 seconds. One connected arrival, reveal and settle.
+2.880–4.200: Centered original logo. Hold briefly enough to register the brand, without restarting the pace.
+4.200–4.820: Found. Short confident statement with a harmonic opening.
+4.820–5.180: Reveal We handle the finding. then You focus on applying. Avoid text overlap; preserve exact punctuation.
+5.180–9.200: Readable payoff hold. The clarity earned by the quick action should now be spent on the message. No additional animation is necessary while reading.
+9.200–12.000: JJIntern. Resolve promptly and hold. This calm brand punctuation is acceptable; if the final normal-speed film still feels padded, shorten this end hold before adding decorative movement.
+
+EFFECT DIRECTION
+Use acceleration-dependent trailing strokes, a short directional edge smear and a restrained leading-edge pressure accent. Keep the packet itself crisp enough to retain the simple rectangular silhouette and three bars. A brief blue accent at contact should motivate the handoff. Effects should peak immediately before/at contact, then disappear quickly so the settled logo is clean. No glow cloud, tunnel, spin, particles, smoke, elastic object deformation, arbitrary zoom, added badges or interface details.
+
+Premium speed is created by contrast: readable source, decisive collapse, fast travel, one controlled impact, then a stable mark. The edit should feel intentional at ordinary playback speed; stepping through frames is useful for diagnosing seams, not for deciding whether the action feels good.
+
+HANDOFF: MAIN CREATIVE RISK TO TEST
+The implementation plan puts the receiving mark's visible left edge at 1010, meaning almost the whole logo is beyond the right frame at contact. It then recenters about 639 pixels in only 0.240 seconds. This can read as a coherent camera whip after contact, but it can also look like a separate logo flying rapidly left after the packet went right. A logo-only translation would weaken the connection even if it is mathematically continuous.
+
+If retaining this staging, treat the post-contact movement as one camera move: apply the same camera offset to the remaining packet, its trails, the blue handoff edge and the intact logo. The packet continues forward in world coordinates while the camera catches the receiver. Do not move the camera during the actual flight. Start the camera move promptly, ease into the final center, keep any smear within approximately the first 0.10–0.12 seconds, and ensure the last approximately 0.08 seconds resolves to a crisp original mark. Uniform scale/translation is permissible; silhouette deformation is not. All trails, edge pulses and duplicate images must be gone by 2.880.
+
+Judge this beat in a short normal-speed test before rendering the full spot. Specifically: does the eye follow one arrival, or does it perceive an abrupt replacement moving the wrong way? If it reads as two actions, simplify the geometry instead of increasing blur.
+
+SIMPLER FALLBACK IF THE WHIP FAILS
+Keep the original logo at its approved centered draw rectangle[330,715,420,420] from the first revealed pixel. A roughly 294 x 172 packet can start atx 34/right 328 and travel about 312 pixels to right 640 in 0.55–0.60 seconds. This still feels substantially faster than revision 05. Atx 640 the leading edge overlaps the centered logo's right-side stroke around the action's vertical center. Reveal the intact logo with a mask expanding from that edge to the full original asset, dissolve the packet quickly, and use at most a very small uniform scale settle. This avoids a large reversal of screen direction and keeps the whole mark on-screen.
+
+CLAIM BOUNDARY
+The pace should make the brand feel capable and responsive. It does not establish measured discovery, ingestion or alert latency. Keep Microsoft SWE Internship as the user's editorial source label; add no current vacancy, new-posting event, Instant, Real-time, numeric speed or guarantee. The existing discovery-relief claim and exact payoff remain appropriate. There is no reason to introduce a disclaimer into the film or restart website capture for this abstract treatment.
+
+REVIEW STANDARD FOR THIS REVISION
+Ask whether the first action starts soon enough, the compression feels like a snap, the packet covers enough distance to feel fast, the arrival reads as one event, and the payoff still receives a comfortable reading hold. Inspect the actual test at normal speed, then repair any weak beat. Do not present a metadata pass as evidence that the ad feels fast or premium.
+
+Current status: faster timing and treatment selected for implementation; user approval is not pending. Handoff staging is provisional until the short actual motion test is judged. This document does not claim that revision 06 has been rendered or inspected yet.

@@ -1,0 +1,239 @@
+{
+  "mode": "test",
+  "scene": {
+    "width": 1080,
+    "height": 1920,
+    "duration": 18,
+    "timeline": {
+      "compress": 2,
+      "packed": 2.55,
+      "launch": 3.1,
+      "whipStart": 5.15,
+      "whipEnd": 5.32,
+      "arrival": 7.1,
+      "swallowed": 7.6,
+      "latched": 7.82,
+      "settled": 8.8,
+      "found": 10.2,
+      "payoff": 11.1,
+      "readable": 11.7,
+      "signoff": 14,
+      "end": 18
+    },
+    "supersampling": [
+      2160,
+      3840
+    ],
+    "font": "-apple-system,BlinkMacSystemFont,\"SF Pro Display\",\"Helvetica Neue\",Arial,sans-serif",
+    "logo": [
+      512,
+      512
+    ],
+    "packet": {
+      "width": 435,
+      "height": 255,
+      "startX": 70,
+      "endX": 350,
+      "contactScale": 0.7586206896551724
+    },
+    "flight": {
+      "start": 3.1,
+      "end": 7.1,
+      "firstPass": {
+        "from": 3.1,
+        "to": 5.15,
+        "formula": "70+1010*(0.55*v+0.45*v^3)",
+        "speed": [
+          270.975609756,
+          936.097560976
+        ]
+      },
+      "whip": {
+        "from": 5.15,
+        "to": 5.32,
+        "kind": "Explicit directional match-on-action reframe"
+      },
+      "secondPass": {
+        "from": 5.32,
+        "to": 7.1,
+        "formula": "-330+680*(0.85*v+0.15*v^3)",
+        "speed": [
+          324.719101124,
+          496.629213483
+        ]
+      },
+      "backgroundSpeed": "1600+10400*u^2 px/s; integrated displacement",
+      "air": "Split streamlines, moving dashes, pressure nose and directional exposures"
+    },
+    "handoff": {
+      "receiverLeft": 680,
+      "receiverWidth": 340,
+      "contact": 7.1,
+      "swallowed": 7.6,
+      "latched": 7.82,
+      "mechanism": "Split jaws anticipate arrival; hard occlusion converts three inherited data tracks into routed ribbons; closure and one rectangular pressure wave; uniform logo takeover"
+    },
+    "source": "Revision09: two fast rightward passes, coordinated ribbon capture and clamp, new drum-led score. Editorial metaphor, not actual vacancy ingestion or measured discovery speed."
+  },
+  "start": 0,
+  "duration": 10.2,
+  "fps": 60,
+  "frames": 612,
+  "width": 720,
+  "height": 1280,
+  "renderSeconds": 5.845,
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.84",
+    "revision": "@5869fe313571d75152b77813cf0a4ee26a4e6df0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.25"
+  },
+  "logo": {
+    "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/assets/evidence/product/logo-mark.png",
+    "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c",
+    "treatment": "Original RGBA asset unchanged; uniform scale and translation only"
+  },
+  "sourceSha256": "4be82157515ad6b7acf7629b0c1d9d85daef44acfc4ef5a58094a9052e9438a5",
+  "outputs": [
+    {
+      "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-09/JJIntern-revision09-motion-test.mp4",
+      "bytes": 428346,
+      "sha256": "ce256132704e2ca94f70deed8695018a97330cbbdd8e90f3ecc0ed9e13d76723",
+      "media": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64002a",
+            "width": 720,
+            "height": 1280,
+            "coded_width": 720,
+            "coded_height": 1280,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "9:16",
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 156672,
+            "duration": "10.200000",
+            "bit_rate": "329705",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "612",
+            "extradata_size": 48,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "encoder": "Lavc62.28.102 libx264"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-09/JJIntern-revision09-motion-test.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "10.200000",
+          "size": "428346",
+          "bit_rate": "335957",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.12.102"
+          }
+        }
+      }
+    }
+  ],
+  "command": [
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-y",
+    "-f",
+    "image2pipe",
+    "-framerate",
+    "60",
+    "-vcodec",
+    "png",
+    "-i",
+    "pipe:0",
+    "-map",
+    "0:v:0",
+    "-vf",
+    "scale=in_range=full:out_range=limited:out_color_matrix=bt709,setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709,setsar=1",
+    "-r",
+    "60",
+    "-fps_mode",
+    "cfr",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "veryfast",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.2",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "-t",
+    "10.2",
+    "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/showreel/rectangle/revision-09/JJIntern-revision09-motion-test.mp4"
+  ],
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

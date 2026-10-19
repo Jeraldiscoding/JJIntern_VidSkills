@@ -1,0 +1,84 @@
+REVISION 08 — PACK, ACCELERATE, CAPTURE
+18.000 seconds. 1080x1920. Native 120 fps master and 60 fps delivery.
+The user's latest direction asks for a more ambitious motion treatment,
+an audible source ding, a faster initial launch and longer flight, air
+resistance, physical entry into a JJIntern packet, shorter payoff and new music.
+Revisions 05–07 are preserved.
+
+TIMELINE AND PURPOSE
+0.000–2.000: Microsoft / SWE Internship source. Approved white tile and type,
+small entrance settle. One source ding at 0.180, with brief border acknowledgment.
+2.000–2.550: the same tile compresses. Individual glyphs inherit its geometry,
+separate into three staggered tracks, turn into cells, and bridge into solid
+information bars. The boundary traces on, then the blue leading edge locks.
+2.550–3.100: stationary packet hold, giving the new shape time to read.
+3.100–8.100: five-second accelerating rightward flight. Immediate background
+movement; three wake strokes, split curved airflow around the leading corners,
+moving stream segments and a pressure nose. A uniform pullback in the final
+0.950 second reveals the receiving packet ahead without reversing screen travel.
+8.100–9.050: the incoming packet moves through the receiver's open left port.
+A hard clipping boundary progressively hides the actual translating geometry;
+there is no packet-opacity transition. The intact JJIntern mark is already
+visible inside the receiving shell. A short interior blue accent follows capture.
+9.050–9.250: port closes and receiving shell acknowledges the latch.
+9.250–9.850: receiver recentres; shell clears while the original mark grows
+uniformly into the approved centred logo composition. No logo deformation.
+9.850–10.200: logo holds briefly then clears into the blue information rule.
+10.200–11.100: Found. Confident scale and measured reveal.
+11.100–11.470: first payoff line reveals. Second reveals 11.350–11.700.
+11.700–14.000: both lines fully readable for 2.300 seconds (formerly 3.500).
+14.000–14.550: measured transition to JJIntern. Hold through final frame.
+
+EXACT COPY
+Microsoft
+SWE Internship
+Found.
+We handle the finding.
+You focus on applying.
+JJIntern
+
+FLIGHT AND HANDOFF
+u=clamp((t-3.1)/5,0,1)
+screen x=70+370*(0.6*u+0.4*u^3)
+Screen velocity=44.4+88.8*u^2 px/s: positive and increasing throughout flight.
+Initial screen velocity is approximately 5.86 times revision07's 7.575 px/s.
+Background velocity parameter=720+6800*u^2, multiplied by fixed depth factors.
+Displacement is the integral of velocity. Streak length/density grows with speed.
+Uniform packet scale changes from 1 to 0.65 during 7.150–8.100; the screen x
+curve remains independent and strictly increasing throughout the pullback.
+Contact: packet right edge and receiver opening meet at x722.750 at 8.100.
+q=clamp((t-8.1)/0.95,0,1)
+Entry x=440+295.75*(0.54*q+0.46*q^3), clipped at x735.750.
+The packet is fully behind the lip at 9.050. No opacity-based handoff.
+Logo is the original alpha-padded PNG at unchanged aspect ratio and colour.
+
+SOUND
+Entirely new mathematical synthesis: isolated notification-style source ding,
+three morph clicks and lock, launch transient, five-second airflow build,
+contact/capture/latch cues, rhythmic bass and dry broken percussion.
+No recordings, samples, stock loops or voiceover. No reused prior soundtrack.
+See audio/build_score.py and the audio manifest for composition and measurements.
+
+ASSETS AND CLAIMS
+Approved revision05 source/packet/logo design, original logo-mark.png, macOS
+system-sans stack. No new asset downloads, app screens, photographs or employer
+logos. Asset hashes and render-host details are in manifests.
+Claim record: CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017.
+Microsoft SWE Internship remains an editorial source label. The ding is a
+creative entrance cue, not evidence of a newly released Microsoft vacancy.
+Packing, flight and receiver are editorial graphics, not actual JJIntern UI,
+an ingestion recording, a new-posting notification or measured product latency.
+Copy retains discovery/applying distinction; JJIntern is not said to auto-apply.
+
+REPRODUCTION
+With an isolated local Chrome debug session on port 9358, from workspace root:
+python3 creative/archive/rectangle/revision-08/audio/build_score.py
+node creative/archive/rectangle/revision-08/source/render-motion.mjs 9358 stills
+node creative/archive/rectangle/revision-08/source/render-motion.mjs 9358 test
+node creative/archive/rectangle/revision-08/source/render-motion.mjs 9358 full
+python3 creative/archive/rectangle/revision-08/source/verify-motion.py
+node creative/archive/rectangle/revision-08/source/check-playback.mjs 9358 final
+
+Review records are in review/. Browser playback checks establish decode and
+timing, not subjective listening. Physical-phone/placement preview and human
+speaker/headphone audition remain external checks. No publication occurred.

@@ -1,0 +1,343 @@
+{
+  "title": "A Small Advantage",
+  "revision": "Compact 10-second ad",
+  "duration_seconds": 10.0,
+  "samples": 480000,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits_per_sample": 24,
+  "tempo_bpm": 120,
+  "groove_start_seconds": 3.65,
+  "key": "D major",
+  "composition": "New short bass phrase; sparse rhythm, brief Dmaj9/Gmaj9 colour, resolved benefit close. No high arpeggio melody.",
+  "originality": "All sources synthesized with sine/FM/additive oscillators, generated filtered noise and computed stereo reflections. No samples, stock loops, recordings, sampled impulse responses, vocals or external music models. Composed/resequenced for 10 seconds; no audio splice or speed-up.",
+  "seed": 10171026,
+  "cues": [
+    {
+      "s": 0,
+      "cue": "Posting reveal, restrained original material note at0.18"
+    },
+    {
+      "s": 1.65,
+      "cue": "Fold: four small contacts and pressure"
+    },
+    {
+      "s": 2.65,
+      "cue": "Exactly1-second left-to-right travel"
+    },
+    {
+      "s": 3.65,
+      "cue": "Website contact and bass groove arrival"
+    },
+    {
+      "s": 6.75,
+      "cue": "Benefit and URL close; groove thins"
+    },
+    {
+      "s": 8.65,
+      "cue": "Final low resolve"
+    },
+    {
+      "s": 9.9,
+      "cue": "Fully settled silence"
+    }
+  ],
+  "premaster": {
+    "input_i": -23.25,
+    "input_tp": -7.82,
+    "input_lra": 5.2
+  },
+  "master": {
+    "file": "jjintern-compact-original-score.wav",
+    "integrated_lufs": -14.0,
+    "true_peak_dbtp": -2.37,
+    "loudness_range_lu": 7.0,
+    "final_constant_gain_trim_db": -0.97
+  },
+  "verification": {
+    "stereo_correlation": 0.981,
+    "last_sample": [
+      0.0,
+      0.0
+    ],
+    "silent_after_9_9": true
+  },
+  "measurement_scope": "Delivery and signal-integrity checks only; these do not prove musical taste or a listening review.",
+  "build_seconds": 3.888,
+  "events": [
+    {
+      "seconds": 0.18,
+      "event": "subtle posting material note",
+      "gain": 0.6,
+      "pan": 0.0
+    },
+    {
+      "seconds": 0.18,
+      "event": "posting contact",
+      "gain": 0.2,
+      "pan": 0.0
+    },
+    {
+      "seconds": 1.65,
+      "event": "fold pressure",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 1.65,
+      "event": "fold contact / packet lock",
+      "gain": 0.44,
+      "pan": -0.15
+    },
+    {
+      "seconds": 1.95,
+      "event": "fold contact / packet lock",
+      "gain": 0.44,
+      "pan": -0.05
+    },
+    {
+      "seconds": 2.28,
+      "event": "fold contact / packet lock",
+      "gain": 0.44,
+      "pan": 0.08
+    },
+    {
+      "seconds": 2.58,
+      "event": "fold contact / packet lock",
+      "gain": 0.44,
+      "pan": 0.16
+    },
+    {
+      "seconds": 2.65,
+      "event": "one-second left-to-right packet pass",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 2.65,
+      "event": "packet release",
+      "gain": 0.34,
+      "pan": -0.45
+    },
+    {
+      "seconds": 3.65,
+      "event": "website arrival contact",
+      "gain": 0.62,
+      "pan": 0
+    },
+    {
+      "seconds": 3.65,
+      "event": "feed Dmaj9 colour",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 3.65,
+      "event": "short bass motif",
+      "gain": 0.94,
+      "pan": 0.0,
+      "midi_note": 38
+    },
+    {
+      "seconds": 3.65,
+      "event": "compact dry kick",
+      "gain": 0.81,
+      "pan": 0.0
+    },
+    {
+      "seconds": 3.9,
+      "event": "single tight high detail",
+      "gain": 0.66,
+      "pan": 0.2
+    },
+    {
+      "seconds": 4.15,
+      "event": "compact dry kick",
+      "gain": 0.56,
+      "pan": 0.0
+    },
+    {
+      "seconds": 4.15,
+      "event": "sparse soft rim",
+      "gain": 0.64,
+      "pan": 0.035
+    },
+    {
+      "seconds": 4.4,
+      "event": "short bass motif",
+      "gain": 0.7,
+      "pan": 0.0,
+      "midi_note": 38
+    },
+    {
+      "seconds": 4.65,
+      "event": "compact dry kick",
+      "gain": 0.66,
+      "pan": 0.0
+    },
+    {
+      "seconds": 4.9,
+      "event": "short bass motif",
+      "gain": 0.75,
+      "pan": 0.0,
+      "midi_note": 45
+    },
+    {
+      "seconds": 4.9,
+      "event": "single tight high detail",
+      "gain": 0.66,
+      "pan": -0.2
+    },
+    {
+      "seconds": 5.15,
+      "event": "compact dry kick",
+      "gain": 0.53,
+      "pan": 0.0
+    },
+    {
+      "seconds": 5.15,
+      "event": "sparse soft rim",
+      "gain": 0.54,
+      "pan": 0.035
+    },
+    {
+      "seconds": 5.4,
+      "event": "short bass motif",
+      "gain": 0.66,
+      "pan": 0.0,
+      "midi_note": 49
+    },
+    {
+      "seconds": 5.65,
+      "event": "short bass motif",
+      "gain": 0.84,
+      "pan": 0.0,
+      "midi_note": 43
+    },
+    {
+      "seconds": 5.65,
+      "event": "compact dry kick",
+      "gain": 0.71,
+      "pan": 0.0
+    },
+    {
+      "seconds": 5.65,
+      "event": "feed warm Gmaj9 answer",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 5.9,
+      "event": "single tight high detail",
+      "gain": 0.66,
+      "pan": 0.2
+    },
+    {
+      "seconds": 6.15,
+      "event": "compact dry kick",
+      "gain": 0.52,
+      "pan": 0.0
+    },
+    {
+      "seconds": 6.15,
+      "event": "sparse soft rim",
+      "gain": 0.54,
+      "pan": 0.035
+    },
+    {
+      "seconds": 6.4,
+      "event": "short bass motif",
+      "gain": 0.7,
+      "pan": 0.0,
+      "midi_note": 45
+    },
+    {
+      "seconds": 6.65,
+      "event": "compact dry kick",
+      "gain": 0.62,
+      "pan": 0.0
+    },
+    {
+      "seconds": 6.75,
+      "event": "benefit / URL Dmaj9 resolution",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "seconds": 6.75,
+      "event": "benefit contact",
+      "gain": 0.28,
+      "pan": 0
+    },
+    {
+      "seconds": 6.9,
+      "event": "short bass motif",
+      "gain": 0.83,
+      "pan": 0.0,
+      "midi_note": 38
+    },
+    {
+      "seconds": 6.9,
+      "event": "single tight high detail",
+      "gain": 0.66,
+      "pan": -0.2
+    },
+    {
+      "seconds": 7.15,
+      "event": "compact dry kick",
+      "gain": 0.45,
+      "pan": 0.0
+    },
+    {
+      "seconds": 7.15,
+      "event": "sparse soft rim",
+      "gain": 0.38,
+      "pan": 0.035
+    },
+    {
+      "seconds": 7.65,
+      "event": "short bass motif",
+      "gain": 0.73,
+      "pan": 0.0,
+      "midi_note": 38
+    },
+    {
+      "seconds": 7.65,
+      "event": "compact dry kick",
+      "gain": 0.54,
+      "pan": 0.0
+    },
+    {
+      "seconds": 7.9,
+      "event": "single tight high detail",
+      "gain": 0.66,
+      "pan": 0.2
+    },
+    {
+      "seconds": 8.15,
+      "event": "short bass motif",
+      "gain": 0.57,
+      "pan": 0.0,
+      "midi_note": 45
+    },
+    {
+      "seconds": 8.15,
+      "event": "compact dry kick",
+      "gain": 0.39,
+      "pan": 0.0
+    },
+    {
+      "seconds": 8.65,
+      "event": "final low resolve",
+      "gain": 0.52,
+      "pan": 0.0,
+      "midi_note": 38
+    },
+    {
+      "seconds": 8.65,
+      "event": "last harmonic punctuation",
+      "gain": 1.0,
+      "pan": 0.0
+    }
+  ]
+}

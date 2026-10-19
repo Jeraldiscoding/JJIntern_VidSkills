@@ -1,0 +1,35 @@
+FINAL LOCAL REVIEW — JJINTERN SLICK REVISION
+
+Both MP4 files fully decode with no video/audio decode errors.
+Both are exactly 20.000 seconds at 1080 × 1920 with square pixels, H.264
+High/yuv420p, explicit BT.709 colour metadata and stereo 48 kHz AAC.
+Native master: 120 fps / 2400 frames. TikTok copy: 60 fps / 1200 frames.
+Six consecutive moving frames in the native master were all distinct.
+No optical-flow interpolation or intermediate-video transcode was used.
+
+Final encoded opening, posting, fold, polished packet, one-second lateral
+journey, authentic row arrival, steady feed, cadence, benefit and closing
+frames were inspected. The complete encoded timeline was sampled in order.
+The actual historical date and example-workflow qualification remain intact.
+No original font proportions, product-image proportions or logo proportions
+were stretched. The card's perspective and folding are intentional 3D motion.
+
+Encoded soundtrack: -14.26 LUFS integrated / -1.10 dBTP, 6.50 LU LRA.
+The original synthesized WAV and every instrument/effect are reproducible.
+There are no samples. Numerical audio checks do not claim human listening.
+
+Both full real-time isolated-browser passes reached 20 seconds without
+media errors. Cold muted software-rendered playback reported 229 dropped
+frames; the warm sound-enabled pass added one drop. These are recorded
+rather than labelled perfectly smooth cold playback. Full decoded frame
+counts and the native frame-distinctness check passed independently.
+The browser uses SwiftShader, so this is not a physical-device performance
+certification. No physical-phone, TikTok draft/upload-preview or subjective
+human soundtrack-listening session was performed.
+
+Local artifact: complete, encoded and inspected.
+Release: conditional on the account's actual phone/upload preview.
+Nothing was published or uploaded to an external service.
+
+Detailed evidence: final-qa.json, browser-playback.json, notes.md,
+../audio/verification.json and ../render-manifest.json.

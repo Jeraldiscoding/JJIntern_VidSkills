@@ -1,0 +1,33 @@
+{
+  "checked": "2026-10-17",
+  "source_png_dimensions": [
+    1560,
+    3376
+  ],
+  "device_scale_factor": 4,
+  "crops": [
+    {
+      "file": "feed-microsoft-focus.png",
+      "source": "feed-microsoft.png",
+      "rect": {
+        "x": 32,
+        "y": 600,
+        "width": 1496,
+        "height": 1020
+      },
+      "scope": "Actual query, controls and first role row; historical date visible; aggregate header counts excluded."
+    },
+    {
+      "file": "feed-microsoft-role.png",
+      "source": "feed-microsoft.png",
+      "rect": {
+        "x": 32,
+        "y": 1140,
+        "width": 1000,
+        "height": 300
+      },
+      "scope": "Actual company logo/name and Research Intern title; editorial detail, requires Example posting context."
+    }
+  ],
+  "transform": "Lossless rectangular crop of genuine source pixels; no reconstructed interface or retyped product content."
+}

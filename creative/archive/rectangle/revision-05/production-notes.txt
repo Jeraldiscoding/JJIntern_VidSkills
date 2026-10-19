@@ -1,0 +1,86 @@
+JJINTERN / APPROVED REVISION 05 / 18.000 SECONDS
+Production date: 17 October 2026, Europe/Stockholm.
+
+DELIVERABLES
+JJIntern-revision05-60fps.mp4 — 1080x1920 delivery, 1080 frames.
+JJIntern-revision05-120fps-master.mp4 — 1080x1920 master, 2160 frames.
+Both use H.264 High, yuv420p, BT.709 limited range, AAC stereo 48 kHz.
+18.000-second original synthesized soundtrack in audio/.
+playback.html — local player for the 60 fps delivery.
+transcript.vtt — exact visible copy; no voiceover.
+caption.txt — optional posting copy with editorial context, not burned into video.
+
+APPROVAL AND SCOPE
+The current attached user brief expressly approves revision05 styleframes and
+authorizes a short motion test, refinement, then full animation and audio.
+This supersedes earlier awaiting-approval notes in the historical still records.
+No new style exploration. No publishing, app write, vacancy or hiring claim.
+Claim: CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017, editorial scope unchanged.
+
+DESIGN AND MOTION
+The approved 01-source and 03-logo compositions are retained at their original
+positions and sizes. Pale blue #edf3ff, ink #203145, accent #0071e3.
+Source: original two-line typography, white 860x340 tile. Settled by 0.58 s.
+Compression: same continuous boundary and three source text runs coalesce
+into abstract bars. Its position stays continuous throughout.
+Packet: approved graphic uniformly scaled 0.62 to 359.6x210.8, to keep the
+complete flight and receiving logo inside the vertical frame. Compression
+left edge moves from 110 to 65; y 790 to 854.6. No discontinuity at 4.500 s.
+Flight: x 65 to 280.4; leading right edge 424.6 to 640 over 4.500–6.500.
+x=x_start+(x_end-x_start)*(0.12*u+0.88*u^3), u=(t-4.5)/2 clamped.
+No camera tracking, braking, perspective, rotation or silhouette distortion.
+Trails stay on the left and lengthen with speed. Pressure arc stays subtle.
+At 6.500 leading edge contacts the receiving logo's visible left edge at 640.
+The packet continues with its contact velocity while fading; intact logo
+reveals through a mask and translates to the approved composition by 7.100.
+Logo: unchanged original 512x512 PNG drawn at 420x420, final top-left 330,715.
+Alpha>=128 bbox 50,111,464,486 yields visible center 540.820,959.863.
+No redraw, recolor, crop of the source, aspect change or shape morph.
+Logo alone holds 7.100–10.000, with a final 0.120 s opacity exit.
+Found begins 10.000; clears 10.760; first line 10.760–11.030;
+second 10.920–11.300. Both hold fully 11.300–15.000.
+Outgoing payoff clears 15.160; JJIntern enters 15.160–15.400,
+then holds unchanged through frame 2159 / frame 1079.
+
+REFINEMENT
+Five-second silent motion test covers timeline 2.500–7.500 at 720x1280/60fps.
+Test and boards were inspected before final render. Overlapping Found/payoff
+and payoff/sign-off opacity windows were separated. Logo/Found overlap was
+also removed; the blue accent remains continuous through textual handoffs.
+No physical phone or platform preview is implied by browser measurements.
+
+SOUND
+New deterministic standard-library Python synthesis: oscillator bass/chords,
+filtered seeded noise percussion, friction and flight, synthesized ding.
+No samples, recordings, stock loops, reused composition or voice.
+See audio/build_score.py and audio/audio-manifest.json for event details,
+PCM loudness measurements, source/output hashes and mastering commands.
+The attached request ends after “Quiet friction and closure”; remaining
+sound design follows the explicit scene timeline and synthesis constraints.
+
+REPRODUCTION
+From the workspace root, use the installed isolated Chrome/Node/FFmpeg stack.
+No dependency or font download is needed. The renderer reads the original
+logo asset and the installed macOS system sans stack used by approved frames.
+
+1. Start a fresh local Chrome with remote debugging on 9355, a temporary
+   user-data-dir and --headless=new --autoplay-policy=no-user-gesture-required.
+2. python3 creative/archive/rectangle/revision-05/audio/build_score.py
+3. node creative/archive/rectangle/revision-05/source/render-motion.mjs 9355 stills
+4. node creative/archive/rectangle/revision-05/source/render-motion.mjs 9355 test
+5. node creative/archive/rectangle/revision-05/source/render-motion.mjs 9355 full
+6. python3 creative/archive/rectangle/revision-05/source/verify-motion.py
+7. node creative/archive/rectangle/revision-05/source/check-playback.mjs 9355 final
+
+Canvas rendering is supersampled 2160x3840 then downsampled 1080x1920.
+The 60 fps delivery selects even original frames from the native 120 fps stream,
+without interpolation or intermediate video recompression. System-font
+metrics are host-dependent; exact browser version is in render-manifest.json.
+
+VERIFICATION AND RELEASE
+Read review/final-qa.json for encoded media checks and review/motion-review.txt
+for observed visual review. Browser playback logs separate muted and enabled
+audio decoding from subjective listening. Actual speaker/headphone audition,
+physical-phone viewing and destination upload-overlay preview remain pending.
+Local deliverables complete; publication is a separate action.
+No performance or engagement result can be predicted from this review.

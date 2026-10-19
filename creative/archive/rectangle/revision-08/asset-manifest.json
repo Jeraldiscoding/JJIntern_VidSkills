@@ -1,0 +1,35 @@
+{
+  "revision": 8,
+  "date": "2026-10-17",
+  "timezone": "Europe/London",
+  "duration": 18,
+  "latest_user_direction": "Showreel-level motion; choreographed morph, source ding, faster initial five-second flight with air resistance, physical packet entry into JJIntern receiver, shorter payoff, replacement electronic score",
+  "claim": "CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017",
+  "graphic_scope": "Editorial glyph packing, aerodynamic strokes and receiving pocket; no real app interface or verified live vacancy/ingestion state",
+  "inputs": [
+    {
+      "path": "creative/assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-08/source/motion.html",
+      "sha256": "f3e1ce1267f88bac840de63d9f6ec6f83371d83c82d401d8eea9b5977ad486be"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-08/source/render-motion.mjs",
+      "sha256": "107269514142809acad29ccc833a4219369be2fc632039686fdf675183ca76b3"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-08/audio/build_score.py",
+      "sha256": "25928462ce39ac21fce90254f66285c4cb378f9caf1b2a6756d5624e7b61755e"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-08/audio/jjintern-revision-08-original-score.wav",
+      "sha256": "84e1cf3dabc382419e545425f7b902db7520fde38c4f870bb35fa8ae42c96bed"
+    }
+  ],
+  "audio_provenance": "Original deterministic oscillator/noise/filter synthesis; no samples, recordings, stock loops or voiceover",
+  "logo_treatment": "Original supplied RGBA asset with uniform scale/translation only; unchanged colour, proportions and silhouette",
+  "publishing": false,
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

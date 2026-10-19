@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0.0",
+  "checked_date": "2026-10-17",
+  "timezone": "Europe/Stockholm",
+  "provenance": {
+    "kind": "observed public served CSS/HTML/assets; no application source",
+    "register": "creative/product/evidence.md",
+    "manifest": "creative/assets/evidence/product/manifest.json",
+    "css_sources": [
+      "creative/assets/evidence/product/app-public.css",
+      "creative/assets/evidence/product/landing-public.css"
+    ],
+    "values_are_css_definitions_not_all_computed_browser_values": true
+  },
+  "existing_product_identity": {
+    "themes": {
+      "light": {
+        "background": "#ffffff",
+        "surface": "#ffffff",
+        "subtle": "#f5f5f7",
+        "soft": "#fafafa",
+        "hover": "#eeeeef",
+        "border": "#e8e8ed",
+        "border_strong": "#d2d2d7",
+        "text": "#1d1d1f",
+        "text_strong_secondary": "#3a3a3c",
+        "text_secondary": "#6e6e73",
+        "text_tertiary": "#86868b"
+      },
+      "dark": {
+        "background": "#0b0b0c",
+        "surface": "#1c1c1e",
+        "subtle": "#252527",
+        "soft": "#151517",
+        "hover": "#303033",
+        "border": "#38383a",
+        "border_strong": "#505054",
+        "text": "#f5f5f7",
+        "text_strong_secondary": "#e5e5ea",
+        "text_secondary": "#c7c7cc",
+        "text_tertiary": "#a1a1a6"
+      },
+      "selection": "light root; dark via .dark or prefers-color-scheme:dark when not .light"
+    },
+    "accents": {
+      "blue": "#0071e3",
+      "homepage_status_green": "#23835a"
+    },
+    "primary_action": {
+      "homepage": "neutral ink background, inverse theme text",
+      "app_signin": "blue #0071e3 observed in public feed"
+    },
+    "fonts": {
+      "sans": {
+        "css_family": "-apple-system, BlinkMacSystemFont, SF Pro Display, SF Pro Text, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif",
+        "source": "system stack; no sans file served in inspected CSS",
+        "observed_css_weights": [
+          400,
+          500,
+          550,
+          580,
+          600,
+          650,
+          700
+        ],
+        "weight_note": "CSS requested weights; actual font availability and intermediate weight rendering depend on OS/font"
+      },
+      "serif": {
+        "family": "Instrument Serif",
+        "generated_css_family": "__Instrument_Serif_ae301a",
+        "role": "available via --font-serif; not the body font",
+        "weights": [
+          400
+        ],
+        "styles": [
+          "normal",
+          "italic"
+        ],
+        "local_latin_files": {
+          "normal": "creative/assets/evidence/product/instrument-serif-latin-regular-400.woff2",
+          "italic": "creative/assets/evidence/product/instrument-serif-latin-italic-400.woff2"
+        },
+        "remote_extended_subsets": [
+          "https://jjintern.com/_next/static/media/35f3de0ebb1cfc70-s.woff2",
+          "https://jjintern.com/_next/static/media/5ece437c7024c161-s.woff2"
+        ],
+        "fallback": "Times New Roman with generated metric overrides; see CSS",
+        "font_display": "swap",
+        "licence_status": "No licence notice inspected; confirm asset licence before external redistribution"
+      },
+      "mono": {
+        "css_family": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace",
+        "source": "shared CSS utility; system fonts"
+      }
+    },
+    "typography_css": {
+      "body_utility": {
+        "font_size_px": 15,
+        "line_height_px": 20,
+        "letter_spacing_px": -0.24
+      },
+      "small_utility": {
+        "font_size_px": 13,
+        "line_height_px": 18,
+        "letter_spacing_px": -0.08
+      },
+      "caption_utility": {
+        "font_size_px": 11,
+        "line_height_px": 13,
+        "letter_spacing_px": 0.07
+      },
+      "title_2xl_utility": {
+        "font_size_px": 22,
+        "line_height_px": 28,
+        "letter_spacing_px": -0.5
+      },
+      "title_4xl_utility": {
+        "font_size_px": 34,
+        "line_height_px": 41,
+        "letter_spacing_px": -0.8
+      },
+      "homepage_h1_base": {
+        "font_size": "clamp(43px, 4.6vw, 64px)",
+        "line_height": 1.08,
+        "font_weight": 580,
+        "letter_spacing_em": -0.045,
+        "responsive_overrides": "See landing-public.css; do not use desktop value for every viewport"
+      },
+      "homepage_section_h2_base": {
+        "font_size": "clamp(30px, 3.3vw, 43px)",
+        "line_height": 1.12,
+        "font_weight": 550,
+        "letter_spacing_em": -0.04
+      },
+      "homepage_feature_h3_base": {
+        "font_size_px": 24,
+        "line_height": 1.25,
+        "font_weight": 550,
+        "letter_spacing_px": -0.9
+      }
+    },
+    "observed_spacing_px": {
+      "shared_utilities": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        20,
+        24
+      ],
+      "homepage_header_gap": 24,
+      "homepage_desktop_hero_padding": [
+        83,
+        48,
+        65,
+        48
+      ],
+      "note": "Observed values, not proof of one uniform application spacing scale; responsive values differ"
+    },
+    "radii_px": {
+      "shared_rounded_sm": 4,
+      "shared_rounded_md": 10,
+      "shared_rounded_lg": 12,
+      "shared_rounded_xl": 12,
+      "shared_rounded_2xl": 16,
+      "shared_pill": 9999,
+      "homepage_cta": 5,
+      "homepage_preview_frame": 9
+    },
+    "treatments": {
+      "homepage_frame_shadow": "0 20px 60px -18px rgba(0,0,0,.16), 0 2px 8px rgba(0,0,0,.03)",
+      "shared_light_card_shadow": "0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04)",
+      "shared_dark_card_shadow": "0 1px 1px hsla(0,0%,100%,.04), 0 10px 28px -12px rgba(0,0,0,.72)",
+      "surface_separation": "thin theme borders; restrained shadows",
+      "homepage_preview": "9px frame, subtle dot field, rotated -1deg; illustrative homepage design, not a mandated creative template"
+    },
+    "assets": {
+      "logo_mark": {
+        "path": "creative/assets/evidence/product/logo-mark.png",
+        "source_url": "https://jjintern.com/logo-mark.png",
+        "width_px": 512,
+        "height_px": 512,
+        "alpha": true,
+        "restrictions": "Original raster only; do not redraw, recolour, distort, trace, or invent a vector replacement. Preserve proportions. Inspect raster edges at export size."
+      },
+      "wordmark": {
+        "standalone_asset": null,
+        "observed": "Homepage text JJ Intern with blue terminal dot; app text JJ Intern",
+        "restriction": "No official standalone vector wordmark verified; do not claim a newly typeset lockup is an official asset."
+      }
+    }
+  },
+  "proposed_marketing_extensions": {
+    "status": "Internal defaults proposed for creative production; not extracted application tokens and not a rebrand",
+    "palette": {
+      "background": "#0b0b0c",
+      "surface": "#1c1c1e",
+      "text": "#f5f5f7",
+      "secondary": "#c7c7cc",
+      "accent": "#0071e3",
+      "note": "Reuse existing dark tokens; real product captures retain their actual theme"
+    },
+    "typography_1080_canvas_px": {
+      "hook_range": [
+        76,
+        112
+      ],
+      "body_range": [
+        48,
+        60
+      ],
+      "qualifications_minimum": 42,
+      "cta_range": [
+        52,
+        64
+      ],
+      "line_height_body": 1.2,
+      "note": "Internal starting values at 1080px width, not platform rules. Check at 360px wide equivalent and on a real phone; reframe UI instead of scaling every tiny row."
+    },
+    "composition": {
+      "one_focal_subject_per_beat": true,
+      "maximum_primary_copy_lines": 3,
+      "blue_use": "selected control, meaningful data emphasis, or action; neutral fields elsewhere",
+      "glass_default": false,
+      "glow_default": false,
+      "logo_clear_space": "Proposed minimum 0.25 \u00d7 visible mark width; no official clear-space manual found"
+    },
+    "contrast_reference": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "computed_contrast": {
+      "blue_on_white": 4.7,
+      "blue_on_dark_background": 4.19,
+      "light_text_on_dark_background": 18.07,
+      "note": "Rounded explanatory ratios. Calculate unrounded values for final acceptance. Blue on dark fails the 4.5:1 normal-text benchmark."
+    }
+  }
+}

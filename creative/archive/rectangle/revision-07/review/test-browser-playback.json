@@ -1,0 +1,187 @@
+{
+  "kind": "Actual real-time browser playback and decoded-frame capture; no claim of subjective audio audition",
+  "mode": "test",
+  "passes": [
+    {
+      "muted": true,
+      "observations": [
+        {
+          "time": 0.513573,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 36,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 1.096428,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 70,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 1.672721,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 105,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 2.272017,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 141,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 2.862466,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 176,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 3.424009,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 210,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 4.010366,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 245,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 4.59207,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 280,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 5.172859,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 315,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 5.755423,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 350,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 6.339871,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 385,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 6.927049,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 420,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 7.511031,
+          "duration": 8,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 455,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 8,
+          "duration": 8,
+          "ended": true,
+          "paused": true,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 480,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 8,
+          "duration": 8,
+          "ended": true,
+          "paused": true,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 480,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 8,
+          "duration": 8,
+          "ended": true,
+          "paused": true,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 480,
+          "droppedFrames": 0,
+          "muted": true
+        }
+      ]
+    }
+  ]
+}

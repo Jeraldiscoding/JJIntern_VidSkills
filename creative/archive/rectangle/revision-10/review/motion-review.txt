@@ -1,0 +1,23 @@
+REVISION 10 — CONTINUOUS TRANSFER AND COMBINED RECEIPT
+2026-10-17
+
+The new staging joins the action more clearly: the source moves while it packs, the incoming packet closes on a slowly opposing receiver, and the intact JJIntern mark answers with “Found.” in the same composition. This removes the two interruptions the user identified: the packed pause and the standalone Found screen. No concrete visual repair is identified in the inspected revision 10 samples. Continue to final export.
+
+ACTUAL INSPECTION
+Inspected motion-board-1 through motion-board-5, native frames at 2.430, 7.220 and 8.750 seconds, and the animation source. The morph letters/cells stay within their moving shell and resolve to the existing continuous bars. Compression ends at x 377.5 with 200 px/s translation; first flight starts at the same position and velocity. There is no packed hold or new ease-in at 2.55.
+
+The receiver is now one clean white container with a left aperture, replacing revision 09's split jaws. Its shell, clipping plane, routed contents and original mark share the same leftward transform. At 7.220 the packet is visibly entering the aperture and its three inherited bars extend into separate channels. Contact position is continuous; the calculated incoming screen velocity changes only from about 496.63 to 496.16 px/s at the boundary. The receiver's 60 px/s opposing drift stays subordinate to the incoming action. The original mark is not deformed or recolored.
+
+The darker, longer 22-row streak field gives the flight more visual force. In the inspected frames it stays behind the sharp white packet and receiver, leaving their silhouettes and contents clear. The two rightward travel passes and directional whip remain an editorial continuity device.
+
+The 8.750 frame shows a legible 52 px “Found.” label in a white bubble above the original mark, with clear separation from its silhouette. Bubble and mark drift together through the result hold, preserving their relationship. Both fade before the existing finding/applying payoff; there is no separate full-screen Found title. Payoff and JJIntern signoff remain unchanged. The second ding is specified at the 8.5 bubble reveal; this visual review does not claim an audible sync or subjective listening result.
+
+CLAIMS AND REVIEW SCOPE
+The source remains the requested editorial Microsoft SWE Internship label. The receiving packet, moving contents and Found bubble are abstract discovery graphics, not authentic app UI, a verified vacancy, actual ingestion event, employer affiliation or measured product speed. Exact finding/applying copy is preserved. A scoped revision 10 history entry records these changes under the existing CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017 claim; no new product fact is added.
+
+Scoped rubric notes: idea 2 (discovery burden resolves); hook 2 (clear editorial role); payoff 2 (finding/applying division); shot value 2 (packing, transfer, receipt and copy); product 1 (intentional metaphor, no tested action depicted); copy 2 (approved exact wording); design 2 (single focal subjects); motion 2 (continuous packing/travel and coherent receipt); readability 1 (rendered samples clear, real phone pending); claims 2 (editorial scope retained); CTA 1 (brand signoff only, no new destination requested); distinctness 2 (moving source and combined receipt replace revision 09's pauses). These observations are not a quality certificate or performance prediction.
+
+Concept: selected. Assets: original logo and established editorial copy available. Artifact: rendered boards/native samples inspected; final encoded review is separate. Release: conditional on the existing phone/placement and subjective speaker/headphone checks; no publication performed. This review does not claim human normal-speed playback or subjective audio audition.
+
+FINAL ENCODED REVIEW
+Root inspected all three decoded 60 fps boards and the Found/logo browser-playback sample. Continuous travelling morph, stronger field, moving receiver/capture and combined Found/logo composition remain clear after encoding. Both real-time browser passes reached 18.000s without media errors: muted playback decoded 1,080 frames with zero drops; sound-enabled replay reached cumulative 2,160 frames with one initial dropped frame that did not increase. This is a technical playback check, not subjective audio audition. Final automated export checks passed for both frame rates; encoded AAC measures -14.34 LUFS and -1.39 dBTP with no clips. Source, renderer, audio and original-logo hashes match the asset manifest.

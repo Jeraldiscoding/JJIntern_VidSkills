@@ -1,0 +1,281 @@
+{
+  "mode": "final",
+  "renderSeconds": 147.305,
+  "scene": {
+    "renderer": "WebKit WebGL",
+    "vendor": "WebKit",
+    "font": "system -apple-system; Instrument Serif italic 400",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.84",
+    "revision": "@5869fe313571d75152b77813cf0a4ee26a4e6df0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.25"
+  },
+  "node": "v25.1.0",
+  "frames": 1200,
+  "fps": 60,
+  "sha256": "a03e95e03c314d859195a17c234baef593f6e3bf9f3c2e38917a80c968cb8d38",
+  "bytes": 72410529,
+  "media": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64002a",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 42,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "60/1",
+        "avg_frame_rate": "60/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 307200,
+        "duration": "20.000000",
+        "bit_rate": "28639261",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "1200",
+        "extradata_size": 50,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc62.28.102 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 960000,
+        "duration": "20.000000",
+        "bit_rate": "311426",
+        "nb_frames": "939",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/JJIntern-Your-Next-Move-1080p60.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "20.000000",
+      "size": "72410529",
+      "bit_rate": "28964211",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf62.12.102"
+      }
+    }
+  },
+  "command": [
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-y",
+    "-f",
+    "image2pipe",
+    "-framerate",
+    "60",
+    "-vcodec",
+    "png",
+    "-i",
+    "pipe:0",
+    "-i",
+    "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/showreel/audio/jjintern-original-score.wav",
+    "-map",
+    "0:v:0",
+    "-map",
+    "1:a:0",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "slow",
+    "-crf",
+    "16",
+    "-pix_fmt",
+    "yuv420p",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.2",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "320k",
+    "-ar",
+    "48000",
+    "-movflags",
+    "+faststart",
+    "-t",
+    "20",
+    "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/showreel/JJIntern-Your-Next-Move-1080p60.mp4"
+  ],
+  "sources": [
+    {
+      "path": "creative/archive/source/scene.html",
+      "bytes": 17526,
+      "sha256": "7049c891edca9240d7b3a56533405d380b49efcd2fb34bdcab142895b1f8dd47"
+    },
+    {
+      "path": "creative/archive/source/render.mjs",
+      "bytes": 4425,
+      "sha256": "91d29fb2e561bbd61b15378e40a95de0e7fe0ab699eb18c0d1f4d8239946142f"
+    },
+    {
+      "path": "creative/archive/source/production-brief.md",
+      "bytes": 5013,
+      "sha256": "6af2e64a38f1112447b27e11ee2432b56485984ee9f17cb783e17d40278963e0"
+    },
+    {
+      "path": "creative/archive/audio/build_score.py",
+      "bytes": 16427,
+      "sha256": "87b7868d27c4404f84dacf183cac0f33f5b5e716fd4163d1856a438ea20631de"
+    },
+    {
+      "path": "creative/archive/audio/jjintern-original-score.wav",
+      "bytes": 5760102,
+      "sha256": "e43b4596bf304286d431396db1d00d81841e2d2f5b6eaf746c158a63820d63e9"
+    },
+    {
+      "path": "creative/archive/audio/score-manifest.json",
+      "bytes": 27759,
+      "sha256": "e0ae8b3fa6f558b84010d94ae547cd70bba9cce2d8feef65e286f7cf995b9cae"
+    },
+    {
+      "path": "creative/archive/transcript.vtt",
+      "bytes": 528,
+      "sha256": "25dafe033605572dd05e1e0818d7aa8d9d87fe9a672c44e3401458f8c2922d29"
+    },
+    {
+      "path": "creative/archive/caption.txt",
+      "bytes": 577,
+      "sha256": "81df3528ab0248651b8212dfdbceacda7af33266c9f9df2eae84015016813704"
+    },
+    {
+      "path": "creative/brand/tokens.json",
+      "bytes": 8226,
+      "sha256": "fe89915619942e34a54642f5a9e6e7d30efc085d7c84b278f5167c660923509b"
+    },
+    {
+      "path": "creative/assets/evidence/product/logo-mark.png",
+      "bytes": 165756,
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c"
+    },
+    {
+      "path": "creative/assets/evidence/product/instrument-serif-latin-italic-400.woff2",
+      "bytes": 15684,
+      "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702"
+    }
+  ],
+  "copy_evidence": {
+    "primary_url": "https://jjintern.com/",
+    "checked": "2026-10-17",
+    "ids": [
+      "P01",
+      "B01",
+      "B02",
+      "B03",
+      "B04"
+    ],
+    "use": "Public positioning and identity; no live vacancy, authenticated interaction, employer affiliation, speed or hiring outcome claim."
+  },
+  "audio_provenance": "Original composition and mathematical synthesis. No samples, recordings, loops, sampled impulses or externally generated music.",
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

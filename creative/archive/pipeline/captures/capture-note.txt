@@ -1,0 +1,84 @@
+FRESH JJINTERN LOADED FEED — PIPELINE REVISION
+
+Checked 17 October 2026, Europe/Stockholm. Exact UTC timestamps appear in
+capture-record.json and source-handoff.json. Source https://jjintern.com/feed.
+Fresh isolated headless Chrome, port 9346, temporary profile
+/tmp/jjintern-pipeline-evidence-9346-20261017. No existing user profile or
+authenticated account was used. Viewport 390 x 844 CSS pixels at device
+scale factor 4. Full source PNGs are 1560 x 3376 pixels.
+
+Verified product observation
+The actual public feed fully loaded within approximately six seconds.
+Company names, role titles and ages were visible. This is a real loaded
+feed, replacing the older loading-only evidence for this exact observation.
+feed-loaded.png is the genuine loaded starting state.
+Nine actual Input.insertText events entered Microsoft, with discrete states
+feed-search-01.png through feed-search-09.png. feed-microsoft.png is the
+settled final query/result before opening role details or employer handoff.
+
+Actual Microsoft row
+Company: Microsoft
+Exact displayed role title: Research Intern
+Displayed age/date: 1 Sept
+Displayed track: Other
+Period: Unknown (in expanded details)
+Displayed location: Singapore, Singapore, Singapore (site text)
+Expanded source label: via Microsoft
+Last-seen display: Last seen at source 21h ago (site assertion, not measured)
+The Microsoft search also returns a Synapxe role containing Microsoft in
+its title. Do not imply this query yields only Microsoft as an employer.
+
+Employer source check and important limitation
+An actual click on the Microsoft row's Open application button opened
+https://apply.careers.microsoft.com/careers in a new tab. This is a generic
+Microsoft careers portal, not a verified role-specific vacancy URL. No
+employer-confirmed current availability was established. Use Example
+posting or Example from the JJIntern feed; do not call this a new posting,
+just added, an application opportunity confirmed today, or instant arrival.
+The displayed 1 Sept date disproves a fresh-arrival claim for this capture.
+
+Unexpected UI side effect
+Opening the employer application link changed this isolated logged-out
+JJIntern UI's status from Set status to Applied, although no application
+or form was submitted. Do not treat that status as a real application or
+use the post-click page as application proof. All feed/search PNGs and the
+production crops were captured BEFORE that click and show Set status.
+No authenticated account, signup, personal data or application submission
+was used. The isolated browser is closed after finalizing the evidence.
+
+Assets and geometry
+Full source PNGs: feed-loaded.png, feed-search-01.png through -09.png,
+feed-microsoft.png. capture-record.json contains observed text, inputs,
+visible control bounds, HTML snippets and style. details-record.json and
+details-dom.html record the actual expanded panel; its min-width caused
+the mobile layout to widen, so do not use that screenshot as a normal
+390px portrait demo. source-handoff.json records the actual destination.
+
+Microsoft row bounds BEFORE expansion, in CSS pixels:
+Search input: x16 y191.5 width358 height36.
+Microsoft company control: x14 y295.5 width272.86 height30.
+Research Intern title: x14 y335.5 width107.56 height20.625.
+First role row begins near y281.5 and ends near y402.375.
+Multiply coordinates by 4 for full PNG pixel coordinates.
+
+Derived authentic crops (no reconstruction/retyping):
+feed-microsoft-focus.png: source feed-microsoft.png; x32 y600
+width1496 height1020. Includes category tabs, actual query, sort/role
+controls, Microsoft row including its historical 1 Sept age. Excludes
+header aggregate counts and the second Synapxe row. Natural ratio1496:1020.
+feed-microsoft-role.png: source feed-microsoft.png; x32 y1140
+width1000 height300. Editorial magnification of actual logo, company name
+and Research Intern title. The historical date is outside this closer
+crop, so retain the Example posting label; do not imply newness by omission.
+Use uniform scale. crop-manifest.json records precise source rectangles.
+
+Claims boundaries
+This verifies a loaded public feed and actual company/role search.
+It does not measure scrape frequency, ingest time, arrival latency,
+freshness/completeness, employer endorsement, current Microsoft vacancy,
+save/track persistence, alert delivery, actual application or hiring result.
+The owner-supplied 30-minute scrape statement is recorded elsewhere by
+the parent and is not independently verified by these captures. A fast
+particle flow may be editorial timing, not a measured response speed.
+
+No publishing was performed. manifest.json records SHA-256 hashes.

@@ -1,0 +1,67 @@
+WEIGHT / DIRECTION — JJINTERN V4 ORIGINAL SCORE
+
+20.000 seconds / 48 kHz / stereo / 24-bit PCM / 128 BPM.
+Measured master: -14.24 LUFS integrated; -1.20 dBTP; 6.5 LU LRA.
+
+The musical identity is a compact, weighty bass motif. Dry, controlled kick
+and sparse high percussion supply confidence. A short saw/sine bass contour
+provides recall without the prior high-register arpeggio or lounge texture.
+The key centre is E minor; warmer Cmaj9 and Dadd9 colours open the benefit.
+
+Picture-specific decisions
+0–1.0: Quiet pressure and one restrained low gesture frame the intro.
+1.05: One original metallic/glass strike marks the example posting. A small
+physical edge helps the sound feel like material, rather than a comedy
+notification or branded two-note tune.
+3.2–4.65: Six tactile contacts and controlled pressure track the physical
+card fold and packet closure. They are synthesized resonators/noise, not
+recorded paper or click samples.
+4.65–5.55: A designed sound travels continuously left to right within the
+user's one-second packet travel window, 4.65–5.65.
+5.55–5.65: 100 ms of near silence increases the arrival's weight.
+5.65: Feed impact and full bass-led groove land together. The kick and low
+end stay centered; the short launch carries the scene's directional motion.
+9.5: One suction/contact gesture supports the type transition.
+10–13.5: The checking claim keeps the established rhythmic identity, with
+space for the words instead of a competing melodic line.
+13.5–16.8: Warmer, wider harmony gives the benefit emotional lift.
+16.8–20: The brand lands once, the rhythm settles, and all sound is fully
+silent by 19.8. No clipped tail or sudden last-frame cut.
+
+Discarded approaches
+The repeated high pluck arpeggios, busy ticking and constant risers of the
+earlier directions were removed. Faster data travel does not require a
+longer noisy build. A sampled branded notification, stock beat, giant trailer
+boom and constant maximal loudness were also excluded.
+
+Synthesis and mastering
+Every source is calculated in build_score.py: bandlimited additive saw,
+sine/FM bass and sub; pitch-envelope sine kick; generated filtered-noise
+percussion; FM/inharmonic metallic-glass partials; resonator clicks; shaped
+noise pressure; falling-pitch/panned launch; and short numerical reflection
+taps. No samples, recordings, stock loops, vocals, external music model or
+sampled acoustic impulse response. Modest bass ducking keeps kick attacks
+clear, and two-pass EBU R128 mastering preserves meaningful contrast.
+
+Iteration
+1. Replaced the composition with the new bass motif and 128 BPM pulse.
+2. Scored the posting, fold, one-second travel window and 5.65 arrival.
+3. Removed busy melody and limited high percussion to deliberate accents.
+4. Shaped the near-silent arrival gap and resolved the close by 19.8.
+5. Measured and mastered the final WAV; verified sample count, silence,
+   channel compatibility and cue-level contrast in verification.json.
+6. Retimed the launch and arrival to the user's one-second packet direction.
+   Resequenced every main-groove event from the new 5.65 downbeat; no audio
+   segment was duplicated or spliced in. Later chapter accents stay fixed.
+
+Rebuild from workspace root
+/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 creative/archive/slick/audio/build_score.py
+
+Dependencies: numpy, scipy and ffmpeg. Deterministic seed: 41171026.
+Build runtime: approximately 2.3 seconds on this machine.
+Delivery: jjintern-slick-original-score.wav
+Cues, every event, synthesis provenance and measured output: score-manifest.json
+
+Only creative/archive/slick/audio/ was written. Earlier scores and video
+sources remain untouched. Numerical verification is not a claimed listening
+session or certification of subjective musical taste.

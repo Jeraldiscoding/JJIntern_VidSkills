@@ -1,0 +1,592 @@
+{
+  "revision": 8,
+  "duration_s": 18,
+  "flight": {
+    "passed": true,
+    "actual_function": "function flightState(t){\n const u=phase(t,T.launch,T.arrival),s=mix(1,contactScale,smooth(phase(t,7.15,T.arrival)));\n return {u,x:X0+(X1-X0)*(.6*u+.4*u*u*u),y:960-PH*s/2,scale:s,velocity:(X1-X0)/5*(.6+1.2*u*u),backgroundSpeed:720+6800*u*u};\n}",
+    "duration_s": 5.0,
+    "distance_px": 370,
+    "compression_duration_s": 0.55,
+    "packet_pause_duration_s": 0.55,
+    "docking_duration_s": 0.95,
+    "timeline_matches": true,
+    "max_formula_error": 2.8421709430404007e-13,
+    "speed_start_px_s": 44.4,
+    "speed_end_px_s": 133.2,
+    "scale_start_end": [
+      1,
+      0.65
+    ],
+    "background_speed_px_s": [
+      720,
+      7520
+    ],
+    "background_speed_increases": true,
+    "background_direction": "Horizontal right-to-left; source reviewed",
+    "sampling": {
+      "120fps": {
+        "first_flight": 372,
+        "last_flight": 971,
+        "first_handoff": 972
+      },
+      "60fps": {
+        "first_flight": 186,
+        "last_flight": 485,
+        "first_handoff": 486
+      }
+    },
+    "contact_note": "Contact is exactly 8.100s: frame 972 at 120fps or frame 486 at 60fps."
+  },
+  "exports": [
+    {
+      "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/JJIntern-revision08-120fps-master.mp4",
+      "sha256": "ec9fc63d2c2837e52ff0d8a7f3727e14a888b54c73b1983c25d4053bd62d5a1e",
+      "passed": true,
+      "checks": [
+        {
+          "check": "exact18.000-second presentation",
+          "passed": true,
+          "evidence": {
+            "container": "18.000000",
+            "video": "18.000000",
+            "audio": "18.000000"
+          }
+        },
+        {
+          "check": "1080x1920 H264 BT709 yuv420p at expectedfps",
+          "passed": true,
+          "evidence": {
+            "width": 1080,
+            "height": 1920,
+            "codec_name": "h264",
+            "pix_fmt": "yuv420p",
+            "avg_frame_rate": "120/1",
+            "color_space": "bt709",
+            "color_range": "tv"
+          }
+        },
+        {
+          "check": "48kHz stereo AAC and faststart",
+          "passed": true,
+          "evidence": {
+            "codec": "aac",
+            "sample_rate": "48000",
+            "channels": 2,
+            "faststart": true
+          }
+        },
+        {
+          "check": "decoded frame count and uniform timestamps",
+          "passed": true,
+          "evidence": {
+            "frames": 2160,
+            "expected": 2160,
+            "last_pts": 17.991667,
+            "max_timestamp_error_s": 3.3333333604446125e-07
+          }
+        },
+        {
+          "check": "full decode without errors",
+          "passed": true,
+          "evidence": "No decoder errors"
+        },
+        {
+          "check": "encoded audio unclipped and at or below -1 dBTP",
+          "passed": true,
+          "evidence": {
+            "integrated_lufs": -14.71,
+            "true_peak_dbtp": -1.16,
+            "sample_peak_dbfs": -1.1611845224479387,
+            "clipped_samples": 0,
+            "decoded_samples_per_channel": 864256,
+            "note": "AAC may emit a padded final block; presentation duration is checked separately.",
+            "passed": true
+          }
+        },
+        {
+          "check": "source reading hold remains stable",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.0011292270531400967,
+            "comparison_s": [
+              0.7,
+              1.9
+            ]
+          }
+        },
+        {
+          "check": "packed pause before launch remains stable",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.010789049919484702,
+            "comparison_s": [
+              2.65,
+              3.05
+            ]
+          }
+        },
+        {
+          "check": "signoff stable through final frame",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.09570987654320988,
+            "comparison_s": [
+              14.55,
+              17.991666666666667
+            ]
+          }
+        }
+      ],
+      "decoded_frames": [
+        {
+          "index": 0,
+          "frame": 84,
+          "time_s": 0.7,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-00.png"
+        },
+        {
+          "index": 1,
+          "frame": 228,
+          "time_s": 1.9,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-01.png"
+        },
+        {
+          "index": 2,
+          "frame": 258,
+          "time_s": 2.15,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-02.png"
+        },
+        {
+          "index": 3,
+          "frame": 288,
+          "time_s": 2.4,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-03.png"
+        },
+        {
+          "index": 4,
+          "frame": 318,
+          "time_s": 2.65,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-04.png"
+        },
+        {
+          "index": 5,
+          "frame": 366,
+          "time_s": 3.05,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-05.png"
+        },
+        {
+          "index": 6,
+          "frame": 372,
+          "time_s": 3.1,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-06.png"
+        },
+        {
+          "index": 7,
+          "frame": 528,
+          "time_s": 4.4,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-07.png"
+        },
+        {
+          "index": 8,
+          "frame": 744,
+          "time_s": 6.2,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-08.png"
+        },
+        {
+          "index": 9,
+          "frame": 876,
+          "time_s": 7.3,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-09.png"
+        },
+        {
+          "index": 10,
+          "frame": 960,
+          "time_s": 8.0,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-10.png"
+        },
+        {
+          "index": 11,
+          "frame": 972,
+          "time_s": 8.1,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-11.png"
+        },
+        {
+          "index": 12,
+          "frame": 1014,
+          "time_s": 8.45,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-12.png"
+        },
+        {
+          "index": 13,
+          "frame": 1056,
+          "time_s": 8.8,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-13.png"
+        },
+        {
+          "index": 14,
+          "frame": 1086,
+          "time_s": 9.05,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-14.png"
+        },
+        {
+          "index": 15,
+          "frame": 1110,
+          "time_s": 9.25,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-15.png"
+        },
+        {
+          "index": 16,
+          "frame": 1182,
+          "time_s": 9.85,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-16.png"
+        },
+        {
+          "index": 17,
+          "frame": 1278,
+          "time_s": 10.65,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-17.png"
+        },
+        {
+          "index": 18,
+          "frame": 1362,
+          "time_s": 11.35,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-18.png"
+        },
+        {
+          "index": 19,
+          "frame": 1404,
+          "time_s": 11.7,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-19.png"
+        },
+        {
+          "index": 20,
+          "frame": 1668,
+          "time_s": 13.9,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-20.png"
+        },
+        {
+          "index": 21,
+          "frame": 1704,
+          "time_s": 14.2,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-21.png"
+        },
+        {
+          "index": 22,
+          "frame": 1746,
+          "time_s": 14.55,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-22.png"
+        },
+        {
+          "index": 23,
+          "frame": 2159,
+          "time_s": 17.991666666666667,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-frame-23.png"
+        }
+      ],
+      "boards": [
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-board-1.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-board-2.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-120-board-3.png"
+      ],
+      "board_order": "Row-major; frames 0-7 on board 1, 8-15 on board 2, 16-23 on board 3"
+    },
+    {
+      "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/JJIntern-revision08-60fps.mp4",
+      "sha256": "523a1a2e1c86135f958c051f26b6aec6fa0e02f487123e285f206712e426b6e8",
+      "passed": true,
+      "checks": [
+        {
+          "check": "exact18.000-second presentation",
+          "passed": true,
+          "evidence": {
+            "container": "18.000000",
+            "video": "18.000000",
+            "audio": "18.000000"
+          }
+        },
+        {
+          "check": "1080x1920 H264 BT709 yuv420p at expectedfps",
+          "passed": true,
+          "evidence": {
+            "width": 1080,
+            "height": 1920,
+            "codec_name": "h264",
+            "pix_fmt": "yuv420p",
+            "avg_frame_rate": "60/1",
+            "color_space": "bt709",
+            "color_range": "tv"
+          }
+        },
+        {
+          "check": "48kHz stereo AAC and faststart",
+          "passed": true,
+          "evidence": {
+            "codec": "aac",
+            "sample_rate": "48000",
+            "channels": 2,
+            "faststart": true
+          }
+        },
+        {
+          "check": "decoded frame count and uniform timestamps",
+          "passed": true,
+          "evidence": {
+            "frames": 1080,
+            "expected": 1080,
+            "last_pts": 17.983333,
+            "max_timestamp_error_s": 3.3333333604446125e-07
+          }
+        },
+        {
+          "check": "full decode without errors",
+          "passed": true,
+          "evidence": "No decoder errors"
+        },
+        {
+          "check": "encoded audio unclipped and at or below -1 dBTP",
+          "passed": true,
+          "evidence": {
+            "integrated_lufs": -14.71,
+            "true_peak_dbtp": -1.16,
+            "sample_peak_dbfs": -1.1611845224479387,
+            "clipped_samples": 0,
+            "decoded_samples_per_channel": 864256,
+            "note": "AAC may emit a padded final block; presentation duration is checked separately.",
+            "passed": true
+          }
+        },
+        {
+          "check": "source reading hold remains stable",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.0059252549651100375,
+            "comparison_s": [
+              0.7,
+              1.9
+            ]
+          }
+        },
+        {
+          "check": "packed pause before launch remains stable",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.0062446323134728934,
+            "comparison_s": [
+              2.65,
+              3.05
+            ]
+          }
+        },
+        {
+          "check": "signoff stable through final frame",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.08114600107353731,
+            "comparison_s": [
+              14.55,
+              17.983333333333334
+            ]
+          }
+        }
+      ],
+      "decoded_frames": [
+        {
+          "index": 0,
+          "frame": 42,
+          "time_s": 0.7,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-00.png"
+        },
+        {
+          "index": 1,
+          "frame": 114,
+          "time_s": 1.9,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-01.png"
+        },
+        {
+          "index": 2,
+          "frame": 129,
+          "time_s": 2.15,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-02.png"
+        },
+        {
+          "index": 3,
+          "frame": 144,
+          "time_s": 2.4,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-03.png"
+        },
+        {
+          "index": 4,
+          "frame": 159,
+          "time_s": 2.65,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-04.png"
+        },
+        {
+          "index": 5,
+          "frame": 183,
+          "time_s": 3.05,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-05.png"
+        },
+        {
+          "index": 6,
+          "frame": 186,
+          "time_s": 3.1,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-06.png"
+        },
+        {
+          "index": 7,
+          "frame": 264,
+          "time_s": 4.4,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-07.png"
+        },
+        {
+          "index": 8,
+          "frame": 372,
+          "time_s": 6.2,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-08.png"
+        },
+        {
+          "index": 9,
+          "frame": 438,
+          "time_s": 7.3,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-09.png"
+        },
+        {
+          "index": 10,
+          "frame": 480,
+          "time_s": 8.0,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-10.png"
+        },
+        {
+          "index": 11,
+          "frame": 486,
+          "time_s": 8.1,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-11.png"
+        },
+        {
+          "index": 12,
+          "frame": 507,
+          "time_s": 8.45,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-12.png"
+        },
+        {
+          "index": 13,
+          "frame": 528,
+          "time_s": 8.8,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-13.png"
+        },
+        {
+          "index": 14,
+          "frame": 543,
+          "time_s": 9.05,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-14.png"
+        },
+        {
+          "index": 15,
+          "frame": 555,
+          "time_s": 9.25,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-15.png"
+        },
+        {
+          "index": 16,
+          "frame": 591,
+          "time_s": 9.85,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-16.png"
+        },
+        {
+          "index": 17,
+          "frame": 639,
+          "time_s": 10.65,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-17.png"
+        },
+        {
+          "index": 18,
+          "frame": 681,
+          "time_s": 11.35,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-18.png"
+        },
+        {
+          "index": 19,
+          "frame": 702,
+          "time_s": 11.7,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-19.png"
+        },
+        {
+          "index": 20,
+          "frame": 834,
+          "time_s": 13.9,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-20.png"
+        },
+        {
+          "index": 21,
+          "frame": 852,
+          "time_s": 14.2,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-21.png"
+        },
+        {
+          "index": 22,
+          "frame": 873,
+          "time_s": 14.55,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-22.png"
+        },
+        {
+          "index": 23,
+          "frame": 1079,
+          "time_s": 17.983333333333334,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-frame-23.png"
+        }
+      ],
+      "boards": [
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-board-1.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-board-2.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/archive/rectangle/revision-08/review/encoded-60-board-3.png"
+      ],
+      "board_order": "Row-major; frames 0-7 on board 1, 8-15 on board 2, 16-23 on board 3"
+    }
+  ],
+  "perceptual_review": {
+    "performed": "Inspected all three120fps decoded contact sheets at360px per panel, covering24keyframes from readable source through final signoff.",
+    "findings": [
+      "Glyph-to-cell compression stays within its container and resolves into three bars.",
+      "Packet holds before launch; curved streamlines and background streaks remain behind the sharp main silhouette.",
+      "Receiver is visible before contact. Encoded8.1/8.45/8.8/9.05s frames show the packet progressively occluded by the port rather than dissolving.",
+      "Settled original logo is clear. Found, first payoff line and complete payoff are legible without text collision.",
+      "Final JJIntern title remains stable."
+    ],
+    "scope": "Decoded-frame appearance and timing inspected. Normal-speed browser playback is recorded separately by the production lead; subjective listening is not claimed.",
+    "production_lead_review": "All three60fps encoded boards inspected: clean morph, crisp packet, clear physical occlusion, readable payoff and final text."
+  },
+  "pending": [
+    "Subjective listening",
+    "Physical phone playback",
+    "Platform upload preview"
+  ],
+  "automated_passed": true,
+  "docking_source_review": {
+    "contact_s": 8.1,
+    "fully_occluded_s": 9.05,
+    "latched_s": 9.25,
+    "packet_start_x": 440,
+    "receiver_left_x": 722.75,
+    "clip_right_x": 735.75,
+    "packet_travel_px": 295.75,
+    "formula": "x=440+295.75*(0.54*q+0.46*q^3), q=(t-8.1)/0.95",
+    "method": "Read actual docking function and compare representative decoded frames. Packet call retains default opacity1; ctx.rect/ctx.clip limits visible packet to x<=735.75. At9.05s the packet left edge reaches that boundary and is no longer drawn."
+  },
+  "browser_playback": {
+    "source": "Production lead final browser report",
+    "muted": {
+      "decoded_frames": 1080,
+      "dropped_frames": 0,
+      "ended_at_s": 18,
+      "errors": []
+    },
+    "audio_enabled": {
+      "additional_decoded_frames": 1080,
+      "initial_dropped_frames": 1,
+      "ended_at_s": 18,
+      "errors": []
+    },
+    "limitation": "Browser playback behavior is distinct from subjective headphone/speaker listening."
+  },
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

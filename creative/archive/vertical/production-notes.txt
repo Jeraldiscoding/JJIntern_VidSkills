@@ -1,0 +1,57 @@
+JJINTERN V2 — ONE SHAPE, ONE NEXT STEP
+
+This revision answers the feedback about a stretched look, decorative spinning, TikTok format, higher frame rate and clarity.
+
+What changed
+The layout was rebuilt for native 1080×1920 portrait. Nothing was squeezed from the landscape file. Short stacked phrases use natural type proportions, larger supporting copy and a compact central composition, with room reserved for TikTok controls/captions.
+
+The blue ribbon has a visible job. It begins as a compact knot, untangles into the actual search viewport, stays still while Microsoft is typed into the real JJIntern company directory, then becomes the action arrow beside JJIntern.com. The final invitation now holds as one ending instead of changing titles twice.
+
+The actual product input/result makes the motion's payoff concrete. New logged-out captures were made on17October2026 at390×844CSS pixels, then recaptured at4× device scale for sharp query/result detail. The search window starts wide and moves into a uniform left detail crop before typing begins; it stays anchored during the demonstration. This is a photographic crop of genuine UI, with no reconstructed rows or substituted interface text. Header/card role counts are excluded. “Company directory. Check current roles separately.” stays beside the result.
+
+The material ribbon is rendered at2160×3840 and downsampled to1080×1920 for cleaner edges. Typography is rendered at final resolution. The product images are downsampled from genuine4× captures rather than enlarged low-resolution screenshots.
+
+Frame-rate delivery
+The master contains2400 independently evaluated frames at120fps, exactly20seconds. The TikTok copy contains1200frames at60fps, encoded directly from alternate original PNG frames in the same render. There is no optical flow, frame duplication or intermediate-video transcoding. Both are H.264 High, CRF15, yuv420p, square pixels, native9:16, explicit BT.709 conversion/tags, fast-start MP4, AAC320kb/s stereo48kHz.
+
+Official TikTok Content Posting API guidance lists23–60fps and recommendsMP4/H.264:
+https://developers.tiktok.com/doc/en/content-posting-api-media-transfer-guide/
+That is specific to the API; this production does not claim120fps playback support in every TikTok app/upload route. The120fps master is included for higher-frame-rate playback and reuse; use the60fps file as the TikTok upload copy.
+
+What was discarded
+A centre crop of the old landscape composition retained wide spacing and small text. Keeping a rotating sculpture behind new headings still failed to give it a purpose. Morphing it into a redrawn JJ logo would invent an official asset. The first vertical pass left the product UI too small, allowed an opening caption to touch the knot, and let the wireframe-to-arrow transformation linger. Those versions were replaced.
+
+Iterations performed
+1. Rebuilt native portrait type and the continuous knot→viewport→arrow mesh.
+2. Captured a fresh real Microsoft search and made a full viewport storyboard.
+3. Reduced the opening knot, removed the colliding caption, enlarged the authentic UI detail, moved its frame up to clear the qualifier, shortened the arrow morph, and merged the ending into one longer hold.
+4. Rendered a complete24fps motion rough. An independent reviewer inspected40encoded timeline samples plus a540×960 proof detail; composition, timing, claims and readability passed within those inspections.
+5. Recaptured the actual UI at4× scale and supersampled the ribbon2× for the final render.
+6. Rendered native120fps and60fps exports from the same original frames. Final dimensions, duration, frame counts, pixel aspect, codec, colour, audio and full decode checks are recorded in review/final-qa.json. Encoded proof/morph/end frames and complete timeline samples were inspected separately.
+
+Music
+The original no-sample score remains:120BPM, D-major/maj9 harmony, newly synthesized mallets, bass, pads, percussion, transitions and algorithmic ambience. The6-second musical drop accompanies the product reveal; the17-second resolution accompanies the authentic brand mark. No samples, recordings, stock loops or voiceover were introduced.
+
+Sources and scope
+Fresh4× full captures, exact observed input/result, timestamps, geometry and hashes: ../vertical-captures-4x/.
+Faithful crop records: product/crop-manifest.json. Source equivalent at2×:x32,y430,w716,h400; final detail uses its left500pixels. At4× these coordinates double.
+Real brand/font originals and product positioning: creative/product/evidence.md, creative/brand/tokens.json, https://jjintern.com/.
+A company-directory result is not an employer-confirmed vacancy or partnership. No account features, live-job counts, salary, deadline, latency or hiring outcomes are claimed.
+
+Local delivery only. Physical-phone and actual TikTok upload previews are unperformed; conservative composition insets are house choices, not a universal safe-zone certification. Automated sound-enabled playback and audio measurements do not assert subjective human listening.
+
+Reproduce
+Use the same original score in ../audio/.
+Launch an isolated headless Chrome on debuggingport9345, then run:
+node creative/archive/source/render-vertical.mjs 9345 final
+Verify both files:
+/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 creative/archive/source/verify_vertical.py
+
+Measured time
+This revision: 12 minutes 46.7 seconds elapsed, including fresh capture, storyboard iterations, rough/final rendering and QA.
+Original production:9minutes10.5seconds. Combined active production phases: 21 minutes 57.1 seconds; excludes the gap waiting for feedback. Workstreams ran in parallel.
+Both final encodes were rendered from source in83.9seconds.
+
+Final verification
+Both exports are exactly20.000seconds,1080×1920, square pixels, native9:16. The120fps master has2400decodedframes; the60fps copy has1200. Both fully decode without errors. ExplicitBT709primaries/transfer tags were corrected losslessly after initial verification, without recompressing the picture; the reproducible renderer now sets these on source frames directly. Final hashes/media records are in render-manifest.json and review/final-qa.json.
+The full encoded timeline, key morph/search/result/end frames and independent final proof/CTA extractions were visually inspected. Both automated real-time60fps browser playback passes reached20seconds without mediaerrors. Physicalphone and actualTikTok uploadpreview were not performed.

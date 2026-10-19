@@ -1,0 +1,9 @@
+Fresh four-times pixel-density capture, 2026-10-17T13:48:47.162Z UTC.
+390x844 CSS pixels, deviceScaleFactor 4, raw1560x3376 PNGs.
+New isolated logged-out Chrome profile /tmp/jjintern-vertical-4x-9346-20261017; port9346.
+Actual mouse/input events spell Microsoft, with ten screenshots including empty state.
+Final observed companyNames: ["Microsoft"].
+Original2x captures and historical evidence unchanged.
+Intended macro editorial crop: x64 y860 width1000 height800 in4x source pixels.
+Role counts are unverified site displays; this crop excludes the card-bottom role count.
+No login, account, submitted form, production write, employer vacancy verification or persistence test.

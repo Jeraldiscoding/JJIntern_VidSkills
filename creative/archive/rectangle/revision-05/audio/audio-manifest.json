@@ -1,0 +1,1126 @@
+{
+  "title": "JJIntern revision 05 \u2014 original rectangle motion score",
+  "created_for": "approved revision-05 18-second advertisement",
+  "source": "build_score.py",
+  "output": "jjintern-revision-05-original-score.wav",
+  "provenance": "Newly composed and synthesized for this revision. Every sound originates in analytic oscillators, seeded pseudorandom noise, one-pole filters and amplitude envelopes. No audio assets are read by the synthesizer. FFmpeg only normalizes and encodes the resulting samples.",
+  "external_audio_inputs": [],
+  "voiceover": false,
+  "duration_seconds": 18.0,
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "pcm_bit_depth": 24,
+  "samples_per_channel": 864000,
+  "tempo_bpm": 120,
+  "pulse_seconds": 0.5,
+  "random_seed": 5101873,
+  "harmony": [
+    "D6add9",
+    "Bm9",
+    "Gmaj9",
+    "Dmaj9/A",
+    "D6add9"
+  ],
+  "design": "Dry sparse percussion, warm fundamental-rich oscillator bass, quiet evolving sine harmony, small tonal punctuation. Flight gains filtered air and three low-level ghost ticks; percussion stops at sign-off, leaving a warm resolved tail.",
+  "synchronization": [
+    {
+      "at_s": 0.12,
+      "event": "one delicate source ding"
+    },
+    {
+      "from_s": 3.0,
+      "to_s": 4.49,
+      "event": "quiet friction follows continuous compression"
+    },
+    {
+      "at_s": 4.455,
+      "event": "soft packet closure"
+    },
+    {
+      "from_s": 4.5,
+      "to_s": 6.545,
+      "event": "rising filtered air; 45 ms arrival tail"
+    },
+    {
+      "at_s": 6.5,
+      "event": "restrained tonal arrival and Gmaj9 harmony"
+    },
+    {
+      "at_s": 10.0,
+      "event": "small harmonic opening for Found"
+    },
+    {
+      "at_s": 15.0,
+      "event": "D6add9 sign-off resolution, percussion stops"
+    },
+    {
+      "from_s": 17.05,
+      "to_s": 18.0,
+      "event": "smooth final fade; last sample exactly zero"
+    }
+  ],
+  "mastering": {
+    "target_integrated_lufs": -16,
+    "true_peak_ceiling_dbtp": -1,
+    "target_lra_lu": 9,
+    "normalization_type": "dynamic",
+    "raw_synthesis_stats": {
+      "peak_dbfs": -14.069929177815927,
+      "rms_dbfs": -30.80282621323352
+    }
+  },
+  "measured_final": {
+    "integrated_lufs": -16.03,
+    "true_peak_dbtp": -1.0,
+    "loudness_range_lu": 1.7,
+    "sample_peak_dbfs": -1.003190546677132,
+    "duration_seconds": 18.0,
+    "sample_count_per_channel": 864000,
+    "first_stereo_sample": [
+      0.0,
+      0.0
+    ],
+    "last_stereo_sample": [
+      0.0,
+      0.0
+    ],
+    "clipped_samples": 0
+  },
+  "aac_256k_roundtrip_check": {
+    "integrated_lufs": -16.04,
+    "true_peak_dbtp": -1.0,
+    "loudness_range_lu": 1.7
+  },
+  "inspection": {
+    "performed": [
+      "exact duration/sample-count check",
+      "48 kHz stereo PCM codec check",
+      "integrated loudness and 4x true-peak analysis via FFmpeg loudnorm",
+      "endpoint and clipping inspection",
+      "source/cue-event inspection",
+      "256 kbps AAC encode/decode loudness and true-peak check",
+      "stereo waveform image generated for visual inspection"
+    ],
+    "not_performed": [
+      "human listening on headphones/speakers",
+      "physical-phone playback"
+    ],
+    "limitation": "Synthesis and measurement were inspected; subjective listening is not claimed."
+  },
+  "sha256": "69b6435e019796902f02e350748b7756006fcf3e9d83a6e40e323c4579e73e77",
+  "events": [
+    {
+      "kind": "single delicate source ding",
+      "start_s": 0.12,
+      "duration_s": 1.25,
+      "gain": 0.044,
+      "pan": -0.08,
+      "fundamental_hz": 1174.6590716696303
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 0.32,
+      "duration_s": 2.85,
+      "gain": 0.019,
+      "pan": -0.42,
+      "midi": 50,
+      "harmony": "D6add9"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 0.32,
+      "duration_s": 2.85,
+      "gain": 0.019,
+      "pan": 0.34,
+      "midi": 57,
+      "harmony": "D6add9"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 0.32,
+      "duration_s": 2.85,
+      "gain": 0.019,
+      "pan": -0.21,
+      "midi": 59,
+      "harmony": "D6add9"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 0.32,
+      "duration_s": 2.85,
+      "gain": 0.019,
+      "pan": 0.43,
+      "midi": 64,
+      "harmony": "D6add9"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 0.32,
+      "duration_s": 2.85,
+      "gain": 0.019,
+      "pan": 0,
+      "midi": 66,
+      "harmony": "D6add9"
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 0.5,
+      "duration_s": 0.38,
+      "gain": 0.145,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 0.5,
+      "duration_s": 0.43,
+      "gain": 0.092,
+      "pan": 0.0,
+      "midi": 38,
+      "frequency_hz": 73.41619197935188
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 0.75,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 1.0,
+      "duration_s": 0.095,
+      "gain": 0.035,
+      "pan": 0.1
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 1.25,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "soft oscillator pluck",
+      "start_s": 1.25,
+      "duration_s": 0.63,
+      "gain": 0.026,
+      "pan": -0.2,
+      "midi": 78,
+      "frequency_hz": 739.9888454232688
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 1.5,
+      "duration_s": 0.38,
+      "gain": 0.145,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 1.5,
+      "duration_s": 0.35,
+      "gain": 0.085,
+      "pan": 0.0,
+      "midi": 38,
+      "frequency_hz": 73.41619197935188
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 1.75,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 2.0,
+      "duration_s": 0.095,
+      "gain": 0.035,
+      "pan": 0.1
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 2.25,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 2.25,
+      "duration_s": 0.25,
+      "gain": 0.075,
+      "pan": 0.0,
+      "midi": 45,
+      "frequency_hz": 110.0
+    },
+    {
+      "kind": "soft oscillator pluck",
+      "start_s": 2.25,
+      "duration_s": 0.63,
+      "gain": 0.026,
+      "pan": 0.22,
+      "midi": 76,
+      "frequency_hz": 659.2551138257398
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 2.5,
+      "duration_s": 0.38,
+      "gain": 0.145,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 2.5,
+      "duration_s": 0.37,
+      "gain": 0.09,
+      "pan": 0.0,
+      "midi": 38,
+      "frequency_hz": 73.41619197935188
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 2.75,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 3.0,
+      "duration_s": 0.38,
+      "gain": 0.145,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 3.0,
+      "duration_s": 0.39,
+      "gain": 0.082,
+      "pan": 0.0,
+      "midi": 35,
+      "frequency_hz": 61.7354126570155
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 3.0,
+      "duration_s": 3.8,
+      "gain": 0.018,
+      "pan": -0.42,
+      "midi": 47,
+      "harmony": "Bm9"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 3.0,
+      "duration_s": 3.8,
+      "gain": 0.018,
+      "pan": 0.34,
+      "midi": 54,
+      "harmony": "Bm9"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 3.0,
+      "duration_s": 3.8,
+      "gain": 0.018,
+      "pan": -0.21,
+      "midi": 57,
+      "harmony": "Bm9"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 3.0,
+      "duration_s": 3.8,
+      "gain": 0.018,
+      "pan": 0.43,
+      "midi": 61,
+      "harmony": "Bm9"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 3.0,
+      "duration_s": 3.8,
+      "gain": 0.018,
+      "pan": 0,
+      "midi": 62,
+      "harmony": "Bm9"
+    },
+    {
+      "kind": "quiet filtered friction",
+      "start_s": 3.0,
+      "duration_s": 1.49,
+      "gain": 0.017,
+      "deterministic_seed": 5101902
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 3.5,
+      "duration_s": 0.095,
+      "gain": 0.03,
+      "pan": 0.1
+    },
+    {
+      "kind": "soft oscillator pluck",
+      "start_s": 3.5,
+      "duration_s": 0.63,
+      "gain": 0.026,
+      "pan": -0.16,
+      "midi": 73,
+      "frequency_hz": 554.3652619537442
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 3.75,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 4.0,
+      "duration_s": 0.38,
+      "gain": 0.145,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 4.0,
+      "duration_s": 0.3,
+      "gain": 0.075,
+      "pan": 0.0,
+      "midi": 42,
+      "frequency_hz": 92.4986056779086
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 4.25,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 4.455,
+      "duration_s": 0.095,
+      "gain": 0.021,
+      "pan": 0.0
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 4.5,
+      "duration_s": 0.38,
+      "gain": 0.16,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 4.5,
+      "duration_s": 0.43,
+      "gain": 0.09,
+      "pan": 0.0,
+      "midi": 35,
+      "frequency_hz": 61.7354126570155
+    },
+    {
+      "kind": "accelerating filtered air",
+      "start_s": 4.5,
+      "duration_s": 2.045,
+      "gain": 0.04,
+      "deterministic_seed": 5101926
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 4.75,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 5.0,
+      "duration_s": 0.095,
+      "gain": 0.03,
+      "pan": 0.1
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 5.25,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 5.375,
+      "duration_s": 0.075,
+      "gain": 0.008,
+      "pan": 0.08
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 5.5,
+      "duration_s": 0.38,
+      "gain": 0.16,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 5.5,
+      "duration_s": 0.37,
+      "gain": 0.085,
+      "pan": 0.0,
+      "midi": 42,
+      "frequency_hz": 92.4986056779086
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 5.75,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 5.9375,
+      "duration_s": 0.075,
+      "gain": 0.009,
+      "pan": 0.08
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 6.0,
+      "duration_s": 0.095,
+      "gain": 0.03,
+      "pan": 0.1
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 6.25,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 6.3125,
+      "duration_s": 0.075,
+      "gain": 0.01,
+      "pan": 0.08
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 6.5,
+      "duration_s": 0.38,
+      "gain": 0.16,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 6.5,
+      "duration_s": 0.56,
+      "gain": 0.1,
+      "pan": 0.0,
+      "midi": 31,
+      "frequency_hz": 48.999429497718666
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 6.5,
+      "duration_s": 3.85,
+      "gain": 0.02,
+      "pan": -0.42,
+      "midi": 43,
+      "harmony": "Gmaj9"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 6.5,
+      "duration_s": 3.85,
+      "gain": 0.02,
+      "pan": 0.34,
+      "midi": 50,
+      "harmony": "Gmaj9"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 6.5,
+      "duration_s": 3.85,
+      "gain": 0.02,
+      "pan": -0.21,
+      "midi": 54,
+      "harmony": "Gmaj9"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 6.5,
+      "duration_s": 3.85,
+      "gain": 0.02,
+      "pan": 0.43,
+      "midi": 57,
+      "harmony": "Gmaj9"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 6.5,
+      "duration_s": 3.85,
+      "gain": 0.02,
+      "pan": 0,
+      "midi": 59,
+      "harmony": "Gmaj9"
+    },
+    {
+      "kind": "restrained arrival tone",
+      "start_s": 6.5,
+      "duration_s": 1.0,
+      "gain": 0.04,
+      "pan": -0.05,
+      "midi": 67,
+      "frequency_hz": 391.99543598174927
+    },
+    {
+      "kind": "arrival harmonic",
+      "start_s": 6.5,
+      "duration_s": 0.85,
+      "gain": 0.021,
+      "pan": 0.12,
+      "midi": 74,
+      "frequency_hz": 587.3295358348151
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 6.75,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 7.0,
+      "duration_s": 0.095,
+      "gain": 0.035,
+      "pan": 0.1
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 7.25,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "soft oscillator pluck",
+      "start_s": 7.25,
+      "duration_s": 0.63,
+      "gain": 0.026,
+      "pan": -0.18,
+      "midi": 71,
+      "frequency_hz": 493.8833012561241
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 7.5,
+      "duration_s": 0.38,
+      "gain": 0.16,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 7.5,
+      "duration_s": 0.36,
+      "gain": 0.09,
+      "pan": 0.0,
+      "midi": 38,
+      "frequency_hz": 73.41619197935188
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 7.75,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 8.0,
+      "duration_s": 0.095,
+      "gain": 0.035,
+      "pan": 0.1
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 8.25,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "soft oscillator pluck",
+      "start_s": 8.25,
+      "duration_s": 0.63,
+      "gain": 0.026,
+      "pan": 0.18,
+      "midi": 69,
+      "frequency_hz": 440.0
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 8.5,
+      "duration_s": 0.38,
+      "gain": 0.16,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 8.5,
+      "duration_s": 0.43,
+      "gain": 0.095,
+      "pan": 0.0,
+      "midi": 31,
+      "frequency_hz": 48.999429497718666
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 8.75,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 9.0,
+      "duration_s": 0.095,
+      "gain": 0.035,
+      "pan": 0.1
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 9.25,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "soft oscillator pluck",
+      "start_s": 9.25,
+      "duration_s": 0.63,
+      "gain": 0.026,
+      "pan": -0.1,
+      "midi": 66,
+      "frequency_hz": 369.9944227116344
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 9.5,
+      "duration_s": 0.38,
+      "gain": 0.16,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 9.5,
+      "duration_s": 0.32,
+      "gain": 0.084,
+      "pan": 0.0,
+      "midi": 38,
+      "frequency_hz": 73.41619197935188
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 9.75,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 10.0,
+      "duration_s": 0.38,
+      "gain": 0.16,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 10.0,
+      "duration_s": 0.5,
+      "gain": 0.092,
+      "pan": 0.0,
+      "midi": 33,
+      "frequency_hz": 55.0
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 10.0,
+      "duration_s": 5.35,
+      "gain": 0.021,
+      "pan": -0.42,
+      "midi": 45,
+      "harmony": "Dmaj9/A"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 10.0,
+      "duration_s": 5.35,
+      "gain": 0.021,
+      "pan": 0.34,
+      "midi": 50,
+      "harmony": "Dmaj9/A"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 10.0,
+      "duration_s": 5.35,
+      "gain": 0.021,
+      "pan": -0.21,
+      "midi": 52,
+      "harmony": "Dmaj9/A"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 10.0,
+      "duration_s": 5.35,
+      "gain": 0.021,
+      "pan": 0.43,
+      "midi": 54,
+      "harmony": "Dmaj9/A"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 10.0,
+      "duration_s": 5.35,
+      "gain": 0.021,
+      "pan": 0,
+      "midi": 61,
+      "harmony": "Dmaj9/A"
+    },
+    {
+      "kind": "Found harmonic opening",
+      "start_s": 10.0,
+      "duration_s": 1.05,
+      "gain": 0.036,
+      "pan": -0.18,
+      "midi": 74,
+      "frequency_hz": 587.3295358348151
+    },
+    {
+      "kind": "Found harmonic opening",
+      "start_s": 10.0,
+      "duration_s": 1.05,
+      "gain": 0.03,
+      "pan": 0.1,
+      "midi": 78,
+      "frequency_hz": 739.9888454232688
+    },
+    {
+      "kind": "Found harmonic opening",
+      "start_s": 10.0,
+      "duration_s": 1.05,
+      "gain": 0.024,
+      "pan": 0.25,
+      "midi": 81,
+      "frequency_hz": 880.0
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 10.25,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 10.5,
+      "duration_s": 0.095,
+      "gain": 0.035,
+      "pan": 0.1
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 10.75,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 11.0,
+      "duration_s": 0.38,
+      "gain": 0.16,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 11.0,
+      "duration_s": 0.42,
+      "gain": 0.088,
+      "pan": 0.0,
+      "midi": 38,
+      "frequency_hz": 73.41619197935188
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 11.25,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "soft oscillator pluck",
+      "start_s": 11.25,
+      "duration_s": 0.63,
+      "gain": 0.026,
+      "pan": 0.2,
+      "midi": 69,
+      "frequency_hz": 440.0
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 11.5,
+      "duration_s": 0.095,
+      "gain": 0.035,
+      "pan": 0.1
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 11.75,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 12.0,
+      "duration_s": 0.38,
+      "gain": 0.16,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 12.0,
+      "duration_s": 0.46,
+      "gain": 0.092,
+      "pan": 0.0,
+      "midi": 33,
+      "frequency_hz": 55.0
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 12.25,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 12.5,
+      "duration_s": 0.095,
+      "gain": 0.035,
+      "pan": 0.1
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 12.75,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "soft oscillator pluck",
+      "start_s": 12.75,
+      "duration_s": 0.63,
+      "gain": 0.026,
+      "pan": -0.15,
+      "midi": 66,
+      "frequency_hz": 369.9944227116344
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 13.0,
+      "duration_s": 0.38,
+      "gain": 0.16,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 13.0,
+      "duration_s": 0.42,
+      "gain": 0.09,
+      "pan": 0.0,
+      "midi": 38,
+      "frequency_hz": 73.41619197935188
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 13.25,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 13.5,
+      "duration_s": 0.095,
+      "gain": 0.035,
+      "pan": 0.1
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 13.75,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "soft oscillator pluck",
+      "start_s": 13.75,
+      "duration_s": 0.63,
+      "gain": 0.026,
+      "pan": 0.12,
+      "midi": 64,
+      "frequency_hz": 329.6275569128699
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 14.0,
+      "duration_s": 0.38,
+      "gain": 0.16,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 14.0,
+      "duration_s": 0.42,
+      "gain": 0.082,
+      "pan": 0.0,
+      "midi": 45,
+      "frequency_hz": 110.0
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 14.25,
+      "duration_s": 0.075,
+      "gain": 0.011,
+      "pan": 0.2
+    },
+    {
+      "kind": "dry oscillator rim",
+      "start_s": 14.5,
+      "duration_s": 0.095,
+      "gain": 0.035,
+      "pan": 0.1
+    },
+    {
+      "kind": "filtered-noise closed tick",
+      "start_s": 14.75,
+      "duration_s": 0.075,
+      "gain": 0.013999999999999999,
+      "pan": -0.2
+    },
+    {
+      "kind": "dry sine kick",
+      "start_s": 15.0,
+      "duration_s": 0.38,
+      "gain": 0.16,
+      "pan": 0.0,
+      "body_hz": 54
+    },
+    {
+      "kind": "warm harmonic oscillator bass",
+      "start_s": 15.0,
+      "duration_s": 1.15,
+      "gain": 0.096,
+      "pan": 0.0,
+      "midi": 38,
+      "frequency_hz": 73.41619197935188
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 15.0,
+      "duration_s": 3.0,
+      "gain": 0.023,
+      "pan": -0.42,
+      "midi": 50,
+      "harmony": "D6add9 final resolution"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 15.0,
+      "duration_s": 3.0,
+      "gain": 0.023,
+      "pan": 0.34,
+      "midi": 57,
+      "harmony": "D6add9 final resolution"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 15.0,
+      "duration_s": 3.0,
+      "gain": 0.023,
+      "pan": -0.21,
+      "midi": 59,
+      "harmony": "D6add9 final resolution"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 15.0,
+      "duration_s": 3.0,
+      "gain": 0.023,
+      "pan": 0.43,
+      "midi": 64,
+      "harmony": "D6add9 final resolution"
+    },
+    {
+      "kind": "evolving sine harmony",
+      "start_s": 15.0,
+      "duration_s": 3.0,
+      "gain": 0.023,
+      "pan": 0,
+      "midi": 66,
+      "harmony": "D6add9 final resolution"
+    },
+    {
+      "kind": "final sign-off resolution",
+      "start_s": 15.0,
+      "duration_s": 1.35,
+      "gain": 0.043,
+      "pan": -0.15,
+      "midi": 62,
+      "frequency_hz": 293.6647679174076
+    },
+    {
+      "kind": "final sign-off resolution",
+      "start_s": 15.0,
+      "duration_s": 1.35,
+      "gain": 0.026,
+      "pan": 0.08,
+      "midi": 69,
+      "frequency_hz": 440.0
+    },
+    {
+      "kind": "final sign-off resolution",
+      "start_s": 15.0,
+      "duration_s": 1.35,
+      "gain": 0.02,
+      "pan": 0.17,
+      "midi": 78,
+      "frequency_hz": 739.9888454232688
+    }
+  ]
+}

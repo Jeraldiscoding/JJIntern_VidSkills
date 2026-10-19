@@ -1,0 +1,81 @@
+REVISION 10 — CONTINUOUS MOVEMENT, DRIFTING RECEIVER, FOUND BUBBLE
+18.000 seconds, 1080x1920, native 120 fps master and 60 fps delivery.
+Earlier revisions are preserved.
+
+LATEST DIRECTION
+Move Microsoft during the transformation; carry directly into packet flight.
+Move JJIntern slowly right-to-left during approach to reinforce relative speed.
+Make the packet background much stronger/faster. At the logo-only transition,
+repeat the ding and show Found above the mark in a bubble. Remove the next
+standalone Found title. Preserve the newly composed revision09 music.
+
+TIMELINE
+0.000–2.000: Microsoft / SWE Internship source, isolated ding at0.180.
+2.000–2.550: source travels right while compressing; glyphs become three bars.
+The background movement starts with the transformation. There is no packed pause.
+2.550–5.150: first flight begins at exactly the morph's final position and speed.
+5.150–5.320: directional match-on-action whip.
+5.320–7.100: second rightward pass. Clean white JJIntern receiver drifts left.
+Its inlet opens before the packet reaches it; the prior split jaws are removed.
+7.100–7.600: continuous packet entry behind the moving lip; three bars extend
+into routed ribbons. All receiving geometry shares the same leftward motion.
+7.600–7.820: the inlet closes with a small boundary acknowledgment.
+7.820–8.500: receiver shell clears; original mark grows uniformly while retaining
+its slow leftward drift. The prior peeling shell treatment is removed.
+8.500: the same source-style ding repeats. A white Found. bubble appears above
+the logo, fully visible by8.730. Bubble and mark continue drifting together.
+8.500–11.100: combined logo/bubble shot, directly followed by payoff copy.
+11.100 /11.350: We handle the finding. / You focus on applying.
+11.700–14.000: fully readable payoff.
+14.000–14.550: final JJIntern signoff transition, stable to18.000.
+There is no standalone Found title at10.200 or elsewhere.
+
+MOTION CONTINUITY
+Morph normalized time v=(t-2)/.55, center x=540+55*v^2.
+The shell compresses around that moving center. All glyph target cells and bar
+bridges inherit the shell position. At2.550 its left edge is377.500 and velocity
+is200px/s. The first pass begins at exactly that position/velocity.
+First pass v=(t-2.55)/2.6; a=520/702.5;
+x=377.5+702.5*(a*v+(1-a)*v^3), ending at1080 at5.150.
+Second pass remains x=-330+680*(.85*v+.15*v^3), v=(t-5.32)/1.78.
+Receiver x=680-60*(t-7.1). It moves left at60px/s before, during and after capture.
+At7.100 its lip is680; packet right edge reaches680 exactly.
+Local entry x=350+352*(.79*q+.21*q^3), q=(t-7.1)/.5. Shell, clip mask, packet
+entry, ribbons and mark share the receiver offset. The packet remains opaque.
+Global entry speed begins496.16px/s versus approach496.63px/s.
+After the shell clears, logo center remains receiver x+170 and continues drifting.
+Found bubble stays attached to that same center. Original mark colour, silhouette
+and proportions are unchanged. Supplied PNG is used directly.
+
+STRONGER SPEED FIELD
+22 horizontal rows instead of14; longer streaks, thicker blue/white strokes and
+stronger contrast. Velocity parameter3000+21000*u^2 over2.000–7.100, compared with
+1600+10400*u^2 previously. Integrated displacement keeps movement coherent.
+The streak field fades after capture and is fully clear at8.500 for the bubble.
+
+SOUND
+Revision09's160 BPM drum-led composition is preserved. Launch intake/edge move
+to2.500/2.550; air begins during the morph; the same source-style ding repeats
+at8.500. The former10.200 Found crash/hook emphasis is removed.
+All sound is reproducible mathematical synthesis; no samples, stock or voiceover.
+See audio/ for source, event comparison, loudness measurement and waveform.
+
+CLAIMS AND COPY
+Microsoft / SWE Internship is the existing editorial source label. Flight,
+ribbons, receiver and Found bubble are an editorial discovery metaphor, not a
+real UI recording, current vacancy, new posting, ingestion event or measured speed.
+Exact payoff preserves discovery versus applying; no auto-apply claim is added.
+Claim record: CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017.
+
+REPRODUCTION
+With an isolated local Chrome session on port9360:
+python3 creative/archive/rectangle/revision-10/audio/build_score.py
+node creative/archive/rectangle/revision-10/source/render-motion.mjs 9360 stills
+node creative/archive/rectangle/revision-10/source/render-motion.mjs 9360 test
+node creative/archive/rectangle/revision-10/source/render-motion.mjs 9360 full
+python3 creative/archive/rectangle/revision-10/source/verify-motion.py
+node creative/archive/rectangle/revision-10/source/check-playback.mjs 9360 final
+
+Review records distinguish visual/technical checks from subjective listening.
+Human listening, physical-phone and upload-preview checks are not claimed.
+No publishing occurred.

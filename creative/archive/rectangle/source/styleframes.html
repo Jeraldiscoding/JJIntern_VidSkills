@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta charset="utf-8"><title>JJIntern — Rectangle / approval studies</title><style>html,body{margin:0;background:#0b0b0c}canvas{display:block;width:1080px;height:1920px}</style></head><body><canvas id="frame" width="1080" height="1920"></canvas><script>
+/* STUDIO */
+const canvas=document.getElementById('frame'),ctx=canvas.getContext('2d');
+const font='-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Arial,sans-serif';
+const microsoft=new Image(),feed=new Image();microsoft.src='MICROSOFT_IMAGE';feed.src='FEED_IMAGE';
+const studio=createRectangleStudio();
+function surface(w,h){const c=document.createElement('canvas');c.width=w;c.height=h;return c;}
+function text(c,value,x,y,size=30,color='#bfc1c7',weight=400){c.fillStyle=color;c.font=weight+' '+size+'px '+font;c.fillText(value,x,y);}
+function browser(source,url,crop,title){
+  const [sx,sy,sw,sh]=crop;const w=sw,chrome=190,c=surface(w,sh+chrome),x=c.getContext('2d');
+  x.fillStyle='#242527';x.fillRect(0,0,w,chrome);
+  const shine=x.createLinearGradient(0,0,0,chrome);shine.addColorStop(0,'rgba(255,255,255,.065)');shine.addColorStop(1,'rgba(255,255,255,0)');x.fillStyle=shine;x.fillRect(0,0,w,chrome);
+  x.fillStyle='#989a9f';for(let i=0;i<3;i++){x.beginPath();x.arc(42+i*29,48,7,0,Math.PI*2);x.fill();}
+  text(x,title,180,74,76,'#e0e2e6',500);
+  x.fillStyle='#191a1c';x.beginPath();x.roundRect(28,94,w-56,71,11);x.fill();
+  x.strokeStyle='#82858b';x.lineWidth=3;x.beginPath();x.arc(66,124,9,Math.PI,0);x.lineTo(75,140);x.lineTo(57,140);x.closePath();x.stroke();
+  text(x,url,104,143,37,'#c8cbd0');
+  x.strokeStyle='#a1a4ab';x.lineWidth=3;x.beginPath();x.moveTo(w-66,36);x.lineTo(w-66,58);x.moveTo(w-77,47);x.lineTo(w-55,47);x.stroke();
+  x.drawImage(source,sx,sy,sw,sh,0,chrome,sw,sh);
+  return c;
+}
+let msBrowser,feedBrowser,packet;
+window.ready=Promise.all([microsoft.decode(),feed.decode(),document.fonts.ready]).then(()=>{
+  msBrowser=browser(microsoft,'careers.microsoft.com/v2/global/en/students', [0,110,1620,1490],'Microsoft Careers');
+  feedBrowser=browser(feed,'jjintern.com/feed',[0,0,1560,2268],'JJIntern');
+  packet=surface(1600,920);const p=packet.getContext('2d');
+  // Monochrome imprint taken from actual captured text; carried into the packet.
+  // The packet is a material metaphor, never presented as an employer interface.
+  const temp=surface(microsoft.width,microsoft.height),tp=temp.getContext('2d');tp.drawImage(microsoft,0,0);
+  const pixels=tp.getImageData(0,0,temp.width,temp.height);for(let i=0;i<pixels.data.length;i+=4){const l=(pixels.data[i]*.2126+pixels.data[i+1]*.7152+pixels.data[i+2]*.0722)/255;pixels.data[i]=pixels.data[i+1]=pixels.data[i+2]=40;pixels.data[i+3]=Math.max(0,(1-l)*210);}
+  tp.putImageData(pixels,0,0);
+  // Only real headings and text rows compact into information marks; the site's
+  // photograph is excluded from the completed packet face.
+  p.drawImage(temp,76,230,1320,94,150,140,1200,85);
+  p.drawImage(temp,146,988,1260,70,150,280,1010,44);
+  p.drawImage(temp,146,1090,1260,350,150,390,1100,140);
+  return {width:1080,height:1920,font:font,stage:'three still approval studies; no animation or audio',ms:[microsoft.width,microsoft.height],feed:[feed.width,feed.height]};
+});
+window.drawFrame=function(n){
+  const texture=n===1?msBrowser:n===2?packet:feedBrowser;
+  const halfWidth=n===1?1.78:1.83;
+  const halfHeight=halfWidth*texture.height/texture.width;
+  const art=studio.render(n,texture,[halfWidth,halfHeight]);ctx.drawImage(art,0,0,1080,1920);
+  return canvas.toDataURL('image/png').split(',')[1];
+};
+window.makeBoard=function(){
+  const board=surface(1620,1100),b=board.getContext('2d');b.fillStyle='#111214';b.fillRect(0,0,1620,1100);
+  const titles=['01  /  SOURCE BROWSER','02  /  RECTANGULAR PACKET','03  /  RECEIVING FEED'];
+  const subtitles=['Authentic Microsoft programme page','Satin silver · inset seam · directional air','Authentic JJIntern feed · settled proof'];
+  for(let i=1;i<=3;i++){drawFrame(i);b.drawImage(canvas,(i-1)*540,0,540,960);text(b,titles[i-1],(i-1)*540+30,1003,20,'#f5f5f7',550);text(b,subtitles[i-1],(i-1)*540+30,1036,17,'#a9acb3');}
+  return board.toDataURL('image/png').split(',')[1];
+};
+</script></body></html>

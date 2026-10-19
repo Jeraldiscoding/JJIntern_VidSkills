@@ -1,0 +1,9 @@
+input MICROSOFT_IMAGE: hash verified
+input FEED_IMAGE: hash verified
+input LOGO_IMAGE: hash verified
+01-careers.png: 1080x1920, hash verified
+02-packet.png: 1080x1920, hash verified
+03-logo-feed.png: 1080x1920, hash verified
+approval-board.png: 1620x1100, hash verified
+phone-board.png: 1080x733, hash verified
+Packet PNG is byte-for-byte identical to revision03.

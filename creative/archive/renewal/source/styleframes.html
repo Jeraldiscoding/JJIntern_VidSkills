@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8"><title>JJIntern — Fold / approval frames</title><style>html,body{margin:0;background:#0b0b0c}canvas{display:block;width:1080px;height:1920px}</style></head><body><canvas id="frame" width="1080" height="1920"></canvas><script>
+/* STUDIO */
+const canvas=document.getElementById('frame'),ctx=canvas.getContext('2d');
+const font='-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Arial,sans-serif';
+const feed=new Image(),logo=new Image();feed.src='FEED_IMAGE';logo.src='LOGO_IMAGE';
+const paper=document.createElement('canvas');paper.width=1400;paper.height=1920;const px=paper.getContext('2d');
+function text(x,y,value,size=56,weight=500,color='#f5f5f7',context=ctx){context.fillStyle=color;context.font=`${weight} ${size}px ${font}`;context.fillText(value,x,y);}
+function page(){
+ px.fillStyle='#e6e7e8';px.fillRect(0,0,1400,1920);
+ const p=px.createLinearGradient(0,0,1400,1800);p.addColorStop(0,'#fafafa');p.addColorStop(.6,'#e7e8e9');p.addColorStop(1,'#bfc1c5');px.fillStyle=p;px.fillRect(0,0,1400,1920);
+ text(130,214,'Example posting',80,450,'#424348',px);
+ px.fillStyle='#b7b9bd';px.fillRect(130,290,1135,2);
+ text(130,650,'Microsoft',128,550,'#202124',px);
+ text(130,814,'Internship',130,500,'#202124',px);
+ text(130,966,'posting',130,500,'#202124',px);
+ px.fillStyle='#7c8189';for(let i=0;i<4;i++)px.fillRect(130,1170+i*92,900-i*105,3);
+ px.fillStyle='#0071e3';px.fillRect(130,1620,208,7);
+}
+const studio=makeStudio();
+function background(){ctx.fillStyle='#0b0b0c';ctx.fillRect(0,0,1080,1920);const g=ctx.createRadialGradient(460,830,30,460,830,1200);g.addColorStop(0,'#222325');g.addColorStop(.55,'#101113');g.addColorStop(1,'#0b0b0c');ctx.fillStyle=g;ctx.fillRect(0,0,1080,1920);}
+function branding(x=90,y=280){ctx.drawImage(logo,x,y-53,55,55);text(x+74,y-10,'JJ Intern',42,550);}
+function smallLabel(v,y=1500){text(90,y,v,42,400,'#bfc1c7');}
+window.ready=Promise.all([feed.decode(),logo.decode(),document.fonts.ready]).then(()=>{page();return {width:1080,height:1920,stage:'approval styleframes only',font:ctx.font,art:'new continuous folded silver sheet; real unmodified feed'};});
+window.drawFrame=function(n){
+ background();
+ if(n===1){
+   const im=studio.render(0,paper,2160,3840);ctx.drawImage(im,0,0,1080,1920);
+   branding();
+ }else if(n===2){
+   // Longitudinal streaks place the mass on a horizontal path; no depth tunnel.
+   for(let i=0;i<9;i++){let y=845+i*29;const g=ctx.createLinearGradient(0,y,670,y);g.addColorStop(0,'rgba(180,190,206,0)');g.addColorStop(.64,`rgba(180,190,206,${.04+i*.002})`);g.addColorStop(1,'rgba(180,190,206,0)');ctx.strokeStyle=g;ctx.lineWidth=i===4?3:1;ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(680,y);ctx.stroke();}
+   const im=studio.render(1,paper,2160,3840);ctx.drawImage(im,0,0,1080,1920);
+   branding();
+   smallLabel('Example posting',1548);
+ }else{
+   // The actual capture is uniformly enlarged, cropped, never rebuilt or stretched.
+   ctx.fillStyle='#1c1c1e';ctx.fillRect(0,0,1080,1920);branding();
+   text(90,374,'Example workflow · actual feed',42,400,'#c7c7cc');
+   // Genuine unfiltered feed. Crop only: no new query, notifications or UI.
+   // Uniform 1080/1496 scale; preserve displayed role names and posting ages.
+   ctx.drawImage(feed,32,600,1496,1700,0,460,1080,1700*1080/1496);
+ }
+ return canvas.toDataURL('image/png').split(',')[1];
+};
+</script></body></html>

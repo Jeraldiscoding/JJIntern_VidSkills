@@ -1,0 +1,12 @@
+{
+  "startedUTC": "2026-10-17T13:59:09.370Z",
+  "completedUTC": "2026-10-17T14:11:01.473Z",
+  "timezone": "Europe/Stockholm",
+  "thisRevisionSeconds": 712.103,
+  "firstProductionSeconds": 550.453,
+  "secondRevisionSeconds": 766.668,
+  "totalActiveProductionPhaseSeconds": 2029.2240000000002,
+  "overallWallIncludingFeedbackSeconds": 2586.315,
+  "finalRenderSeconds": 50.3,
+  "parallelWork": true
+}

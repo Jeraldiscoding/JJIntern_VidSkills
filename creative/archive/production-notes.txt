@@ -1,0 +1,57 @@
+JJINTERN — YOUR NEXT MOVE
+20-second motion-design brand film
+
+The concept
+A student has many possible directions. The film turns that noisy field into a single blue path, folds the path into a reflective ribbon, identifies finance and tech internships, and resolves into “Find your next move.” The motion is a metaphor for exploration. It does not show invented product screens or promise a job.
+
+The visual decisions
+The recurring ribbon gives the six scenes a common subject while its shape changes from a loop to a knot and back to a clearer direction. It is original parametric geometry, rendered in WebGL with calculated normals, two-sided lighting, specular reflections and a blue/silver material. It is not a traced logo or stock 3D asset. Camera scale, rotation, material, type masks, orbital labels and paths are evaluated independently for every frame.
+
+The actual JJIntern ink, off-white and blue palette anchors the film. The dark opening makes the orbital words feel dense; the white finance/tech scene creates a clear visual reset; the centred Singapore portal changes the composition before the large typographic finale. Primary type uses the real system sans stack. Instrument Serif italic 400 adds contrast on the more human phrases. The authentic raster logo appears at a restrained size, unchanged.
+
+The timeline
+0–3 s: “Too many directions?” Career disciplines orbit the question.
+3–6 s: “Find your focus.” The field clears and a ribbon takes shape.
+6–10 s: “Finance + tech internships.” A white field makes the subject unmistakable.
+10–14 s: “Singapore. A place to begin.” A centred portal and audience statement locate the brand.
+14–17 s: “Find / your / next / move.” Words assemble on half-second musical beats.
+17–20 s: Original mark, invitation and JJIntern.com. Essential end copy settles by approximately 17.46 s and stays readable to the final frame.
+
+What was discarded
+A real company-search tutorial had stronger feature proof, but repeated the existing workspace rough and constrained this particular résumé/showreel request. A speculative offer-letter or instant-alert cascade depended on unverified features/outcomes and was rejected. A purely typographic relay was feasible, but gave the viewer less of a spatial transformation. The film does not use employer logos, live-vacancy numbers, salaries, private UI or generated people.
+
+The music
+“Signal to Possibility” is an original 120 BPM composition: ten bars in D major, with added ninths and suspended harmonies. A sparse mallet motif grows into syncopated arpeggios, a rounded bass line, synthesized garage percussion and a wider glass counterline. The final dominant resolves to Dmaj9 at exactly 17 s, then leaves room for the brand.
+
+Every instrument was synthesized from mathematical oscillators or algorithmic noise in Python: FM/resonator plucks, additive detuned pads, sine/partial bass, a pitch-envelope kick, filtered-noise snare, metallic hats, tonal ticks and transition effects. Stereo ambience uses calculated delay/diffusion taps. No recordings, samples, stock loops, sample libraries, sampled reverb impulses, external music generators or voiceover were used.
+
+The delivered score is exactly 960,000 samples at 48 kHz, stereo, 24-bit PCM. Measured WAV loudness is -14.13 LUFS integrated, -1.00 dB true peak, 3.2 LU loudness range. The MP4 contains AAC at 320 kb/s. The full synthesis source and event timeline are included in audio/.
+
+Iterations actually performed
+1. Compared the mechanisms and grounded the copy in the current public JJIntern positioning before animation polish.
+2. Built a deterministic six-scene storyboard and original ribbon material; composed and mastered the score in parallel.
+3. Inspected twelve full-size storyboard frames and an independent concept/still review. Removed labels crossing “focus,” replaced a repeated left-text/right-object scene with the centred Singapore portal, centred its lower title, increased the final descriptor from 31 px to 42 px, and shortened the final entrance to preserve a roughly 2.54-second stable CTA hold.
+4. Rendered a complete 20 fps motion rough with music. Inspected 80 encoded timeline samples across the whole 20 seconds. The independent review found no persistent clipping, missing main words or unsupported claims.
+5. Rendered the 60 fps delivery master from the same deterministic scene source. Final media/decode/playback results are recorded in review/final-qa.json and review/final-review.txt.
+
+Grounding and provenance
+Public positioning was reopened on 17 October 2026 at https://jjintern.com/. It identifies finance/technology internships and Singapore students. The film uses that positioning and an invitation to explore, not authenticated feature verification. Original mark and serif assets: creative/assets/evidence/product/. Brand/evidence references: creative/brand/tokens.json and creative/product/evidence.md, source IDs P01 and B01–B04. Abstract geometry, animation code and all audio are newly authored for this production. No external creative video was claimed as inspected or copied. Existing asset/font notices should accompany any later external source redistribution; this is a local rendered-video delivery.
+
+Reproduce
+Use the installed Chrome, Node, FFmpeg and Python 3.13 with numpy/scipy.
+1. Run: /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 creative/archive/audio/build_score.py
+2. Launch isolated Chrome with --headless=new --remote-debugging-port=9345 --user-data-dir=/private/tmp/jjintern-showreel-chrome --no-first-run --no-default-browser-check --hide-scrollbars --autoplay-policy=no-user-gesture-required about:blank
+3. Run: node creative/archive/source/render.mjs 9345 final
+The renderer embeds only the required mark/font in the scene, waits for fonts, and sends deterministic lossless PNG frames to FFmpeg. H.264 CRF 16, slow preset, yuv420p, constant 60 fps, BT.709 metadata, AAC 48 kHz, fast-start MP4. There is no frame interpolation or upscaled lower-resolution master.
+
+Delivery scope
+This is the requested landscape résumé/showreel master. Physical-device and social-platform upload previews have not been performed. Real-time browser decoding and technical audio measurements are distinct from subjective human listening. No content was published or uploaded to an external service.
+
+Measured production time
+Total elapsed wall-clock: 9 minutes 10.5 seconds.
+Started: 17 Oct 2026, 15:27:55 Europe/Stockholm.
+Completed: 17 Oct 2026, 15:37:05 Europe/Stockholm.
+This includes grounding, concept work, original music, storyboard, revisions, rough and final renders, and local QA. Music and independent reviews ran in parallel; their times are not added together. Rough render: 37.7 seconds. Final high-quality 60 fps render: 147.3 seconds.
+
+Verified final delivery
+20.000 seconds, 1920×1080, 60 fps, 1200 decoded video frames, 72.41 MB. Full video/audio decode without errors. Encoded soundtrack: -14.15 LUFS, -1.03 dB true peak. Both automated real-time browser playback passes reached the end without media errors. Detailed performed checks and limits are in review/final-review.txt.

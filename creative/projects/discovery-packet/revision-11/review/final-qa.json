@@ -1,0 +1,692 @@
+{
+  "revision": 11,
+  "duration_s": 18,
+  "flight": {
+    "passed": true,
+    "checks": [
+      {
+        "check": "final timeline matches",
+        "passed": true,
+        "evidence": {
+          "compress": 2,
+          "packed": 2.55,
+          "launch": 2.55,
+          "approach": 6.55,
+          "arrival": 8.05,
+          "swallowed": 8.75,
+          "latched": 8.88,
+          "settled": 9.05,
+          "found": 9.05,
+          "payoff": 9.9,
+          "readable": 10.5,
+          "signoff": 14,
+          "end": 18
+        }
+      },
+      {
+        "check": "packet fixed during four-second flight",
+        "passed": true,
+        "evidence": {
+          "interval_s": [
+            2.55,
+            6.55
+          ],
+          "position": [
+            142.5,
+            832.5
+          ],
+          "scale": 1,
+          "max_geometry_error": 0.0
+        }
+      },
+      {
+        "check": "background accelerates while packet stays fixed",
+        "passed": true,
+        "evidence": {
+          "speed_start_end_px_s": [
+            3306.8469991546913,
+            24000
+          ],
+          "whip": false
+        }
+      },
+      {
+        "check": "packet and receiver converge to exact contact",
+        "passed": true,
+        "evidence": {
+          "approach_interval_s": [
+            6.55,
+            8.05
+          ],
+          "max_formula_error": 9.094947017729282e-13,
+          "contact_gap_px": 0.0
+        }
+      },
+      {
+        "check": "receiver reaches centred logo before Found",
+        "passed": true,
+        "evidence": {
+          "samples": [
+            {
+              "t": 8.05,
+              "x": 619.5
+            },
+            {
+              "t": 8.4,
+              "x": 494.75
+            },
+            {
+              "t": 8.75,
+              "x": 370
+            },
+            {
+              "t": 9.05,
+              "x": 370
+            }
+          ],
+          "logo_center_x": 540,
+          "packet_occlusion_lip_offset_px": 22
+        }
+      },
+      {
+        "check": "settled logo fixed throughout short Found hold",
+        "passed": true,
+        "evidence": {
+          "logo_calls_from_actual_received_function": [
+            {
+              "t": 9.25,
+              "x": 540,
+              "y": 960,
+              "size": 380
+            },
+            {
+              "t": 9.5,
+              "x": 540,
+              "y": 960,
+              "size": 380
+            },
+            {
+              "t": 9.7,
+              "x": 540,
+              "y": 960,
+              "size": 380
+            }
+          ],
+          "bubble_interval_s": [
+            9.05,
+            9.9
+          ],
+          "fade_interval_s": [
+            9.72,
+            9.9
+          ]
+        }
+      }
+    ],
+    "method": "Executed flightState, fieldSpeed, receiverX and received from final motion.html; decoded frames verify appearance."
+  },
+  "exports": [
+    {
+      "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/JJIntern-revision11-120fps-master.mp4",
+      "sha256": "67315d2856e51ef9bb7740aed3aa3f3625f6f774a358ec4091a53ff920fe6733",
+      "passed": true,
+      "checks": [
+        {
+          "check": "exact18.000-second presentation",
+          "passed": true,
+          "evidence": {
+            "container": "18.000000",
+            "video": "18.000000",
+            "audio": "18.000000"
+          }
+        },
+        {
+          "check": "1080x1920 H264 BT709 yuv420p at expectedfps",
+          "passed": true,
+          "evidence": {
+            "width": 1080,
+            "height": 1920,
+            "codec_name": "h264",
+            "pix_fmt": "yuv420p",
+            "avg_frame_rate": "120/1",
+            "color_space": "bt709",
+            "color_range": "tv"
+          }
+        },
+        {
+          "check": "48kHz stereo AAC and faststart",
+          "passed": true,
+          "evidence": {
+            "codec": "aac",
+            "sample_rate": "48000",
+            "channels": 2,
+            "faststart": true
+          }
+        },
+        {
+          "check": "decoded frame count and uniform timestamps",
+          "passed": true,
+          "evidence": {
+            "frames": 2160,
+            "expected": 2160,
+            "last_pts": 17.991667,
+            "max_timestamp_error_s": 3.3333333604446125e-07
+          }
+        },
+        {
+          "check": "full decode without errors",
+          "passed": true,
+          "evidence": "No decoder errors"
+        },
+        {
+          "check": "encoded audio unclipped and at or below -1 dBTP",
+          "passed": true,
+          "evidence": {
+            "integrated_lufs": -14.34,
+            "true_peak_dbtp": -1.17,
+            "sample_peak_dbfs": -1.1727500973203966,
+            "clipped_samples": 0,
+            "decoded_samples_per_channel": 864256,
+            "note": "AAC may emit a padded final block; presentation duration is checked separately.",
+            "passed": true
+          }
+        },
+        {
+          "check": "source reading hold remains stable",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.0019592055823939884,
+            "comparison_s": [
+              0.7,
+              1.9
+            ]
+          }
+        },
+        {
+          "check": "stationary flight packet interior remains stable",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.22762718762718762,
+            "comparison_s": [
+              3.2,
+              6.4
+            ],
+            "crop_width_height_x_y": "390:210:165:855",
+            "note": "Geometry is also checked by executing the source functions."
+          }
+        },
+        {
+          "check": "stationary settled logo and Found bubble remains stable",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.005818181818181818,
+            "comparison_s": [
+              9.3,
+              9.65
+            ],
+            "crop_width_height_x_y": "600:550:240:650",
+            "note": "Geometry is also checked by executing the source functions."
+          }
+        },
+        {
+          "check": "signoff stable through final frame",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.09570987654320988,
+            "comparison_s": [
+              14.55,
+              17.991666666666667
+            ]
+          }
+        }
+      ],
+      "decoded_frames": [
+        {
+          "index": 0,
+          "frame": 84,
+          "time_s": 0.7,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-00.png"
+        },
+        {
+          "index": 1,
+          "frame": 228,
+          "time_s": 1.9,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-01.png"
+        },
+        {
+          "index": 2,
+          "frame": 264,
+          "time_s": 2.2,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-02.png"
+        },
+        {
+          "index": 3,
+          "frame": 288,
+          "time_s": 2.4,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-03.png"
+        },
+        {
+          "index": 4,
+          "frame": 306,
+          "time_s": 2.55,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-04.png"
+        },
+        {
+          "index": 5,
+          "frame": 384,
+          "time_s": 3.2,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-05.png"
+        },
+        {
+          "index": 6,
+          "frame": 564,
+          "time_s": 4.7,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-06.png"
+        },
+        {
+          "index": 7,
+          "frame": 768,
+          "time_s": 6.4,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-07.png"
+        },
+        {
+          "index": 8,
+          "frame": 786,
+          "time_s": 6.55,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-08.png"
+        },
+        {
+          "index": 9,
+          "frame": 852,
+          "time_s": 7.1,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-09.png"
+        },
+        {
+          "index": 10,
+          "frame": 924,
+          "time_s": 7.7,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-10.png"
+        },
+        {
+          "index": 11,
+          "frame": 966,
+          "time_s": 8.05,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-11.png"
+        },
+        {
+          "index": 12,
+          "frame": 996,
+          "time_s": 8.3,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-12.png"
+        },
+        {
+          "index": 13,
+          "frame": 1032,
+          "time_s": 8.6,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-13.png"
+        },
+        {
+          "index": 14,
+          "frame": 1050,
+          "time_s": 8.75,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-14.png"
+        },
+        {
+          "index": 15,
+          "frame": 1086,
+          "time_s": 9.05,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-15.png"
+        },
+        {
+          "index": 16,
+          "frame": 1116,
+          "time_s": 9.3,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-16.png"
+        },
+        {
+          "index": 17,
+          "frame": 1158,
+          "time_s": 9.65,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-17.png"
+        },
+        {
+          "index": 18,
+          "frame": 1218,
+          "time_s": 10.15,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-18.png"
+        },
+        {
+          "index": 19,
+          "frame": 1260,
+          "time_s": 10.5,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-19.png"
+        },
+        {
+          "index": 20,
+          "frame": 1500,
+          "time_s": 12.5,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-20.png"
+        },
+        {
+          "index": 21,
+          "frame": 1668,
+          "time_s": 13.9,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-21.png"
+        },
+        {
+          "index": 22,
+          "frame": 1746,
+          "time_s": 14.55,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-22.png"
+        },
+        {
+          "index": 23,
+          "frame": 2159,
+          "time_s": 17.991666666666667,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-frame-23.png"
+        }
+      ],
+      "boards": [
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-board-1.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-board-2.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-120-board-3.png"
+      ],
+      "board_order": "Row-major; frames 0-7 on board 1, 8-15 on board 2, 16-23 on board 3"
+    },
+    {
+      "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/JJIntern-revision11-60fps.mp4",
+      "sha256": "5839fda18c20e34e245fc8bd82d97ab1a256c90995d7d4835ec1903ca72c9ead",
+      "passed": true,
+      "checks": [
+        {
+          "check": "exact18.000-second presentation",
+          "passed": true,
+          "evidence": {
+            "container": "18.000000",
+            "video": "18.000000",
+            "audio": "18.000000"
+          }
+        },
+        {
+          "check": "1080x1920 H264 BT709 yuv420p at expectedfps",
+          "passed": true,
+          "evidence": {
+            "width": 1080,
+            "height": 1920,
+            "codec_name": "h264",
+            "pix_fmt": "yuv420p",
+            "avg_frame_rate": "60/1",
+            "color_space": "bt709",
+            "color_range": "tv"
+          }
+        },
+        {
+          "check": "48kHz stereo AAC and faststart",
+          "passed": true,
+          "evidence": {
+            "codec": "aac",
+            "sample_rate": "48000",
+            "channels": 2,
+            "faststart": true
+          }
+        },
+        {
+          "check": "decoded frame count and uniform timestamps",
+          "passed": true,
+          "evidence": {
+            "frames": 1080,
+            "expected": 1080,
+            "last_pts": 17.983333,
+            "max_timestamp_error_s": 3.3333333604446125e-07
+          }
+        },
+        {
+          "check": "full decode without errors",
+          "passed": true,
+          "evidence": "No decoder errors"
+        },
+        {
+          "check": "encoded audio unclipped and at or below -1 dBTP",
+          "passed": true,
+          "evidence": {
+            "integrated_lufs": -14.34,
+            "true_peak_dbtp": -1.17,
+            "sample_peak_dbfs": -1.1727500973203966,
+            "clipped_samples": 0,
+            "decoded_samples_per_channel": 864256,
+            "note": "AAC may emit a padded final block; presentation duration is checked separately.",
+            "passed": true
+          }
+        },
+        {
+          "check": "source reading hold remains stable",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.005666935050993022,
+            "comparison_s": [
+              0.7,
+              1.9
+            ]
+          }
+        },
+        {
+          "check": "stationary flight packet interior remains stable",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.01886853886853887,
+            "comparison_s": [
+              3.2,
+              6.4
+            ],
+            "crop_width_height_x_y": "390:210:165:855",
+            "note": "Geometry is also checked by executing the source functions."
+          }
+        },
+        {
+          "check": "stationary settled logo and Found bubble remains stable",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.006247474747474747,
+            "comparison_s": [
+              9.3,
+              9.65
+            ],
+            "crop_width_height_x_y": "600:550:240:650",
+            "note": "Geometry is also checked by executing the source functions."
+          }
+        },
+        {
+          "check": "signoff stable through final frame",
+          "passed": true,
+          "evidence": {
+            "mean_rgb_delta_0_255": 0.010117418142780462,
+            "comparison_s": [
+              14.55,
+              17.983333333333334
+            ]
+          }
+        }
+      ],
+      "decoded_frames": [
+        {
+          "index": 0,
+          "frame": 42,
+          "time_s": 0.7,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-00.png"
+        },
+        {
+          "index": 1,
+          "frame": 114,
+          "time_s": 1.9,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-01.png"
+        },
+        {
+          "index": 2,
+          "frame": 132,
+          "time_s": 2.2,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-02.png"
+        },
+        {
+          "index": 3,
+          "frame": 144,
+          "time_s": 2.4,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-03.png"
+        },
+        {
+          "index": 4,
+          "frame": 153,
+          "time_s": 2.55,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-04.png"
+        },
+        {
+          "index": 5,
+          "frame": 192,
+          "time_s": 3.2,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-05.png"
+        },
+        {
+          "index": 6,
+          "frame": 282,
+          "time_s": 4.7,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-06.png"
+        },
+        {
+          "index": 7,
+          "frame": 384,
+          "time_s": 6.4,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-07.png"
+        },
+        {
+          "index": 8,
+          "frame": 393,
+          "time_s": 6.55,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-08.png"
+        },
+        {
+          "index": 9,
+          "frame": 426,
+          "time_s": 7.1,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-09.png"
+        },
+        {
+          "index": 10,
+          "frame": 462,
+          "time_s": 7.7,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-10.png"
+        },
+        {
+          "index": 11,
+          "frame": 483,
+          "time_s": 8.05,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-11.png"
+        },
+        {
+          "index": 12,
+          "frame": 498,
+          "time_s": 8.3,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-12.png"
+        },
+        {
+          "index": 13,
+          "frame": 516,
+          "time_s": 8.6,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-13.png"
+        },
+        {
+          "index": 14,
+          "frame": 525,
+          "time_s": 8.75,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-14.png"
+        },
+        {
+          "index": 15,
+          "frame": 543,
+          "time_s": 9.05,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-15.png"
+        },
+        {
+          "index": 16,
+          "frame": 558,
+          "time_s": 9.3,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-16.png"
+        },
+        {
+          "index": 17,
+          "frame": 579,
+          "time_s": 9.65,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-17.png"
+        },
+        {
+          "index": 18,
+          "frame": 609,
+          "time_s": 10.15,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-18.png"
+        },
+        {
+          "index": 19,
+          "frame": 630,
+          "time_s": 10.5,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-19.png"
+        },
+        {
+          "index": 20,
+          "frame": 750,
+          "time_s": 12.5,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-20.png"
+        },
+        {
+          "index": 21,
+          "frame": 834,
+          "time_s": 13.9,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-21.png"
+        },
+        {
+          "index": 22,
+          "frame": 873,
+          "time_s": 14.55,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-22.png"
+        },
+        {
+          "index": 23,
+          "frame": 1079,
+          "time_s": 17.983333333333334,
+          "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-frame-23.png"
+        }
+      ],
+      "boards": [
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-board-1.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-board-2.png",
+        "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/discovery-packet/revision-11/review/encoded-60-board-3.png"
+      ],
+      "board_order": "Row-major; frames 0-7 on board 1, 8-15 on board 2, 16-23 on board 3"
+    }
+  ],
+  "perceptual_review": {
+    "status": "Decoded sample frames inspected; no visual defect observed in those samples.",
+    "evidence": [
+      "encoded-120-board-1.png",
+      "encoded-120-board-2.png",
+      "encoded-120-board-3.png",
+      "encoded-60-board-2.png"
+    ],
+    "preview_panel_size": [
+      360,
+      640
+    ],
+    "findings": [
+      "Source role label is readable and the glyph-to-packet morph stays inside the animated body.",
+      "Packet holds the same screen position during 2.55–6.55s while the background streak field changes.",
+      "Receiver approaches from the right; contact and progressive packet occlusion are legible in the decoded sequence.",
+      "Original logo settles in the centre. Found bubble and logo remain fixed in the 9.3s and 9.65s samples.",
+      "Payoff text and final JJIntern signoff are readable at 360px preview width; no clipping or unwanted overlap observed."
+    ],
+    "limitations": "Sample inspection is separate from real-time playback and subjective listening. Physical-phone and platform preview checks remain pending."
+  },
+  "pending": [
+    "Subjective listening",
+    "Physical phone playback",
+    "Platform upload preview"
+  ],
+  "automated_passed": true,
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

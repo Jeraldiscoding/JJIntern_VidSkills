@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>JJIntern — company-search timing proof</title>
+<style>
+  html,body { margin:0; background:#0b0b0c; }
+  canvas { display:block; width:1080px; height:1920px; }
+</style>
+<canvas width="1080" height="1920" aria-label="A local timing proof showing a real JJIntern company search."></canvas>
+<script>
+const canvas = document.querySelector('canvas');
+const ctx = canvas.getContext('2d');
+const sans = '-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif';
+const files = ['directory-empty', ...Array.from({length:9},(_,i)=>`directory-${String(i+1).padStart(2,'0')}`)];
+const images = files.map(name => {
+  const img = new Image();
+  img.src = `../../assets/captures/${name}.png`;
+  return img;
+});
+window.ready = Promise.all(images.map(img => img.decode())).then(() => document.fonts.ready);
+const ease = value => 1-Math.pow(1-Math.max(0,Math.min(1,value)),3);
+function textLine(text,x,y,size=88,weight=600,colour='#f5f5f7',max=804) {
+  ctx.font = `${weight} ${size}px ${sans}`;
+  ctx.fillStyle = colour;
+  if (ctx.measureText(text).width > max) throw new Error(`Text exceeds composition width: ${text}`);
+  ctx.fillText(text,x,y);
+}
+window.drawScene = function(t) {
+  ctx.globalAlpha=1;
+  ctx.fillStyle='#0b0b0c'; ctx.fillRect(0,0,1080,1920);
+  ctx.fillStyle='#0071e3';ctx.fillRect(90,242,52,5);
+  textLine('JJINTERN / COMPANY SEARCH',90,302,36,500,'#c7c7cc');
+  if(t<2.2) {
+    textLine('Know the company?',90,418,84);
+    textLine('Start here.',90,519,88);
+  } else if(t<6.25) {
+    textLine('Search by',90,418,88);
+    textLine('company name.',90,519,88);
+  } else if(t<10.2) {
+    textLine('Microsoft,',90,418,88);
+    textLine('found.',90,519,88);
+  } else {
+    textLine('Try your company.',90,418,82);
+    textLine('JJIntern.com/companies',90,507,51,500);
+  }
+  let state = 0;
+  if(t>=4) state=Math.min(9,1+Math.floor((t-4)/0.25));
+  const reveal=ease((t-0.5)/0.35);
+  ctx.save();
+  ctx.beginPath();ctx.rect(90,610,804,550*reveal);ctx.clip();
+  if(t>=10.2) ctx.globalAlpha=0.65;
+  // Real viewport crop: input + one complete result row. No UI text replaced.
+  ctx.drawImage(images[state],32,430,716,490,90,610,804,550);
+  ctx.restore();
+  if(t>=8.6 && t<10.2) {
+    textLine('A company result isn’t',90,1280,44,500);
+    textLine('an open vacancy.',90,1340,44,500);
+  } else if(t>=0.5) {
+    textLine('Company directory.',90,1280,42,500);
+    textLine('Check current roles separately.',90,1340,42,500);
+  }
+  textLine('Public UI · edited timing · 17 Oct 2026',90,1450,36,400,'#c7c7cc');
+  textLine('ROUGH CUT',90,1755,30,500,'#a1a1a6');
+};
+window.ready.then(()=>window.drawScene(0));
+</script>
+</html>

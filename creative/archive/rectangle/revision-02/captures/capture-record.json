@@ -1,0 +1,4688 @@
+{
+  "checked": "2026-10-17",
+  "timezone": "Europe/Stockholm",
+  "captured_at_utc": "2026-10-17T15:25:33.288Z",
+  "source": "https://jjintern.com/feed",
+  "session": "Fresh isolated logged-out Chrome profile /tmp/jjintern-rectangle-revision02-public-9356; no account or personal data. System dark preference emulated before real theme-toggle click.",
+  "scope": "Loaded public feed; actual theme toggle and actual Tech category button. Existing roles only; no Microsoft search, role opening, handoff, application, notification, source ingestion or data write.",
+  "interactions": [
+    {
+      "type": "actual pointer click",
+      "label": "Switch to dark mode to restore before state",
+      "x": 256.6875,
+      "y": 23.5
+    },
+    {
+      "type": "actual pointer click",
+      "label": "All roles to restore before state",
+      "x": 56.0546875,
+      "y": 173.75
+    },
+    {
+      "type": "actual pointer click",
+      "label": "Switch to light mode",
+      "x": 256.6875,
+      "y": 23.5
+    },
+    {
+      "type": "actual pointer click",
+      "label": "Tech category",
+      "x": 197.59375,
+      "y": 173.75
+    },
+    {
+      "type": "actual scroll",
+      "scrollY": 100,
+      "purpose": "Move aggregate metrics out while genuine sticky header and filters remain"
+    },
+    {
+      "type": "actual scroll",
+      "scrollY": 0,
+      "purpose": "Capture settled Tech result with aggregate metrics retained as an optional wider-context asset"
+    }
+  ],
+  "states": [
+    {
+      "file": "feed-dark-before.png",
+      "sha256": "cbd49265063c02beeb1e760ebd47877e85c8bc6aa38bd1b65417203c3bc374cf",
+      "bytes": 330110,
+      "url": "https://jjintern.com/feed",
+      "title": "JJ Intern — Real-time internship alerts for Singapore students",
+      "scrollY": 0,
+      "viewport": {
+        "width": 430,
+        "height": 840,
+        "dpr": 4
+      },
+      "text": "JJ Intern\nSign in\nFind\nTargets\nPlan\nTrack\nOPEN ROLES\n1,218\nLAST 24H\n8\nAll roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓\nByteDance\n22h ago\nSolution Merchant Finance Project Intern (Global Payment) - 2026 Start - Project Intern (Global Payment) - 2027 Start\n—\nFinance\n·\n22h ago\n+\nSet status\nShopee\n22h ago\nRecruiter Intern - Talent Acquisition, People Team\n—\nOther\n·\n22h ago\n+\nSet status\nTencent\n22h ago\nLarge Language Models Research Intern\n—\nML / AI\n·\n22h ago\n+\nSet status\nTencent\n22h ago\nInteractive Vision Model Research Intern\n—\nOther\n·\n22h ago\n+\nSet status\nING\n22h ago\nIntern, Portfolio Management\n—\nInvesting\n·\n22h ago\n+\nSet status\nING\n22h ago\nIntern, HR Operations\n—\nOther\n·\n22h ago\n+\nSet status\nDBS\n22h ago\n2027 DBS Internship (Business and Support Units)\n—\nOther\n·\n22h ago\n+\nSet status\nDBS\n22h ago\n2027 DBS Internship (Technology and AI & Data Science)\n—\nData\nML / AI\n·\n22h ago\n+\nSet status\nCarousell\n1d ago\nCorporate Development Intern\n—\nOther\n·\n1d ago\n+\nSet status\nShopBack\n1d ago\nTalent Acquisition Intern\n—\nOther\n·\n1d ago\n+\nSet status\nSAP\n1d ago\nFull Stack Developer Intern (AI topics) SAP Business AI Singapore\n—\nSWE\nML / AI\n·\n1d ago\n+\nSet status\nVisier Inc.\n1d ago\nSoftware Developer Intern (January to June 2027)\nSpring Off-cycle\nSWE\n·\n1d ago\n+\nSet status\nIMDA\n1d ago\n[IMDA Internship Programme 2027] Innovation Evangelist (January - June)\nSpring Off-cycle\nOther\n·\n1d ago\n+\nSet status\nMUFG\n1d ago\nFinancial Crimes Compliance – Complex Investigations Intern\n—\nRisk\n·\n1d ago\n+\nSet status\nSingtel\n1d ago\nRetail Marketing & Visual Merchandising Intern #Generalinternship\n—\nOther\n·\n1d ago\n+\nSet status\nOCBC\n1d ago\nInternship: Global Markets, Treasury Advisory / Investment Solutions [Jan - Jun 2027]\nSpring Off-cycle\nFinance\n·\n1d ago\n+\nSet status\nGrab\n1d ago\nIntern, Business Analyst\nSpring Off-cycle\nProduct / BA\n·\n1d ago\n+\nSet status\nOCBC\n1d ago\nInternship: Global Markets, Securities Finance [Jan - Jun 2027]\nSpring Off-cycle\nS&T\n·\n1d ago\n+\nSet status\nPwC Singapore\n1d ago\nConsulting - Finance Strategy & Operations Off Cycle Internship (Jan - Jun 27)\nSpring Off-cycle\nFinance\nConsulting\nProduct / BA\n·\n1d ago\n+\nSet status\nGrab\n1d ago\nIntern, Software Engineer\nSpring Off-cycle\nSWE\n·\n1d ago\n+\nSet status\nLoad more roles",
+      "query": "",
+      "style": {
+        "background": "rgb(11, 11, 12)",
+        "rootClass": "__variable_ae301a dark"
+      },
+      "buttons": [
+        {
+          "text": "",
+          "aria": "Switch to light mode",
+          "title": "Switch to light mode",
+          "bounds": {
+            "x": 240.6875,
+            "y": 7.5,
+            "width": 32,
+            "height": 32,
+            "top": 7.5,
+            "right": 272.6875,
+            "bottom": 39.5,
+            "left": 240.6875
+          },
+          "class": "inline-flex items-center justify-center rounded-full border border-[var(--border)] bg-[var(--bg-elevated)] text-[var(--text-secondary)] hover:bg-[var(--bg-subtle)] hover:text-[var(--text)] transition-colors h-8 w-8"
+        },
+        {
+          "text": "All roles",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 18,
+            "y": 158,
+            "width": 76.109375,
+            "height": 31.5,
+            "top": 158,
+            "right": 94.109375,
+            "bottom": 189.5,
+            "left": 18
+          },
+          "class": "flex-shrink-0 px-3.5 py-1.5 text-[13px] font-semibold tracking-tight transition-colors rounded-full whitespace-nowrap text-[var(--text)] bg-[var(--bg-elevated)] shadow-[0_1px_3px_rgba(0,0,0,0.08)]"
+        },
+        {
+          "text": "Finance",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 94.109375,
+            "y": 158,
+            "width": 75.046875,
+            "height": 31.5,
+            "top": 158,
+            "right": 169.15625,
+            "bottom": 189.5,
+            "left": 94.109375
+          },
+          "class": "flex-shrink-0 px-3.5 py-1.5 text-[13px] font-semibold tracking-tight transition-colors rounded-full whitespace-nowrap text-[var(--text-secondary)] hover:text-[var(--text)]"
+        },
+        {
+          "text": "Tech",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 169.15625,
+            "y": 158,
+            "width": 56.875,
+            "height": 31.5,
+            "top": 158,
+            "right": 226.03125,
+            "bottom": 189.5,
+            "left": 169.15625
+          },
+          "class": "flex-shrink-0 px-3.5 py-1.5 text-[13px] font-semibold tracking-tight transition-colors rounded-full whitespace-nowrap text-[var(--text-secondary)] hover:text-[var(--text)]"
+        },
+        {
+          "text": "Sort\nRecent\n↓",
+          "aria": "Choose sort order",
+          "title": null,
+          "bounds": {
+            "x": 16,
+            "y": 235.5,
+            "width": 195,
+            "height": 36,
+            "top": 235.5,
+            "right": 211,
+            "bottom": 271.5,
+            "left": 16
+          },
+          "class": "h-9 min-w-0 inline-flex items-center justify-center gap-1.5 px-3 rounded-full border border-[var(--border-strong)] bg-[var(--bg-elevated)] text-[13px] font-medium text-[var(--text)] hover:bg-[var(--bg-subtle)] transition-colors"
+        },
+        {
+          "text": "Roles\nAll roles\n↓",
+          "aria": "Choose role filters",
+          "title": null,
+          "bounds": {
+            "x": 219,
+            "y": 235.5,
+            "width": 195,
+            "height": 36,
+            "top": 235.5,
+            "right": 414,
+            "bottom": 271.5,
+            "left": 219
+          },
+          "class": "h-9 min-w-0 inline-flex items-center justify-center gap-1.5 px-3 rounded-full border border-[var(--border-strong)] bg-[var(--bg-elevated)] text-[13px] font-medium text-[var(--text)] hover:bg-[var(--bg-subtle)] transition-colors"
+        },
+        {
+          "text": "ByteDance",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 295.5,
+            "width": 302.046875,
+            "height": 30,
+            "top": 295.5,
+            "right": 316.046875,
+            "bottom": 325.5,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 293.5,
+            "width": 34,
+            "height": 34,
+            "top": 293.5,
+            "right": 416,
+            "bottom": 327.5,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Solution Merchant Finance Project Intern (Global Payment) - 2026 Start - Project Intern (Global Payment) - 2027 Start",
+          "aria": null,
+          "title": "Solution Merchant Finance Project Intern (Global Payment) - 2026 Start - Project Intern (Global Payment) - 2027 Start",
+          "bounds": {
+            "x": 14,
+            "y": 335.5,
+            "width": 402,
+            "height": 41.25,
+            "top": 335.5,
+            "right": 416,
+            "bottom": 376.75,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 387,
+            "width": 80.4375,
+            "height": 24,
+            "top": 387,
+            "right": 416,
+            "bottom": 411,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Shopee",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 438,
+            "width": 302.046875,
+            "height": 30,
+            "top": 438,
+            "right": 316.046875,
+            "bottom": 468,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 436,
+            "width": 34,
+            "height": 34,
+            "top": 436,
+            "right": 416,
+            "bottom": 470,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Recruiter Intern - Talent Acquisition, People Team",
+          "aria": null,
+          "title": "Recruiter Intern - Talent Acquisition, People Team",
+          "bounds": {
+            "x": 14,
+            "y": 478,
+            "width": 337.75,
+            "height": 20.625,
+            "top": 478,
+            "right": 351.75,
+            "bottom": 498.625,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 508.875,
+            "width": 80.4375,
+            "height": 24,
+            "top": 508.875,
+            "right": 416,
+            "bottom": 532.875,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Tencent",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 559.875,
+            "width": 302.046875,
+            "height": 30,
+            "top": 559.875,
+            "right": 316.046875,
+            "bottom": 589.875,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 557.875,
+            "width": 34,
+            "height": 34,
+            "top": 557.875,
+            "right": 416,
+            "bottom": 591.875,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Large Language Models Research Intern",
+          "aria": null,
+          "title": "Large Language Models Research Intern",
+          "bounds": {
+            "x": 14,
+            "y": 599.875,
+            "width": 275.875,
+            "height": 20.625,
+            "top": 599.875,
+            "right": 289.875,
+            "bottom": 620.5,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 630.75,
+            "width": 80.4375,
+            "height": 24,
+            "top": 630.75,
+            "right": 416,
+            "bottom": 654.75,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Tencent",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 681.75,
+            "width": 302.046875,
+            "height": 30,
+            "top": 681.75,
+            "right": 316.046875,
+            "bottom": 711.75,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 679.75,
+            "width": 34,
+            "height": 34,
+            "top": 679.75,
+            "right": 416,
+            "bottom": 713.75,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Interactive Vision Model Research Intern",
+          "aria": null,
+          "title": "Interactive Vision Model Research Intern",
+          "bounds": {
+            "x": 14,
+            "y": 721.75,
+            "width": 275.65625,
+            "height": 20.625,
+            "top": 721.75,
+            "right": 289.65625,
+            "bottom": 742.375,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 752.625,
+            "width": 80.4375,
+            "height": 24,
+            "top": 752.625,
+            "right": 416,
+            "bottom": 776.625,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "ING",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 803.625,
+            "width": 302.046875,
+            "height": 30,
+            "top": 803.625,
+            "right": 316.046875,
+            "bottom": 833.625,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 801.625,
+            "width": 34,
+            "height": 34,
+            "top": 801.625,
+            "right": 416,
+            "bottom": 835.625,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Intern, Portfolio Management",
+          "aria": null,
+          "title": "Intern, Portfolio Management",
+          "bounds": {
+            "x": 14,
+            "y": 843.625,
+            "width": 199.375,
+            "height": 20.625,
+            "top": 843.625,
+            "right": 213.375,
+            "bottom": 864.25,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 874.5,
+            "width": 80.4375,
+            "height": 24,
+            "top": 874.5,
+            "right": 416,
+            "bottom": 898.5,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "ING",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 925.5,
+            "width": 302.046875,
+            "height": 30,
+            "top": 925.5,
+            "right": 316.046875,
+            "bottom": 955.5,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 923.5,
+            "width": 34,
+            "height": 34,
+            "top": 923.5,
+            "right": 416,
+            "bottom": 957.5,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Intern, HR Operations",
+          "aria": null,
+          "title": "Intern, HR Operations",
+          "bounds": {
+            "x": 14,
+            "y": 965.5,
+            "width": 148.109375,
+            "height": 20.625,
+            "top": 965.5,
+            "right": 162.109375,
+            "bottom": 986.125,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 996.375,
+            "width": 80.4375,
+            "height": 24,
+            "top": 996.375,
+            "right": 416,
+            "bottom": 1020.375,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "DBS",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1047.375,
+            "width": 302.046875,
+            "height": 30,
+            "top": 1047.375,
+            "right": 316.046875,
+            "bottom": 1077.375,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1045.375,
+            "width": 34,
+            "height": 34,
+            "top": 1045.375,
+            "right": 416,
+            "bottom": 1079.375,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "2027 DBS Internship (Business and Support Units)",
+          "aria": null,
+          "title": "2027 DBS Internship (Business and Support Units)",
+          "bounds": {
+            "x": 14,
+            "y": 1087.375,
+            "width": 345.515625,
+            "height": 20.625,
+            "top": 1087.375,
+            "right": 359.515625,
+            "bottom": 1108,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1118.25,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1118.25,
+            "right": 416,
+            "bottom": 1142.25,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "DBS",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1169.25,
+            "width": 302.046875,
+            "height": 30,
+            "top": 1169.25,
+            "right": 316.046875,
+            "bottom": 1199.25,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1167.25,
+            "width": 34,
+            "height": 34,
+            "top": 1167.25,
+            "right": 416,
+            "bottom": 1201.25,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "2027 DBS Internship (Technology and AI & Data Science)",
+          "aria": null,
+          "title": "2027 DBS Internship (Technology and AI & Data Science)",
+          "bounds": {
+            "x": 14,
+            "y": 1209.25,
+            "width": 391.0625,
+            "height": 20.625,
+            "top": 1209.25,
+            "right": 405.0625,
+            "bottom": 1229.875,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1240.125,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1240.125,
+            "right": 416,
+            "bottom": 1264.125,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Carousell",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1291.125,
+            "width": 310.65625,
+            "height": 30,
+            "top": 1291.125,
+            "right": 324.65625,
+            "bottom": 1321.125,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1289.125,
+            "width": 34,
+            "height": 34,
+            "top": 1289.125,
+            "right": 416,
+            "bottom": 1323.125,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Corporate Development Intern",
+          "aria": null,
+          "title": "Corporate Development Intern",
+          "bounds": {
+            "x": 14,
+            "y": 1331.125,
+            "width": 207.90625,
+            "height": 20.625,
+            "top": 1331.125,
+            "right": 221.90625,
+            "bottom": 1351.75,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1362,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1362,
+            "right": 416,
+            "bottom": 1386,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "ShopBack",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1413,
+            "width": 310.65625,
+            "height": 30,
+            "top": 1413,
+            "right": 324.65625,
+            "bottom": 1443,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1411,
+            "width": 34,
+            "height": 34,
+            "top": 1411,
+            "right": 416,
+            "bottom": 1445,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Talent Acquisition Intern",
+          "aria": null,
+          "title": "Talent Acquisition Intern",
+          "bounds": {
+            "x": 14,
+            "y": 1453,
+            "width": 164.671875,
+            "height": 20.625,
+            "top": 1453,
+            "right": 178.671875,
+            "bottom": 1473.625,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1483.875,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1483.875,
+            "right": 416,
+            "bottom": 1507.875,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "SAP",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1534.875,
+            "width": 310.65625,
+            "height": 30,
+            "top": 1534.875,
+            "right": 324.65625,
+            "bottom": 1564.875,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1532.875,
+            "width": 34,
+            "height": 34,
+            "top": 1532.875,
+            "right": 416,
+            "bottom": 1566.875,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Full Stack Developer Intern (AI topics) SAP Business AI Singapore",
+          "aria": null,
+          "title": "Full Stack Developer Intern (AI topics) SAP Business AI Singapore",
+          "bounds": {
+            "x": 14,
+            "y": 1574.875,
+            "width": 402,
+            "height": 41.25,
+            "top": 1574.875,
+            "right": 416,
+            "bottom": 1616.125,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1626.375,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1626.375,
+            "right": 416,
+            "bottom": 1650.375,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Visier Inc.",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1677.375,
+            "width": 310.65625,
+            "height": 30,
+            "top": 1677.375,
+            "right": 324.65625,
+            "bottom": 1707.375,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1675.375,
+            "width": 34,
+            "height": 34,
+            "top": 1675.375,
+            "right": 416,
+            "bottom": 1709.375,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Software Developer Intern (January to June 2027)",
+          "aria": null,
+          "title": "Software Developer Intern (January to June 2027)",
+          "bounds": {
+            "x": 14,
+            "y": 1717.375,
+            "width": 342.171875,
+            "height": 20.625,
+            "top": 1717.375,
+            "right": 356.171875,
+            "bottom": 1738,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1748.25,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1748.25,
+            "right": 416,
+            "bottom": 1772.25,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "IMDA",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1799.25,
+            "width": 310.65625,
+            "height": 30,
+            "top": 1799.25,
+            "right": 324.65625,
+            "bottom": 1829.25,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1797.25,
+            "width": 34,
+            "height": 34,
+            "top": 1797.25,
+            "right": 416,
+            "bottom": 1831.25,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "[IMDA Internship Programme 2027] Innovation Evangelist (January - June)",
+          "aria": null,
+          "title": "[IMDA Internship Programme 2027] Innovation Evangelist (January - June)",
+          "bounds": {
+            "x": 14,
+            "y": 1839.25,
+            "width": 402,
+            "height": 41.25,
+            "top": 1839.25,
+            "right": 416,
+            "bottom": 1880.5,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1890.75,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1890.75,
+            "right": 416,
+            "bottom": 1914.75,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "MUFG",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1941.75,
+            "width": 310.65625,
+            "height": 30,
+            "top": 1941.75,
+            "right": 324.65625,
+            "bottom": 1971.75,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1939.75,
+            "width": 34,
+            "height": 34,
+            "top": 1939.75,
+            "right": 416,
+            "bottom": 1973.75,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Financial Crimes Compliance – Complex Investigations Intern",
+          "aria": null,
+          "title": "Financial Crimes Compliance – Complex Investigations Intern",
+          "bounds": {
+            "x": 14,
+            "y": 1981.75,
+            "width": 402,
+            "height": 41.25,
+            "top": 1981.75,
+            "right": 416,
+            "bottom": 2023,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2033.25,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2033.25,
+            "right": 416,
+            "bottom": 2057.25,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Singtel",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2084.25,
+            "width": 310.65625,
+            "height": 30,
+            "top": 2084.25,
+            "right": 324.65625,
+            "bottom": 2114.25,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2082.25,
+            "width": 34,
+            "height": 34,
+            "top": 2082.25,
+            "right": 416,
+            "bottom": 2116.25,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Retail Marketing & Visual Merchandising Intern #Generalinternship",
+          "aria": null,
+          "title": "Retail Marketing & Visual Merchandising Intern #Generalinternship",
+          "bounds": {
+            "x": 14,
+            "y": 2124.25,
+            "width": 402,
+            "height": 41.25,
+            "top": 2124.25,
+            "right": 416,
+            "bottom": 2165.5,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2175.75,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2175.75,
+            "right": 416,
+            "bottom": 2199.75,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "OCBC",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2226.75,
+            "width": 310.65625,
+            "height": 30,
+            "top": 2226.75,
+            "right": 324.65625,
+            "bottom": 2256.75,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2224.75,
+            "width": 34,
+            "height": 34,
+            "top": 2224.75,
+            "right": 416,
+            "bottom": 2258.75,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Internship: Global Markets, Treasury Advisory / Investment Solutions [Jan - Jun 2027]",
+          "aria": null,
+          "title": "Internship: Global Markets, Treasury Advisory / Investment Solutions [Jan - Jun 2027]",
+          "bounds": {
+            "x": 14,
+            "y": 2266.75,
+            "width": 402,
+            "height": 41.25,
+            "top": 2266.75,
+            "right": 416,
+            "bottom": 2308,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2318.25,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2318.25,
+            "right": 416,
+            "bottom": 2342.25,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Grab",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2369.25,
+            "width": 310.65625,
+            "height": 30,
+            "top": 2369.25,
+            "right": 324.65625,
+            "bottom": 2399.25,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2367.25,
+            "width": 34,
+            "height": 34,
+            "top": 2367.25,
+            "right": 416,
+            "bottom": 2401.25,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Intern, Business Analyst",
+          "aria": null,
+          "title": "Intern, Business Analyst",
+          "bounds": {
+            "x": 14,
+            "y": 2409.25,
+            "width": 163.6875,
+            "height": 20.625,
+            "top": 2409.25,
+            "right": 177.6875,
+            "bottom": 2429.875,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2440.125,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2440.125,
+            "right": 416,
+            "bottom": 2464.125,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "OCBC",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2491.125,
+            "width": 310.65625,
+            "height": 30,
+            "top": 2491.125,
+            "right": 324.65625,
+            "bottom": 2521.125,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2489.125,
+            "width": 34,
+            "height": 34,
+            "top": 2489.125,
+            "right": 416,
+            "bottom": 2523.125,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Internship: Global Markets, Securities Finance [Jan - Jun 2027]",
+          "aria": null,
+          "title": "Internship: Global Markets, Securities Finance [Jan - Jun 2027]",
+          "bounds": {
+            "x": 14,
+            "y": 2531.125,
+            "width": 402,
+            "height": 41.25,
+            "top": 2531.125,
+            "right": 416,
+            "bottom": 2572.375,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2582.625,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2582.625,
+            "right": 416,
+            "bottom": 2606.625,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "PwC Singapore",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2633.625,
+            "width": 310.65625,
+            "height": 30,
+            "top": 2633.625,
+            "right": 324.65625,
+            "bottom": 2663.625,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2631.625,
+            "width": 34,
+            "height": 34,
+            "top": 2631.625,
+            "right": 416,
+            "bottom": 2665.625,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Consulting - Finance Strategy & Operations Off Cycle Internship (Jan - Jun 27)",
+          "aria": null,
+          "title": "Consulting - Finance Strategy & Operations Off Cycle Internship (Jan - Jun 27)",
+          "bounds": {
+            "x": 14,
+            "y": 2673.625,
+            "width": 402,
+            "height": 41.25,
+            "top": 2673.625,
+            "right": 416,
+            "bottom": 2714.875,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2755.125,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2755.125,
+            "right": 416,
+            "bottom": 2779.125,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Grab",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2806.125,
+            "width": 310.65625,
+            "height": 30,
+            "top": 2806.125,
+            "right": 324.65625,
+            "bottom": 2836.125,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2804.125,
+            "width": 34,
+            "height": 34,
+            "top": 2804.125,
+            "right": 416,
+            "bottom": 2838.125,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Intern, Software Engineer",
+          "aria": null,
+          "title": "Intern, Software Engineer",
+          "bounds": {
+            "x": 14,
+            "y": 2846.125,
+            "width": 173.5,
+            "height": 20.625,
+            "top": 2846.125,
+            "right": 187.5,
+            "bottom": 2866.75,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2877,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2877,
+            "right": 416,
+            "bottom": 2901,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Load more roles",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 165.984375,
+            "y": 2940,
+            "width": 98.015625,
+            "height": 18,
+            "top": 2940,
+            "right": 264,
+            "bottom": 2958,
+            "left": 165.984375
+          },
+          "class": "text-sm font-medium text-[#0071e3] disabled:opacity-50"
+        }
+      ],
+      "headers": [
+        {
+          "text": "JJ Intern\nSign in",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 430,
+            "height": 48,
+            "top": 0,
+            "right": 430,
+            "bottom": 48,
+            "left": 0
+          },
+          "position": "sticky"
+        }
+      ],
+      "fixedOrSticky": [
+        {
+          "tag": "HEADER",
+          "class": "sticky top-0 z-30 bg-[rgb(var(--bg-elevated-rgb)/0.95)] backdrop-blur-xl border-b border-[var(--border)] h-12",
+          "text": "JJ Intern\nSign in",
+          "position": "sticky",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 430,
+            "height": 48,
+            "top": 0,
+            "right": 430,
+            "bottom": 48,
+            "left": 0
+          }
+        },
+        {
+          "tag": "NAV",
+          "class": "md:hidden fixed bottom-0 left-0 right-0 z-40 border-t border-[var(--border-strong)] bg-[rgb(var(--bg-elevated-rgb)/0.95)] backdrop-blur-xl pb-[env(safe-area-inset-bottom)]",
+          "text": "Find\nTargets\nPlan\nTrack",
+          "position": "fixed",
+          "bounds": {
+            "x": 0,
+            "y": 783,
+            "width": 430,
+            "height": 57,
+            "top": 783,
+            "right": 430,
+            "bottom": 840,
+            "left": 0
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "sticky z-20 bg-[rgb(var(--bg-elevated-rgb)/0.95)] backdrop-blur-xl border-b border-[var(--border)]",
+          "text": "All roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓",
+          "position": "sticky",
+          "bounds": {
+            "x": 0,
+            "y": 148,
+            "width": 430,
+            "height": 132.5,
+            "top": 148,
+            "right": 430,
+            "bottom": 280.5,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "file": "feed-light-all.png",
+      "sha256": "7be5cfb5a7e392746508f336e73088cbb21c4894ddd35aa384a0732c520f2699",
+      "bytes": 322487,
+      "url": "https://jjintern.com/feed",
+      "title": "JJ Intern — Real-time internship alerts for Singapore students",
+      "scrollY": 0,
+      "viewport": {
+        "width": 430,
+        "height": 840,
+        "dpr": 4
+      },
+      "text": "JJ Intern\nSign in\nFind\nTargets\nPlan\nTrack\nOPEN ROLES\n1,218\nLAST 24H\n8\nAll roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓\nByteDance\n22h ago\nSolution Merchant Finance Project Intern (Global Payment) - 2026 Start - Project Intern (Global Payment) - 2027 Start\n—\nFinance\n·\n22h ago\n+\nSet status\nShopee\n22h ago\nRecruiter Intern - Talent Acquisition, People Team\n—\nOther\n·\n22h ago\n+\nSet status\nTencent\n22h ago\nLarge Language Models Research Intern\n—\nML / AI\n·\n22h ago\n+\nSet status\nTencent\n22h ago\nInteractive Vision Model Research Intern\n—\nOther\n·\n22h ago\n+\nSet status\nING\n22h ago\nIntern, Portfolio Management\n—\nInvesting\n·\n22h ago\n+\nSet status\nING\n22h ago\nIntern, HR Operations\n—\nOther\n·\n22h ago\n+\nSet status\nDBS\n22h ago\n2027 DBS Internship (Business and Support Units)\n—\nOther\n·\n22h ago\n+\nSet status\nDBS\n22h ago\n2027 DBS Internship (Technology and AI & Data Science)\n—\nData\nML / AI\n·\n22h ago\n+\nSet status\nCarousell\n1d ago\nCorporate Development Intern\n—\nOther\n·\n1d ago\n+\nSet status\nShopBack\n1d ago\nTalent Acquisition Intern\n—\nOther\n·\n1d ago\n+\nSet status\nSAP\n1d ago\nFull Stack Developer Intern (AI topics) SAP Business AI Singapore\n—\nSWE\nML / AI\n·\n1d ago\n+\nSet status\nVisier Inc.\n1d ago\nSoftware Developer Intern (January to June 2027)\nSpring Off-cycle\nSWE\n·\n1d ago\n+\nSet status\nIMDA\n1d ago\n[IMDA Internship Programme 2027] Innovation Evangelist (January - June)\nSpring Off-cycle\nOther\n·\n1d ago\n+\nSet status\nMUFG\n1d ago\nFinancial Crimes Compliance – Complex Investigations Intern\n—\nRisk\n·\n1d ago\n+\nSet status\nSingtel\n1d ago\nRetail Marketing & Visual Merchandising Intern #Generalinternship\n—\nOther\n·\n1d ago\n+\nSet status\nOCBC\n1d ago\nInternship: Global Markets, Treasury Advisory / Investment Solutions [Jan - Jun 2027]\nSpring Off-cycle\nFinance\n·\n1d ago\n+\nSet status\nGrab\n1d ago\nIntern, Business Analyst\nSpring Off-cycle\nProduct / BA\n·\n1d ago\n+\nSet status\nOCBC\n1d ago\nInternship: Global Markets, Securities Finance [Jan - Jun 2027]\nSpring Off-cycle\nS&T\n·\n1d ago\n+\nSet status\nPwC Singapore\n1d ago\nConsulting - Finance Strategy & Operations Off Cycle Internship (Jan - Jun 27)\nSpring Off-cycle\nFinance\nConsulting\nProduct / BA\n·\n1d ago\n+\nSet status\nGrab\n1d ago\nIntern, Software Engineer\nSpring Off-cycle\nSWE\n·\n1d ago\n+\nSet status\nLoad more roles",
+      "query": "",
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "rootClass": "__variable_ae301a light"
+      },
+      "buttons": [
+        {
+          "text": "",
+          "aria": "Switch to dark mode",
+          "title": "Switch to dark mode",
+          "bounds": {
+            "x": 240.6875,
+            "y": 7.5,
+            "width": 32,
+            "height": 32,
+            "top": 7.5,
+            "right": 272.6875,
+            "bottom": 39.5,
+            "left": 240.6875
+          },
+          "class": "inline-flex items-center justify-center rounded-full border border-[var(--border)] bg-[var(--bg-elevated)] text-[var(--text-secondary)] hover:bg-[var(--bg-subtle)] hover:text-[var(--text)] transition-colors h-8 w-8"
+        },
+        {
+          "text": "All roles",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 18,
+            "y": 158,
+            "width": 76.109375,
+            "height": 31.5,
+            "top": 158,
+            "right": 94.109375,
+            "bottom": 189.5,
+            "left": 18
+          },
+          "class": "flex-shrink-0 px-3.5 py-1.5 text-[13px] font-semibold tracking-tight transition-colors rounded-full whitespace-nowrap text-[var(--text)] bg-[var(--bg-elevated)] shadow-[0_1px_3px_rgba(0,0,0,0.08)]"
+        },
+        {
+          "text": "Finance",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 94.109375,
+            "y": 158,
+            "width": 75.046875,
+            "height": 31.5,
+            "top": 158,
+            "right": 169.15625,
+            "bottom": 189.5,
+            "left": 94.109375
+          },
+          "class": "flex-shrink-0 px-3.5 py-1.5 text-[13px] font-semibold tracking-tight transition-colors rounded-full whitespace-nowrap text-[var(--text-secondary)] hover:text-[var(--text)]"
+        },
+        {
+          "text": "Tech",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 169.15625,
+            "y": 158,
+            "width": 56.875,
+            "height": 31.5,
+            "top": 158,
+            "right": 226.03125,
+            "bottom": 189.5,
+            "left": 169.15625
+          },
+          "class": "flex-shrink-0 px-3.5 py-1.5 text-[13px] font-semibold tracking-tight transition-colors rounded-full whitespace-nowrap text-[var(--text-secondary)] hover:text-[var(--text)]"
+        },
+        {
+          "text": "Sort\nRecent\n↓",
+          "aria": "Choose sort order",
+          "title": null,
+          "bounds": {
+            "x": 16,
+            "y": 235.5,
+            "width": 195,
+            "height": 36,
+            "top": 235.5,
+            "right": 211,
+            "bottom": 271.5,
+            "left": 16
+          },
+          "class": "h-9 min-w-0 inline-flex items-center justify-center gap-1.5 px-3 rounded-full border border-[var(--border-strong)] bg-[var(--bg-elevated)] text-[13px] font-medium text-[var(--text)] hover:bg-[var(--bg-subtle)] transition-colors"
+        },
+        {
+          "text": "Roles\nAll roles\n↓",
+          "aria": "Choose role filters",
+          "title": null,
+          "bounds": {
+            "x": 219,
+            "y": 235.5,
+            "width": 195,
+            "height": 36,
+            "top": 235.5,
+            "right": 414,
+            "bottom": 271.5,
+            "left": 219
+          },
+          "class": "h-9 min-w-0 inline-flex items-center justify-center gap-1.5 px-3 rounded-full border border-[var(--border-strong)] bg-[var(--bg-elevated)] text-[13px] font-medium text-[var(--text)] hover:bg-[var(--bg-subtle)] transition-colors"
+        },
+        {
+          "text": "ByteDance",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 295.5,
+            "width": 302.046875,
+            "height": 30,
+            "top": 295.5,
+            "right": 316.046875,
+            "bottom": 325.5,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 293.5,
+            "width": 34,
+            "height": 34,
+            "top": 293.5,
+            "right": 416,
+            "bottom": 327.5,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Solution Merchant Finance Project Intern (Global Payment) - 2026 Start - Project Intern (Global Payment) - 2027 Start",
+          "aria": null,
+          "title": "Solution Merchant Finance Project Intern (Global Payment) - 2026 Start - Project Intern (Global Payment) - 2027 Start",
+          "bounds": {
+            "x": 14,
+            "y": 335.5,
+            "width": 402,
+            "height": 41.25,
+            "top": 335.5,
+            "right": 416,
+            "bottom": 376.75,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 387,
+            "width": 80.4375,
+            "height": 24,
+            "top": 387,
+            "right": 416,
+            "bottom": 411,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Shopee",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 438,
+            "width": 302.046875,
+            "height": 30,
+            "top": 438,
+            "right": 316.046875,
+            "bottom": 468,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 436,
+            "width": 34,
+            "height": 34,
+            "top": 436,
+            "right": 416,
+            "bottom": 470,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Recruiter Intern - Talent Acquisition, People Team",
+          "aria": null,
+          "title": "Recruiter Intern - Talent Acquisition, People Team",
+          "bounds": {
+            "x": 14,
+            "y": 478,
+            "width": 337.75,
+            "height": 20.625,
+            "top": 478,
+            "right": 351.75,
+            "bottom": 498.625,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 508.875,
+            "width": 80.4375,
+            "height": 24,
+            "top": 508.875,
+            "right": 416,
+            "bottom": 532.875,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Tencent",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 559.875,
+            "width": 302.046875,
+            "height": 30,
+            "top": 559.875,
+            "right": 316.046875,
+            "bottom": 589.875,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 557.875,
+            "width": 34,
+            "height": 34,
+            "top": 557.875,
+            "right": 416,
+            "bottom": 591.875,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Large Language Models Research Intern",
+          "aria": null,
+          "title": "Large Language Models Research Intern",
+          "bounds": {
+            "x": 14,
+            "y": 599.875,
+            "width": 275.875,
+            "height": 20.625,
+            "top": 599.875,
+            "right": 289.875,
+            "bottom": 620.5,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 630.75,
+            "width": 80.4375,
+            "height": 24,
+            "top": 630.75,
+            "right": 416,
+            "bottom": 654.75,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Tencent",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 681.75,
+            "width": 302.046875,
+            "height": 30,
+            "top": 681.75,
+            "right": 316.046875,
+            "bottom": 711.75,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 679.75,
+            "width": 34,
+            "height": 34,
+            "top": 679.75,
+            "right": 416,
+            "bottom": 713.75,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Interactive Vision Model Research Intern",
+          "aria": null,
+          "title": "Interactive Vision Model Research Intern",
+          "bounds": {
+            "x": 14,
+            "y": 721.75,
+            "width": 275.65625,
+            "height": 20.625,
+            "top": 721.75,
+            "right": 289.65625,
+            "bottom": 742.375,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 752.625,
+            "width": 80.4375,
+            "height": 24,
+            "top": 752.625,
+            "right": 416,
+            "bottom": 776.625,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "ING",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 803.625,
+            "width": 302.046875,
+            "height": 30,
+            "top": 803.625,
+            "right": 316.046875,
+            "bottom": 833.625,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 801.625,
+            "width": 34,
+            "height": 34,
+            "top": 801.625,
+            "right": 416,
+            "bottom": 835.625,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Intern, Portfolio Management",
+          "aria": null,
+          "title": "Intern, Portfolio Management",
+          "bounds": {
+            "x": 14,
+            "y": 843.625,
+            "width": 199.375,
+            "height": 20.625,
+            "top": 843.625,
+            "right": 213.375,
+            "bottom": 864.25,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 874.5,
+            "width": 80.4375,
+            "height": 24,
+            "top": 874.5,
+            "right": 416,
+            "bottom": 898.5,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "ING",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 925.5,
+            "width": 302.046875,
+            "height": 30,
+            "top": 925.5,
+            "right": 316.046875,
+            "bottom": 955.5,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 923.5,
+            "width": 34,
+            "height": 34,
+            "top": 923.5,
+            "right": 416,
+            "bottom": 957.5,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Intern, HR Operations",
+          "aria": null,
+          "title": "Intern, HR Operations",
+          "bounds": {
+            "x": 14,
+            "y": 965.5,
+            "width": 148.109375,
+            "height": 20.625,
+            "top": 965.5,
+            "right": 162.109375,
+            "bottom": 986.125,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 996.375,
+            "width": 80.4375,
+            "height": 24,
+            "top": 996.375,
+            "right": 416,
+            "bottom": 1020.375,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "DBS",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1047.375,
+            "width": 302.046875,
+            "height": 30,
+            "top": 1047.375,
+            "right": 316.046875,
+            "bottom": 1077.375,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1045.375,
+            "width": 34,
+            "height": 34,
+            "top": 1045.375,
+            "right": 416,
+            "bottom": 1079.375,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "2027 DBS Internship (Business and Support Units)",
+          "aria": null,
+          "title": "2027 DBS Internship (Business and Support Units)",
+          "bounds": {
+            "x": 14,
+            "y": 1087.375,
+            "width": 345.515625,
+            "height": 20.625,
+            "top": 1087.375,
+            "right": 359.515625,
+            "bottom": 1108,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1118.25,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1118.25,
+            "right": 416,
+            "bottom": 1142.25,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "DBS",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1169.25,
+            "width": 302.046875,
+            "height": 30,
+            "top": 1169.25,
+            "right": 316.046875,
+            "bottom": 1199.25,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1167.25,
+            "width": 34,
+            "height": 34,
+            "top": 1167.25,
+            "right": 416,
+            "bottom": 1201.25,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "2027 DBS Internship (Technology and AI & Data Science)",
+          "aria": null,
+          "title": "2027 DBS Internship (Technology and AI & Data Science)",
+          "bounds": {
+            "x": 14,
+            "y": 1209.25,
+            "width": 391.0625,
+            "height": 20.625,
+            "top": 1209.25,
+            "right": 405.0625,
+            "bottom": 1229.875,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1240.125,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1240.125,
+            "right": 416,
+            "bottom": 1264.125,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Carousell",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1291.125,
+            "width": 310.65625,
+            "height": 30,
+            "top": 1291.125,
+            "right": 324.65625,
+            "bottom": 1321.125,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1289.125,
+            "width": 34,
+            "height": 34,
+            "top": 1289.125,
+            "right": 416,
+            "bottom": 1323.125,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Corporate Development Intern",
+          "aria": null,
+          "title": "Corporate Development Intern",
+          "bounds": {
+            "x": 14,
+            "y": 1331.125,
+            "width": 207.90625,
+            "height": 20.625,
+            "top": 1331.125,
+            "right": 221.90625,
+            "bottom": 1351.75,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1362,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1362,
+            "right": 416,
+            "bottom": 1386,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "ShopBack",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1413,
+            "width": 310.65625,
+            "height": 30,
+            "top": 1413,
+            "right": 324.65625,
+            "bottom": 1443,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1411,
+            "width": 34,
+            "height": 34,
+            "top": 1411,
+            "right": 416,
+            "bottom": 1445,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Talent Acquisition Intern",
+          "aria": null,
+          "title": "Talent Acquisition Intern",
+          "bounds": {
+            "x": 14,
+            "y": 1453,
+            "width": 164.671875,
+            "height": 20.625,
+            "top": 1453,
+            "right": 178.671875,
+            "bottom": 1473.625,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1483.875,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1483.875,
+            "right": 416,
+            "bottom": 1507.875,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "SAP",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1534.875,
+            "width": 310.65625,
+            "height": 30,
+            "top": 1534.875,
+            "right": 324.65625,
+            "bottom": 1564.875,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1532.875,
+            "width": 34,
+            "height": 34,
+            "top": 1532.875,
+            "right": 416,
+            "bottom": 1566.875,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Full Stack Developer Intern (AI topics) SAP Business AI Singapore",
+          "aria": null,
+          "title": "Full Stack Developer Intern (AI topics) SAP Business AI Singapore",
+          "bounds": {
+            "x": 14,
+            "y": 1574.875,
+            "width": 402,
+            "height": 41.25,
+            "top": 1574.875,
+            "right": 416,
+            "bottom": 1616.125,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1626.375,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1626.375,
+            "right": 416,
+            "bottom": 1650.375,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Visier Inc.",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1677.375,
+            "width": 310.65625,
+            "height": 30,
+            "top": 1677.375,
+            "right": 324.65625,
+            "bottom": 1707.375,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1675.375,
+            "width": 34,
+            "height": 34,
+            "top": 1675.375,
+            "right": 416,
+            "bottom": 1709.375,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Software Developer Intern (January to June 2027)",
+          "aria": null,
+          "title": "Software Developer Intern (January to June 2027)",
+          "bounds": {
+            "x": 14,
+            "y": 1717.375,
+            "width": 342.171875,
+            "height": 20.625,
+            "top": 1717.375,
+            "right": 356.171875,
+            "bottom": 1738,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1748.25,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1748.25,
+            "right": 416,
+            "bottom": 1772.25,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "IMDA",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1799.25,
+            "width": 310.65625,
+            "height": 30,
+            "top": 1799.25,
+            "right": 324.65625,
+            "bottom": 1829.25,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1797.25,
+            "width": 34,
+            "height": 34,
+            "top": 1797.25,
+            "right": 416,
+            "bottom": 1831.25,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "[IMDA Internship Programme 2027] Innovation Evangelist (January - June)",
+          "aria": null,
+          "title": "[IMDA Internship Programme 2027] Innovation Evangelist (January - June)",
+          "bounds": {
+            "x": 14,
+            "y": 1839.25,
+            "width": 402,
+            "height": 41.25,
+            "top": 1839.25,
+            "right": 416,
+            "bottom": 1880.5,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1890.75,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1890.75,
+            "right": 416,
+            "bottom": 1914.75,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "MUFG",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1941.75,
+            "width": 310.65625,
+            "height": 30,
+            "top": 1941.75,
+            "right": 324.65625,
+            "bottom": 1971.75,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1939.75,
+            "width": 34,
+            "height": 34,
+            "top": 1939.75,
+            "right": 416,
+            "bottom": 1973.75,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Financial Crimes Compliance – Complex Investigations Intern",
+          "aria": null,
+          "title": "Financial Crimes Compliance – Complex Investigations Intern",
+          "bounds": {
+            "x": 14,
+            "y": 1981.75,
+            "width": 402,
+            "height": 41.25,
+            "top": 1981.75,
+            "right": 416,
+            "bottom": 2023,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2033.25,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2033.25,
+            "right": 416,
+            "bottom": 2057.25,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Singtel",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2084.25,
+            "width": 310.65625,
+            "height": 30,
+            "top": 2084.25,
+            "right": 324.65625,
+            "bottom": 2114.25,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2082.25,
+            "width": 34,
+            "height": 34,
+            "top": 2082.25,
+            "right": 416,
+            "bottom": 2116.25,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Retail Marketing & Visual Merchandising Intern #Generalinternship",
+          "aria": null,
+          "title": "Retail Marketing & Visual Merchandising Intern #Generalinternship",
+          "bounds": {
+            "x": 14,
+            "y": 2124.25,
+            "width": 402,
+            "height": 41.25,
+            "top": 2124.25,
+            "right": 416,
+            "bottom": 2165.5,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2175.75,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2175.75,
+            "right": 416,
+            "bottom": 2199.75,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "OCBC",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2226.75,
+            "width": 310.65625,
+            "height": 30,
+            "top": 2226.75,
+            "right": 324.65625,
+            "bottom": 2256.75,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2224.75,
+            "width": 34,
+            "height": 34,
+            "top": 2224.75,
+            "right": 416,
+            "bottom": 2258.75,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Internship: Global Markets, Treasury Advisory / Investment Solutions [Jan - Jun 2027]",
+          "aria": null,
+          "title": "Internship: Global Markets, Treasury Advisory / Investment Solutions [Jan - Jun 2027]",
+          "bounds": {
+            "x": 14,
+            "y": 2266.75,
+            "width": 402,
+            "height": 41.25,
+            "top": 2266.75,
+            "right": 416,
+            "bottom": 2308,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2318.25,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2318.25,
+            "right": 416,
+            "bottom": 2342.25,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Grab",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2369.25,
+            "width": 310.65625,
+            "height": 30,
+            "top": 2369.25,
+            "right": 324.65625,
+            "bottom": 2399.25,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2367.25,
+            "width": 34,
+            "height": 34,
+            "top": 2367.25,
+            "right": 416,
+            "bottom": 2401.25,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Intern, Business Analyst",
+          "aria": null,
+          "title": "Intern, Business Analyst",
+          "bounds": {
+            "x": 14,
+            "y": 2409.25,
+            "width": 163.6875,
+            "height": 20.625,
+            "top": 2409.25,
+            "right": 177.6875,
+            "bottom": 2429.875,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2440.125,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2440.125,
+            "right": 416,
+            "bottom": 2464.125,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "OCBC",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2491.125,
+            "width": 310.65625,
+            "height": 30,
+            "top": 2491.125,
+            "right": 324.65625,
+            "bottom": 2521.125,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2489.125,
+            "width": 34,
+            "height": 34,
+            "top": 2489.125,
+            "right": 416,
+            "bottom": 2523.125,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Internship: Global Markets, Securities Finance [Jan - Jun 2027]",
+          "aria": null,
+          "title": "Internship: Global Markets, Securities Finance [Jan - Jun 2027]",
+          "bounds": {
+            "x": 14,
+            "y": 2531.125,
+            "width": 402,
+            "height": 41.25,
+            "top": 2531.125,
+            "right": 416,
+            "bottom": 2572.375,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2582.625,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2582.625,
+            "right": 416,
+            "bottom": 2606.625,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "PwC Singapore",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2633.625,
+            "width": 310.65625,
+            "height": 30,
+            "top": 2633.625,
+            "right": 324.65625,
+            "bottom": 2663.625,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2631.625,
+            "width": 34,
+            "height": 34,
+            "top": 2631.625,
+            "right": 416,
+            "bottom": 2665.625,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Consulting - Finance Strategy & Operations Off Cycle Internship (Jan - Jun 27)",
+          "aria": null,
+          "title": "Consulting - Finance Strategy & Operations Off Cycle Internship (Jan - Jun 27)",
+          "bounds": {
+            "x": 14,
+            "y": 2673.625,
+            "width": 402,
+            "height": 41.25,
+            "top": 2673.625,
+            "right": 416,
+            "bottom": 2714.875,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2755.125,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2755.125,
+            "right": 416,
+            "bottom": 2779.125,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Grab",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2806.125,
+            "width": 310.65625,
+            "height": 30,
+            "top": 2806.125,
+            "right": 324.65625,
+            "bottom": 2836.125,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2804.125,
+            "width": 34,
+            "height": 34,
+            "top": 2804.125,
+            "right": 416,
+            "bottom": 2838.125,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Intern, Software Engineer",
+          "aria": null,
+          "title": "Intern, Software Engineer",
+          "bounds": {
+            "x": 14,
+            "y": 2846.125,
+            "width": 173.5,
+            "height": 20.625,
+            "top": 2846.125,
+            "right": 187.5,
+            "bottom": 2866.75,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2877,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2877,
+            "right": 416,
+            "bottom": 2901,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Load more roles",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 165.984375,
+            "y": 2940,
+            "width": 98.015625,
+            "height": 18,
+            "top": 2940,
+            "right": 264,
+            "bottom": 2958,
+            "left": 165.984375
+          },
+          "class": "text-sm font-medium text-[#0071e3] disabled:opacity-50"
+        }
+      ],
+      "headers": [
+        {
+          "text": "JJ Intern\nSign in",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 430,
+            "height": 48,
+            "top": 0,
+            "right": 430,
+            "bottom": 48,
+            "left": 0
+          },
+          "position": "sticky"
+        }
+      ],
+      "fixedOrSticky": [
+        {
+          "tag": "HEADER",
+          "class": "sticky top-0 z-30 bg-[rgb(var(--bg-elevated-rgb)/0.95)] backdrop-blur-xl border-b border-[var(--border)] h-12",
+          "text": "JJ Intern\nSign in",
+          "position": "sticky",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 430,
+            "height": 48,
+            "top": 0,
+            "right": 430,
+            "bottom": 48,
+            "left": 0
+          }
+        },
+        {
+          "tag": "NAV",
+          "class": "md:hidden fixed bottom-0 left-0 right-0 z-40 border-t border-[var(--border-strong)] bg-[rgb(var(--bg-elevated-rgb)/0.95)] backdrop-blur-xl pb-[env(safe-area-inset-bottom)]",
+          "text": "Find\nTargets\nPlan\nTrack",
+          "position": "fixed",
+          "bounds": {
+            "x": 0,
+            "y": 783,
+            "width": 430,
+            "height": 57,
+            "top": 783,
+            "right": 430,
+            "bottom": 840,
+            "left": 0
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "sticky z-20 bg-[rgb(var(--bg-elevated-rgb)/0.95)] backdrop-blur-xl border-b border-[var(--border)]",
+          "text": "All roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓",
+          "position": "sticky",
+          "bounds": {
+            "x": 0,
+            "y": 148,
+            "width": 430,
+            "height": 132.5,
+            "top": 148,
+            "right": 430,
+            "bottom": 280.5,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "file": "feed-light-tech-loading.png",
+      "sha256": "61aeec12f6d3a542eb7fc94d4e3879deffd453f9612216f6d1090996c6ca3c51",
+      "bytes": 219517,
+      "url": "https://jjintern.com/feed",
+      "title": "JJ Intern — Real-time internship alerts for Singapore students",
+      "scrollY": 0,
+      "viewport": {
+        "width": 430,
+        "height": 840,
+        "dpr": 4
+      },
+      "text": "JJ Intern\nSign in\nFind\nTargets\nPlan\nTrack\nOPEN ROLES\n1,218\nLAST 24H\n8\nAll roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓",
+      "query": "",
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "rootClass": "__variable_ae301a light"
+      },
+      "buttons": [
+        {
+          "text": "",
+          "aria": "Switch to dark mode",
+          "title": "Switch to dark mode",
+          "bounds": {
+            "x": 240.6875,
+            "y": 7.5,
+            "width": 32,
+            "height": 32,
+            "top": 7.5,
+            "right": 272.6875,
+            "bottom": 39.5,
+            "left": 240.6875
+          },
+          "class": "inline-flex items-center justify-center rounded-full border border-[var(--border)] bg-[var(--bg-elevated)] text-[var(--text-secondary)] hover:bg-[var(--bg-subtle)] hover:text-[var(--text)] transition-colors h-8 w-8"
+        },
+        {
+          "text": "All roles",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 18,
+            "y": 158,
+            "width": 76.109375,
+            "height": 31.5,
+            "top": 158,
+            "right": 94.109375,
+            "bottom": 189.5,
+            "left": 18
+          },
+          "class": "flex-shrink-0 px-3.5 py-1.5 text-[13px] font-semibold tracking-tight transition-colors rounded-full whitespace-nowrap text-[var(--text-secondary)] hover:text-[var(--text)]"
+        },
+        {
+          "text": "Finance",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 94.109375,
+            "y": 158,
+            "width": 75.046875,
+            "height": 31.5,
+            "top": 158,
+            "right": 169.15625,
+            "bottom": 189.5,
+            "left": 94.109375
+          },
+          "class": "flex-shrink-0 px-3.5 py-1.5 text-[13px] font-semibold tracking-tight transition-colors rounded-full whitespace-nowrap text-[var(--text-secondary)] hover:text-[var(--text)]"
+        },
+        {
+          "text": "Tech",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 169.15625,
+            "y": 158,
+            "width": 56.875,
+            "height": 31.5,
+            "top": 158,
+            "right": 226.03125,
+            "bottom": 189.5,
+            "left": 169.15625
+          },
+          "class": "flex-shrink-0 px-3.5 py-1.5 text-[13px] font-semibold tracking-tight transition-colors rounded-full whitespace-nowrap text-[var(--text)] bg-[var(--bg-elevated)] shadow-[0_1px_3px_rgba(0,0,0,0.08)]"
+        },
+        {
+          "text": "Sort\nRecent\n↓",
+          "aria": "Choose sort order",
+          "title": null,
+          "bounds": {
+            "x": 16,
+            "y": 235.5,
+            "width": 195,
+            "height": 36,
+            "top": 235.5,
+            "right": 211,
+            "bottom": 271.5,
+            "left": 16
+          },
+          "class": "h-9 min-w-0 inline-flex items-center justify-center gap-1.5 px-3 rounded-full border border-[var(--border-strong)] bg-[var(--bg-elevated)] text-[13px] font-medium text-[var(--text)] hover:bg-[var(--bg-subtle)] transition-colors"
+        },
+        {
+          "text": "Roles\nAll roles\n↓",
+          "aria": "Choose role filters",
+          "title": null,
+          "bounds": {
+            "x": 219,
+            "y": 235.5,
+            "width": 195,
+            "height": 36,
+            "top": 235.5,
+            "right": 414,
+            "bottom": 271.5,
+            "left": 219
+          },
+          "class": "h-9 min-w-0 inline-flex items-center justify-center gap-1.5 px-3 rounded-full border border-[var(--border-strong)] bg-[var(--bg-elevated)] text-[13px] font-medium text-[var(--text)] hover:bg-[var(--bg-subtle)] transition-colors"
+        }
+      ],
+      "headers": [
+        {
+          "text": "JJ Intern\nSign in",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 430,
+            "height": 48,
+            "top": 0,
+            "right": 430,
+            "bottom": 48,
+            "left": 0
+          },
+          "position": "sticky"
+        }
+      ],
+      "fixedOrSticky": [
+        {
+          "tag": "HEADER",
+          "class": "sticky top-0 z-30 bg-[rgb(var(--bg-elevated-rgb)/0.95)] backdrop-blur-xl border-b border-[var(--border)] h-12",
+          "text": "JJ Intern\nSign in",
+          "position": "sticky",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 430,
+            "height": 48,
+            "top": 0,
+            "right": 430,
+            "bottom": 48,
+            "left": 0
+          }
+        },
+        {
+          "tag": "NAV",
+          "class": "md:hidden fixed bottom-0 left-0 right-0 z-40 border-t border-[var(--border-strong)] bg-[rgb(var(--bg-elevated-rgb)/0.95)] backdrop-blur-xl pb-[env(safe-area-inset-bottom)]",
+          "text": "Find\nTargets\nPlan\nTrack",
+          "position": "fixed",
+          "bounds": {
+            "x": 0,
+            "y": 783,
+            "width": 430,
+            "height": 57,
+            "top": 783,
+            "right": 430,
+            "bottom": 840,
+            "left": 0
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "sticky z-20 bg-[rgb(var(--bg-elevated-rgb)/0.95)] backdrop-blur-xl border-b border-[var(--border)]",
+          "text": "All roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓",
+          "position": "sticky",
+          "bounds": {
+            "x": 0,
+            "y": 148,
+            "width": 430,
+            "height": 132.5,
+            "top": 148,
+            "right": 430,
+            "bottom": 280.5,
+            "left": 0
+          }
+        }
+      ],
+      "scope": "Transient authentic Tech-loading state; historical evidence only, not a production asset."
+    },
+    {
+      "file": "feed-light-tech-scrolled.png",
+      "sha256": "c238bd0e5942822049795f8ea6b37386ba90724e09d564e3a21002b4c9fc328f",
+      "bytes": 353024,
+      "url": "https://jjintern.com/feed",
+      "title": "JJ Intern — Real-time internship alerts for Singapore students",
+      "scrollY": 100,
+      "viewport": {
+        "width": 430,
+        "height": 840,
+        "dpr": 4
+      },
+      "text": "JJ Intern\nSign in\nFind\nTargets\nPlan\nTrack\nOPEN ROLES\n1,218\nLAST 24H\n8\nAll roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓\nTencent\n22h ago\nLarge Language Models Research Intern\n—\nML / AI\n·\n22h ago\n+\nSet status\nDBS\n22h ago\n2027 DBS Internship (Technology and AI & Data Science)\n—\nData\nML / AI\n·\n22h ago\n+\nSet status\nSAP\n1d ago\nFull Stack Developer Intern (AI topics) SAP Business AI Singapore\n—\nSWE\nML / AI\n·\n1d ago\n+\nSet status\nVisier Inc.\n1d ago\nSoftware Developer Intern (January to June 2027)\nSpring Off-cycle\nSWE\n·\n1d ago\n+\nSet status\nGrab\n1d ago\nIntern, Business Analyst\nSpring Off-cycle\nProduct / BA\n·\n1d ago\n+\nSet status\nPwC Singapore\n1d ago\nConsulting - Finance Strategy & Operations Off Cycle Internship (Jan - Jun 27)\nSpring Off-cycle\nFinance\nConsulting\nProduct / BA\n·\n1d ago\n+\nSet status\nGrab\n1d ago\nIntern, Software Engineer\nSpring Off-cycle\nSWE\n·\n1d ago\n+\nSet status\nBMW Group\n2d ago\nIntern - E-mobility & Product Management\n—\nProduct / BA\n·\n2d ago\n+\nSet status\nApple\n2d ago\nOperations Business Analyst Intern, Operations and Supply Chain (6 Month) - Singapore\n—\nProduct / BA\n·\n2d ago\n+\nSet status\nUOB\n2d ago\nSustainability Reporting & Data Analytics Intern (Jan - Jun 2027)\nSpring Off-cycle\nData\n·\n2d ago\n+\nSet status\nClub Med\n2d ago\nBusiness Intelligence Analyst Intern\n—\nData\n·\n2d ago\n+\nSet status\nAmazon\n2d ago\nControl Engineer Intern, AWS Data Center Controls Deployment & Services team\n—\nInfra\n·\n2d ago\n+\nSet status\nAmazon Web Services (AWS)\n2d ago\nControl Engineer Intern, AWS Data Center Controls Deployment & Services team\n—\nInfra\n·\n2d ago\n+\nSet status\nSPX Express\n2d ago\nBusiness Analyst Intern - Regional SPX Express (Spring 2027)\nSpring Off-cycle\nProduct / BA\n·\n2d ago\n+\nSet status\nCPF Board\n2d ago\n[2027 H1 Term-time Internship] Product Management & AI Performance Intern\nSpring Off-cycle\nProduct / BA\n·\n2d ago\n+\nSet status\nTikTok\n3d ago\nAI Full-Stack Engineer Intern (TikTok Shop - SEA) - 2027 Start\n—\nSWE\nML / AI\n·\n3d ago\n+\nSet status\nCarousell Group\n3d ago\nForward Deployed Engineering Intern (AI Adoption Pod)\n—\nSWE\nML / AI\n·\n3d ago\n+\nSet status\nUniversal Music Group\n4d ago\nDigital Business Analytics Intern\n—\nData\n·\n4d ago\n+\nSet status\nGoogle\n4d ago\nSoftware Engineering Intern, 2027 (English)\n—\nSWE\n·\n4d ago\n+\nSet status\nUOB\n4d ago\nGenAI and Data Analytics Intern (Jan - Dec 2027)\n—\nData\nML / AI\n·\n4d ago\n+\nSet status\nLoad more roles",
+      "query": "",
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "rootClass": "__variable_ae301a light"
+      },
+      "buttons": [
+        {
+          "text": "",
+          "aria": "Switch to dark mode",
+          "title": "Switch to dark mode",
+          "bounds": {
+            "x": 240.6875,
+            "y": 7.5,
+            "width": 32,
+            "height": 32,
+            "top": 7.5,
+            "right": 272.6875,
+            "bottom": 39.5,
+            "left": 240.6875
+          },
+          "class": "inline-flex items-center justify-center rounded-full border border-[var(--border)] bg-[var(--bg-elevated)] text-[var(--text-secondary)] hover:bg-[var(--bg-subtle)] hover:text-[var(--text)] transition-colors h-8 w-8"
+        },
+        {
+          "text": "All roles",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 18,
+            "y": 58,
+            "width": 76.109375,
+            "height": 31.5,
+            "top": 58,
+            "right": 94.109375,
+            "bottom": 89.5,
+            "left": 18
+          },
+          "class": "flex-shrink-0 px-3.5 py-1.5 text-[13px] font-semibold tracking-tight transition-colors rounded-full whitespace-nowrap text-[var(--text-secondary)] hover:text-[var(--text)]"
+        },
+        {
+          "text": "Finance",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 94.109375,
+            "y": 58,
+            "width": 75.046875,
+            "height": 31.5,
+            "top": 58,
+            "right": 169.15625,
+            "bottom": 89.5,
+            "left": 94.109375
+          },
+          "class": "flex-shrink-0 px-3.5 py-1.5 text-[13px] font-semibold tracking-tight transition-colors rounded-full whitespace-nowrap text-[var(--text-secondary)] hover:text-[var(--text)]"
+        },
+        {
+          "text": "Tech",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 169.15625,
+            "y": 58,
+            "width": 56.875,
+            "height": 31.5,
+            "top": 58,
+            "right": 226.03125,
+            "bottom": 89.5,
+            "left": 169.15625
+          },
+          "class": "flex-shrink-0 px-3.5 py-1.5 text-[13px] font-semibold tracking-tight transition-colors rounded-full whitespace-nowrap text-[var(--text)] bg-[var(--bg-elevated)] shadow-[0_1px_3px_rgba(0,0,0,0.08)]"
+        },
+        {
+          "text": "Sort\nRecent\n↓",
+          "aria": "Choose sort order",
+          "title": null,
+          "bounds": {
+            "x": 16,
+            "y": 135.5,
+            "width": 195,
+            "height": 36,
+            "top": 135.5,
+            "right": 211,
+            "bottom": 171.5,
+            "left": 16
+          },
+          "class": "h-9 min-w-0 inline-flex items-center justify-center gap-1.5 px-3 rounded-full border border-[var(--border-strong)] bg-[var(--bg-elevated)] text-[13px] font-medium text-[var(--text)] hover:bg-[var(--bg-subtle)] transition-colors"
+        },
+        {
+          "text": "Roles\nAll roles\n↓",
+          "aria": "Choose role filters",
+          "title": null,
+          "bounds": {
+            "x": 219,
+            "y": 135.5,
+            "width": 195,
+            "height": 36,
+            "top": 135.5,
+            "right": 414,
+            "bottom": 171.5,
+            "left": 219
+          },
+          "class": "h-9 min-w-0 inline-flex items-center justify-center gap-1.5 px-3 rounded-full border border-[var(--border-strong)] bg-[var(--bg-elevated)] text-[13px] font-medium text-[var(--text)] hover:bg-[var(--bg-subtle)] transition-colors"
+        },
+        {
+          "text": "Tencent",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 195.5,
+            "width": 302.046875,
+            "height": 30,
+            "top": 195.5,
+            "right": 316.046875,
+            "bottom": 225.5,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 193.5,
+            "width": 34,
+            "height": 34,
+            "top": 193.5,
+            "right": 416,
+            "bottom": 227.5,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Large Language Models Research Intern",
+          "aria": null,
+          "title": "Large Language Models Research Intern",
+          "bounds": {
+            "x": 14,
+            "y": 235.5,
+            "width": 275.875,
+            "height": 20.625,
+            "top": 235.5,
+            "right": 289.875,
+            "bottom": 256.125,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 266.375,
+            "width": 80.4375,
+            "height": 24,
+            "top": 266.375,
+            "right": 416,
+            "bottom": 290.375,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "DBS",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 317.375,
+            "width": 302.046875,
+            "height": 30,
+            "top": 317.375,
+            "right": 316.046875,
+            "bottom": 347.375,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 315.375,
+            "width": 34,
+            "height": 34,
+            "top": 315.375,
+            "right": 416,
+            "bottom": 349.375,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "2027 DBS Internship (Technology and AI & Data Science)",
+          "aria": null,
+          "title": "2027 DBS Internship (Technology and AI & Data Science)",
+          "bounds": {
+            "x": 14,
+            "y": 357.375,
+            "width": 391.0625,
+            "height": 20.625,
+            "top": 357.375,
+            "right": 405.0625,
+            "bottom": 378,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 388.25,
+            "width": 80.4375,
+            "height": 24,
+            "top": 388.25,
+            "right": 416,
+            "bottom": 412.25,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "SAP",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 439.25,
+            "width": 310.65625,
+            "height": 30,
+            "top": 439.25,
+            "right": 324.65625,
+            "bottom": 469.25,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 437.25,
+            "width": 34,
+            "height": 34,
+            "top": 437.25,
+            "right": 416,
+            "bottom": 471.25,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Full Stack Developer Intern (AI topics) SAP Business AI Singapore",
+          "aria": null,
+          "title": "Full Stack Developer Intern (AI topics) SAP Business AI Singapore",
+          "bounds": {
+            "x": 14,
+            "y": 479.25,
+            "width": 402,
+            "height": 41.25,
+            "top": 479.25,
+            "right": 416,
+            "bottom": 520.5,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 530.75,
+            "width": 80.4375,
+            "height": 24,
+            "top": 530.75,
+            "right": 416,
+            "bottom": 554.75,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Visier Inc.",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 581.75,
+            "width": 310.65625,
+            "height": 30,
+            "top": 581.75,
+            "right": 324.65625,
+            "bottom": 611.75,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 579.75,
+            "width": 34,
+            "height": 34,
+            "top": 579.75,
+            "right": 416,
+            "bottom": 613.75,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Software Developer Intern (January to June 2027)",
+          "aria": null,
+          "title": "Software Developer Intern (January to June 2027)",
+          "bounds": {
+            "x": 14,
+            "y": 621.75,
+            "width": 342.171875,
+            "height": 20.625,
+            "top": 621.75,
+            "right": 356.171875,
+            "bottom": 642.375,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 652.625,
+            "width": 80.4375,
+            "height": 24,
+            "top": 652.625,
+            "right": 416,
+            "bottom": 676.625,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Grab",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 703.625,
+            "width": 310.65625,
+            "height": 30,
+            "top": 703.625,
+            "right": 324.65625,
+            "bottom": 733.625,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 701.625,
+            "width": 34,
+            "height": 34,
+            "top": 701.625,
+            "right": 416,
+            "bottom": 735.625,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Intern, Business Analyst",
+          "aria": null,
+          "title": "Intern, Business Analyst",
+          "bounds": {
+            "x": 14,
+            "y": 743.625,
+            "width": 163.6875,
+            "height": 20.625,
+            "top": 743.625,
+            "right": 177.6875,
+            "bottom": 764.25,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 774.5,
+            "width": 80.4375,
+            "height": 24,
+            "top": 774.5,
+            "right": 416,
+            "bottom": 798.5,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "PwC Singapore",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 825.5,
+            "width": 310.65625,
+            "height": 30,
+            "top": 825.5,
+            "right": 324.65625,
+            "bottom": 855.5,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 823.5,
+            "width": 34,
+            "height": 34,
+            "top": 823.5,
+            "right": 416,
+            "bottom": 857.5,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Consulting - Finance Strategy & Operations Off Cycle Internship (Jan - Jun 27)",
+          "aria": null,
+          "title": "Consulting - Finance Strategy & Operations Off Cycle Internship (Jan - Jun 27)",
+          "bounds": {
+            "x": 14,
+            "y": 865.5,
+            "width": 402,
+            "height": 41.25,
+            "top": 865.5,
+            "right": 416,
+            "bottom": 906.75,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 947,
+            "width": 80.4375,
+            "height": 24,
+            "top": 947,
+            "right": 416,
+            "bottom": 971,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Grab",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 998,
+            "width": 310.65625,
+            "height": 30,
+            "top": 998,
+            "right": 324.65625,
+            "bottom": 1028,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 996,
+            "width": 34,
+            "height": 34,
+            "top": 996,
+            "right": 416,
+            "bottom": 1030,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Intern, Software Engineer",
+          "aria": null,
+          "title": "Intern, Software Engineer",
+          "bounds": {
+            "x": 14,
+            "y": 1038,
+            "width": 173.5,
+            "height": 20.625,
+            "top": 1038,
+            "right": 187.5,
+            "bottom": 1058.625,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1068.875,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1068.875,
+            "right": 416,
+            "bottom": 1092.875,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "BMW Group",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1119.875,
+            "width": 309.046875,
+            "height": 30,
+            "top": 1119.875,
+            "right": 323.046875,
+            "bottom": 1149.875,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1117.875,
+            "width": 34,
+            "height": 34,
+            "top": 1117.875,
+            "right": 416,
+            "bottom": 1151.875,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Intern - E-mobility & Product Management",
+          "aria": null,
+          "title": "Intern - E-mobility & Product Management",
+          "bounds": {
+            "x": 14,
+            "y": 1159.875,
+            "width": 290.484375,
+            "height": 20.625,
+            "top": 1159.875,
+            "right": 304.484375,
+            "bottom": 1180.5,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1190.75,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1190.75,
+            "right": 416,
+            "bottom": 1214.75,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Apple",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1241.75,
+            "width": 309.046875,
+            "height": 30,
+            "top": 1241.75,
+            "right": 323.046875,
+            "bottom": 1271.75,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1239.75,
+            "width": 34,
+            "height": 34,
+            "top": 1239.75,
+            "right": 416,
+            "bottom": 1273.75,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Operations Business Analyst Intern, Operations and Supply Chain (6 Month) - Singapore",
+          "aria": null,
+          "title": "Operations Business Analyst Intern, Operations and Supply Chain (6 Month) - Singapore",
+          "bounds": {
+            "x": 14,
+            "y": 1281.75,
+            "width": 402,
+            "height": 41.25,
+            "top": 1281.75,
+            "right": 416,
+            "bottom": 1323,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1333.25,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1333.25,
+            "right": 416,
+            "bottom": 1357.25,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "UOB",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1384.25,
+            "width": 309.046875,
+            "height": 30,
+            "top": 1384.25,
+            "right": 323.046875,
+            "bottom": 1414.25,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1382.25,
+            "width": 34,
+            "height": 34,
+            "top": 1382.25,
+            "right": 416,
+            "bottom": 1416.25,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Sustainability Reporting & Data Analytics Intern (Jan - Jun 2027)",
+          "aria": null,
+          "title": "Sustainability Reporting & Data Analytics Intern (Jan - Jun 2027)",
+          "bounds": {
+            "x": 14,
+            "y": 1424.25,
+            "width": 402,
+            "height": 41.25,
+            "top": 1424.25,
+            "right": 416,
+            "bottom": 1465.5,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1475.75,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1475.75,
+            "right": 416,
+            "bottom": 1499.75,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Club Med",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1526.75,
+            "width": 309.046875,
+            "height": 30,
+            "top": 1526.75,
+            "right": 323.046875,
+            "bottom": 1556.75,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1524.75,
+            "width": 34,
+            "height": 34,
+            "top": 1524.75,
+            "right": 416,
+            "bottom": 1558.75,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Business Intelligence Analyst Intern",
+          "aria": null,
+          "title": "Business Intelligence Analyst Intern",
+          "bounds": {
+            "x": 14,
+            "y": 1566.75,
+            "width": 242.03125,
+            "height": 20.625,
+            "top": 1566.75,
+            "right": 256.03125,
+            "bottom": 1587.375,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1597.625,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1597.625,
+            "right": 416,
+            "bottom": 1621.625,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Amazon",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1648.625,
+            "width": 309.046875,
+            "height": 30,
+            "top": 1648.625,
+            "right": 323.046875,
+            "bottom": 1678.625,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1646.625,
+            "width": 34,
+            "height": 34,
+            "top": 1646.625,
+            "right": 416,
+            "bottom": 1680.625,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Control Engineer Intern, AWS Data Center Controls Deployment & Services team",
+          "aria": null,
+          "title": "Control Engineer Intern, AWS Data Center Controls Deployment & Services team",
+          "bounds": {
+            "x": 14,
+            "y": 1688.625,
+            "width": 402,
+            "height": 41.25,
+            "top": 1688.625,
+            "right": 416,
+            "bottom": 1729.875,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1740.125,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1740.125,
+            "right": 416,
+            "bottom": 1764.125,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Amazon Web Services (AWS)",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1791.125,
+            "width": 309.046875,
+            "height": 30,
+            "top": 1791.125,
+            "right": 323.046875,
+            "bottom": 1821.125,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1789.125,
+            "width": 34,
+            "height": 34,
+            "top": 1789.125,
+            "right": 416,
+            "bottom": 1823.125,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Control Engineer Intern, AWS Data Center Controls Deployment & Services team",
+          "aria": null,
+          "title": "Control Engineer Intern, AWS Data Center Controls Deployment & Services team",
+          "bounds": {
+            "x": 14,
+            "y": 1831.125,
+            "width": 402,
+            "height": 41.25,
+            "top": 1831.125,
+            "right": 416,
+            "bottom": 1872.375,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 1882.625,
+            "width": 80.4375,
+            "height": 24,
+            "top": 1882.625,
+            "right": 416,
+            "bottom": 1906.625,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "SPX Express",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 1933.625,
+            "width": 309.046875,
+            "height": 30,
+            "top": 1933.625,
+            "right": 323.046875,
+            "bottom": 1963.625,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 1931.625,
+            "width": 34,
+            "height": 34,
+            "top": 1931.625,
+            "right": 416,
+            "bottom": 1965.625,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Business Analyst Intern - Regional SPX Express (Spring 2027)",
+          "aria": null,
+          "title": "Business Analyst Intern - Regional SPX Express (Spring 2027)",
+          "bounds": {
+            "x": 14,
+            "y": 1973.625,
+            "width": 402,
+            "height": 41.25,
+            "top": 1973.625,
+            "right": 416,
+            "bottom": 2014.875,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2025.125,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2025.125,
+            "right": 416,
+            "bottom": 2049.125,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "CPF Board",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2076.125,
+            "width": 309.046875,
+            "height": 30,
+            "top": 2076.125,
+            "right": 323.046875,
+            "bottom": 2106.125,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2074.125,
+            "width": 34,
+            "height": 34,
+            "top": 2074.125,
+            "right": 416,
+            "bottom": 2108.125,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "[2027 H1 Term-time Internship] Product Management & AI Performance Intern",
+          "aria": null,
+          "title": "[2027 H1 Term-time Internship] Product Management & AI Performance Intern",
+          "bounds": {
+            "x": 14,
+            "y": 2116.125,
+            "width": 402,
+            "height": 41.25,
+            "top": 2116.125,
+            "right": 416,
+            "bottom": 2157.375,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2167.625,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2167.625,
+            "right": 416,
+            "bottom": 2191.625,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "TikTok",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2218.625,
+            "width": 308.703125,
+            "height": 30,
+            "top": 2218.625,
+            "right": 322.703125,
+            "bottom": 2248.625,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2216.625,
+            "width": 34,
+            "height": 34,
+            "top": 2216.625,
+            "right": 416,
+            "bottom": 2250.625,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "AI Full-Stack Engineer Intern (TikTok Shop - SEA) - 2027 Start",
+          "aria": null,
+          "title": "AI Full-Stack Engineer Intern (TikTok Shop - SEA) - 2027 Start",
+          "bounds": {
+            "x": 14,
+            "y": 2258.625,
+            "width": 402,
+            "height": 41.25,
+            "top": 2258.625,
+            "right": 416,
+            "bottom": 2299.875,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2310.125,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2310.125,
+            "right": 416,
+            "bottom": 2334.125,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Carousell Group",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2361.125,
+            "width": 308.703125,
+            "height": 30,
+            "top": 2361.125,
+            "right": 322.703125,
+            "bottom": 2391.125,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2359.125,
+            "width": 34,
+            "height": 34,
+            "top": 2359.125,
+            "right": 416,
+            "bottom": 2393.125,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Forward Deployed Engineering Intern (AI Adoption Pod)",
+          "aria": null,
+          "title": "Forward Deployed Engineering Intern (AI Adoption Pod)",
+          "bounds": {
+            "x": 14,
+            "y": 2401.125,
+            "width": 378.71875,
+            "height": 20.625,
+            "top": 2401.125,
+            "right": 392.71875,
+            "bottom": 2421.75,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2432,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2432,
+            "right": 416,
+            "bottom": 2456,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Universal Music Group",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2483,
+            "width": 308.5,
+            "height": 30,
+            "top": 2483,
+            "right": 322.5,
+            "bottom": 2513,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2481,
+            "width": 34,
+            "height": 34,
+            "top": 2481,
+            "right": 416,
+            "bottom": 2515,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Digital Business Analytics Intern",
+          "aria": null,
+          "title": "Digital Business Analytics Intern",
+          "bounds": {
+            "x": 14,
+            "y": 2523,
+            "width": 218.703125,
+            "height": 20.625,
+            "top": 2523,
+            "right": 232.703125,
+            "bottom": 2543.625,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2553.875,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2553.875,
+            "right": 416,
+            "bottom": 2577.875,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Google",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2604.875,
+            "width": 308.5,
+            "height": 30,
+            "top": 2604.875,
+            "right": 322.5,
+            "bottom": 2634.875,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2602.875,
+            "width": 34,
+            "height": 34,
+            "top": 2602.875,
+            "right": 416,
+            "bottom": 2636.875,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "Software Engineering Intern, 2027 (English)",
+          "aria": null,
+          "title": "Software Engineering Intern, 2027 (English)",
+          "bounds": {
+            "x": 14,
+            "y": 2644.875,
+            "width": 297.875,
+            "height": 20.625,
+            "top": 2644.875,
+            "right": 311.875,
+            "bottom": 2665.5,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2675.75,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2675.75,
+            "right": 416,
+            "bottom": 2699.75,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "UOB",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 14,
+            "y": 2726.75,
+            "width": 308.5,
+            "height": 30,
+            "top": 2726.75,
+            "right": 322.5,
+            "bottom": 2756.75,
+            "left": 14
+          },
+          "class": "flex items-center gap-2.5 flex-1 min-w-0"
+        },
+        {
+          "text": "",
+          "aria": "View details",
+          "title": null,
+          "bounds": {
+            "x": 382,
+            "y": 2724.75,
+            "width": 34,
+            "height": 34,
+            "top": 2724.75,
+            "right": 416,
+            "bottom": 2758.75,
+            "left": 382
+          },
+          "class": "flex-shrink-0 flex items-center justify-center rounded hover:bg-[var(--bg-hover)] transition-colors"
+        },
+        {
+          "text": "GenAI and Data Analytics Intern (Jan - Dec 2027)",
+          "aria": null,
+          "title": "GenAI and Data Analytics Intern (Jan - Dec 2027)",
+          "bounds": {
+            "x": 14,
+            "y": 2766.75,
+            "width": 337.640625,
+            "height": 20.625,
+            "top": 2766.75,
+            "right": 351.640625,
+            "bottom": 2787.375,
+            "left": 14
+          },
+          "class": "mt-2 text-[15px] text-[var(--text-strong-secondary)] line-clamp-2 text-left block leading-snug"
+        },
+        {
+          "text": "+\nSet status",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 335.5625,
+            "y": 2797.625,
+            "width": 80.4375,
+            "height": 24,
+            "top": 2797.625,
+            "right": 416,
+            "bottom": 2821.625,
+            "left": 335.5625
+          },
+          "class": "inline-flex items-center gap-1 px-2 h-6 text-[11px] rounded-full font-medium tracking-tight border border-dashed border-[var(--border-strong)] text-[var(--text-tertiary)] hover:text-[var(--text)] hover:border-[#86868b] transition-colors"
+        },
+        {
+          "text": "Load more roles",
+          "aria": null,
+          "title": null,
+          "bounds": {
+            "x": 165.984375,
+            "y": 2860.625,
+            "width": 98.015625,
+            "height": 18,
+            "top": 2860.625,
+            "right": 264,
+            "bottom": 2878.625,
+            "left": 165.984375
+          },
+          "class": "text-sm font-medium text-[#0071e3] disabled:opacity-50"
+        }
+      ],
+      "headers": [
+        {
+          "text": "JJ Intern\nSign in",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 430,
+            "height": 48,
+            "top": 0,
+            "right": 430,
+            "bottom": 48,
+            "left": 0
+          },
+          "position": "sticky"
+        }
+      ],
+      "fixedOrSticky": [
+        {
+          "tag": "HEADER",
+          "class": "sticky top-0 z-30 bg-[rgb(var(--bg-elevated-rgb)/0.95)] backdrop-blur-xl border-b border-[var(--border)] h-12",
+          "text": "JJ Intern\nSign in",
+          "position": "sticky",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 430,
+            "height": 48,
+            "top": 0,
+            "right": 430,
+            "bottom": 48,
+            "left": 0
+          }
+        },
+        {
+          "tag": "NAV",
+          "class": "md:hidden fixed bottom-0 left-0 right-0 z-40 border-t border-[var(--border-strong)] bg-[rgb(var(--bg-elevated-rgb)/0.95)] backdrop-blur-xl pb-[env(safe-area-inset-bottom)]",
+          "text": "Find\nTargets\nPlan\nTrack",
+          "position": "fixed",
+          "bounds": {
+            "x": 0,
+            "y": 783,
+            "width": 430,
+            "height": 57,
+            "top": 783,
+            "right": 430,
+            "bottom": 840,
+            "left": 0
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "sticky z-20 bg-[rgb(var(--bg-elevated-rgb)/0.95)] backdrop-blur-xl border-b border-[var(--border)]",
+          "text": "All roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓",
+          "position": "sticky",
+          "bounds": {
+            "x": 0,
+            "y": 48,
+            "width": 430,
+            "height": 132.5,
+            "top": 48,
+            "right": 430,
+            "bottom": 180.5,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "file": "feed-light-tech.png",
+      "sha256": "95c639d81087fcdbac07efa2fea4be718627c7213d6f1bc87698275da2778a18",
+      "bytes": 337440,
+      "scope": "Settled Tech-filtered light theme before scroll; follows transient loading observation.",
+      "url": "https://jjintern.com/feed",
+      "title": "JJ Intern — Real-time internship alerts for Singapore students",
+      "scrollY": 0,
+      "viewport": {
+        "width": 430,
+        "height": 840,
+        "dpr": 4
+      },
+      "text": "JJ Intern\nSign in\nFind\nTargets\nPlan\nTrack\nOPEN ROLES\n1,218\nLAST 24H\n8\nAll roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓\nTencent\n22h ago\nLarge Language Models Research Intern\n—\nML / AI\n·\n22h ago\n+\nSet status\nDBS\n22h ago\n2027 DBS Internship (Technology and AI & Data Science)\n—\nData\nML / AI\n·\n22h ago\n+\nSet status\nSAP\n1d ago\nFull Stack Developer Intern (AI topics) SAP Business AI Singapore\n—\nSWE\nML / AI\n·\n1d ago\n+\nSet status\nVisier Inc.\n1d ago\nSoftware Developer Intern (January to June 2027)\nSpring Off-cycle\nSWE\n·\n1d ago\n+\nSet status\nGrab\n1d ago\nIntern, Business Analyst\nSpring Off-cycle\nProduct / BA\n·\n1d ago\n+\nSet status\nPwC Singapore\n1d ago\nConsulting - Finance Strategy & Operations Off Cycle Internship (Jan - Jun 27)\nSpring Off-cycle\nFinance\nConsulting\nProduct / BA\n·\n1d ago\n+\nSet status\nGrab\n1d ago\nIntern, Software Engineer\nSpring Off-cycle\nSWE\n·\n1d ago\n+\nSet status\nBMW Group\n2d ago\nIntern - E-mobility & Product Management\n—\nProduct / BA\n·\n2d ago\n+\nSet status\nApple\n2d ago\nOperations Business Analyst Intern, Operations and Supply Chain (6 Month) - Singapore\n—\nProduct / BA\n·\n2d ago\n+\nSet status\nUOB\n2d ago\nSustainability Reporting & Data Analytics Intern (Jan - Jun 2027)\nSpring Off-cycle\nData\n·\n2d ago\n+\nSet status\nClub Med\n2d ago\nBusiness Intelligence Analyst Intern\n—\nData\n·\n2d ago\n+\nSet status\nAmazon\n2d ago\nControl Engineer Intern, AWS Data Center Controls Deployment & Services team\n—\nInfra\n·\n2d ago\n+\nSet status\nAmazon Web Services (AWS)\n2d ago\nControl Engineer Intern, AWS Data Center Controls Deployment & Services team\n—\nInfra\n·\n2d ago\n+\nSet status\nSPX Express\n2d ago\nBusiness Analyst Intern - Regional SPX Express (Spring 2027)\nSpring Off-cycle\nProduct / BA\n·\n2d ago\n+\nSet status\nCPF Board\n2d ago\n[2027 H1 Term-time Internship] Product Management & AI Performance Intern\nSpring Off-cycle\nProduct / BA\n·\n2d ago\n+\nSet status\nTikTok\n3d ago\nAI Full-Stack Engineer Intern (TikTok Shop - SEA) - 2027 Start\n—\nSWE\nML / AI\n·\n3d ago\n+\nSet status\nCarousell Group\n3d ago\nForward Deployed Engineering Intern (AI Adoption Pod)\n—\nSWE\nML / AI\n·\n3d ago\n+\nSet status\nUniversal Music Group\n4d ago\nDigital Business Analytics Intern\n—\nData\n·\n4d ago\n+\nSet status\nGoogle\n4d ago\nSoftware Engineering Intern, 2027 (English)\n—\nSWE\n·\n4d ago\n+\nSet status\nUOB\n4d ago\nGenAI and Data Analytics Intern (Jan - Dec 2027)\n—\nData\nML / AI\n·\n4d ago\n+\nSet status\nLoad more roles",
+      "query": "",
+      "style": {
+        "background": "rgb(255, 255, 255)",
+        "rootClass": "__variable_ae301a light"
+      }
+    }
+  ],
+  "capture_note": "The first Tech screenshot caught a transient loading state despite a stale-row readiness poll. It is preserved as feed-light-tech-loading.png. The subsequently loaded scrolled screenshot and final settled unscrolled screenshot contain actual Tencent/DBS/SAP results. Reproducer readiness guard was corrected to require filtered results rather than any stale Set status text."
+}

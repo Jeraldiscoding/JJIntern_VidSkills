@@ -1,0 +1,412 @@
+{
+  "kind": "Actual real-time browser playback and decoded-frame capture; no claim of subjective audio audition",
+  "mode": "final",
+  "passes": [
+    {
+      "muted": true,
+      "observations": [
+        {
+          "time": 0.981578,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 64,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 2.052943,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 129,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 3.130245,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 193,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 4.214439,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 258,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 5.293843,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 323,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 6.377396,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 388,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 7.46302,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 453,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 8.556684,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 519,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 9.662413,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 585,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 10.761859,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 651,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 11.854711,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 717,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 12.954743,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 783,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 14.060052,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 849,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 15.171074,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 916,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 16.271044,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 982,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 17.369393,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1048,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 18,
+          "duration": 18,
+          "ended": true,
+          "paused": true,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1080,
+          "droppedFrames": 0,
+          "muted": true
+        },
+        {
+          "time": 18,
+          "duration": 18,
+          "ended": true,
+          "paused": true,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1080,
+          "droppedFrames": 0,
+          "muted": true
+        }
+      ]
+    },
+    {
+      "muted": false,
+      "observations": [
+        {
+          "time": 0.930642,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1142,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 1.953145,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1204,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 2.975328,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1265,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 3.998611,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1326,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 5.020656,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1388,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 6.042755,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1449,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 7.064862,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1510,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 8.087318,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1572,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 9.109913,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1633,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 10.137564,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1694,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 11.170273,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1757,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 12.192062,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1818,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 13.213136,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1879,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 14.234908,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 1940,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 15.256671,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 2002,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 16.278465,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 2063,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 17.299886,
+          "duration": 18,
+          "ended": false,
+          "paused": false,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 2124,
+          "droppedFrames": 1,
+          "muted": false
+        },
+        {
+          "time": 18,
+          "duration": 18,
+          "ended": true,
+          "paused": true,
+          "readyState": 4,
+          "error": null,
+          "decodedFrames": 2160,
+          "droppedFrames": 1,
+          "muted": false
+        }
+      ]
+    }
+  ]
+}

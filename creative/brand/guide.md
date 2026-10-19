@@ -1,0 +1,41 @@
+# JJIntern identity and production rules
+
+Checked **17 October 2026**. Owner: JJIntern brand/product owner. Machine-readable source: [tokens.json](tokens.json). Evidence: [product register](../product/evidence.md). This guide separates the public product's actual styles from proposed marketing defaults. No local application source or brand manual was supplied.
+
+## A. Existing product identity
+
+**Palette.** Served shared CSS defines a white light theme and a dark theme. Dark values: background `#0b0b0c`, raised surface `#1c1c1e`, text `#f5f5f7`, secondary text `#c7c7cc`, border `#38383a`. Blue is `#0071e3`. Homepage status green is `#23835a`, not a general second brand accent. Theme selection depends on CSS classes/system preference; the product is not verified as dark-only. A captured browser may also apply its own rendering; the JSON records CSS definitions, not an assertion that every captured pixel has those values.
+
+**Type.** The body uses the real system sans stack: `-apple-system, BlinkMacSystemFont, SF Pro Display, SF Pro Text, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif`. No standalone sans font file was found. Do not quietly replace it with Inter, a downloaded display font, or a generic “premium” font. Platform-specific metrics can differ: pin the rendering host/browser, check line breaks, and record the chosen resolved system font when practical. Do not redistribute operating-system font files.
+
+Instrument Serif normal and italic **400 only** are supplied as public WOFF2 files and exposed through `--font-serif`; they are available secondary assets, not the product's primary body font. The exact Latin files are archived under `assets/evidence/product/`. No evidence authorises using invented bold serif weights. The inspected assets did not contain licence notices; confirm the owner's font/asset licences before distributing source bundles externally.
+
+**Hierarchy.** The public shared CSS customises familiar utility names: `text-base` is 15/20px, `text-sm` 13/18px, `text-xs` 11/13px, `text-2xl` 22/28px, `text-4xl` 34/41px. Do not assume standard Tailwind defaults. Homepage H1 starts at `clamp(43px,4.6vw,64px)`, 1.08 line height, weight 580; section H2 at `clamp(30px,3.3vw,43px)`, 1.12, weight 550. Responsive overrides exist. Requested intermediate weights do not prove that every host font has those exact weight files.
+
+**Geometry and treatments.** Shared UI utilities use 4, 10, 12 and 16px radii plus pills; homepage CTA corners are 5px and preview frames 9px. Page-specific choices coexist. Shared spacing values include 4/6/8/10/12/16/20/24px; the homepage has larger bespoke gaps and padding. These are observed conventions, not a uniformly verified design system. Homepage CTAs use neutral inverse colours, while the feed's sign-in action is blue. Default marketing choice: quiet neutral fields and one purposeful action emphasis; preserve authentic component differences in captures.
+
+**Mark and wordmark.** The original [logo mark](../assets/evidence/product/logo-mark.png) is a 512×512 transparent PNG, visually checked; it has visible raster edges at large sizes. Preserve the original aspect ratio, colour and silhouette. Never fabricate a smoother vector, an employer logo, a new monogram, or an “official” wordmark. Public headers use text spelling `JJ Intern`; homepage adds a blue terminal dot. No separate official wordmark asset was found. Use the owner's `JJIntern.com` domain naturally in copy; do not imply that a newly typeset lockup is a verified logo asset. Request the vector original if a large mark is essential; use the raster at modest size until then.
+
+Employer marks present in the website are not proof of partnership or a licence to use them in a campaign. Prefer an actual product crop or plain employer name; only use a logo from a verified asset with the right context and rights. An employer tile must never imply an active vacancy or endorsement.
+
+## B. Proposed marketing extensions
+
+These are production treatments, **not extracted app styles**. Updated 19 October 2026 from the [owner's creative direction](../CREATIVE-DIRECTION.md); the product evidence date above is unchanged. They may vary by concept; a campaign is not required to repeat one layout.
+
+- Choose the palette for the concept rather than defaulting to a dark studio. The accepted flat discovery-film treatment uses pale blue `#edf3ff`, white `#ffffff`, ink `#203145`, muted `#687c93` and blue `#0071e3`. Use it as the starting reference for that family of motion films; authentic product captures retain their real light/dark theme. Give each beat one dominant subject and use space to frame it.
+- At 1080px canvas width, begin hooks at 76–112px, body at 48–60px, CTA at 52–64px, and factual qualifications at **42px minimum**. These are internal starting values, not official platform limits. Break a dense claim across shots rather than shrinking essential qualifications. Body line height: approximately 1.2; headings: 1.05–1.15 after checking the actual font. Use two or three short lines per focal text block.
+- Check a 360px-wide equivalent and a real phone. A 42px source label becomes roughly 14px at that preview scale. If a live UI row is unreadable, capture a tighter viewport or crop/reframe the real UI; retain enough navigation/context to show what action caused the result. Never redesign tiny text into a fictitious interface.
+- Use saturated blue to mark a selection, connect cause and result, emphasise a detail or direct attention. The pale-blue field is an accepted editorial treatment; it is separate from the saturated action accent. Avoid arbitrary arrows and persistent halos. Do not use colour alone to distinguish states; include labels and shape/state changes.
+- Use glass only where overlapping layers carry useful context, such as a real floating UI panel over an unchanged reference. Prefer opaque surfaces for small text, evidence, and salary qualifications. No repeated translucent cards as the default scene grammar. Glow is off by default; if an authentic screen emits light in a scene, keep it local and avoid reducing text contrast.
+- Motion must reveal, connect, compare or demonstrate. A search changes the visible set; a cut juxtaposes two facts; a highlight follows an actual selected control. Do not add movement simply to fill a static shot. End effects when their explanatory job is done.
+- Proposed mark clear space: at least one quarter of its visible width around the silhouette. This is an internal composition rule, not an official brand-manual requirement. Keep the mark legible and secondary to the actual hook.
+
+**Contrast.** Use WCAG's contrast guidance as a readable-type benchmark: 4.5:1 for ordinary text, 3:1 for large text; test the final composited surface rather than the source colour alone. The official [W3C explanation](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) also covers images of text. This is a readability benchmark, not a certification of a video.
+
+Calculated from the extracted colours: `#f5f5f7` on `#0b0b0c` is approximately 18.07:1; blue `#0071e3` on that dark background is **4.19:1**, below the ordinary-text target. Use light text for small meaningful copy; reserve blue on dark for large emphasis, shapes or controls with adequately contrasting labels. Blue against white is approximately 4.70:1. Do not round a failing measured ratio into a pass. Transparent text, gradients, video backdrops and glass require frame-by-frame checks where the background changes.
+
+## Before export and maintenance
+
+Load exact assets explicitly and wait for font loading before capture/render. Preserve originals; record any crop separately. Check missing glyphs, platform font fallbacks, dark/light mismatch, raster edges, mobile line wrapping and text contrast in exported frames. Keep product captures faithful; label any prototype before showing an interaction the product does not implement.
+
+When the product deploys a visual change, refetch public CSS/assets or inspect the supplied application source, update the evidence manifest and tokens together, then review this guide. Do not silently overwrite historical evidence or treat a hash-named CSS URL as permanent. Resolve brand conflicts with the product owner; retain the last verified identity while a decision is pending.

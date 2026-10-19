@@ -1,0 +1,122 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>JJIntern — In motion</title>
+<style>html,body{margin:0;background:#0b0b0c;overflow:hidden}canvas#film{display:block;width:1080px;height:1920px}</style>
+<canvas id="film" width="1080" height="1920" aria-label="An illustrative internship posting folds into a blue data packet, launches left to right, and arrives at JJIntern's actual feed. We check every 30 minutes."></canvas>
+<script>/* PACKET_RENDERER */</script>
+<script>
+'use strict';
+const W=1080,H=1920,TAU=Math.PI*2;
+const c=document.querySelector('#film'),g=c.getContext('2d',{alpha:false});
+g.imageSmoothingEnabled=true;g.imageSmoothingQuality='high';
+const ink='#0b0b0c',paper='#f5f5f7',blue='#0071e3',sans='-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Arial,sans-serif';
+const mark=new Image();mark.src='../../assets/evidence/product/logo-mark.png';
+const feed=new Image();feed.src='../pipeline/product/feed-focus.png';
+const role=new Image();role.src='../pipeline/product/feed-role.png';
+const clamp=(n,a=0,b=1)=>Math.max(a,Math.min(b,n)),mix=(a,b,p)=>a+(b-a)*p;
+const smooth=n=>{n=clamp(n);return n*n*(3-2*n)},out=n=>1-Math.pow(1-clamp(n),4),io=n=>{n=clamp(n);return n<.5?8*n**4:1-(-2*n+2)**4/2};
+function txt(s,x,y,size=100,col=paper,o={}){g.save();g.globalAlpha=o.alpha??1;g.textAlign=o.align??'left';g.textBaseline='alphabetic';g.letterSpacing=`${o.spacing??-size*.045}px`;g.font=`${o.weight??600} ${size}px ${sans}`;g.fillStyle=col;g.fillText(s,x,y);g.restore()}
+function rr(x,y,w,h,r,fill,stroke=null,lw=1){g.beginPath();g.roundRect(x,y,w,h,r);if(fill){g.fillStyle=fill;g.fill()}if(stroke){g.strokeStyle=stroke;g.lineWidth=lw;g.stroke()}}
+function line(x,y,xx,yy,col,w=2,a=1){g.save();g.globalAlpha=a;g.strokeStyle=col;g.lineWidth=w;g.beginPath();g.moveTo(x,y);g.lineTo(xx,yy);g.stroke();g.restore()}
+function background(col=ink){g.globalAlpha=1;g.fillStyle=col;g.fillRect(0,0,W,H)}
+function studio(t=0){background();const q=g.createRadialGradient(540,900,0,540,900,1000);q.addColorStop(0,'#171a20');q.addColorStop(.5,'#101216');q.addColorStop(1,ink);g.fillStyle=q;g.fillRect(0,0,W,H);}
+function brand(col=paper,a=1){txt('JJ Intern',90,282,40,col,{weight:550,spacing:-1,alpha:a});g.save();g.globalAlpha=a;g.fillStyle=blue;g.beginPath();g.arc(251,272,4,0,TAU);g.fill();g.restore()}
+function chevron(x,y,s,col=paper){g.save();g.strokeStyle=col;g.lineWidth=5;g.lineJoin='round';g.lineCap='round';g.beginPath();g.moveTo(x,y+s);g.lineTo(x+s,y);g.lineTo(x,y);g.moveTo(x+s,y);g.lineTo(x+s,y+s);g.stroke();g.restore()}
+// The posting is a labelled editorial object. The destination uses an unaltered real capture.
+const card=document.createElement('canvas');card.width=900;card.height=540;const k=card.getContext('2d');
+function cardTexture(p=0,light=1){
+ k.clearRect(0,0,900,540);const b=k.createLinearGradient(0,0,900,540);b.addColorStop(0,p>.2?'#164a7b':'#3b3e43');b.addColorStop(.36,p>.2?'#126ac0':'#25272d');b.addColorStop(1,p>.2?'#032c63':'#111216');
+ k.fillStyle=b;k.beginPath();k.roundRect(0,0,900,540,28);k.fill();k.strokeStyle=p>.2?'#74b7f3':'#72777e';k.lineWidth=2;k.stroke();
+ k.save();k.globalAlpha=(1-smooth(p/.82));k.fillStyle=paper;k.letterSpacing='1px';k.font=`500 46px ${sans}`;k.fillText('EXAMPLE POSTING',52,89);k.fillStyle='#96999e';k.fillRect(52,142,796,1);
+ k.letterSpacing='-3px';k.fillStyle=paper;k.font=`600 91px ${sans}`;k.fillText('Microsoft',52,271);k.font=`450 53px ${sans}`;k.letterSpacing='-1.5px';k.fillText('Research Intern',52,343);
+ k.fillStyle='#b9bcc3';k.font=`450 37px ${sans}`;k.letterSpacing='1px';k.fillText('INTERNSHIP',52,461);k.restore();
+ k.save();k.globalAlpha=smooth((p-.35)/.5);for(let i=0;i<3;i++){k.fillStyle=i===0?'#d7edff':i===1?'#75b8fa':'#2489ec';k.beginPath();k.roundRect(110,212+i*37,680-i*75,13,6);k.fill()}k.restore();
+ const sh=k.createLinearGradient(0,0,900,0);const pos=(light%1)*1.9-.45;sh.addColorStop(0,'rgba(255,255,255,0)');sh.addColorStop(clamp(pos-.15,.001,.8),'rgba(255,255,255,0)');sh.addColorStop(clamp(pos,.002,.9),'rgba(255,255,255,.10)');sh.addColorStop(clamp(pos+.15,.003,.999),'rgba(255,255,255,0)');sh.addColorStop(1,'rgba(255,255,255,0)');k.fillStyle=sh;k.fillRect(1,1,898,538);
+}
+function triangle(im,s,d){
+ g.save();const mx=(d[0].x+d[1].x+d[2].x)/3,my=(d[0].y+d[1].y+d[2].y)/3,expanded=d.map(v=>{const dx=v.x-mx,dy=v.y-my,r=Math.hypot(dx,dy);return{x:v.x+dx/r*.65,y:v.y+dy/r*.65}});g.beginPath();g.moveTo(expanded[0].x,expanded[0].y);g.lineTo(expanded[1].x,expanded[1].y);g.lineTo(expanded[2].x,expanded[2].y);g.closePath();g.clip();
+ const [a,b,c]=s,[A,B,C]=d,den=a.x*(b.y-c.y)+b.x*(c.y-a.y)+c.x*(a.y-b.y);
+ const m=(u,v,w)=>(u*(b.y-c.y)+v*(c.y-a.y)+w*(a.y-b.y))/den;
+ const n=(u,v,w)=>(u*(c.x-b.x)+v*(a.x-c.x)+w*(b.x-a.x))/den;
+ const z=(u,v,w)=>(u*(b.x*c.y-c.x*b.y)+v*(c.x*a.y-a.x*c.y)+w*(a.x*b.y-b.x*a.y))/den;
+ g.transform(m(A.x,B.x,C.x),m(A.y,B.y,C.y),n(A.x,B.x,C.x),n(A.y,B.y,C.y),z(A.x,B.x,C.x),z(A.y,B.y,C.y));g.drawImage(im,0,0);g.restore();
+}
+function posting(t,p=0,alpha=1){
+ const en=out((t-1.05)/.5),cy=mix(1510,1020,en)-smooth((t-3.2)/1.45)*55;
+ const ay=mix(-.24,.06,en)-p*.06,ax=.08-p*.14,az=mix(.08,-.035,en)+p*.06;
+ cardTexture(p,(t*.19+.2)%1);g.save();g.globalAlpha=alpha;
+ const top=io((p-.04)/.7)*Math.PI,bot=io((p-.19)/.75)*Math.PI;
+ function vertex(sx,sy,part){let x=sx-450,y=sy-270,z=0;
+  if(part===0){const ly=sy-180;y=-90+ly*Math.cos(top);z=-ly*Math.sin(top)}
+  if(part===2){const ly=sy-360;y=90+ly*Math.cos(bot);z=ly*Math.sin(bot)+p*5}
+  const y1=y*Math.cos(ax)-z*Math.sin(ax),z1=y*Math.sin(ax)+z*Math.cos(ax),x1=x*Math.cos(ay)+z1*Math.sin(ay),z2=-x*Math.sin(ay)+z1*Math.cos(ay);
+  const xx=x1*Math.cos(az)-y1*Math.sin(az),yy=x1*Math.sin(az)+y1*Math.cos(az),f=1800/(1800-z2);
+  return{x:515+xx*f*.97,y:cy+yy*f*.97,z:z2};
+ }
+ const back=document.createElement('canvas');back.width=900;back.height=540;const bx=back.getContext('2d'),bg=bx.createLinearGradient(0,0,900,540);bg.addColorStop(0,'#3d8ed2');bg.addColorStop(.4,'#0a5daf');bg.addColorStop(1,'#05275c');bx.fillStyle=bg;bx.fillRect(0,0,900,540);
+ const faces=[];for(let part=0;part<3;part++)for(let j=0;j<3;j++)for(let i=0;i<8;i++){
+  const x=i*112.5,yy=part*180+j*60,s=[{x,y:yy},{x:x+112.5,y:yy},{x:x+112.5,y:yy+60},{x,y:yy+60}],d=s.map(a=>vertex(a.x,a.y,part));faces.push({s,d,z:d.reduce((v,a)=>v+a.z,0)/4,back:part===0?Math.cos(top)<0:part===2?Math.cos(bot)<0:false});
+ }faces.sort((a,b)=>a.z-b.z);for(const f of faces){const im=f.back?back:card;triangle(im,[f.s[0],f.s[1],f.s[2]],[f.d[0],f.d[1],f.d[2]]);triangle(im,[f.s[0],f.s[2],f.s[3]],[f.d[0],f.d[2],f.d[3]])}g.restore();
+}
+let packetCacheKey='';
+function packet(t,x=515,y=970,a=1,rotation=0){
+ g.save();g.globalAlpha=a;
+ const shadow=g.createRadialGradient(x,y+225,0,x,y+225,420);shadow.addColorStop(0,'rgba(0,0,0,.55)');shadow.addColorStop(1,'rgba(0,0,0,0)');g.fillStyle=shadow;g.save();g.translate(x,y+230);g.scale(1,.18);g.beginPath();g.arc(0,0,420,0,TAU);g.fill();g.restore();
+ const turn=smooth((t-4.2)/.45),ax=mix(.08,.26,turn),ay=mix(-.10,-.44,turn),az=rotation-.035*turn,key=[ax,ay,az].map(x=>x.toFixed(5)).join(',');
+ if(key!==packetCacheKey){PacketRenderer.render(t,{width:1080,height:800,morph:1,angleX:ax,angleY:ay,angleZ:az});packetCacheKey=key}const im=PacketRenderer.canvas;
+ g.drawImage(im,x-540,y-400,1080,800);g.restore();
+}
+function arrival(t){
+ const q=t-5.65;studio();brand();
+ const e=out(q/.6);txt('On JJIntern.',90,490+(1-e)*45,116,paper,{alpha:e,weight:600});
+ const ww=900,hh=ww*1020/1496,yy=mix(496,745,e),cut=(1-e)*540*ww/1496,top=yy+cut,height=hh-cut;
+ // The carrier's silhouette matches the authentic Microsoft row. The same
+ // capture then opens upward to disclose its surrounding feed controls.
+ g.save();g.shadowColor='#000';g.shadowBlur=70;g.shadowOffsetY=30;rr(60-3,top-3,ww+6,height+6,24,'#202226');g.shadowBlur=0;g.shadowOffsetY=0;
+ g.save();g.beginPath();g.roundRect(60,top,ww,height,21);g.clip();g.drawImage(feed,0,0,1496,1020,60,yy,ww,hh);g.restore();
+ g.strokeStyle=e<.95?'#549ee4':'#595e66';g.lineWidth=e<.95?2.5:1.2;g.beginPath();g.roundRect(60,top,ww,height,21);g.stroke();g.restore();
+ txt('Example workflow · actual feed',90,1460,43,'#c7c7cc',{weight:400,spacing:-.5});
+}
+function intro(t){
+ studio(t);brand();
+ const en=out(t/.5),shift=smooth((t-1.05)/.45),exit=1-smooth((t-3.1)/.3);
+ g.save();g.beginPath();g.rect(60,300,950,850);g.clip();
+ txt('Internships',90,690-shift*210+(1-en)*90,133,paper,{alpha:exit*en,weight:600});
+ txt('move fast.',90,850-shift*210+(1-en)*90,147,paper,{alpha:exit*en,weight:600});g.restore();
+ if(t>=1.05&&t<4.65){const p=smooth((t-3.2)/1.35),a=1-smooth((t-4.05)/.5);posting(t,p,a);if(t>4.05)packet(t,515,965,smooth((t-4.05)/.5));}
+ if(t>=4.65){
+  const p=clamp(t-4.65),flightX=p=>515+380*p+3000*smooth((p-.63)/.37),x=flightX(p);
+  // Sideways travel has fixed size. Distance is communicated by parallax and shutter trails.
+  for(let i=0;i<24;i++){const yy=620+(i*71)%690,len=80+p*850;line(1080-((t*1800+i*191)%1700),yy,1080-((t*1800+i*191)%1700)+len,yy,i%5===0?'#8fc9ff':'#34485c',i%7===0?3:1,(1-p)*.4)}
+  g.save();const tr=g.createLinearGradient(x-1500,0,x+300,0);tr.addColorStop(0,'rgba(0,113,227,0)');tr.addColorStop(.8,'rgba(0,113,227,.25)');tr.addColorStop(1,'rgba(183,222,255,.7)');g.fillStyle=tr;g.fillRect(x-1500,897,1750,120);g.restore();
+  for(let s=6;s>0;s--){const pp=clamp(p-s*.007),xx=flightX(pp);packet(t-s*.007,xx,965,.035,0)}packet(t,x,965,1,0);
+ }
+ if(t>5.49){const wipe=io((t-5.49)/.16)*W;g.save();g.beginPath();g.rect(0,0,wipe,H);g.clip();arrival(t);g.restore();line(wipe,0,wipe,H,'#daeeff',14,.75)}
+}
+function cadence(t){
+ const q=t-9.5;const e=out(q/.65);background(paper);brand(ink);
+ txt('We check career pages.',90,430+(1-e)*45,56,ink,{alpha:e,weight:500,spacing:-1.5});
+ txt('Every',90,655+(1-e)*80,111,ink,{alpha:e,weight:550});
+ const n=out((q-.06)/.72);txt('30',72,1155+(1-n)*130,592,ink,{alpha:n,weight:600,spacing:-41});
+ txt('minutes.',90,1320+(1-n)*60,138,blue,{alpha:n,weight:550,spacing:-5});
+ const pp=clamp((q-.4)/.65);line(96,1417,96+760*pp,1417,ink,3,e);
+ if(q<.55){g.save();g.globalAlpha=1-e;g.translate(-out(q/.55)*1100,0);arrival(9.45);g.restore()}
+}
+function benefit(t){
+ const q=t-13.5;studio();brand();const en=out(q/.6);
+ const words=[['Spend',90,660,161],['less time',90,865,166],['checking.',90,1075,166]];
+ words.forEach(([s,x,y,size],i)=>{const p=out((q-i*.12)/.65);g.save();g.beginPath();g.rect(70,y-size-15,980,size+40);g.clip();txt(s,x,y+(1-p)*(size+30),size,i===2?blue:paper,{alpha:p});g.restore()});
+ const p=out((q-.5)/.9);line(99,1140,99+757*p,1140,blue,6,p);
+ if(q<.5){g.save();const w=io(q/.5)*W;g.beginPath();g.rect(w,0,W-w,H);g.clip();cadence(13.49);g.restore()}
+}
+function close(t){
+ const q=t-16.8;const e=out(q/.6);background(paper);brand(ink,e);
+ g.save();g.globalAlpha=e;g.drawImage(mark,426,650+(1-e)*70,160,160);g.restore();
+ txt('JJ Intern',510,1010+(1-e)*60,116,ink,{align:'center',alpha:e,weight:600,spacing:-5});
+ txt('Find your next internship.',510,1150+(1-e)*50,56,ink,{align:'center',alpha:e,weight:450,spacing:-1.7});
+ const p=out((q-.23)/.7);rr(146,1250+(1-p)*35,728,124,62,ink);txt('jjintern.com/feed',510,1330+(1-p)*35,56,paper,{align:'center',alpha:p,weight:500,spacing:-1.5});
+ if(q<.5){g.save();const w=io(q/.5)*W;g.beginPath();g.rect(w,0,W-w,H);g.clip();benefit(16.79);g.restore()}
+}
+window.drawScene=function(t){t=clamp(t,0,19.999999);g.setTransform(1,0,0,1,0,0);g.globalAlpha=1;g.globalCompositeOperation='source-over';
+ if(t<5.65)intro(t);else if(t<9.5)arrival(t);else if(t<13.5)cadence(t);else if(t<16.8)benefit(t);else close(t);
+};
+window.ready=Promise.all([mark.decode(),feed.decode(),role.decode(),document.fonts.ready]).then(()=>{if(!window.PacketRenderer)throw Error('3D packet module missing');drawScene(0);return{size:[W,H],duration:20,nativeFps:120,uploadFps:60,packetFlight:{start:4.65,end:5.65,seconds:1,direction:'left to right',scale:'fixed throughout travel'},font:'macOS system sans',assets:'P07 authentic public feed + original raster JJIntern mark',claims:'P06 30-minute check cadence (owner-confirmed); illustrative posting/workflow; no current vacancy or instant ingestion promise'}});
+</script></html>

@@ -1,0 +1,58 @@
+<!doctype html><html><head><meta charset="utf-8"><title>JJIntern — source label and logo only / revision 05</title><style>html,body{margin:0;background:#edf3ff}canvas{display:block;width:1080px;height:1920px}</style></head><body><canvas id="frame" width="2160" height="3840"></canvas><script>
+// User-requested editorial role label and original JJIntern mark.
+// No website screenshots or asserted live vacancy/ingestion event.
+const canvas=document.getElementById('frame'),ctx=canvas.getContext('2d');
+const font='-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Arial,sans-serif';
+const palette={background:'#edf3ff',paper:'#ffffff',ink:'#203145',muted:'#687c93',line:'#a8bdd8',chrome:'#f7faff',blue:'#0071e3',pale:'#d8e9ff'};
+const logo=new Image();logo.src='LOGO_IMAGE';
+const output=document.createElement('canvas');output.width=1080;output.height=1920;const ox=output.getContext('2d');
+function rr(c,x,y,w,h,r){c.beginPath();c.roundRect(x,y,w,h,r);}
+function box(c,x,y,w,h,r,fill,stroke,width=2){rr(c,x,y,w,h,r);if(fill){c.fillStyle=fill;c.fill();}if(stroke){c.strokeStyle=stroke;c.lineWidth=width;c.stroke();}}
+function text(c,value,x,y,size,weight=400,color=palette.ink){c.fillStyle=color;c.font=`${weight} ${size}px ${font}`;c.fillText(value,x,y);}
+function line(c,x1,y1,x2,y2,color,width){c.strokeStyle=color;c.lineWidth=width;c.lineCap='round';c.beginPath();c.moveTo(x1,y1);c.lineTo(x2,y2);c.stroke();}
+function background(){ctx.setTransform(2,0,0,2,0,0);ctx.fillStyle=palette.background;ctx.fillRect(0,0,1080,1920);}
+function careers(){
+ // Exact user-requested wording, split across two lines for hierarchy.
+ // Editorial title tile; no fabricated employer interface or vacancy details.
+ box(ctx,110,790,860,340,30,palette.paper);
+ text(ctx,'Microsoft',174,919,48,500,palette.muted);
+ text(ctx,'SWE Internship',174,1016,78,550);
+}
+function receiving(){
+ // Only the original mark, at native proportions, optically centred using
+ // its existing transparent padding. No added wordmark, card, UI or feed.
+ ctx.drawImage(logo,330,715,420,420);
+}
+function packet(){
+ const x=322,y=790,w=580,h=340;
+ // Clear, varied direction lines rather than atmospheric rendering.
+ line(ctx,82,y+81,x-38,y+81,'#91b6e6',7);
+ line(ctx,144,y+169,x-23,y+169,'#b3cceb',6);
+ line(ctx,48,y+258,x-48,y+258,'#91b6e6',7);
+ box(ctx,x,y,w,h,25,palette.paper,palette.blue,4);
+ ctx.save();rr(ctx,x,y,w,h,25);ctx.clip();ctx.fillStyle='#e8f2ff';ctx.fillRect(x,y,42,h);ctx.fillStyle=palette.blue;ctx.fillRect(x+w-11,y+78,11,h-156);ctx.restore();
+ line(ctx,x+94,y+89,x+322,y+89,'#305c91',15);
+ line(ctx,x+94,y+157,x+252,y+157,'#8eadd1',15);
+ line(ctx,x+94,y+225,x+357,y+225,'#8eadd1',15);
+ // One small information connector leads to the receiving edge.
+ line(ctx,x+426,y+170,x+w-12,y+170,palette.blue,4);
+ ctx.strokeStyle='#a9c7ee';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(x+w+27,y+105);ctx.quadraticCurveTo(x+w+48,y+170,x+w+27,y+235);ctx.stroke();
+}
+window.ready=Promise.all([logo.decode(),document.fonts.ready]).then(()=>({width:1080,height:1920,internal:[2160,3840],stage:'revision05 actual stills only',style:'Microsoft SWE Internship title tile; original JJIntern logo only',font,logo:[logo.width,logo.height]}));
+window.drawFrame=function(n){background();
+ if(n===1)careers();
+ if(n===2)packet();
+ if(n===3)receiving();
+ ox.clearRect(0,0,1080,1920);ox.drawImage(canvas,0,0,1080,1920);
+ return output.toDataURL('image/png').split(',')[1];
+};
+window.makeBoard=function(phone=false){
+ const b=document.createElement('canvas');b.width=1620;b.height=1100;const c=b.getContext('2d');c.fillStyle=palette.background;c.fillRect(0,0,b.width,b.height);
+ const titles=['01  /  SOURCE','02  /  INFORMATION','03  /  JJINTERN'];
+ const subs=['Microsoft SWE Internship','Simple data tile · clear travel direction','Original logo only'];
+ for(let i=1;i<=3;i++){drawFrame(i);c.drawImage(output,(i-1)*540,0,540,960);text(c,titles[i-1],(i-1)*540+30,1003,20,550);text(c,subs[i-1],(i-1)*540+30,1036,17,400,palette.muted);}
+ if(!phone)return b.toDataURL('image/png').split(',')[1];
+ const small=document.createElement('canvas');small.width=1080;small.height=733;small.getContext('2d').drawImage(b,0,0,1080,733);return small.toDataURL('image/png').split(',')[1];
+};
+window.ready.then(()=>drawFrame(1));
+</script></body></html>

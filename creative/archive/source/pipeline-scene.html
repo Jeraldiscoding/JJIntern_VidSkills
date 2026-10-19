@@ -1,0 +1,149 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>JJIntern — We check. You discover.</title>
+<style>html,body{margin:0;background:#0b0b0c;overflow:hidden}canvas{display:block;width:1080px;height:1920px}</style>
+<canvas id="film" width="1080" height="1920" aria-label="An example Microsoft posting, a thirty-minute check, a fast data journey, and the actual JJIntern internship feed."></canvas>
+<script>
+'use strict';
+const W=1080,H=1920,PI=Math.PI,TAU=PI*2;
+const c=document.querySelector('#film'),g=c.getContext('2d',{alpha:false});g.imageSmoothingEnabled=true;g.imageSmoothingQuality='high';
+const ink='#0b0b0c',paper='#f5f5f7',blue='#0071e3',secondary='#b0b0b8';
+const sans='-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif';
+const mono='ui-monospace, "SFMono-Regular", Menlo, monospace';
+const serif=new FontFace('Instrument','url(../../assets/evidence/product/instrument-serif-latin-italic-400.woff2)',{style:'italic',weight:'400'});
+const mark=new Image();mark.src='../../assets/evidence/product/logo-mark.png';
+const feed=new Image();feed.src='../pipeline/product/feed-focus.png';
+const role=new Image();role.src='../pipeline/product/feed-role.png';
+const clamp=(n,a=0,b=1)=>Math.max(a,Math.min(b,n)),mix=(a,b,t)=>a+(b-a)*t;
+const smooth=n=>{n=clamp(n);return n*n*(3-2*n)},ease=n=>1-Math.pow(1-clamp(n),4);
+const io=n=>{n=clamp(n);return n<.5?8*n**4:1-(-2*n+2)**4/2};
+function rng(n){return()=>{n=(Math.imul(n,1664525)+1013904223)|0;return(n>>>0)/4294967296}}
+const rand=rng(301017),bits=Array.from({length:260},()=>({a:rand()*TAU,r:520+rand()*1400,z:rand()*5400,s:rand()*4+1,k:rand()}));
+function bg(col=ink){g.globalAlpha=1;g.fillStyle=col;g.fillRect(0,0,W,H)}
+function txt(s,x,y,size=100,col=paper,o={}){
+ g.save();g.translate(x,y);g.globalAlpha=o.alpha??1;g.textAlign=o.align??'center';g.textBaseline='alphabetic';g.letterSpacing=`${o.spacing??(-size*.035)}px`;
+ const font=n=>o.serif?`italic 400 ${n}px Instrument`:`${o.weight??550} ${n}px ${o.mono?mono:sans}`;
+ g.font=font(size);if(o.max){const width=g.measureText(s).width;if(width>o.max){size=Math.floor(size*o.max/width);g.font=font(size)}}
+ if(o.rot)g.rotate(o.rot);g.fillStyle=col;g.fillText(s,0,0);g.restore();
+}
+function line(a,b,c,d,col=blue,w=2,alpha=1){g.save();g.globalAlpha=alpha;g.strokeStyle=col;g.lineWidth=w;g.beginPath();g.moveTo(a,b);g.lineTo(c,d);g.stroke();g.restore()}
+function dot(x,y,r,col=blue,a=1){g.save();g.globalAlpha=a;g.fillStyle=col;g.beginPath();g.arc(x,y,Math.max(.01,r),0,TAU);g.fill();g.restore()}
+function rr(x,y,w,h,r=18,fill=ink,stroke=null,lw=1){g.beginPath();g.roundRect(x,y,w,h,r);if(fill){g.fillStyle=fill;g.fill()}if(stroke){g.strokeStyle=stroke;g.lineWidth=lw;g.stroke()}}
+function header(dark=true,alpha=1){txt('JJ Intern',500,250,37,dark?paper:ink,{alpha,weight:600});dot(580,241,4,blue,alpha)}
+function head(a,b,t,col=paper,opts={}){
+ const v=ease(t/.45),vv=ease((t-.09)/.52),fade=opts.alpha??1;
+ txt(a,500,425+(1-v)*50,opts.size??107,col,{alpha:clamp(t*7)*fade,max:810,weight:600});
+ txt(b,500,590+(1-vv)*60,opts.serifSize??139,col,{alpha:clamp((t-.09)*7)*fade,max:810,serif:true});
+}
+function sub(s,y,a=1,col=secondary,size=43){txt(s,500,y,size,col,{alpha:a,weight:400,spacing:-.55,max:810})}
+function arrow(x,y,size=42,col=blue,a=1){g.save();g.globalAlpha=a;g.strokeStyle=col;g.lineWidth=5;g.lineCap='round';g.lineJoin='round';g.beginPath();g.moveTo(x,y+size);g.lineTo(x+size,y);g.moveTo(x,y);g.lineTo(x+size,y);g.lineTo(x+size,y+size);g.stroke();g.restore()}
+function page(x,y,scale,rot,title,a=1){
+ g.save();g.globalAlpha=a;g.translate(x,y);g.rotate(rot);g.scale(scale,scale);
+ rr(-290,-170,580,340,15,'#17171a','#34343a',1.5);
+ line(-250,-115,250,-115,'#45454d',1,1);dot(-250,-141,5,'#757580');dot(-228,-141,5,'#757580');
+ txt('CAREERS',-246,-65,24,secondary,{align:'left',mono:true,spacing:2});txt(title,-246,22,44,paper,{align:'left',weight:500,spacing:-1});
+ for(let i=0;i<3;i++)line(-246,64+i*26,130-i*42,64+i*26,'#35353c',6,1);
+ g.restore();
+}
+function posting(x=500,y=1030,scale=1,a=1){
+ g.save();g.globalAlpha=a;g.translate(x,y);g.scale(scale,scale);
+ const light=g.createLinearGradient(-400,-230,400,230);light.addColorStop(0,'#25252b');light.addColorStop(1,'#111115');
+ rr(-405,-231,810,462,22,light,'#555561',1.5);line(-362,-145,362,-145,'#494952',1,.8);
+ dot(-350,-184,6,blue);txt('EXAMPLE POSTING',-325,-171,43,paper,{align:'left',mono:true,spacing:1.5});
+ txt('Microsoft',-350,-29,89,paper,{align:'left',weight:600,spacing:-3});
+ txt('Research Intern',-350,66,60,paper,{align:'left',weight:450,spacing:-1.5});
+ txt('Internship',-350,161,40,secondary,{align:'left',weight:400,spacing:-.5});arrow(292,111,41);
+ g.restore();
+}
+function checking(t){
+ bg();header();const fade=1-smooth((t-2.05)/.45);head('Still checking','career pages?',t+.15,paper,{size:106,serifSize:133,alpha:fade});
+ const flip=Math.sin(t*5.8)*.09;
+ page(500,1085,1.05,-.10+flip*.3,'Internships',fade*.45);
+ page(570,1003,.95,.09-flip*.25,'Technology',fade*.6);
+ page(454,925,1.05,-.02+flip*.2,'Finance + tech',fade);
+ const v=(t*.85)%1;g.save();g.globalAlpha=fade*.8;g.strokeStyle=blue;g.lineWidth=5;g.beginPath();g.arc(500,1332,27,-PI/2,-PI/2+TAU*v);g.stroke();g.restore();
+ sub('Check. Refresh. Repeat.',1444,fade*smooth((t-.55)/.35),paper,45);
+}
+function event(t){
+ const q=t-2.5;bg();header();head('A new','posting.',q+.14,paper,{size:115,serifSize:157});
+ const en=ease(q/.40),pulse=Math.exp(-q*3.1);
+ for(let i=0;i<3;i++){g.beginPath();g.arc(500,1030,150+q*340+i*50,0,TAU);g.strokeStyle=blue;g.lineWidth=2;g.globalAlpha=pulse*.33;g.stroke()}g.globalAlpha=1;
+ posting(500,1030, .72+.28*en,en);
+}
+function cadence(t){
+ const q=t-4;bg();header();
+ head('We check','every',q+.1,paper,{size:120,serifSize:142});
+ const r=285,progress=clamp(q/1.65),ang=-PI/2+progress*TAU;
+ g.save();g.globalAlpha=.7;
+ for(let i=0;i<60;i++){const a=-PI/2+i/60*TAU;line(500+Math.cos(a)*(r-7),1000+Math.sin(a)*(r-7),500+Math.cos(a)*(r+(i%5===0?10:1)),1000+Math.sin(a)*(r+(i%5===0?10:1)),i/60<=progress?blue:'#393943',i%5===0?3:1,1)}
+ g.restore();g.save();g.beginPath();g.arc(500,1000,r,-PI/2,ang);g.strokeStyle=blue;g.lineWidth=8;g.stroke();g.restore();
+ const wedge=g.createRadialGradient(500,1000,20,500,1000,r);wedge.addColorStop(0,'rgba(0,113,227,0)');wedge.addColorStop(1,'rgba(0,113,227,.18)');
+ g.fillStyle=wedge;g.beginPath();g.moveTo(500,1000);g.arc(500,1000,r,ang-.6,ang);g.closePath();g.fill();
+ txt('30',500,1110,316,paper,{weight:600,spacing:-17});sub('minutes.',1356,1,paper,91);
+ const cardScale=mix(.38,.10,ease(q/1.8)),xx=500+Math.cos(ang)*(r+15),yy=1000+Math.sin(ang)*(r+15);
+ g.save();g.globalAlpha=smooth((q-1.4)/.2)*(1-smooth((q-1.8)/.2));rr(xx-31,yy-22,62,44,5,blue);g.restore();
+ sub('Scheduled checks.',1460,smooth(q/.4),secondary,42);
+}
+function project(x,y,z){const f=665/Math.max(z,50);return{x:500+x*f,y:1030+y*f,s:f}}
+function tunnel(t){
+ const q=t-6;bg();header();const intro=ease(q/.35),out=smooth((q-3.35)/.65);
+ const speed=1250+q*320,travel=1250*q+160*q*q;
+ g.save();g.beginPath();g.rect(0,625,W,1000);g.clip();
+ // Perspective rails and moving rings form a real flight path toward the product.
+ for(let lane=0;lane<18;lane++){
+  const a=lane/18*TAU;g.beginPath();let begun=false;
+  for(let k=0;k<=75;k++){
+   const z=110+k*65,bend=Math.sin(z*.0009+q*.5)*180;
+   const p=project(Math.cos(a)*1000+bend,Math.sin(a)*1150,z);
+   if(!begun){g.moveTo(p.x,p.y);begun=true}else g.lineTo(p.x,p.y);
+  }g.strokeStyle=lane%3===0?blue:'#829fca';g.lineWidth=lane%3===0?4:1.4;g.globalAlpha=intro*(1-out)*.50;g.stroke();
+ }
+ for(let ring=0;ring<22;ring++){
+  const z=((ring*245-travel)%5390+5390)%5390+160;g.beginPath();
+  for(let j=0;j<=64;j++){
+   const a=j/64*TAU,p=project(Math.cos(a)*1000+Math.sin(z*.0009+q*.5)*180,Math.sin(a)*1150,z);
+   if(!j)g.moveTo(p.x,p.y);else g.lineTo(p.x,p.y);
+  }g.strokeStyle=ring%3===0?blue:'#8caccb';g.lineWidth=ring%3===0?3:1.2;g.globalAlpha=intro*(1-out)*clamp(1-z/6200)*.42;g.stroke();
+ }
+ for(const b of bits){
+  const z=((b.z-travel)%5400+5400)%5400+140,bend=Math.sin(z*.0009+q*.5)*180;
+  const p=project(Math.cos(b.a)*b.r+bend,Math.sin(b.a)*b.r,z),tail=project(Math.cos(b.a)*b.r+bend,Math.sin(b.a)*b.r,z+speed*.085);
+  line(p.x,p.y,tail.x,tail.y,b.k>.65?paper:blue,Math.min(6,Math.max(.7,b.s*p.s)),intro*(1-out)*clamp(1-z/6500));
+  if(b.k>.85&&p.s>.16&&p.s<1.7)txt(b.k>.93?'POST':'0101',p.x,p.y,Math.min(27,18*p.s),b.k>.93?paper:blue,{mono:true,alpha:(1-out)*.6,spacing:2});
+ }
+ // The Microsoft packet visibly shrinks along the same perspective route.
+ const flight=smooth(q/3.4),z=mix(540,5900,flight),p=project(Math.sin(q*.9)*80*(1-flight),90*(1-flight),z);
+ if(q<2.8){g.globalAlpha=1;rr(p.x-200*p.s,p.y-125*p.s,400*p.s,250*p.s,14*p.s,blue);txt('Microsoft',p.x,p.y-10*p.s,50*p.s,paper,{alpha:1-flight*.65,spacing:-1,weight:600});txt('Research Intern',p.x,p.y+57*p.s,34*p.s,paper,{alpha:1-flight*.65,spacing:-.5,weight:450})}
+ g.restore();g.globalAlpha=1;
+ head('From career pages','to your feed.',q+.10,paper,{size:86,serifSize:127,alpha:1-smooth((q-2.65)/.55)});
+ // The endpoint grows from the vanishing point instead of cutting to an unrelated screen.
+ if(q>2.8){const e=io((q-2.8)/1.2);productFrame(500,1030,.06+.94*e,e,0);sub('Example workflow · actual feed',1446,smooth((q-2.8)/.2),secondary,44)}
+}
+function productFrame(x,y,scale=1,alpha=1,zoom=0){
+ const width=800,height=800*1020/1496;
+ g.save();g.globalAlpha=alpha;g.translate(x,y);g.scale(scale,scale);
+ g.shadowColor='rgba(0,0,0,.45)';g.shadowBlur=50;g.shadowOffsetY=18;rr(-width/2-12,-height/2-12,width+24,height+24,21,'#101014','#0071e3',3);g.shadowBlur=0;g.shadowOffsetY=0;
+ g.save();g.beginPath();g.roundRect(-width/2,-height/2,width,height,12);g.clip();
+ const sw=mix(1496,1000,zoom),sh=sw*1020/1496,sy=mix(0,1020-sh,zoom);
+ g.drawImage(feed,0,sy,sw,sh,-width/2,-height/2,width,height);g.restore();
+ g.restore();
+}
+function destination(t){
+ const q=t-10;bg();header();head('Internships.','One feed.',q+.1,paper,{size:108,serifSize:150});
+ productFrame(500,1030,1,1,smooth((q-.8)/1.2));
+ sub('Example workflow · actual feed',1446,1,secondary,44);
+}
+function payoff(t){
+ const q=t-14;bg();header();head('Spend less time','checking.',q+.16,paper,{size:103,serifSize:155});
+ const shrink=smooth(q/1.3);
+ if(q<1.3)productFrame(500,mix(1030,886,shrink),mix(1,.14,shrink),1-shrink,1);
+ const logo=smooth((t-16.65)/.35);g.save();g.globalAlpha=logo;g.drawImage(mark,430,790,140,140);g.restore();
+ const e=smooth((t-15.5)/.6);txt('JJIntern.com/feed',500,1180,75,paper,{alpha:e,weight:550,max:810});
+ line(205,1225,205+590*e,1225,blue,5,e);sub('We check every 30 minutes.',1340,e,paper,46);sub('Explore the feed.',1430,e,secondary,46);
+}
+window.drawScene=function(t){t=clamp(t,0,19.99999);g.setTransform(1,0,0,1,0,0);g.globalAlpha=1;g.globalCompositeOperation='source-over';
+ if(t<2.5)checking(t);else if(t<4)event(t);else if(t<6)cadence(t);else if(t<10)tunnel(t);else if(t<14)destination(t);else payoff(t);
+};
+window.ready=Promise.all([serif.load().then(f=>document.fonts.add(f)),mark.decode(),feed.decode(),role.decode()]).then(()=>document.fonts.ready).then(()=>{
+ if(!document.fonts.check('italic 400 100px Instrument'))throw Error('Font unavailable');drawScene(0);
+ return{size:[W,H],fps:'Native120 with60fps uploadcopy',font:'Actual system sans and Instrument Serif italic400',story:'Exampleposting → scheduled30minutecheck → dataflight → authenticJJInternfeed → lesschecking',sourceCaptureDensity:4,source:'Microsoft ResearchIntern actualfeed; exampleworkflow, notfresharrival',cadenceEvidence:'P06 ownerconfirmation17October2026'};
+});
+</script></html>

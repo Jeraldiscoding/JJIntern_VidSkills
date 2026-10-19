@@ -1,0 +1,23 @@
+# macOS and editor metadata
+.DS_Store
+._*
+*.swp
+*.swo
+
+# Reproducible caches and local dependencies
+__pycache__/
+*.py[cod]
+.cache/
+.venv/
+venv/
+node_modules/
+
+# Local secrets and machine/session state
+.env
+.env.*
+!.env.example
+!.env.sample
+/.aws/
+/.codex/
+
+# Keep .agents/skills and intentional creative media/evidence in version control.

@@ -1,0 +1,31 @@
+Revision 05 — independent motion-test review
+17 October 2026. Reviewer: claims_qa agent.
+
+PRE-ENCODED FRAME REVIEW
+Inspected actual motion-board-1.png through motion-board-4.png; native 4.100s, 4.500s, 6.650s, 6.800s and 11.300s stills; read motion.html. These are actual rendered samples, not a claim of continuous playback.
+
+REPAIR REQUIRED BEFORE FINAL RENDER
+At10.800 the outgoing Found. overlaps the incoming We handle the finding. at the same center, visibly creating ghosted stacked lettering. Source confirms Found. remains through10.950 while the first line begins10.650. Use separated text opacity windows, for example Found. fades10.600–10.760, first line appears10.760–11.030, second10.920–11.300. Keep the small blue accent as a bridge and preserve the complete two-line hold from11.300.
+
+Apply the same separation to15.000–15.400: current source crossfades JJIntern into the area occupied by the first payoff line. Fade payoff text by15.160; introduce final sign-off15.160–15.400, then hold. This risk is inferred from exact source geometry and should be verified in refreshed15.200 frames. No new design exploration or visual approval is needed for these cleanup edits.
+
+PASSED IN INSPECTED SAMPLES
+Source establishes exact permitted copy promptly. Source/packet remain flat white on approved pale blue with system-sans copy and original palette.
+The compression keeps the same continuous boundary, carries source text toward three bar positions, and visibly forms the blue leading right edge. At4.100 the three bars are separate; their differing intermediate left positions follow the source run motion and converge to the final common left position by4.500.
+At4.500 the 359.6x210.8 packet is fully readable as a rectangle at300px board-panel width. Flight sample sequence has visible rightward travel; its lengthening left trails and thin pressure arc stay restrained. Source formula exactly matches the user-required polynomial, X0=65 and X1=280.4; its right edge is640 at6.500. No camera tracking is used.
+Handoff samples6.650/6.800 reveal the intact original asset through a horizontal mask as the packet fades. Blue connector stays close to the receiving left edge. The mask temporarily hides the arrow end at6.800; this is a permitted reveal, not deformation. Logo is whole and centered by7.100; no packet, trail, feed, text label or connector remains during the subsequent logo-only hold.
+The11.300 native frame shows both full payoff lines without clipping; 67px source lettering is about22.3px at360px phone-equivalent width. Exact spelling and punctuation match the requested copy. The sign-off samples15.400 and17.992 show JJIntern only.
+No added live-vacancy/availability/latency claim, URL, browser, person, feed, source employer logo or CTA appears in inspected samples.
+
+PENDING
+Refreshed transition samples after text collision repair; actual encoded motion-test playback/frame sequence inspection; final full encoded video and audio metadata, frames, sound and muted comprehension. Physical-phone and platform-upload previews remain external release checks; they do not block local production.
+
+STATUS
+Concept selected and approved. Assets available and inspected. Motion geometry/compression/flight/handoff samples acceptable; typography transition cleanup required before final. Release remains conditional on actual final artifact checks plus physical-phone and platform placement review.
+
+REFINEMENT RECHECK
+Inspected refreshed motion-board-3.png and motion-board-4.png generated after motion.html edit. The10.800 frame now contains only the beginning of the incoming first payoff line, with no overprinted Found. Source now fades Found.10.600–10.760, reveals first line10.760–11.030, and second10.920–11.300. Both payoff lines are fully opaque11.300 through15.000. The final transition now fades payoff15.000–15.160, then reveals JJIntern15.160–15.400; the blue accent bridges phases. This source separation resolves the sign-off collision risk. Source also fades the logo9.880–10.000 before Found. appears. No remaining text-collision repair is required.
+
+Actual test MP4 manifest:720x1280 H.264,60fps,300frames,5.000seconds, covering full-timeline2.500–7.500. Browser playback report reaches ended=true at5.000 with300 decoded frames, readyState4 and no media error. Instrumented playback reports12 dropped frames, so playback is not described as drop-free. Six sampled screenshots were inspected, but the initial capture used a1080x1920 clip with an unmatched smaller browser viewport, leaving the video tiny at the top. Those captures establish decoded content only; they are insufficient for phone-scale motion/readability judgment. Production lead was asked to set matching viewport metrics or capture decoded video pixels directly before accepting playback screenshots. Audio was absent from this intentionally silent motion test. No human listening claim is made.
+
+Updated local-production status: design and text-transition refinement accepted from actual refreshed frames and amended source; proceed with full render after correcting/reviewing motion-test frame capture. Final video/audio and external release checks remain pending.

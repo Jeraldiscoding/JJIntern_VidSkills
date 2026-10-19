@@ -1,0 +1,7 @@
+LOGO_IMAGE: hash verified
+01-source.png: (1080, 1920), hash verified
+02-packet.png: (1080, 1920), hash verified
+03-logo.png: (1080, 1920), hash verified
+approval-board.png: (1620, 1100), hash verified
+phone-board.png: (1080, 733), hash verified
+Packet identical to revision04.

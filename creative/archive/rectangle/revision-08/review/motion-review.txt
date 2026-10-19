@@ -1,0 +1,30 @@
+Revision 08 — creative motion review
+17 October 2026. Reviewer: claims_qa agent.
+
+Direction: continue to the full render. The physical receiving action is the most convincing improvement in this revision. The destination is visible before contact, the packet crosses a defined opening, its visible width progressively reduces through occlusion, and the opening closes only after the packet is inside. This gives the arrival a clear cause and result. Keep the hard mask and the fixed receiving body during entry; replacing this with opacity or moving the receiver during docking would weaken the effect.
+
+The uniform pullback is acceptable in the implemented version because the packet's screen position still moves right throughout. Both packet and receiver become visible together before contact, while the packet retains a recognizable shape. The reframe toward the centered logo happens after the slot has closed, so the viewer can finish reading the entry first. The original logo remains the supplied asset with uniform scale/translation. The receiving shell is an abstract graphic container, not an invented screenshot of a JJIntern product feature.
+
+The airflow now has a purpose beyond indicating direction: curved lines split around the front of the packet, bend around its upper and lower boundaries, and join the wake. That makes air resistance visible while preserving a sharp packet. The larger background streaks and faster initial movement give the five-second travel more immediate intent than revision 07. Keep the current hierarchy: sharp packet first, curved airflow second, background streaks third. Additional particles, glow or deformation would make the mechanism harder to follow.
+
+The new glyph-to-cell morph is materially more expressive than squashing two text lines into bars. Each text run has its own coordinated path, the letters become information cells, and those cells close into the three established packet bars. An initial inspection found Internship escaping the right edge of the shrinking tile at 2.300 seconds. The corrected shell-relative positions and scale have been inspected in the refreshed native 2.300-second frame; the word remains inside the tile. The added bridges are visible at 2.430 seconds and the 2.550-second packet has the exact clean continuous bars. This repair is complete. Keep the short packet hold afterward so the result has time to register.
+
+The source entrance perimeter acknowledgment is restrained enough to support one isolated ding rather than competing with it. Exact source text remains Microsoft / SWE Internship. The shorter payoff still preserves We handle the finding. / You focus on applying. Both full lines are readable in the 11.800 and 13.800 rendered samples. The final sign-off remains JJIntern alone once settled.
+
+Actual inspection: all five initial boards; native morph frames 2.300, 2.430 and 2.550 before/after refinement as applicable; native approach/contact/entry frames 7.650, 8.100, 8.620 and 9.050; source implementation of glyph paths, screen-space motion, logo drawing and hard-mask docking. The final screen-space flight formula is x=70+370*(0.6*u+0.4*u^3), with u spanning 3.100–8.100 seconds. This is an animation description, not a product performance claim. Final encoded output inspection is separate from these rendered-frame findings.
+
+Claims and provenance: the Microsoft label is editorial, not a verified current vacancy or new-posting event. The receiver, port, glyph cells and airflow are explanatory motion graphics. They do not prove actual ingestion, employer affiliation, completeness, notification delivery or measured discovery speed. The original JJIntern raster is used directly; no replacement mark or real product interface has been invented. A scoped revision08 history entry has been appended to CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017 without expanding permitted product claims.
+
+No remaining visual repair is identified in the inspected revised frames. This is a concrete improvement in morph construction, airflow and physical arrival, not a claim that a checklist proves showreel quality. The newly composed score needs its own actual audio checks; this reviewer has not subjectively listened and does not certify its style. Physical-phone viewing, intended placement preview and headphone/speaker audition remain distinct checks. No human normal-speed viewing is claimed from sampled frames or playback instrumentation.
+
+FINAL EXPORT REVIEW — 2026-10-17
+Root inspected all three decoded 60fps boards at phone-equivalent size.
+The morph stays within its shell; the five-second flight retains a crisp packet;
+the body progressively crosses behind the receiver lip; final copy is readable.
+Full browser playback reached 18 seconds on muted and audio-enabled passes,
+with no media errors. Muted pass: 1080 decoded, zero dropped frames. Audio-enabled
+pass: 1080 additional decoded, one initial dropped frame, no subsequent growth.
+This is a playback/decoded-image check, not subjective audio audition.
+Both files passed exact duration/frame count, full decode and audio-level checks.
+Actual AAC: -14.71 LUFS, -1.16 dBTP, zero clipped samples.
+Phone hardware, placement preview and subjective listening remain unperformed.

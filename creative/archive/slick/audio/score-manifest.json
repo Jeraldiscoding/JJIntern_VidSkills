@@ -1,0 +1,999 @@
+{
+  "title": "Weight / Direction",
+  "revision": "V4 slick product-ad score",
+  "duration_seconds": 20.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits_per_sample": 24,
+  "tempo_bpm": 128,
+  "main_groove_downbeat_s": 5.65,
+  "tonal_centre": "E minor, warmer Cmaj9 / Dadd9 benefit colours",
+  "originality": "All tones, bass, kick, percussion, metallic/glass hit, pressure, stereo launch, impact and reflections are procedurally synthesized. No samples, recordings, stock loops, vocals, external music generators or sampled IRs.",
+  "seed": 41171026,
+  "synthesis": {
+    "bass": "Bandlimited additive saw and sine/FM body plus octave-down sub, decaying brightness, centered",
+    "kick": "Exponential pitch-envelope sine plus newly generated filtered-noise transient",
+    "percussion": "Filtered generated noise and decaying resonators",
+    "signature_strike": "One original FM-glass/inharmonic-partial strike, not a notification tune",
+    "fold": "Resonant clicks, noise pressure and tuned contact transients",
+    "launch": "Shaped generated noise, falling oscillator and continuous equal-power left-to-right pan",
+    "space": "Short computed delay/reflection taps, no recorded IR"
+  },
+  "cues": [
+    {
+      "s": 0,
+      "cue": "Restrained pressure"
+    },
+    {
+      "s": 1.05,
+      "cue": "Example posting signature strike"
+    },
+    {
+      "s": 3.2,
+      "cue": "Physical fold/compression with tactile contacts"
+    },
+    {
+      "s": 4.65,
+      "cue": "One-second packet travel window; stereo left-to-right launch"
+    },
+    {
+      "s": 5.55,
+      "cue": "100 ms near silence before destination"
+    },
+    {
+      "s": 5.65,
+      "cue": "Website/feed impact and full bass-led groove"
+    },
+    {
+      "s": 9.5,
+      "cue": "Type transition snap"
+    },
+    {
+      "s": 10,
+      "cue": "Checking claim with rhythmic intent"
+    },
+    {
+      "s": 13.5,
+      "cue": "Benefit: warmer harmonic lift"
+    },
+    {
+      "s": 16.8,
+      "cue": "Brand landing and rhythmic settle"
+    },
+    {
+      "s": 19.8,
+      "cue": "Fully settled clean ending"
+    }
+  ],
+  "premaster": {
+    "integrated_lufs": -17.29,
+    "true_peak_dbtp": -4.72,
+    "loudness_range_lu": 10.0
+  },
+  "master": {
+    "file": "jjintern-slick-original-score.wav",
+    "integrated_lufs": -14.24,
+    "true_peak_dbtp": -1.2,
+    "loudness_range_lu": 6.5,
+    "method": "Two-pass ffmpeg EBU R128; -14 LUFS / -1.2 dBTP targets"
+  },
+  "build_seconds": 2.285,
+  "events": [
+    {
+      "s": 0,
+      "event": "intro restrained pressure",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "s": 0.1,
+      "event": "intro low intent",
+      "gain": 0.27,
+      "pan": 0.0,
+      "midi_note": 40
+    },
+    {
+      "s": 1.05,
+      "event": "signature metallic glass posting strike",
+      "gain": 0.98,
+      "pan": 0,
+      "midi_note": 81
+    },
+    {
+      "s": 1.05,
+      "event": "posting strike physical edge",
+      "gain": 0.24,
+      "pan": 0
+    },
+    {
+      "s": 1.8,
+      "event": "restrained bass anticipation",
+      "gain": 0.28,
+      "pan": 0.0,
+      "midi_note": 40
+    },
+    {
+      "s": 2.5,
+      "event": "restrained bass anticipation",
+      "gain": 0.23,
+      "pan": 0.0,
+      "midi_note": 47
+    },
+    {
+      "s": 3.2,
+      "event": "fold compression pressure",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "s": 3.2,
+      "event": "tactile fold / locking click",
+      "gain": 0.48,
+      "pan": -0.26
+    },
+    {
+      "s": 3.2,
+      "event": "fold rhythmic weight",
+      "gain": 0.31,
+      "pan": 0.0,
+      "midi_note": 40
+    },
+    {
+      "s": 3.47,
+      "event": "tactile fold / locking click",
+      "gain": 0.525,
+      "pan": -0.16
+    },
+    {
+      "s": 3.78,
+      "event": "tactile fold / locking click",
+      "gain": 0.57,
+      "pan": -0.06
+    },
+    {
+      "s": 3.78,
+      "event": "fold rhythmic weight",
+      "gain": 0.31,
+      "pan": 0.0,
+      "midi_note": 40
+    },
+    {
+      "s": 4.05,
+      "event": "tactile fold / locking click",
+      "gain": 0.615,
+      "pan": 0.040000000000000036
+    },
+    {
+      "s": 4.3,
+      "event": "tactile fold / locking click",
+      "gain": 0.6599999999999999,
+      "pan": 0.14
+    },
+    {
+      "s": 4.3,
+      "event": "fold rhythmic weight",
+      "gain": 0.31,
+      "pan": 0.0,
+      "midi_note": 43
+    },
+    {
+      "s": 4.57,
+      "event": "tactile fold / locking click",
+      "gain": 0.705,
+      "pan": 0.24
+    },
+    {
+      "s": 4.65,
+      "event": "one-second-window left-to-right packet launch",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "s": 4.65,
+      "event": "packet release click",
+      "gain": 0.6,
+      "pan": -0.65
+    },
+    {
+      "s": 5.65,
+      "event": "controlled arrival impact",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "s": 5.65,
+      "event": "feed arrival Em9 colour",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "s": 5.65,
+      "event": "signature bass motif",
+      "gain": 0.93,
+      "pan": 0.0,
+      "midi_note": 40
+    },
+    {
+      "s": 5.65,
+      "event": "dry punch kick",
+      "gain": 0.93,
+      "pan": 0.0
+    },
+    {
+      "s": 5.884375,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 6.001563,
+      "event": "signature bass motif",
+      "gain": 0.7626,
+      "pan": 0.0,
+      "midi_note": 40
+    },
+    {
+      "s": 6.11875,
+      "event": "dry punch kick",
+      "gain": 0.76,
+      "pan": 0.0
+    },
+    {
+      "s": 6.11875,
+      "event": "crisp sparse snare",
+      "gain": 0.82,
+      "pan": -0.04
+    },
+    {
+      "s": 6.353125,
+      "event": "signature bass motif",
+      "gain": 0.8463,
+      "pan": 0.0,
+      "midi_note": 43
+    },
+    {
+      "s": 6.353125,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 6.5875,
+      "event": "dry punch kick",
+      "gain": 0.85,
+      "pan": 0.0
+    },
+    {
+      "s": 6.821875,
+      "event": "signature bass motif",
+      "gain": 0.7161000000000001,
+      "pan": 0.0,
+      "midi_note": 50
+    },
+    {
+      "s": 6.821875,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 6.939063,
+      "event": "dry punch kick",
+      "gain": 0.58,
+      "pan": 0.0
+    },
+    {
+      "s": 7.05625,
+      "event": "dry punch kick",
+      "gain": 0.76,
+      "pan": 0.0
+    },
+    {
+      "s": 7.05625,
+      "event": "crisp sparse snare",
+      "gain": 0.82,
+      "pan": 0.04
+    },
+    {
+      "s": 7.173438,
+      "event": "signature bass motif",
+      "gain": 0.7998000000000001,
+      "pan": 0.0,
+      "midi_note": 47
+    },
+    {
+      "s": 7.290625,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 7.525,
+      "event": "signature bass motif",
+      "gain": 0.93,
+      "pan": 0.0,
+      "midi_note": 40
+    },
+    {
+      "s": 7.525,
+      "event": "dry punch kick",
+      "gain": 0.93,
+      "pan": 0.0
+    },
+    {
+      "s": 7.525,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": 0.3
+    },
+    {
+      "s": 7.759375,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 7.876563,
+      "event": "signature bass motif",
+      "gain": 0.7626,
+      "pan": 0.0,
+      "midi_note": 40
+    },
+    {
+      "s": 7.99375,
+      "event": "dry punch kick",
+      "gain": 0.76,
+      "pan": 0.0
+    },
+    {
+      "s": 7.99375,
+      "event": "crisp sparse snare",
+      "gain": 0.82,
+      "pan": -0.04
+    },
+    {
+      "s": 7.99375,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": 0.3
+    },
+    {
+      "s": 8.228125,
+      "event": "signature bass motif",
+      "gain": 0.8463,
+      "pan": 0.0,
+      "midi_note": 43
+    },
+    {
+      "s": 8.228125,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 8.4625,
+      "event": "dry punch kick",
+      "gain": 0.85,
+      "pan": 0.0
+    },
+    {
+      "s": 8.4625,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": 0.3
+    },
+    {
+      "s": 8.696875,
+      "event": "signature bass motif",
+      "gain": 0.7161000000000001,
+      "pan": 0.0,
+      "midi_note": 50
+    },
+    {
+      "s": 8.696875,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 8.814063,
+      "event": "dry punch kick",
+      "gain": 0.58,
+      "pan": 0.0
+    },
+    {
+      "s": 8.93125,
+      "event": "dry punch kick",
+      "gain": 0.76,
+      "pan": 0.0
+    },
+    {
+      "s": 8.93125,
+      "event": "crisp sparse snare",
+      "gain": 0.82,
+      "pan": 0.04
+    },
+    {
+      "s": 8.93125,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": 0.3
+    },
+    {
+      "s": 9.048438,
+      "event": "signature bass motif",
+      "gain": 0.7998000000000001,
+      "pan": 0.0,
+      "midi_note": 47
+    },
+    {
+      "s": 9.165625,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 9.165625,
+      "event": "single ghost pickup",
+      "gain": 0.48,
+      "pan": 0.22
+    },
+    {
+      "s": 9.32,
+      "event": "type transition suction",
+      "gain": 0.8,
+      "pan": -0.12
+    },
+    {
+      "s": 9.4,
+      "event": "signature bass motif",
+      "gain": 0.93,
+      "pan": 0.0,
+      "midi_note": 43
+    },
+    {
+      "s": 9.4,
+      "event": "dry punch kick",
+      "gain": 0.93,
+      "pan": 0.0
+    },
+    {
+      "s": 9.5,
+      "event": "type change snap",
+      "gain": 0.72,
+      "pan": 0.12
+    },
+    {
+      "s": 9.5,
+      "event": "brief type-transition pass",
+      "gain": 0.39,
+      "pan": 0.0
+    },
+    {
+      "s": 9.634375,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 9.751563,
+      "event": "signature bass motif",
+      "gain": 0.7626,
+      "pan": 0.0,
+      "midi_note": 43
+    },
+    {
+      "s": 9.86875,
+      "event": "dry punch kick",
+      "gain": 0.76,
+      "pan": 0.0
+    },
+    {
+      "s": 9.86875,
+      "event": "crisp sparse snare",
+      "gain": 0.82,
+      "pan": -0.04
+    },
+    {
+      "s": 10.0,
+      "event": "claim typographic accent",
+      "gain": 0.32,
+      "pan": 0.18
+    },
+    {
+      "s": 10.05,
+      "event": "checking claim harmonic support",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "s": 10.103125,
+      "event": "signature bass motif",
+      "gain": 0.8463,
+      "pan": 0.0,
+      "midi_note": 50
+    },
+    {
+      "s": 10.103125,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 10.3375,
+      "event": "dry punch kick",
+      "gain": 0.85,
+      "pan": 0.0
+    },
+    {
+      "s": 10.571875,
+      "event": "signature bass motif",
+      "gain": 0.7161000000000001,
+      "pan": 0.0,
+      "midi_note": 55
+    },
+    {
+      "s": 10.571875,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 10.689063,
+      "event": "dry punch kick",
+      "gain": 0.58,
+      "pan": 0.0
+    },
+    {
+      "s": 10.80625,
+      "event": "dry punch kick",
+      "gain": 0.76,
+      "pan": 0.0
+    },
+    {
+      "s": 10.80625,
+      "event": "crisp sparse snare",
+      "gain": 0.82,
+      "pan": 0.04
+    },
+    {
+      "s": 10.923438,
+      "event": "signature bass motif",
+      "gain": 0.7998000000000001,
+      "pan": 0.0,
+      "midi_note": 50
+    },
+    {
+      "s": 11.040625,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 11.275,
+      "event": "signature bass motif",
+      "gain": 0.93,
+      "pan": 0.0,
+      "midi_note": 40
+    },
+    {
+      "s": 11.275,
+      "event": "dry punch kick",
+      "gain": 0.93,
+      "pan": 0.0
+    },
+    {
+      "s": 11.275,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": 0.3
+    },
+    {
+      "s": 11.509375,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 11.55,
+      "event": "claim typographic accent",
+      "gain": 0.32,
+      "pan": -0.18
+    },
+    {
+      "s": 11.626563,
+      "event": "signature bass motif",
+      "gain": 0.7626,
+      "pan": 0.0,
+      "midi_note": 40
+    },
+    {
+      "s": 11.74375,
+      "event": "dry punch kick",
+      "gain": 0.76,
+      "pan": 0.0
+    },
+    {
+      "s": 11.74375,
+      "event": "crisp sparse snare",
+      "gain": 0.82,
+      "pan": -0.04
+    },
+    {
+      "s": 11.74375,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": 0.3
+    },
+    {
+      "s": 11.978125,
+      "event": "signature bass motif",
+      "gain": 0.8463,
+      "pan": 0.0,
+      "midi_note": 43
+    },
+    {
+      "s": 11.978125,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 12.2125,
+      "event": "dry punch kick",
+      "gain": 0.85,
+      "pan": 0.0
+    },
+    {
+      "s": 12.2125,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": 0.3
+    },
+    {
+      "s": 12.446875,
+      "event": "signature bass motif",
+      "gain": 0.7161000000000001,
+      "pan": 0.0,
+      "midi_note": 50
+    },
+    {
+      "s": 12.446875,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 12.564063,
+      "event": "dry punch kick",
+      "gain": 0.58,
+      "pan": 0.0
+    },
+    {
+      "s": 12.68125,
+      "event": "dry punch kick",
+      "gain": 0.76,
+      "pan": 0.0
+    },
+    {
+      "s": 12.68125,
+      "event": "crisp sparse snare",
+      "gain": 0.82,
+      "pan": 0.04
+    },
+    {
+      "s": 12.68125,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": 0.3
+    },
+    {
+      "s": 12.798438,
+      "event": "signature bass motif",
+      "gain": 0.7998000000000001,
+      "pan": 0.0,
+      "midi_note": 47
+    },
+    {
+      "s": 12.915625,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 12.915625,
+      "event": "single ghost pickup",
+      "gain": 0.48,
+      "pan": 0.22
+    },
+    {
+      "s": 12.92,
+      "event": "claim typographic accent",
+      "gain": 0.32,
+      "pan": 0.18
+    },
+    {
+      "s": 13.15,
+      "event": "signature bass motif",
+      "gain": 0.93,
+      "pan": 0.0,
+      "midi_note": 36
+    },
+    {
+      "s": 13.15,
+      "event": "dry punch kick",
+      "gain": 0.93,
+      "pan": 0.0
+    },
+    {
+      "s": 13.15,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": 0.3
+    },
+    {
+      "s": 13.384375,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 13.5,
+      "event": "benefit warm Cmaj9 colour",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "s": 13.501563,
+      "event": "signature bass motif",
+      "gain": 0.7626,
+      "pan": 0.0,
+      "midi_note": 36
+    },
+    {
+      "s": 13.61875,
+      "event": "dry punch kick",
+      "gain": 0.76,
+      "pan": 0.0
+    },
+    {
+      "s": 13.61875,
+      "event": "crisp sparse snare",
+      "gain": 0.82,
+      "pan": -0.04
+    },
+    {
+      "s": 13.61875,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": 0.3
+    },
+    {
+      "s": 13.853125,
+      "event": "signature bass motif",
+      "gain": 0.8463,
+      "pan": 0.0,
+      "midi_note": 43
+    },
+    {
+      "s": 13.853125,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 14.0875,
+      "event": "dry punch kick",
+      "gain": 0.85,
+      "pan": 0.0
+    },
+    {
+      "s": 14.0875,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": 0.3
+    },
+    {
+      "s": 14.321875,
+      "event": "signature bass motif",
+      "gain": 0.7161000000000001,
+      "pan": 0.0,
+      "midi_note": 48
+    },
+    {
+      "s": 14.321875,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 14.439063,
+      "event": "dry punch kick",
+      "gain": 0.58,
+      "pan": 0.0
+    },
+    {
+      "s": 14.55625,
+      "event": "dry punch kick",
+      "gain": 0.76,
+      "pan": 0.0
+    },
+    {
+      "s": 14.55625,
+      "event": "crisp sparse snare",
+      "gain": 0.82,
+      "pan": 0.04
+    },
+    {
+      "s": 14.55625,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": 0.3
+    },
+    {
+      "s": 14.673438,
+      "event": "signature bass motif",
+      "gain": 0.7998000000000001,
+      "pan": 0.0,
+      "midi_note": 43
+    },
+    {
+      "s": 14.790625,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 15.025,
+      "event": "signature bass motif",
+      "gain": 0.93,
+      "pan": 0.0,
+      "midi_note": 38
+    },
+    {
+      "s": 15.025,
+      "event": "dry punch kick",
+      "gain": 0.93,
+      "pan": 0.0
+    },
+    {
+      "s": 15.259375,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 15.3,
+      "event": "benefit Dadd9 lift",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "s": 15.376563,
+      "event": "signature bass motif",
+      "gain": 0.7626,
+      "pan": 0.0,
+      "midi_note": 38
+    },
+    {
+      "s": 15.49375,
+      "event": "dry punch kick",
+      "gain": 0.76,
+      "pan": 0.0
+    },
+    {
+      "s": 15.49375,
+      "event": "crisp sparse snare",
+      "gain": 0.82,
+      "pan": -0.04
+    },
+    {
+      "s": 15.728125,
+      "event": "signature bass motif",
+      "gain": 0.8463,
+      "pan": 0.0,
+      "midi_note": 45
+    },
+    {
+      "s": 15.728125,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 15.9625,
+      "event": "dry punch kick",
+      "gain": 0.85,
+      "pan": 0.0
+    },
+    {
+      "s": 16.196875,
+      "event": "signature bass motif",
+      "gain": 0.7161000000000001,
+      "pan": 0.0,
+      "midi_note": 50
+    },
+    {
+      "s": 16.196875,
+      "event": "tight high percussion",
+      "gain": 0.78,
+      "pan": -0.3
+    },
+    {
+      "s": 16.314062,
+      "event": "dry punch kick",
+      "gain": 0.58,
+      "pan": 0.0
+    },
+    {
+      "s": 16.43125,
+      "event": "dry punch kick",
+      "gain": 0.76,
+      "pan": 0.0
+    },
+    {
+      "s": 16.43125,
+      "event": "crisp sparse snare",
+      "gain": 0.82,
+      "pan": 0.04
+    },
+    {
+      "s": 16.548437,
+      "event": "signature bass motif",
+      "gain": 0.7998000000000001,
+      "pan": 0.0,
+      "midi_note": 45
+    },
+    {
+      "s": 16.58,
+      "event": "brand transition breath",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "s": 16.8,
+      "event": "controlled arrival impact",
+      "gain": 0.8,
+      "pan": 0.0
+    },
+    {
+      "s": 16.8,
+      "event": "dry punch kick",
+      "gain": 0.8,
+      "pan": 0.0
+    },
+    {
+      "s": 16.8,
+      "event": "brand resolved tonic",
+      "gain": 1.0,
+      "pan": 0.0,
+      "midi_note": 40
+    },
+    {
+      "s": 16.8,
+      "event": "brand Em9 resolved colour",
+      "gain": 1.0,
+      "pan": 0.0
+    },
+    {
+      "s": 16.8,
+      "event": "quiet signature recall",
+      "gain": 0.25,
+      "pan": 0,
+      "midi_note": 76
+    },
+    {
+      "s": 17.7375,
+      "event": "brand last low pulse",
+      "gain": 0.55,
+      "pan": 0.0,
+      "midi_note": 40
+    },
+    {
+      "s": 17.7375,
+      "event": "brand final contact",
+      "gain": 0.18,
+      "pan": 0
+    }
+  ]
+}

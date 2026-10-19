@@ -1,0 +1,78 @@
+{
+  "stage": "revision05 styleframes awaiting approval",
+  "revision": 5,
+  "date": "2026-10-17",
+  "size": [
+    1080,
+    1920
+  ],
+  "actual_deliverable": "three flat graphic style frames; no video or audio",
+  "supersampling": [
+    2160,
+    3840
+  ],
+  "logo_treatment": "whole original square image, unchanged colour and proportions, drawn at 420 square",
+  "source_treatment": "user-requested editorial label: Microsoft SWE Internship; not a verified live vacancy or employer screenshot",
+  "receiver_treatment": "original JJIntern mark only; no wordmark or feed",
+  "palette": {
+    "background": "#edf3ff",
+    "ink": "#203145",
+    "accent": "#0071e3"
+  },
+  "flight": {
+    "start": 4.5,
+    "end": 6.5,
+    "seconds": 2,
+    "confirmed_by_user": true
+  },
+  "inputs": {
+    "LOGO_IMAGE": {
+      "path": "../../../../assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c"
+    }
+  },
+  "outputs": [
+    {
+      "path": "styleframes/01-source.png",
+      "sha256": "b98b641336e14d4d67e13b7c2a49489b48fa946ee9f68b48479738d99770d76d"
+    },
+    {
+      "path": "styleframes/02-packet.png",
+      "sha256": "1f238f7620314b6dfe382e1e9d18cd21ad464d8ea958927402af5ca450d133d6"
+    },
+    {
+      "path": "styleframes/03-logo.png",
+      "sha256": "7749e90bf058118debc68bfcd1f95a606400aece6a2edd08de0619f731d42969"
+    },
+    {
+      "path": "styleframes/approval-board.png",
+      "sha256": "443dacd8d36d79b06621cb3fab45cb10c28b0f532f898d11a8a4414911109d21"
+    },
+    {
+      "path": "styleframes/phone-board.png",
+      "sha256": "1fec723afd45a68e13b3db08721a5a53cbce2be771575b6d79dc9e9e6fee38db"
+    }
+  ],
+  "scene": {
+    "width": 1080,
+    "height": 1920,
+    "internal": [
+      2160,
+      3840
+    ],
+    "stage": "revision05 actual stills only",
+    "style": "Microsoft SWE Internship title tile; original JJIntern logo only",
+    "font": "-apple-system,BlinkMacSystemFont,\"SF Pro Display\",\"Helvetica Neue\",Arial,sans-serif",
+    "logo": [
+      512,
+      512
+    ]
+  },
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.84",
+    "revision": "@5869fe313571d75152b77813cf0a4ee26a4e6df0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.25"
+  }
+}

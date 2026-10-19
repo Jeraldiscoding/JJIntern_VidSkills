@@ -1,0 +1,58 @@
+{
+  "checked": "2026-10-17",
+  "timezone": "Europe/Stockholm",
+  "source": "https://jjintern.com/feed",
+  "scope": "Real light theme and Tech category; existing public roles only; no source ingestion or vacancy availability claim",
+  "files": [
+    {
+      "path": "capture-feed-light.mjs",
+      "bytes": 5726,
+      "sha256": "51c164018af68c80dac496762421753634dc361a534bb0662b9efc6fdab82c6c"
+    },
+    {
+      "path": "capture-note.md",
+      "bytes": 2167,
+      "sha256": "8d6e7fdb21e18740325e574da31106c710aad167b1e9d31cbd4f47bc2d95aaf5"
+    },
+    {
+      "path": "capture-note.txt",
+      "bytes": 3433,
+      "sha256": "12f9c50b24bc10e3c3cae023a4408b469090912e6b6823bdf7e9286e71d8f9b4"
+    },
+    {
+      "path": "capture-record.json",
+      "bytes": 161990,
+      "sha256": "2ed2e7c9ec6a07a7c0e3e8990ba98825b92b3b90ddfe9f4a0cb3bcdfbaaea70b"
+    },
+    {
+      "path": "feed-dark-before.png",
+      "bytes": 330110,
+      "sha256": "cbd49265063c02beeb1e760ebd47877e85c8bc6aa38bd1b65417203c3bc374cf"
+    },
+    {
+      "path": "feed-light-all.png",
+      "bytes": 322487,
+      "sha256": "7be5cfb5a7e392746508f336e73088cbb21c4894ddd35aa384a0732c520f2699"
+    },
+    {
+      "path": "feed-light-tech-dom.html",
+      "bytes": 132554,
+      "sha256": "7a30e27385bf0f3c354b9c90dffe305d84aceb0a05e1d393b3ad49ff7c2fae88"
+    },
+    {
+      "path": "feed-light-tech-loading.png",
+      "bytes": 219517,
+      "sha256": "61aeec12f6d3a542eb7fc94d4e3879deffd453f9612216f6d1090996c6ca3c51"
+    },
+    {
+      "path": "feed-light-tech-scrolled.png",
+      "bytes": 353024,
+      "sha256": "c238bd0e5942822049795f8ea6b37386ba90724e09d564e3a21002b4c9fc328f"
+    },
+    {
+      "path": "feed-light-tech.png",
+      "bytes": 337440,
+      "sha256": "95c639d81087fcdbac07efa2fea4be718627c7213d6f1bc87698275da2778a18"
+    }
+  ]
+}

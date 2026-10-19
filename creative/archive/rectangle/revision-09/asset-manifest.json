@@ -1,0 +1,35 @@
+{
+  "revision": 9,
+  "date": "2026-10-17",
+  "timezone": "Europe/London",
+  "duration": 18,
+  "latest_user_direction": "Cooler drum-led music, materially faster packet movement, and a stronger graphic receiving sequence",
+  "claim": "CREATIVE-DISCOVERY-RELIEF-RECTANGLE-20261017",
+  "graphic_scope": "Two explicitly edited motion shots, split receiver jaws, three inherited data ribbons, physical occlusion, clamp and uniform logo takeover; editorial graphics, no actual product state",
+  "inputs": [
+    {
+      "path": "creative/assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-09/source/motion.html",
+      "sha256": "617c86667fe78bf5738d5a7c0226822cf90c289a5036fd3347635cba049f46bb"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-09/source/render-motion.mjs",
+      "sha256": "08cb95e2fd019857c82da38aa3ac403a0be74464190b0a8bb725884ad4e2a2d3"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-09/audio/build_score.py",
+      "sha256": "5deda2d1247f89dde2929fac98f9ef7119414eb0a56d9ca85a01b71afbe76e05"
+    },
+    {
+      "path": "creative/archive/rectangle/revision-09/audio/jjintern-revision-09-original-score.wav",
+      "sha256": "a20fa600259e35381c8ec32cffa8534d84c1125f48c0574fab773fbf48164274"
+    }
+  ],
+  "audio_provenance": "Entirely original deterministic oscillator/noise/filter synthesis; no samples, recordings, stock loops or voiceover",
+  "logo_treatment": "Original RGBA asset, unchanged proportions/colour/silhouette; uniform scale and translation; opaque backing protects transparent spaces during capture",
+  "publishing": false,
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

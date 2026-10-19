@@ -1,0 +1,92 @@
+{
+  "stage": "User approval of direction and rendered stills; no new full motion or audio produced",
+  "date": "2026-10-17",
+  "timezone": "Europe/Stockholm",
+  "host": "macOS arm64",
+  "browser": "Chrome 155.0.8059.84",
+  "typeface": "macOS system sans stack; no external substitute",
+  "renderer": "Original WebGL folded-sheet raymarching at 2160x3840, uniformly downsampled into 1080x1920 canvas; genuine captured UI at uniform source crop scale",
+  "productSource": "creative/archive/pipeline/captures/feed-loaded.png",
+  "productCrop": {
+    "x": 32,
+    "y": 600,
+    "width": 1496,
+    "height": 1700,
+    "displayWidth": 1080,
+    "displayHeight": 1227.2727272727273
+  },
+  "intendedDuration": 18,
+  "flight": {
+    "from": 4.5,
+    "to": 5.5,
+    "seconds": 1,
+    "direction": "left to right",
+    "depth": "fixed",
+    "nativeFrames": 120
+  },
+  "intendedExports": [
+    {
+      "width": 1080,
+      "height": 1920,
+      "fps": 120,
+      "frames": 2160
+    },
+    {
+      "width": 1080,
+      "height": 1920,
+      "fps": 60,
+      "frames": 1080
+    }
+  ],
+  "files": [
+    {
+      "path": "styleframes/01-posting.png",
+      "bytes": 469362,
+      "sha256": "ecdd091f7c449414ad16c14016741a4a36251d1cf46822b420abaf8b6f7ec294",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "styleframes/02-packet.png",
+      "bytes": 468345,
+      "sha256": "4d217c2f85b3645ff0c5247bef98dd435d8534ea6b1f51de602d495a49dd2d04",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "styleframes/03-feed.png",
+      "bytes": 271108,
+      "sha256": "c17db556fb27f0f64b9de393c58a86453effc9b15ef6822db948a9ed98fad5f3",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "path": "styleframes/approval-board.png",
+      "bytes": 419135,
+      "sha256": "9441fdca8d7f50c9d63b3465068267b0f181012dafb4260b61e5ea9fc9309ebe",
+      "width": 1620,
+      "height": 960
+    },
+    {
+      "path": "source/studio.js",
+      "bytes": 7227,
+      "sha256": "31899c69f7f796c6a988150ec365faa3481b35222c544e75e5e3d08eb2a41200"
+    },
+    {
+      "path": "source/styleframes.html",
+      "bytes": 3400,
+      "sha256": "14202c29d2da559556eba4078354147c711fcdfc0c7031e306de3e3ad7291d31"
+    },
+    {
+      "path": "source/render-styleframes.mjs",
+      "bytes": 1794,
+      "sha256": "da56a02e526ba2a520758940d141e2aaf7b0431defe7f26b997560da32fa14a4"
+    },
+    {
+      "path": "direction.md",
+      "bytes": 6542,
+      "sha256": "bd2b82f0d9b570a8443c28bab0284a3a1a318493d498441855d0c5f1f2a065e4"
+    }
+  ],
+  "relocation_record": "creative/maintenance/folder-migration-2026-10-19.json"
+}

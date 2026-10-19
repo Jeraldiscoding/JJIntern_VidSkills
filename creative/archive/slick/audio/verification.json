@@ -1,0 +1,66 @@
+{
+  "samples": 960000,
+  "duration_s": 20.0,
+  "stereo_correlation": 0.912,
+  "last_sample": [
+    0.0,
+    0.0
+  ],
+  "end_after_19_8_peak_dbfs": -240.0,
+  "segments": [
+    {
+      "start": 0,
+      "end": 1,
+      "rms_dbfs": -23.18,
+      "peak_dbfs": -10.61
+    },
+    {
+      "start": 1.05,
+      "end": 1.55,
+      "rms_dbfs": -10.96,
+      "peak_dbfs": -1.2
+    },
+    {
+      "start": 3.2,
+      "end": 4.65,
+      "rms_dbfs": -20.51,
+      "peak_dbfs": -6.2
+    },
+    {
+      "start": 4.65,
+      "end": 5.54,
+      "rms_dbfs": -20.87,
+      "peak_dbfs": -4.71
+    },
+    {
+      "start": 5.565,
+      "end": 5.645,
+      "rms_dbfs": -104.19,
+      "peak_dbfs": -90.83
+    },
+    {
+      "start": 5.65,
+      "end": 9.5,
+      "rms_dbfs": -12.11,
+      "peak_dbfs": -1.2
+    },
+    {
+      "start": 10,
+      "end": 13.5,
+      "rms_dbfs": -13.98,
+      "peak_dbfs": -2.34
+    },
+    {
+      "start": 13.5,
+      "end": 16.8,
+      "rms_dbfs": -13.93,
+      "peak_dbfs": -2.56
+    },
+    {
+      "start": 16.8,
+      "end": 19.8,
+      "rms_dbfs": -18.54,
+      "peak_dbfs": -2.73
+    }
+  ]
+}

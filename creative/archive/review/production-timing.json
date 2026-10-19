@@ -1,0 +1,12 @@
+{
+  "startedUTC": "2026-10-17T13:27:55.158Z",
+  "completedUTC": "2026-10-17T13:37:05.611Z",
+  "timezone": "Europe/Stockholm",
+  "startedLocal": "17 Oct 2026, 15:27:55",
+  "completedLocal": "17 Oct 2026, 15:37:05",
+  "totalWallSeconds": 550.453,
+  "includes": "Grounding, parallel concept/audio work, storyboard, revisions, complete rough, final render and technical/visual verification.",
+  "roughRenderSeconds": 37.7,
+  "finalRenderSeconds": 147.305,
+  "parallelWork": true
+}
