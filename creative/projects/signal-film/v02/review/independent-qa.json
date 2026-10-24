@@ -1,0 +1,203 @@
+{
+  "reviewed": "2026-10-20",
+  "timezone": "Europe/London",
+  "reviewer": "rev02_motion_review independent subagent",
+  "scope": "Independent source, rendered board and decoded-frame review of the v02 revision. No motion/source/audio edits by reviewer. Continuous playback and audio technical checks are reviewed separately by root and the audio agent.",
+  "summary": "The requested transition polish, Microsoft cursor press/ripple and removal of the Example feed editorial label are present. Two candidate defects were found and repaired before final export. No unresolved hard failure observed in inspected final frames.",
+  "source_sha256": "f861fb8e32faadda76d2d8d9f16f897f0e79654f4b367230dddd1bc96d019cc5",
+  "final_artifacts": [
+    {
+      "format": "wide",
+      "file": "JJIntern-Find-your-focus-wide.mp4",
+      "sha256": "36df47159f202db670868d92829577d6f058e041bb9e0b3cdf5125cc92cf738a",
+      "bytes": 5999330,
+      "source_sha256": "f861fb8e32faadda76d2d8d9f16f897f0e79654f4b367230dddd1bc96d019cc5"
+    },
+    {
+      "format": "vertical",
+      "file": "JJIntern-Find-your-focus-vertical.mp4",
+      "sha256": "c968a777c60b3551e42a5f7a9752484406c1e4986a96a919f9b54fe99fa143ab",
+      "bytes": 5424274,
+      "source_sha256": "f861fb8e32faadda76d2d8d9f16f897f0e79654f4b367230dddd1bc96d019cc5"
+    }
+  ],
+  "owner_preferences": {
+    "request": "Transitions can be a little smoother; add clicking effect and sound when zooming into Microsoft; remove Example feed.",
+    "label_removal": "Explicit current owner preference supersedes the earlier project requirement to show the editorial Example feed label. Authentic public feed captures remain intact. This is label removal, not evidence of current employer vacancy availability.",
+    "click_scope": "Cursor press, ripple and sound are editorial emphasis for the camera zoom into the authentic Microsoft company result. No employer-page navigation, save, application, endorsement or new product behavior is fabricated."
+  },
+  "revision_checks": [
+    {
+      "id": "R02-01",
+      "status": "pass",
+      "location": "tabs(), 3.25–4.65 seconds",
+      "evidence": "Continuous tab contour and color interpolation replace the previous silhouette threshold. Final encoded wide 4.300 shows filled blue compact shapes; source keeps the same tab geometry through compression."
+    },
+    {
+      "id": "R02-02",
+      "status": "pass",
+      "location": "opening(), 6.8–8 seconds",
+      "evidence": "Focus copy clears by 7.05; white aperture begins at 7.1 with its own fade. Refreshed boards at 6.9, 7.05, 7.12, 7.25 and 7.4 plus encoded 7.12/7.25 show no chopped word or opaque shape popping over readable text."
+    },
+    {
+      "id": "R02-03",
+      "status": "pass",
+      "location": "feed()/productBridge(), 9.63–12.7 seconds",
+      "evidence": "Finance/Tech capture crossfade spans 0.27 seconds. The same white product frame moves and changes dimensions into the company directory. Encoded 11.75 and candidate native 12.2 show a connected frame. Example feed is absent from source and displayed feed context."
+    },
+    {
+      "id": "R02-04",
+      "status": "pass",
+      "location": "directory()/clickCue(), 13.72–15.65 seconds",
+      "evidence": "Cursor reaches the genuine Microsoft result; presses at 14.40, releases at 14.48 and emits a brief blue ripple. Zoom spans 14.48–15.58. Sampled encoded wide and portrait frames confirm the cue stays on the genuine result and clears before the settled reading hold. Input and Microsoft name remain visible. Portrait Company directory appears near the final crop after zoom, avoiding a detached moving caption."
+    },
+    {
+      "id": "R02-05",
+      "status": "pass",
+      "location": "directory()/clockScene(), 17.2–18.75 seconds",
+      "evidence": "Outgoing blue ring is preserved at 17.983 and blends into the clock rim while ticks fade in. Encoded 18.15 in both formats confirms no immediate replacement by a pale complete clock."
+    },
+    {
+      "id": "R02-06",
+      "status": "pass",
+      "location": "payoff()/ending(), 22–29.45 seconds",
+      "evidence": "Blue field uses a slower eased fill; pale wipe and ending route have eased timing. Encoded overview and 22.35 show connected path/field. Final CTA and URL remain stable and readable."
+    },
+    {
+      "id": "R02-07",
+      "status": "timing_verified_audio_audition_not_performed",
+      "location": "click at 14.40 / 14.48 seconds",
+      "evidence": "Motion source metadata and audio manifest agree on press and release times. This reviewer did not listen to the audio; root/audio-agent checks cover the final encoded track."
+    }
+  ],
+  "findings_repaired_before_final": [
+    {
+      "id": "REV02-TINT",
+      "severity": "medium",
+      "finding": "Candidate tint() assumed six-digit hex while C.paper was #fff, producing an invalid color and hollow tab fills.",
+      "repair": "Root changed C.paper to #ffffff.",
+      "verification": "Refreshed board 1 and final encoded wide 4.300 show white tab interiors and solid blue compact shapes."
+    },
+    {
+      "id": "REV02-APERTURE",
+      "severity": "medium",
+      "finding": "Moving aperture start to 7.1 initially overlapped still-visible focus words and created an opaque-circle pop.",
+      "repair": "Root cleared focus copy during 6.8–7.05 and separately faded aperture paper during 7.1–7.4.",
+      "verification": "Refreshed early aperture boards and final encoded 7.12/7.25 confirm full text clearance and gradual paper appearance."
+    },
+    {
+      "id": "REV02-CAPTION",
+      "severity": "low",
+      "finding": "Fixed final portrait caption position initially left Company directory detached from the short pre-zoom crop.",
+      "repair": "Root delayed caption entrance until 15.2–15.65.",
+      "verification": "Refreshed portrait board 3 and encoded 14.4/14.9/15.58 confirm it stays absent during click/early zoom and appears beside the settled frame."
+    }
+  ],
+  "hard_failures_observed": [],
+  "claims_review": {
+    "status": "unchanged evidence scope; authentic captures retained",
+    "evidence_ids": [
+      "P10 fresh public company-search/category capture",
+      "P06 responsible-owner scheduled-check cadence"
+    ],
+    "observations": [
+      "Authentic company search shows actual Microsoft input and result; zoom changes only framing.",
+      "The owner-requested removal of Example feed does not add fresh, live, open, available-now or employer-confirmed claims.",
+      "We check every 30 minutes remains a scheduled-check statement; no alert latency or discovery-speed guarantee is depicted.",
+      "Company marks remain inside genuine directory/feed captures, with no partnership or endorsement montage.",
+      "No new authenticated feature, auto-apply, salary, hiring outcome or private data was introduced."
+    ]
+  },
+  "rubric": {
+    "idea": {
+      "score": 2,
+      "evidence": "The retained many-tabs problem resolves into one discovery destination."
+    },
+    "hook": {
+      "score": 2,
+      "evidence": "So many tabs is direct and prominent in both formats."
+    },
+    "payoff": {
+      "score": 2,
+      "evidence": "Genuine category and company-search proof supports the discovery benefit."
+    },
+    "shot_value": {
+      "score": 2,
+      "evidence": "Polish stays within the existing story; cursor emphasis serves the real company result."
+    },
+    "product": {
+      "score": 2,
+      "evidence": "Authentic P10 input/result assets remain unchanged."
+    },
+    "copy": {
+      "score": 2,
+      "evidence": "Short discovery wording retained; unwanted Example feed label removed per owner."
+    },
+    "design": {
+      "score": 2,
+      "evidence": "Clean hierarchy and intact mark; candidate fill and caption defects repaired."
+    },
+    "motion": {
+      "score": 2,
+      "evidence": "Continuous tab shape, shared product frame, staged click/zoom, blue clock-rim handoff and gradual aperture are supported by source and sampled decoded frames. Continuous normal-speed playback is checked separately."
+    },
+    "readability_accessibility": {
+      "score": 1,
+      "evidence": "Essential titles, query, result and CTA clear in rendered/encoded inspection; physical-phone and upload overlays remain unperformed."
+    },
+    "claims": {
+      "score": 2,
+      "evidence": "P10/P06 scope maintained; click is an editorial camera cue."
+    },
+    "cta_ending": {
+      "score": 2,
+      "evidence": "Explore internships and jjintern.com remain clear and stable."
+    },
+    "distinctness": {
+      "score": 2,
+      "evidence": "Existing tabs/focus/product/orbit film mechanism retained, distinct from earlier discovery-packet story."
+    }
+  },
+  "checks_performed": [
+    "Read creative instructions, owner direction, QA skill/rubric, product truth, brand guide, project brief, prior final QA and grounding records.",
+    "Compared v01 discontinuities with v02 motion source.",
+    "Inspected candidate boards in both formats and refreshed repaired boards.",
+    "Inspected two final encoded one-second overview sheets.",
+    "Independently inspected 15 native final decoded frames at the listed times.",
+    "Compared final file hashes against manifests and confirmed both exports use the final source hash.",
+    "Read root technical-qa report: all checks true; this report does not claim that root checks were independently rerun."
+  ],
+  "decoded_frame_times_seconds": {
+    "wide": [
+      4.3,
+      7.12,
+      7.25,
+      11.75,
+      14.4,
+      17.983,
+      18.15,
+      22.35
+    ],
+    "vertical": [
+      7.25,
+      11.75,
+      14.4,
+      14.9,
+      15.58,
+      18.15,
+      22.35
+    ]
+  },
+  "checks_not_performed_by_this_reviewer": [
+    "Continuous real-time browser playback, handled separately by root.",
+    "Subjective headphone or speaker audition.",
+    "Physical-phone playback.",
+    "Actual platform upload preview or current platform-control overlay inspection."
+  ],
+  "status": {
+    "concept": "selected; unchanged coherent discovery story",
+    "assets": "available; authentic captures, intact mark and original score",
+    "artifact": "final source-matching wide and portrait exports sampled and visually inspected; no remaining independent finding",
+    "release": "conditional on outstanding subjective listening, physical-phone and intended upload-preview checks; no publication performed"
+  }
+}

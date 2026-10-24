@@ -1,0 +1,308 @@
+{
+  "reviewed": "2026-10-20",
+  "timezone": "Europe/London",
+  "reviewer": "product_evidence subagent, independent still/source review",
+  "artifact_scope": "Final wide and vertical H.264/AAC MP4s: independently decoded11 frames per format (22 total), including all title/CTA holds and the repaired7.6/10.6/15.8 beats and21.8/22.0/22.2 seam. Seven final portrait frames also inspected at360\u00d7640. This reviewer did not perform continuous real-time playback or subjective audio audition; root reviews those separately.",
+  "summary": "Final decoded reviews verify all visual repairs, including path continuity at12.0 and22.0 seconds in both formats. No remaining minor seam or hard failure was observed in inspected frames. Primary titles, cadence wording, URL/CTA and enlarged authentic Microsoft query/result were readable in the preceding unchanged360px digital-equivalent review. Root performs full decoding and continuous playback; subjective audio and physical-phone/platform checks remain separate.",
+  "findings": [
+    {
+      "id": "VIS-01",
+      "priority": "high",
+      "status": "resolved_verified_in_final_encoded_frames",
+      "location": "feed(), 8.8\u201310.7 seconds; wide-10.60.png and vertical-10.60.png",
+      "observation": "The editorial blue indicator circle sits in empty space near the right edge of the category strip. The actual selected Tech control is well left of the circle. The source comment claims alignment to the selected tab, but the old coordinates were retained after replacing the captures.",
+      "repair": "Derive indicator centers from the genuine portrait capture. Finance center is (131.6328125,83.75) CSS pixels; Tech is (197.59375,83.75). Multiply by DPR3, subtract source crop origin (24,174), scale to the displayed frame and add frame origin. Vertical centers should be approximately (312,841) and (430,841), not x538 and842. Alternatively remove the extra ring; the real selected pill already conveys the state.",
+      "why_it_matters": "A pointer emphasizing blank space makes the demo feel inaccurate and visibly unfinished.",
+      "repair_verification": "Resolved in refreshed wide/vertical10.60 stills: ring is now centered on actual Tech pill. Source uses mapped capture coordinates. Repair also verified in decoded final MP4 frame(s)."
+    },
+    {
+      "id": "VIS-02",
+      "priority": "medium",
+      "status": "resolved_verified_in_final_encoded_frames",
+      "location": "opening(), 7.35\u20137.8 seconds; wide-7.60.png",
+      "observation": "The growing opaque white aperture covers the center/right of Find your focus while the left fragment remains visible. The still shows a large chopped Fin fragment behind a blank white shape. The source does not begin revealing product pixels until7.7 seconds.",
+      "repair": "Clear the focus words before the opaque expansion crosses them, or make their mask follow the same boundary intentionally. Reveal authentic feed pixels slightly earlier inside the growing aperture to reduce the blank-shape interval.",
+      "why_it_matters": "This transition is meant to carry the film\u2019s premium craft; a partial-word occlusion reads as accidental layering.",
+      "repair_verification": "Resolved in refreshed wide/vertical7.60 stills: focus words are fully cleared before the opaque aperture; no chopped text remains. Repair also verified in decoded final MP4 frame(s)."
+    },
+    {
+      "id": "VIS-03",
+      "priority": "medium",
+      "status": "resolved_verified_in_final_encoded_frames",
+      "location": "Portrait product scenes 8\u201318 seconds; qa-phone-feed.png and qa-phone-directory.png",
+      "observation": "At a360px-wide digital equivalent, primary film copy, Example feed, Company directory and CTA remain clear. Query and company names shrink to approximately8\u201310px and supporting role text is smaller. The benefit is legible but the viewer must look closely to verify the input/result.",
+      "repair": "Consider a brief tighter final search push-in that keeps the real query and Microsoft name in one contiguous crop, or a narrower genuine browser capture. Prioritize the search input and company name over descriptions and counts. Avoid reconstructing larger fake UI text.",
+      "why_it_matters": "The actual action/result is the proof beat. Giving it more visual prominence would make the website strength easier to understand on a phone.",
+      "limit": "Digital360px equivalent only; no physical phone or social overlay preview performed.",
+      "repair_verification": "Resolved for essential directory proof in refreshed vertical15.80 and qa-phone-directory-repaired.png: query Microsoft and result Microsoft are legible at360px equivalent (approximately14\u201315px). Genuine contiguous crop push-in retains input/result. Supporting feed row text remains small but is no longer the sole essential proof; editorial Finance/Tech and selected state remain clear. Repair also verified in decoded final MP4 frame(s)."
+    },
+    {
+      "id": "MOT-01",
+      "priority": "low",
+      "status": "resolved_verified_in_latest_final_encoded_frames",
+      "location": "0\u20138 seconds and21.35\u201322.65 seconds",
+      "observation": "The source spends eight seconds on tabs and focus before showing the real site. Find your focus is settled roughly4.85\u20137.35, with orbit motion continuing. Clock unwrapping is switched off at22s when a new blue radial fill begins. These may feel like a long second title and a disconnected cut, respectively, but stills alone cannot establish pacing.",
+      "repair": "Completed. No further change requested.",
+      "why_it_matters": "The requested ambition comes from continuous transformations and controlled pace, not just the number of moving shapes.",
+      "final_observation": "Latest wide and vertical exports show the blue path at exact12.000 and22.000. The22.200 blue payoff field is clean. The previously pale blank boundary frame is eliminated. Six changed encoded frames inspected; no source edits by reviewer.",
+      "repair_verification": "Root carried the route across both scene boundaries; independently verified in latest MP4s."
+    }
+  ],
+  "hard_failures_observed": [],
+  "claims_review": {
+    "status": "supported_with_stated_scope",
+    "findings": [
+      "Finance/Tech discovery is represented with fresh authentic category states; the actual filter results were verified by this reviewer earlier in the session.",
+      "Microsoft search is now correctly indexed and has a visible genuine query/result. The employer mark remains inside the authentic directory capture.",
+      "We check every30 minutes stays within owner-confirmed P06 scheduled-check wording. No depicted new vacancy or notification is tied to that beat.",
+      "Less searching / More possibilities is an unquantified editorial benefit; no guaranteed placement or measurable saving is asserted.",
+      "No save/track/Telegram operation, auto-apply, salary, complete coverage or employer partnership is claimed.",
+      "The copied UI contains role counts and relative dates as a fresh public-site snapshot, with Example feed / Company directory context. These were not independently employer-confirmed."
+    ],
+    "documentation_repair": "Keep the responsible-owner cadence source/date in final production notes/caption. Update shared evidence register/claim history to point at this project's fresh captures when root finalizes the record."
+  },
+  "rubric": {
+    "idea": {
+      "score": 2,
+      "evidence": "Fragmented employer tabs resolve into one discovery tool with real search proof."
+    },
+    "hook": {
+      "score": 2,
+      "evidence": "So many tabs is specific and clear in both formats."
+    },
+    "payoff": {
+      "score": 2,
+      "evidence": "The observed narrowing action supports less searching; final destination is clear."
+    },
+    "shot_value": {
+      "score": 1,
+      "evidence": "Every scene has a stated role, but focus title/orbit may stay too long before product proof; assess in motion."
+    },
+    "product": {
+      "score": 2,
+      "evidence": "Authentic fresh captures establish category states and directory search; branding is consistent."
+    },
+    "copy": {
+      "score": 2,
+      "evidence": "Concise plain-language benefit and honest CTA; no invented urgency."
+    },
+    "design": {
+      "score": 2,
+      "evidence": "Refreshed layouts keep clear hierarchy; misplaced ring and chopped transition text repaired; directory proof enlarged through a genuine crop."
+    },
+    "motion": {
+      "score": 1,
+      "evidence": "Source offers connected motifs; actual aperture frame exposes layering issue and continuous playback remains unreviewed."
+    },
+    "readability_accessibility": {
+      "score": 1,
+      "evidence": "Primary copy and essential directory proof clear at360px digital equivalent after repair. Physical-phone and platform preview still pending; supporting feed detail remains small."
+    },
+    "claims": {
+      "score": 2,
+      "evidence": "All material assertions remain within supplied/observed evidence scope."
+    },
+    "cta_ending": {
+      "score": 2,
+      "evidence": "Explore internships and jjintern.com hold clearly, intact original mark."
+    },
+    "distinctness": {
+      "score": 2,
+      "evidence": "Tabs-to-focus/product/orbit story differs from accepted packet-flight baseline."
+    }
+  },
+  "checks_performed": [
+    "Read current creative direction, project README, QA rubric, product evidence and brand rules.",
+    "Inspected all eight wide/vertical contact boards.",
+    "Inspected native selected product, aperture, payoff and ending stills.",
+    "Inspected motion source and actual capture geometry.",
+    "Generated and visually inspected360\u00d7640 digital equivalents for portrait feed, directory and ending.",
+    "Rechecked the repaired native stills and refreshed360\u00d7640 digital equivalents; essential Microsoft query/result now readable.",
+    "Decoded final wide and vertical MP4s with ffmpeg; visually inspected22 sampled frames and7 digital phone equivalents; verified metadata and final SHA-256 hashes.",
+    "Latest render: decoded and inspected six changed frames at12.0/22.0/22.2 in both formats; path continuity verified and current final hashes/metadata updated."
+  ],
+  "checks_pending": [
+    "Continuous normal-speed/muted playback reviewed separately by root; this reviewer inspected sampled decoded frames only.",
+    "Subjective headphone/speaker audition and picture/sound timing.",
+    "Physical-phone playback and actual intended platform overlay/upload preview.",
+    "Final rights/asset provenance review; publication-day vacancy recheck only if availability claims are added."
+  ],
+  "status": {
+    "concept": "selected; coherent and worth completing",
+    "assets": "available; authentic fresh product images and original logo",
+    "artifact": "Latest final32.000s,60fps MP4 metadata/hashes recorded; six changed continuity frames independently inspected after prior full set of sampled title/product/CTA frames.",
+    "release": "Conditional on root final continuous-playback/audio and external physical-phone/platform checks. All independent visual findings resolved; no hard failure observed in inspected frames."
+  },
+  "repair_recheck": {
+    "checked": "2026-10-20",
+    "files": [
+      "stills/wide-7.60.png",
+      "stills/vertical-7.60.png",
+      "stills/wide-10.60.png",
+      "stills/vertical-10.60.png",
+      "stills/vertical-15.80.png",
+      "review/qa-phone-directory-repaired.png",
+      "review/qa-phone-feed-repaired.png"
+    ],
+    "result": "All three visual findings repaired as assessed from actual refreshed images. Final wide file still encoding when first probed (no moov atom yet), so no encoded result claimed.",
+    "encoded_verification": "All repairs rechecked in final encoded assets; final hashes recorded below."
+  },
+  "final_artifacts": [
+    {
+      "path": "creative/projects/signal-film/v01/JJIntern-Find-your-focus-wide.mp4",
+      "sha256": "48fe40cef56533ab7cab82b702b37baba4a46fa568dba434d5cefb78989880a8",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "60/1",
+            "nb_frames": "1920"
+          },
+          {
+            "codec_name": "aac",
+            "r_frame_rate": "0/0",
+            "nb_frames": "1501"
+          }
+        ],
+        "format": {
+          "duration": "32.000000",
+          "size": "5308875"
+        }
+      }
+    },
+    {
+      "path": "creative/projects/signal-film/v01/JJIntern-Find-your-focus-vertical.mp4",
+      "sha256": "1c027c4c90f1f9a4b458d69cc525266d1359fa2a3d5bf0781f1c2ebcdb0dafa5",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "60/1",
+            "nb_frames": "1920"
+          },
+          {
+            "codec_name": "aac",
+            "r_frame_rate": "0/0",
+            "nb_frames": "1501"
+          }
+        ],
+        "format": {
+          "duration": "32.000000",
+          "size": "5096330"
+        }
+      }
+    }
+  ],
+  "decoded_review": {
+    "sample_times_seconds": [
+      0.8,
+      5.7,
+      7.6,
+      10.6,
+      15.8,
+      20.5,
+      21.8,
+      22.0,
+      22.2,
+      24.6,
+      30.6
+    ],
+    "formats": [
+      "wide",
+      "vertical"
+    ],
+    "decoded_frames": 22,
+    "phone_equivalent_times_seconds": [
+      0.8,
+      5.7,
+      10.6,
+      15.8,
+      20.5,
+      24.6,
+      30.6
+    ],
+    "phone_equivalent_size": [
+      360,
+      640
+    ],
+    "frame_pattern": "review/independent-final-{wide,vertical}-{time}.png",
+    "phone_pattern": "review/independent-phone-{time}.png",
+    "result": "Prior22-frame and7-phone-equivalent review established title/CTA/claims and product-proof readability. Only the changed boundary frames were rechecked after final continuity polish; those now pass. Prior extracted22.0 blank frames are historical, superseded by independent-continuity-final frames."
+  },
+  "previous_final_artifacts": [
+    {
+      "path": "creative/projects/signal-film/v01/JJIntern-Find-your-focus-wide.mp4",
+      "sha256": "129dd5087c5399ca256aa80f7357964cb97adacad2c5de3df877271f6f2bd471",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "60/1",
+            "nb_frames": "1920"
+          },
+          {
+            "codec_name": "aac",
+            "r_frame_rate": "0/0",
+            "nb_frames": "1501"
+          }
+        ],
+        "format": {
+          "duration": "32.000000",
+          "size": "5305301"
+        }
+      }
+    },
+    {
+      "path": "creative/projects/signal-film/v01/JJIntern-Find-your-focus-vertical.mp4",
+      "sha256": "5dd44894bcabf843aa8ab62dc21e44d05fdc411939c5395079eb8b0acda03e97",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "60/1",
+            "nb_frames": "1920"
+          },
+          {
+            "codec_name": "aac",
+            "r_frame_rate": "0/0",
+            "nb_frames": "1501"
+          }
+        ],
+        "format": {
+          "duration": "32.000000",
+          "size": "5091922"
+        }
+      }
+    }
+  ],
+  "final_continuity_recheck": {
+    "sample_times_seconds": [
+      12.0,
+      22.0,
+      22.2
+    ],
+    "formats": [
+      "wide",
+      "vertical"
+    ],
+    "decoded_frames": 6,
+    "pattern": "review/independent-continuity-final-{wide,vertical}-{time}.png",
+    "result": "Path visible at exact scene boundaries; no blank seam.22.2 payoff clean. Other choreography/assets unchanged per root, so prior detailed repaired-title/product/CTA checks retained."
+  }
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JJIntern — Google 2027 picture carousel</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;background:#edf3ff}
+:root{--ink:#203145;--blue:#0071e3;--paper:#edf3ff;--muted:#526780}
+body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+.slide{display:none;width:1080px;height:1350px;position:relative;padding:78px 88px 62px;background:var(--paper);overflow:hidden}
+.slide.active{display:block}.top{height:82px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:17px;font-size:38px;font-weight:650;letter-spacing:-1px}.brand img{width:64px;height:64px;object-fit:contain}.edition{font-size:30px;font-weight:600;letter-spacing:1.3px}.eyebrow{font-size:42px;font-weight:600;line-height:1.2}.footer{position:absolute;bottom:63px;left:88px;right:88px;display:flex;justify-content:space-between;align-items:flex-end;font-size:34px;font-weight:500}.page{font-size:32px;font-variant-numeric:tabular-nums}.source{font-size:42px;line-height:1.25}.rule{height:2px;background:rgba(32,49,69,.18)}h1,h2,p{margin:0}h1,h2{letter-spacing:-3.5px;font-weight:650}.blue{color:var(--blue)}
+.cover .eyebrow{margin-top:53px}.company{font-size:160px;line-height:1.06;letter-spacing:-8px;margin-top:27px;font-weight:650}.year{font-size:234px;line-height:1;letter-spacing:-15px;color:var(--blue);font-weight:650;margin-left:-8px}.cover h1{font-size:87px;line-height:1.07;margin-top:41px}.facts{margin-top:42px;padding-top:29px;border-top:2px solid #bdcce2;font-size:46px;letter-spacing:-.8px;font-weight:500}.cover .footer{border-top:2px solid #bdcce2;padding-top:25px}.swipe{font-size:40px;font-weight:550}.swipe span{display:block;font-size:42px;margin-top:3px}.cover .source{position:absolute;left:88px;bottom:218px;font-size:42px;color:var(--muted)}
+.timing{background:#fff}.timing .eyebrow{margin-top:57px}.date{margin-top:42px;display:flex;align-items:baseline;gap:38px;color:var(--blue)}.day{font-size:247px;letter-spacing:-16px;line-height:1;font-weight:600}.month{font-size:96px;line-height:1.03;letter-spacing:-3px;font-weight:600}.date-year{display:block;font-size:71px;font-weight:500;color:var(--ink);letter-spacing:-2px;margin-top:8px}.timing h1{margin-top:37px;font-size:73px;line-height:1.1}.timing .rule{margin-top:37px}.explain{font-size:51px;line-height:1.24;letter-spacing:-1px;margin-top:34px;max-width:870px}.timing .source{position:absolute;bottom:169px;left:88px;color:var(--muted)}.timing .footer{border-top:2px solid #d7dfe9;padding-top:23px}
+.fit .eyebrow{margin-top:47px}.fit h1{font-size:94px;line-height:1.06;margin-top:25px}.criteria{margin-top:54px}.criterion{display:grid;grid-template-columns:64px 1fr;column-gap:21px;border-top:2px solid #bdcce2;padding-top:24px;margin-top:28px}.num{font-size:41px;color:var(--blue);font-weight:600;padding-top:3px}.criterion h2{font-size:57px;line-height:1.1;letter-spacing:-1.8px}.criterion p{font-size:45px;line-height:1.23;margin-top:14px;letter-spacing:-.5px}.fit-note{position:absolute;left:88px;bottom:153px;font-size:42px;line-height:1.2;color:var(--muted);max-width:850px}.fit .footer{border-top:2px solid #bdcce2;padding-top:23px}
+.action{background:var(--blue);color:#fff}.action .brand img{background:#fff;border-radius:9px;padding:7px}.action .edition{color:#fff}.action h1{font-size:100px;line-height:1.04;margin-top:58px;letter-spacing:-4px}.proof-label{font-size:40px;line-height:1.2;margin-top:38px}.proof{width:904px;height:auto;display:block;margin-top:16px;border:2px solid rgba(255,255,255,.5)}.instruction{font-size:64px;line-height:1.1;margin-top:38px;font-weight:600;letter-spacing:-1.8px}.role-name{font-size:46px;line-height:1.23;margin-top:16px;letter-spacing:-.6px}.website{position:absolute;left:88px;right:88px;bottom:190px;height:124px;background:#fff;color:var(--blue);display:flex;align-items:center;justify-content:space-between;padding:0 35px;font-size:64px;letter-spacing:-2px;font-weight:650}.website .arrow{font-size:68px;font-weight:400}.action .footer{border-top:2px solid rgba(255,255,255,.45);padding-top:25px}.action .footer .source{font-size:42px}
+/* Reading space is reserved independently from each panel's fixed footer. */
+.timing .day{font-size:224px}.timing h1{margin-top:30px}.timing .rule{margin-top:30px}.timing .explain{margin-top:28px;font-size:49px}
+.fit .criteria{margin-top:32px}.fit .criterion{margin-top:24px;padding-top:22px}.fit .criterion h2{font-size:54px}.fit .criterion p{font-size:44px;line-height:1.2}
+.action h1{font-size:94px;margin-top:48px}.action .proof-label{margin-top:28px;font-size:40px}
+</style></head><body>
+<section class="slide cover active" aria-label="Cover">
+ <div class="top"><div class="brand"><img data-asset="logo" alt="">JJIntern</div><div class="edition">COMPANY SPOTLIGHT</div></div>
+ <p class="eyebrow">SINGAPORE · SWE INTERNSHIP</p>
+ <div class="company">Google</div><div class="year">2027.</div>
+ <h1>Don't wait for<br>the deadline.</h1>
+ <p class="facts">Paid internship · 10–12 weeks</p>
+ <p class="source">Source: Google Careers</p>
+ <div class="footer"><p class="swipe">One detail worth checking <span>before you apply →</span></p><span class="page">01 / 04</span></div>
+</section>
+<section class="slide timing" aria-label="Application timing">
+ <div class="top"><div class="brand"><img data-asset="logo" alt="">JJIntern</div><div class="edition">GOOGLE · 2027 · SINGAPORE</div></div>
+ <p class="eyebrow">THE ANTICIPATED WINDOW</p>
+ <div class="date"><span class="day">15</span><span class="month">NOV<span class="date-year">2026</span></span></div>
+ <h1>It could<br>close sooner.</h1>
+ <div class="rule"></div>
+ <p class="explain">Google reviews applications<br>as they arrive. The window<br>may close early if projects fill.</p>
+ <p class="source">Google Careers<br>Checked 24 October 2026</p>
+ <div class="footer"><span>Check the live role before applying.</span><span class="page">02 / 04</span></div>
+</section>
+<section class="slide fit" aria-label="Quick fit check">
+ <div class="top"><div class="brand"><img data-asset="logo" alt="">JJIntern</div><div class="edition">GOOGLE · 2027 · SINGAPORE</div></div>
+ <p class="eyebrow">BEFORE YOU OPEN THE ROLE</p>
+ <h1>A quick fit check.</h1>
+ <div class="criteria">
+  <div class="criterion"><span class="num">01</span><div><h2>Your study year</h2><p>Penultimate-year Bachelor's / Master's<br>in CS or a related technical field.</p></div></div>
+  <div class="criterion"><span class="num">02</span><div><h2>Your location</h2><p>Be in Singapore for the internship.</p></div></div>
+  <div class="criterion"><span class="num">03</span><div><h2>Your work rights</h2><p>Priority: existing Singapore work rights,<br>with no visa sponsorship needed.</p></div></div>
+ </div>
+ <p class="fit-note">A snapshot, not the full requirements.<br>Read the complete role on JJIntern.</p>
+ <div class="footer"><span>Source: Google Careers · 24 Oct 2026</span><span class="page">03 / 04</span></div>
+</section>
+<section class="slide action" aria-label="Visit JJIntern">
+ <div class="top"><div class="brand"><img data-asset="logo" alt="">JJIntern</div><div class="edition">YOUR NEXT STEP</div></div>
+ <h1>Find this role<br>on JJIntern.</h1>
+ <p class="proof-label">From our live site · 24 October 2026</p>
+ <img class="proof" data-asset="role" alt="Actual JJIntern result for Google's Software Engineering Intern, 2027 role">
+ <p class="instruction">Search “Google”.</p>
+ <p class="role-name">Open “Software Engineering Intern,<br>2027 (English)” for the full details.</p>
+ <div class="website"><span>JJIntern.com/feed</span><span class="arrow">↗</span></div>
+ <div class="footer"><span class="source">Find the role. Check your fit.</span><span class="page">04 / 04</span></div>
+</section>
+<script>
+const assets=ASSET_DATA;
+document.querySelectorAll('[data-asset]').forEach(i=>i.src=assets[i.dataset.asset]);
+window.showSlide=i=>{document.querySelectorAll('.slide').forEach((s,n)=>s.classList.toggle('active',n===i));return true};
+window.ready=Promise.all([...document.images].map(i=>i.decode())).then(()=>document.fonts.ready).then(()=>true);
+</script></body></html>

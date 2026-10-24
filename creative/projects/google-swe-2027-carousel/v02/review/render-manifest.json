@@ -1,0 +1,64 @@
+{
+  "checked": "2026-10-24",
+  "dimensions": [
+    1080,
+    1350
+  ],
+  "format": "PNG; sRGB Chrome rendering; manual-swipe carousel",
+  "source_sha256": "cb56d41889823574e2b9d6ec05538c1e5a5527317c86283c9088a7cde7f82c78",
+  "assets": [
+    {
+      "name": "logo",
+      "path": "/Users/jeraldlim/Desktop/JJIntern/JJIntern_Videos/creative/assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c"
+    },
+    {
+      "name": "role",
+      "path": "/Users/jeraldlim/Desktop/JJIntern/JJIntern_Videos/creative/projects/google-swe-2027-carousel/evidence/02-google-role-crop.png",
+      "sha256": "9508f3032aee553e6f80d36bc2291b98d6f1a46c7dfcd0297589c5344d021680"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "01-salary.png",
+      "sha256": "5831a87843e771a9960526d7168e49ca7bbd3988c8cf9ce03e60eabe92b70c52",
+      "bytes": 103246,
+      "text": "JJIntern\n01 / 03\nGoogle\n\nSWE intern · Singapore\n\nS$5.7k\n\n/month · reported\n\n2027 pay unconfirmed.\n\nNodeFlair · 2 salary reports\nReport dates undisclosed\n\nThe 2027 opportunity\n→",
+      "overflow": [],
+      "font": "-apple-system, \"system-ui\", \"SF Pro Display\", \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif"
+    },
+    {
+      "file": "02-opportunity.png",
+      "sha256": "519354b45472de71bc3dae55dbc9feed5257c36ac01ce4075092b7ca92c9d292",
+      "bytes": 118869,
+      "text": "JJIntern\n02 / 03\nGoogle’s 2027\nSWE internship.\n\n10–12 weeks\n\nSingapore · Paid\n\nExpected application window until\n\n15 Nov 2026\n\nMay close earlier.\n\nGoogle Careers · Checked 24 Oct 2026\n\nCheck the full requirements →",
+      "overflow": [],
+      "font": "-apple-system, \"system-ui\", \"SF Pro Display\", \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif"
+    },
+    {
+      "file": "03-visit-jjintern.png",
+      "sha256": "e4997f5d815301f35d6c3efb32ef32885922ef86ccbdf1b7a27d04de0eeeed6d",
+      "bytes": 115011,
+      "text": "JJIntern\n03 / 03\nCheck your fit.\nFind the role.\n\nOn JJIntern · 24 Oct 2026\n\nSearch “Google”.\n\nJJIntern.com/feed\n↗\nFull role details. One place to look.",
+      "overflow": [],
+      "font": "-apple-system, \"system-ui\", \"SF Pro Display\", \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif"
+    }
+  ],
+  "review": {
+    "checks": [
+      "All authored element bounds remain within 1080×1350 canvas; fonts and images loaded before capture",
+      "Three PNG files rendered and hashed; 360px-per-panel contact sheet created"
+    ],
+    "pending": [
+      "physical phone",
+      "actual platform upload preview"
+    ]
+  },
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.85",
+    "revision": "@0e66b94549a8bd85f03fbdf189b752d6e7b63c32",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.25"
+  }
+}

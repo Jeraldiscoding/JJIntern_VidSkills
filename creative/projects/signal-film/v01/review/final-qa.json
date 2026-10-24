@@ -1,0 +1,196 @@
+{
+  "title": "JJIntern — Find your focus",
+  "checked": "2026-10-20",
+  "timezone": "Europe/London",
+  "concept_status": "selected and resolved: fragmented tabs become a single searchable starting point",
+  "asset_status": "available; fresh authentic public captures, original mark and original score",
+  "artifact_status": "Both formats rendered, decoded and visually inspected",
+  "release_status": "conditional: physical-phone viewing, subjective listening and actual upload preview not performed",
+  "technical": {
+    "report": "technical-qa.json",
+    "all_pass": true,
+    "outputs": [
+      {
+        "format": "wide",
+        "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/signal-film/v01/JJIntern-Find-your-focus-wide.mp4",
+        "sha256": "48fe40cef56533ab7cab82b702b37baba4a46fa568dba434d5cefb78989880a8",
+        "bytes": 5308875,
+        "checks": {
+          "dimensions": true,
+          "duration": true,
+          "native_60fps": true,
+          "frames_1920": true,
+          "h264_yuv420p": true,
+          "bt709": true,
+          "aac_stereo_48k": true,
+          "faststart": true,
+          "full_decode": true,
+          "stable_final_hold": true
+        },
+        "static_hold_codec_residuals": [
+          {
+            "mean_absolute_luma_difference": 0.00030092592592592595,
+            "fraction_over_3_levels": 0.0
+          },
+          {
+            "mean_absolute_luma_difference": 0.007083333333333333,
+            "fraction_over_3_levels": 0.0005555555555555556
+          }
+        ]
+      },
+      {
+        "format": "vertical",
+        "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/signal-film/v01/JJIntern-Find-your-focus-vertical.mp4",
+        "sha256": "1c027c4c90f1f9a4b458d69cc525266d1359fa2a3d5bf0781f1c2ebcdb0dafa5",
+        "bytes": 5096330,
+        "checks": {
+          "dimensions": true,
+          "duration": true,
+          "native_60fps": true,
+          "frames_1920": true,
+          "h264_yuv420p": true,
+          "bt709": true,
+          "aac_stereo_48k": true,
+          "faststart": true,
+          "full_decode": true,
+          "stable_final_hold": true
+        },
+        "static_hold_codec_residuals": [
+          {
+            "mean_absolute_luma_difference": 0.0007498046111762408,
+            "fraction_over_3_levels": 0.0
+          },
+          {
+            "mean_absolute_luma_difference": 0.0011186010160218836,
+            "fraction_over_3_levels": 3.663540445486518e-05
+          }
+        ]
+      }
+    ]
+  },
+  "independent_review": "independent-qa.json",
+  "hard_failures_observed": [],
+  "visual_checks_performed": [
+    "Native-resolution representative frames in both formats",
+    "Decoded whole-film contact sheets at one frame per second",
+    "Phone-equivalent360px portrait proof and text",
+    "Exact transition frames at7.6,12.0,21.983,22.0 and22.2seconds",
+    "Filter indicator alignment to actual control bounds",
+    "Query states show Microsoft and genuine final result",
+    "Stable final composition; negligible lossy-codec edge residuals",
+    "No original logo distortion, invented UI, private account data or unsupported feature claim"
+  ],
+  "audio": {
+    "integrated_lufs": -15.11,
+    "wav_true_peak_dbtp": -1.59,
+    "aac_true_peak_dbtp": -1.41,
+    "subjective_listening_performed": false,
+    "provenance": "Original analytic synthesis; no third-party samples"
+  },
+  "rubric": {
+    "idea": {
+      "score": 2,
+      "evidence": "Many-tab fragmentation resolves through actual search."
+    },
+    "hook": {
+      "score": 2,
+      "evidence": "So many tabs readable immediately; scattered page outlines establish situation."
+    },
+    "payoff": {
+      "score": 2,
+      "evidence": "Finance/Tech discovery, narrowed company result and destination supply a concrete starting point."
+    },
+    "shot_value": {
+      "score": 2,
+      "evidence": "Each section adds premise, focus, category breadth, search proof, cadence or next action."
+    },
+    "product": {
+      "score": 2,
+      "evidence": "Fresh public category/input-result captures; P06 scheduled checking claim retains owner scope."
+    },
+    "copy": {
+      "score": 2,
+      "evidence": "Short discovery language; no hiring guarantee or auto-apply."
+    },
+    "design": {
+      "score": 2,
+      "evidence": "Hierarchy varied among type ring, split composition, centred search, orbit and full-blue payoff."
+    },
+    "motion": {
+      "score": 2,
+      "evidence": "Connected tab convergence and aperture, real query changes, orbit unwind and forward path. Reading holds distinct from transitions."
+    },
+    "readability_accessibility": {
+      "score": 1,
+      "evidence": "Digital360px equivalents clear after proof crop repair. Physical phone and upload overlays unperformed."
+    },
+    "claims": {
+      "score": 2,
+      "evidence": "P10 and P06; original site states used as examples. No employer-confirmed vacancy or outcome claim."
+    },
+    "cta_ending": {
+      "score": 2,
+      "evidence": "Explore internships and jjintern.com held stable through final frame."
+    },
+    "distinctness": {
+      "score": 2,
+      "evidence": "New tab-to-focus and product-demo mechanism; does not repeat earlier packet flight."
+    }
+  },
+  "repairs_completed": [
+    "Correct source-mapped filter indicator",
+    "Clear focus type before aperture expansion",
+    "Tighter portrait query/result crop",
+    "Continuous blue path across12s and22s cuts"
+  ],
+  "pending_checks": [
+    "Subjective listening",
+    "Physical-phone viewing",
+    "Actual platform upload preview and current placement overlays"
+  ],
+  "publication": false,
+  "performance_claim": null,
+  "real_time_browser_playback": {
+    "record": "browser-playback.json",
+    "passes": [
+      {
+        "format": "wide",
+        "muted": true,
+        "reached_end": true,
+        "duration": 32,
+        "error": null,
+        "cumulative_decoded_frames": 1920,
+        "cumulative_dropped_frames": 0
+      },
+      {
+        "format": "wide",
+        "muted": false,
+        "reached_end": true,
+        "duration": 32,
+        "error": null,
+        "cumulative_decoded_frames": 3840,
+        "cumulative_dropped_frames": 15
+      },
+      {
+        "format": "vertical",
+        "muted": true,
+        "reached_end": true,
+        "duration": 32,
+        "error": null,
+        "cumulative_decoded_frames": 1920,
+        "cumulative_dropped_frames": 0
+      },
+      {
+        "format": "vertical",
+        "muted": false,
+        "reached_end": true,
+        "duration": 32,
+        "error": null,
+        "cumulative_decoded_frames": 3840,
+        "cumulative_dropped_frames": 1
+      }
+    ],
+    "interpretation": "All four real-time playback passes reached the end without media errors. Headless browser reported minor dropped presentation frames during concurrent local checks; full encoded decode passed all1920frames. Audio enabled is not subjective listening."
+  },
+  "documentation_validation": "PASS:138JSON files,72Markdown files, five skills, evidence hashes, claims and capture/result invariants."
+}

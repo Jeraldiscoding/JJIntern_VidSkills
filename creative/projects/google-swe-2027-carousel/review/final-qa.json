@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-24",
+  "timezone": "Europe/Stockholm",
+  "concept": "selected; opportunity timing to verified website action",
+  "assets": "complete; authentic original mark and loaded public role crop",
+  "artifact": "four 1080x1350 PNG pictures rendered and individually inspected; 360px-per-panel contact sheet reviewed",
+  "release": "conditional on current listing recheck, physical phone and account carousel preview",
+  "independent_review": "Read-only agent inspected PNGs, contact sheet, source, capture/claim records, caption, alt text and sources; reopened official Google source. No must-fix findings.",
+  "checks_passed": [
+    "Programme and paid duration match current official employer source; no salary figure invented",
+    "Anticipated 15 November 2026 date and early-closure qualification appear together",
+    "Study-year and location context preserved; work rights described as priority, not blanket eligibility",
+    "Actual Google search and exact role-detail expansion support the on-site CTA",
+    "Caption repeats one website action; no unverified link-in-bio or direct employer application promise",
+    "No overlapping, clipped or missing essential text in exported images at original and 360px widths",
+    "Main text contrast meets internal benchmark; source/evidence/output hashes verified",
+    "No private data; Google logo appears only within authentic product capture",
+    "Initial loading-state screenshot excluded from published pictures"
+  ],
+  "pending": [
+    "Physical-phone inspection",
+    "Actual account upload preview/caption/control overlays",
+    "Publication-day employer and JJIntern availability recheck"
+  ],
+  "not_claimed": [
+    "Published post",
+    "Measured reach or conversion lift",
+    "Application form acceptance or successful handoff",
+    "Global runtime skill discovery"
+  ],
+  "minor_note": "Small blue list numerals on pale blue measure about 4.22:1; they are decorative. Adjacent essential text passes.",
+  "evidence": "evidence/capture-record.json",
+  "render": "review/render-manifest.json",
+  "claim_id": "OPP-GOOGLE-SWE-SG-20261024"
+}

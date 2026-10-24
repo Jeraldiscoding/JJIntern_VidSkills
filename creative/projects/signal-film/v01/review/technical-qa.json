@@ -1,0 +1,420 @@
+{
+  "outputs": [
+    {
+      "format": "wide",
+      "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/signal-film/v01/JJIntern-Find-your-focus-wide.mp4",
+      "sha256": "48fe40cef56533ab7cab82b702b37baba4a46fa568dba434d5cefb78989880a8",
+      "bytes": 5308875,
+      "checks": {
+        "dimensions": true,
+        "duration": true,
+        "native_60fps": true,
+        "frames_1920": true,
+        "h264_yuv420p": true,
+        "bt709": true,
+        "aac_stereo_48k": true,
+        "faststart": true,
+        "full_decode": true,
+        "stable_final_hold": true
+      },
+      "media": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64002a",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1088,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "16:9",
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 4,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 491520,
+            "duration": "32.000000",
+            "bit_rate": "1016374",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "1920",
+            "nb_read_frames": "1920",
+            "extradata_size": 51,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "encoder": "Lavc62.28.102 libx264"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 1536000,
+            "duration": "32.000000",
+            "bit_rate": "297737",
+            "nb_frames": "1501",
+            "nb_read_frames": "1500",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/signal-film/v01/JJIntern-Find-your-focus-wide.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "32.000000",
+          "size": "5308875",
+          "bit_rate": "1327218",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.12.102"
+          }
+        }
+      },
+      "final_hold": [
+        {
+          "time": 30,
+          "sha256": "94d4efa0743094b1755ff0e5e26fd8c89f88d01f41c135e7e542ac4498893999"
+        },
+        {
+          "time": 31,
+          "sha256": "08527383f455671c2031136ba2d7a9eb9b898828c361718107810925a8e9cd9c"
+        },
+        {
+          "time": 31.983333,
+          "sha256": "a2f56ed8341eb7420684ac808fed591ed2d2aa517d77d8d3cb96be2ee96410bb"
+        }
+      ],
+      "static_hold_codec_residuals": [
+        {
+          "mean_absolute_luma_difference": 0.00030092592592592595,
+          "fraction_over_3_levels": 0.0
+        },
+        {
+          "mean_absolute_luma_difference": 0.007083333333333333,
+          "fraction_over_3_levels": 0.0005555555555555556
+        }
+      ],
+      "mp4_atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "size": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "size": 51584
+        },
+        {
+          "type": "free",
+          "offset": 51616,
+          "size": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 51624,
+          "size": 5257251
+        }
+      ]
+    },
+    {
+      "format": "vertical",
+      "path": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/signal-film/v01/JJIntern-Find-your-focus-vertical.mp4",
+      "sha256": "1c027c4c90f1f9a4b458d69cc525266d1359fa2a3d5bf0781f1c2ebcdb0dafa5",
+      "bytes": 5096330,
+      "checks": {
+        "dimensions": true,
+        "duration": true,
+        "native_60fps": true,
+        "frames_1920": true,
+        "h264_yuv420p": true,
+        "bt709": true,
+        "aac_stereo_48k": true,
+        "faststart": true,
+        "full_decode": true,
+        "stable_final_hold": true
+      },
+      "media": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64002a",
+            "width": 1080,
+            "height": 1920,
+            "coded_width": 1088,
+            "coded_height": 1920,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "9:16",
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 4,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 491520,
+            "duration": "32.000000",
+            "bit_rate": "963219",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "1920",
+            "nb_read_frames": "1920",
+            "extradata_size": 51,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "encoder": "Lavc62.28.102 libx264"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 1536000,
+            "duration": "32.000000",
+            "bit_rate": "297737",
+            "nb_frames": "1501",
+            "nb_read_frames": "1500",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/jeraldlim/Desktop/JJIntern_Videos/creative/projects/signal-film/v01/JJIntern-Find-your-focus-vertical.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "32.000000",
+          "size": "5096330",
+          "bit_rate": "1274082",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.12.102"
+          }
+        }
+      },
+      "final_hold": [
+        {
+          "time": 30,
+          "sha256": "e5c4c4aae00199b8f60b8ddd92212dd780b84ea25cbc1e40d0c4b3d286286b31"
+        },
+        {
+          "time": 31,
+          "sha256": "a8d551ea4671406f303618c3fbc76dccb92e20dc89fab033c9b0fcc3fa1704e0"
+        },
+        {
+          "time": 31.983333,
+          "sha256": "85cb9c99bdba2c3dbd6cf0daaac99cf5b52e6766e46fa2152a78b5db46adcfba"
+        }
+      ],
+      "static_hold_codec_residuals": [
+        {
+          "mean_absolute_luma_difference": 0.0007498046111762408,
+          "fraction_over_3_levels": 0.0
+        },
+        {
+          "mean_absolute_luma_difference": 0.0011186010160218836,
+          "fraction_over_3_levels": 3.663540445486518e-05
+        }
+      ],
+      "mp4_atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "size": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "size": 51660
+        },
+        {
+          "type": "free",
+          "offset": 51692,
+          "size": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 51700,
+          "size": 5044630
+        }
+      ]
+    }
+  ],
+  "all_pass": true,
+  "limits": "Technical decode and encoded still generation. Does not establish subjective sound, physical-phone viewing or platform upload preview."
+}

@@ -2,6 +2,10 @@
 
 Checked **17 October 2026**, Europe/Stockholm. Owner: JJIntern product owner; future agents may propose updates, but must attach evidence. Read [evidence.md](evidence.md) before using a feature claim.
 
+**P11 refresh, 24 October 2026 (Europe/Stockholm):** a real public **Google** search returned five displayed roles; clicking **Software Engineering Intern, 2027 (English)** opened that exact role's details. The genuine loaded row crop and expanded details support a specific CTA: **JJIntern.com/feed → search Google → open the named role**. Its employer facts were checked against the [official Google listing](https://www.google.com/about/careers/applications/jobs/results/104489346874122950). JJIntern's application button says **via LinkedIn** and was not clicked; no direct Google handoff or application acceptance/submission was established. The initial full search PNG captured loading and is excluded from loaded-result production proof. See [P11 evidence](evidence.md#p11--public-google-search-and-exact-software-engineering-role-details) and claim `OPP-GOOGLE-SWE-SG-20261024`. Earlier evidence remains historical.
+
+**Fresh P10 interaction refresh, 20 October 2026 (Europe/London):** public company search, Finance/Tech category changes, light theme and logged-out browsing were retested and captured for [Find your focus](../projects/signal-film/README.md). See [P10 evidence](evidence.md#p10--fresh-public-search-categories-and-logged-out-browsing). This refresh does not verify live vacancies, authenticated features or scheduler telemetry. Earlier evidence dates below remain historical.
+
 ## What the product does
 
 The owner describes JJIntern.com as an internship discovery and search organisation tool for Singapore university and polytechnic students. The public website presents finance and technology internships, a company directory, application organisation, and Telegram alerts. **This workspace started empty: no application source, tests, database, existing captures, or roadmap were available. No functionality is source-code verified.** Public website inspection provides a useful but narrower evidence base.

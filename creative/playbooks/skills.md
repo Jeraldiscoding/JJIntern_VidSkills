@@ -8,7 +8,7 @@ Official [OpenAI Docs: Build skills](https://learn.chatgpt.com/docs/build-skills
 
 Local `codex --version` reported **0.162.0-alpha.17.2**. The installed skill-creator instructions were inspected, and these five files use their required frontmatter format. **This confirms the documented location, local CLI version and file format; it does not establish that a fresh Codex session has discovered or executed these new skills.** No skill-selection UI or runtime discovery test was performed in this session.
 
-Launch/open the workspace at `/Users/jeraldlim/Desktop/JJIntern_Videos`, then select a skill if it appears. If a new skill is absent, restart/reopen the session as the official guidance suggests. Do not assume arbitrary Markdown under `creative/` is automatically a skill.
+Launch/open the `JJIntern_Videos` workspace (currently `/Users/jeraldlim/Desktop/JJIntern/JJIntern_Videos`), then select a skill if it appears. If a new skill is absent, restart/reopen the session as the official guidance suggests. Do not assume arbitrary Markdown under `creative/` is automatically a skill.
 
 ## Choose an entry point
 
@@ -21,6 +21,8 @@ Launch/open the workspace at `/Users/jeraldlim/Desktop/JJIntern_Videos`, then se
 | `$jjintern-qa` | Evidence, claims, story, artifact and release review | [SKILL.md](../../.agents/skills/jjintern-qa/SKILL.md) |
 
 Only load the detailed playbooks needed for the current work. The skills link back to the shared files; changing a shared rule does not require duplicating it in five places.
+
+**24 October 2026 update:** concepts, video and QA now route salary spotlights and company shortlists/rankings through [career content](career-content.md). For research first: “Use $jjintern-concepts to research Singapore intern-pay and best-tech-company TikToks. Record exactly what you can inspect, verify employer facts and propose hooks; do not produce a video yet.”
 
 ## Example prompts and explicit-path fallback
 

@@ -1,0 +1,72 @@
+{
+  "checked": "2026-10-24",
+  "dimensions": [
+    1080,
+    1350
+  ],
+  "format": "PNG; sRGB Chrome rendering; manual-swipe carousel",
+  "source_sha256": "6e1692f1e11939c452c7e2f6ae45a79352e1866badaaa9d021c2aaa176e9720e",
+  "assets": [
+    {
+      "name": "logo",
+      "path": "/Users/jeraldlim/Desktop/JJIntern/JJIntern_Videos/creative/assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c"
+    },
+    {
+      "name": "role",
+      "path": "/Users/jeraldlim/Desktop/JJIntern/JJIntern_Videos/creative/projects/google-swe-2027-carousel/evidence/02-google-role-crop.png",
+      "sha256": "9508f3032aee553e6f80d36bc2291b98d6f1a46c7dfcd0297589c5344d021680"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "01-cover.png",
+      "sha256": "40df5f9432ec24a631bc5cb2cde15aabd94e6c38ba33ea0e59b7f745aa9c9ac9",
+      "bytes": 115373,
+      "text": "JJIntern\nCOMPANY SPOTLIGHT\n\nSINGAPORE · SWE INTERNSHIP\n\nGoogle\n2027.\nDon't wait for\nthe deadline.\n\nPaid internship · 10–12 weeks\n\nSource: Google Careers\n\nOne detail worth checking\nbefore you apply →\n\n01 / 04",
+      "overflow": [],
+      "font": "-apple-system, \"system-ui\", \"SF Pro Display\", \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif"
+    },
+    {
+      "file": "02-application-window.png",
+      "sha256": "8c1ec243e664b549a15bd261bd69ad49f18d0cc3463e3fca8b2b61fc625061d2",
+      "bytes": 118128,
+      "text": "JJIntern\nGOOGLE · 2027 · SINGAPORE\n\nTHE ANTICIPATED WINDOW\n\n15\nNOV\n2026\nIt could\nclose sooner.\n\nGoogle reviews applications\nas they arrive. The window\nmay close early if projects fill.\n\nGoogle Careers\nChecked 24 October 2026\n\nCheck the live role before applying.\n02 / 04",
+      "overflow": [],
+      "font": "-apple-system, \"system-ui\", \"SF Pro Display\", \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif"
+    },
+    {
+      "file": "03-fit-check.png",
+      "sha256": "3cc476f44b14946970fe2cd8e7c4c35f34901b4a9b90d3132a089f6aa47c5a8e",
+      "bytes": 164643,
+      "text": "JJIntern\nGOOGLE · 2027 · SINGAPORE\n\nBEFORE YOU OPEN THE ROLE\n\nA quick fit check.\n01\nYour study year\n\nPenultimate-year Bachelor's / Master's\nin CS or a related technical field.\n\n02\nYour location\n\nBe in Singapore for the internship.\n\n03\nYour work rights\n\nPriority: existing Singapore work rights,\nwith no visa sponsorship needed.\n\nA snapshot, not the full requirements.\nRead the complete role on JJIntern.\n\nSource: Google Careers · 24 Oct 2026\n03 / 04",
+      "overflow": [],
+      "font": "-apple-system, \"system-ui\", \"SF Pro Display\", \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif"
+    },
+    {
+      "file": "04-visit-jjintern.png",
+      "sha256": "18fb8a1b662fca1c9db741c2f9f85b522a02bd5b71e6c163d2007873208dbf00",
+      "bytes": 134354,
+      "text": "JJIntern\nYOUR NEXT STEP\nFind this role\non JJIntern.\n\nFrom our live site · 24 October 2026\n\nSearch “Google”.\n\nOpen “Software Engineering Intern,\n2027 (English)” for the full details.\n\nJJIntern.com/feed\n↗\nFind the role. Check your fit.\n04 / 04",
+      "overflow": [],
+      "font": "-apple-system, \"system-ui\", \"SF Pro Display\", \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif"
+    }
+  ],
+  "review": {
+    "checks": [
+      "All authored element bounds remain within 1080×1350 canvas; fonts and images loaded before capture",
+      "Four PNG files rendered and hashed; 360px-per-panel contact sheet created"
+    ],
+    "pending": [
+      "physical phone",
+      "actual platform upload preview"
+    ]
+  },
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.85",
+    "revision": "@0e66b94549a8bd85f03fbdf189b752d6e7b63c32",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.25"
+  }
+}

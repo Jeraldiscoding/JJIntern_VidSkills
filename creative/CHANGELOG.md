@@ -1,5 +1,30 @@
 # Changelog
 
+## 2026-10-24 — Concise Google pictures with reported local pay
+
+- Produced Google carousel revision 02: three 1080×1350 pictures, leading with S$5.7k/month reported for Singapore SWE interns. Cover includes NodeFlair, two reports, undisclosed dates and unconfirmed 2027 pay. No overseas proxy, conversion, invented range or employer-confirmed salary assertion.
+- Added a separate undated reported-benchmark claim; retained the official opportunity's unknown salary. Exact-URL indexed content supplied salary evidence; direct opens timed out and live browser access reached Cloudflare verification. Source limitations are recorded.
+- Shortened the sequence to salary, official opportunity and a genuine JJIntern role/search CTA. Delivered numbered PNGs, caption, alt text and sources; preserved the original four-picture version. Checked exported readability, evidence/output hashes, contrast and ZIP contents. Independent review passed images; its source-note consistency finding was resolved.
+- Persisted the owner's concise-copy and Singapore-specific pay preferences in the career/carousel guidance. No post published; physical-phone and actual account upload preview remain pending.
+
+## 2026-10-24 — Picture-post correction and Google carousel
+
+- Owner clarified that the career posts are pictures/manual-swipe carousels, with qualified website visits as the objective. Updated concept/carousel skills, career/carousel/performance playbooks and owner direction; retained actual video workflows and earlier research history.
+- Produced four 1080×1350 Google 2027 Singapore software engineering internship pictures with caption, alt text, original source, source records and a clear JJIntern feed/search/open-role CTA. Stripe and sales & trading were excluded from this new post as requested.
+- Verified Google's primary programme facts and qualified expected application window. Added the scoped Google claim and P11 product evidence after actual public search/title-click testing. The LinkedIn application handoff was not tested or advertised as direct-to-Google.
+- Used the authentic loaded Google role crop; excluded the initial search loading-state screenshot from production. No salary amount, invented UI, employer partnership or hiring guarantee was added. No publication or application submission occurred.
+- Inspected all exported pictures and the 360px preview; independent factual/visual QA found no must-fix issues. Packaged the four PNGs, caption, alt text and sources in a byte-verified ZIP. System validation passed; physical-phone and account upload previews remain pending.
+
+## 2026-10-24 — Salary spotlights and tech-company shortlists
+
+- Added the owner's priority content formats to creative direction, a shared career-content playbook and concept/video/QA skill routing. Added two story territories, evidence-led hook guidance, ranking criteria and one-variable performance tests.
+- Recorded actual TikTok research coverage and access failures separately from proposed pacing and creative analysis. No unsupported claim of watching videos or proving reach was added.
+- Verified Stripe's Singapore SWE intern pay source and application context; recorded annual pay and its explicit monthly-equivalent calculation in the claims ledger.
+- Removed the accidental requirement for every editorial video to demonstrate product behaviour; preserved authentic-demo requirements and the selected brief's sound direction. Corrected skill-workspace navigation.
+- User requested skills and research first. No new video, publication, application submission or external spending was performed.
+- An independent read-only skill application produced correctly scoped pay and shortlist hooks. Corrected a stale worked-example statement about intake after the linked form established 2027.
+- Shared system validation passed for links, five skill entrypoints, JSON, evidence hashes and claim context. The bundled skill-creator validator could not run because PyYAML is absent; no dependency was installed. Runtime skill discovery and direct TikTok playback remain unverified.
+
 ## 2026-10-19 — Folder organization
 
 - Added a workspace README and concise agent navigation, with direct links to the latest video, caption and creative direction.

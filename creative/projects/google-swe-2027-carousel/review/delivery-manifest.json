@@ -1,0 +1,46 @@
+{
+  "checked": "2026-10-24",
+  "files": [
+    {
+      "path": "images/01-cover.png",
+      "sha256": "40df5f9432ec24a631bc5cb2cde15aabd94e6c38ba33ea0e59b7f745aa9c9ac9",
+      "bytes": 115373
+    },
+    {
+      "path": "images/02-application-window.png",
+      "sha256": "8c1ec243e664b549a15bd261bd69ad49f18d0cc3463e3fca8b2b61fc625061d2",
+      "bytes": 118128
+    },
+    {
+      "path": "images/03-fit-check.png",
+      "sha256": "3cc476f44b14946970fe2cd8e7c4c35f34901b4a9b90d3132a089f6aa47c5a8e",
+      "bytes": 164643
+    },
+    {
+      "path": "images/04-visit-jjintern.png",
+      "sha256": "18fb8a1b662fca1c9db741c2f9f85b522a02bd5b71e6c163d2007873208dbf00",
+      "bytes": 134354
+    },
+    {
+      "path": "caption.txt",
+      "sha256": "1be615d3c9f2647c9f49d3f993339c25c0793b89098d0d2579e52c8095488181",
+      "bytes": 877
+    },
+    {
+      "path": "alt-text.txt",
+      "sha256": "90132b4232f5adb43253a6215a2745d01c87327ef922157ad33c8b497f36e69a",
+      "bytes": 1400
+    },
+    {
+      "path": "sources.txt",
+      "sha256": "fef8156207d885aec0967385b0ad7331be01668d87636c6dadd5829ebaecd16e",
+      "bytes": 2049
+    }
+  ],
+  "archive": {
+    "path": "JJIntern-Google-2027-picture-post.zip",
+    "sha256": "fa118ed84d4db784b8f4aac0c58e1a26cb053c4ba8be1e9d856d47f913c6244b",
+    "bytes": 506977
+  },
+  "contents_verified": true
+}

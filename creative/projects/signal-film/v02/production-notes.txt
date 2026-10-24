@@ -1,0 +1,55 @@
+JJINTERN — FIND YOUR FOCUS / REVISION 02
+20 October 2026, Europe/London
+32.000 seconds; native 60 fps; widescreen and separately composed vertical.
+
+OWNER REQUEST
+“transitions can be a little smoother, when we zoom into microsoft, can add like a
+clicking effect and sound. Remove the example feed, do not want that”
+
+CHANGES FROM V01
+- Continuous tab contour/color collapse replaces threshold-based shape switching.
+- Text entrances use zero-velocity start/end easing.
+- Focus type clears by 7.05s; aperture starts 7.1s and fades its paper surface in.
+- Same product surface bridges feed into directory from 11.35–12.7s.
+- Finance/Tech capture change receives a short dissolve with the existing indicator.
+- Cursor approaches the genuine Microsoft result, presses at 14.400s, releases at
+  14.480s, and produces a short blue ripple. Original synthesized mouse-switch
+  sound uses those same timestamps. Existing musical arrangement is retained.
+- Camera zoom runs 14.48–15.58s with smooth endpoints. Portrait retains the tight
+  source crop; widescreen adds a restrained 5% push. No invented page opens.
+- The directory caption stays fixed; portrait caption appears as the zoom settles.
+- Blue ring carries into the clock, then its color and ticks settle gradually.
+- Blue payoff reveal, wipe and logo entrance ease more gently.
+- “Example feed” removed from both films and transcript at the owner's request.
+
+EVIDENCE AND SCOPE
+Uses the existing genuine P10 captures from 20 October 2026. No screenshot text or
+product behavior was fabricated. The cursor/click is an editorial camera-focus cue,
+not a recorded navigation action or proof that clicking opens a new screen. No new
+vacancy-availability, employer-affiliation or measured-performance claim is added.
+The owner-confirmed 30-minute cadence remains scoped to scheduled checking (P06).
+The earlier v01 label requirement is superseded for this revision by the explicit
+owner instruction. V01 originals, sources and review records remain preserved.
+
+DELIVERY
+JJIntern-Find-your-focus-wide.mp4        1920×1080
+JJIntern-Find-your-focus-vertical.mp4    1080×1920
+H.264, yuv420p, BT.709, CFR60, faststart, AAC320k stereo48kHz.
+Exact commands, sources, asset/audio hashes and output metadata are in review manifests.
+
+REPRODUCTION FROM WORKSPACE ROOT
+Start isolated Chrome (separate temporary profile, no personal account):
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --headless=new --disable-gpu --hide-scrollbars --no-first-run --no-default-browser-check --remote-debugging-port=9372 --user-data-dir=/private/tmp/jjintern-signal-render-profile --allow-file-access-from-files about:blank
+python3 creative/projects/signal-film/v02/audio/build_score.py
+node creative/projects/signal-film/v02/source/render.mjs 9372 stills wide
+node creative/projects/signal-film/v02/source/render.mjs 9372 stills vertical
+node creative/projects/signal-film/v02/source/render.mjs 9372 full wide
+node creative/projects/signal-film/v02/source/render.mjs 9372 full vertical
+python3 creative/projects/signal-film/v02/source/verify-export.py
+node creative/projects/signal-film/v02/source/check-playback.mjs 9372
+python3 creative/scripts/validate-system.py
+
+CHECK LIMITS
+Encoded visual, technical and browser playback checks are recorded separately.
+Subjective listening, a physical phone and actual upload preview are not claimed.
+No publishing, production changes or third-party spending occurred.

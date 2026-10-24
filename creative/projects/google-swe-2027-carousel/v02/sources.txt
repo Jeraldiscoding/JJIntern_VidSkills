@@ -1,0 +1,32 @@
+JJIntern / Google 2027 Singapore SWE / revision 02
+Fact check: 24 October 2026, Europe/Stockholm. Report-check date is NOT the salary submission year.
+
+PICTURE 1 — SINGAPORE REPORTED PAY BENCHMARK
+https://nodeflair.com/companies/google/salaries/software_engineer-intern/Singapore
+https://nodeflair.com/companies/google/salaries/software_engineer/Singapore
+Exact employer: Google. Exact role/level/location: Software Engineer (Intern), Singapore.
+NodeFlair reports S$5,700 per month. The intern page displays two S$5,700 user submissions; the parent page identifies 2 salaries and a S$5,700/month intern weighted average. These are two views of the same dataset, not independent studies.
+Submission dates are hidden. NodeFlair says amounts are rounded to the nearest hundred. The fixed/variable/stock breakdown is locked; base versus total, gross versus net, and programme year cannot be established publicly.
+This is a limited, user-reported local benchmark. It is not an employer-confirmed offer, guaranteed 2027 pay, or statistically reliable likely-pay range. No overseas amount, foreign-currency conversion, annual-to-monthly conversion, or invented range was used.
+Visible cover qualifiers: reported; Singapore SWE intern; 2 reports; dates undisclosed; 2027 pay unconfirmed.
+Claim: PAY-GOOGLE-SWE-INTERN-SG-NODEFLAIR-20261024.
+Access: exact-URL indexed full content inspected, with a crawl stated as about three weeks earlier. Direct web-reader opens timed out; isolated-browser access reached Cloudflare verification. No successful live NodeFlair capture or authenticated access is claimed. The report's age remains unknown.
+
+PICTURE 2 — OFFICIAL PROGRAMME FACTS
+https://www.google.com/about/careers/applications/jobs/results/104489346874122950
+Software Engineering Intern, 2027 (English), Singapore.
+Official listing says paid, 10–12 weeks, anticipated application window until 15 November 2026, rolling review, possible earlier closure if available projects fill. It publishes no salary amount. The picture preserves the expected-window and early-closure context.
+The full qualification set remains on the role: the carousel does not guarantee eligibility, sponsorship, availability or acceptance. Claim: OPP-GOOGLE-SWE-SG-20261024.
+
+PICTURE 3 — VERIFIED JJINTERN DISCOVERY ACTION
+https://jjintern.com/feed
+Actual public search for Google returned the matching role; clicking its title expanded full details on 24 October 2026. The genuine loaded role-row crop is reused from project evidence/02-google-role-crop.png, with its provenance in evidence/capture-record.json.
+The application button reads “via LinkedIn”; it was not clicked. The CTA promises finding/reading the role on JJIntern, not direct Google application, automatic application, a job offer or a partnership. Evidence P11.
+The initial full-page loading screenshot is excluded from the pictures. Original JJIntern mark used unchanged at modest size.
+
+HISTORICAL CROSS-CHECK, NOT USED AS THE COVER AMOUNT
+https://www.techinterviewhandbook.org/landscape/
+Original Singapore 2022/2023 survey lists Google internship monthly pay of SGD5,400. This is historical context, not 2026/2027 pay. It was not pooled with NodeFlair to manufacture a range.
+
+FORMAT / REVIEW
+Three manually swiped 1080x1350 PNG pictures, in numbered order. No video or auto-advance. No publication performed. Physical-phone and actual-account upload preview remain pending. Recheck current employer and JJIntern availability before publication.

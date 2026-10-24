@@ -1,6 +1,6 @@
 # Reference library
 
-Owner: creative lead. External references checked: **2026-10-17**. Local JJIntern reference added: **2026-10-19**. Recheck external links before adapting a reference; this local update does not refresh their research dates.
+Owner: creative lead. Initial external references checked: **2026-10-17**. Local JJIntern reference added: **2026-10-19**. Career-content study added: **2026-10-24**, with its own inspection limits. Recheck external links before adapting a reference; a later addition does not refresh older research dates.
 
 The initial workspace contained no existing JJIntern creative archive. Local production and revision history now exist; R06 is the accepted execution reference. [Rejected patterns](rejected.md) distinguishes the initial synthetic examples from later owner feedback on actual iterations.
 
@@ -84,6 +84,10 @@ These are references for specific techniques, not proof of performance. No attri
 - **Sound:** original 160 BPM groove with stronger drums and synchronized source, morph, air, contact and repeated receipt ding. Source and provenance are preserved; this is not a subjective audio-quality certificate.
 - **Transfer:** rapid transformation, sustained motion, clear contact and stillness for the result each have a different job. Sound is part of the choreography. Clean graphics can carry ambitious motion without adding realistic materials or UI clutter.
 - **Boundary:** do not copy its full packet sequence into every post, treat its exact timings as global rules, or present editorial motion as real vacancy ingestion or instant detection.
+
+## R07 — Salary and company-list research, with explicit inspection limits
+
+[24 October 2026 study](tiktok-career-study-2026-10-24.md) records direct TikTok search attempts, accessible official creative guidance and the verified Stripe pay source. Read its coverage before citing it: it is not a completed shot-by-shot video review or proof that these formats outperform. Use the linked [career playbook](../playbooks/career-content.md) for proposed adaptations.
 
 ## References still needed
 

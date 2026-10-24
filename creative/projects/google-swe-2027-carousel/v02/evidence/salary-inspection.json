@@ -1,0 +1,32 @@
+{
+  "checked": "2026-10-24",
+  "timezone": "Europe/Stockholm",
+  "claim_id": "PAY-GOOGLE-SWE-INTERN-SG-NODEFLAIR-20261024",
+  "salary_source": "https://nodeflair.com/companies/google/salaries/software_engineer-intern/Singapore",
+  "sample_count_source": "https://nodeflair.com/companies/google/salaries/software_engineer/Singapore",
+  "successful_inspection": "Exact-URL indexed full content from web search, independently checked by salary researchers and production agent; index says crawled about three weeks earlier.",
+  "findings": {
+    "employer": "Google",
+    "role": "Software Engineer (Intern)",
+    "location": "Singapore",
+    "reported_monthly_amount": 5700,
+    "currency": "SGD",
+    "user_submissions": 2,
+    "submission_dates": "hidden",
+    "rounding": "nearest hundred",
+    "pay_components": "locked; base versus total not established",
+    "intake_year": "unknown",
+    "current_2027_pay": "not published in official Google listing"
+  },
+  "access_limits": [
+    "Direct web-reader opens of both exact URLs timed out.",
+    "Isolated Chrome navigation to the intern URL displayed Cloudflare security verification and did not render salary content.",
+    "No live NodeFlair screenshot was obtained; no security challenge was bypassed.",
+    "Check date and index crawl date are not salary-report dates or proof of current intake pay."
+  ],
+  "excluded": [
+    "Locked demonstration row showing $12,345",
+    "Other role levels and current advertised non-intern jobs",
+    "Overseas pay, foreign-currency conversion and invented ranges"
+  ]
+}

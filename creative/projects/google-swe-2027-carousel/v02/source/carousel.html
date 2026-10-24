@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JJIntern — Google Singapore salary spotlight</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;background:#edf3ff}
+:root{--ink:#203145;--blue:#0071e3;--paper:#edf3ff;--muted:#526780}
+body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+.slide{display:none;width:1080px;height:1350px;position:relative;padding:78px 88px 80px;background:var(--paper);overflow:hidden}.slide.active{display:block}
+h1,h2,p{margin:0}.top{height:64px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:17px;font-size:38px;font-weight:650;letter-spacing:-1px}.brand img{width:64px;height:64px;object-fit:contain}.page{font-size:32px;font-weight:500;font-variant-numeric:tabular-nums}.footer{position:absolute;bottom:80px;left:88px;right:88px;border-top:2px solid #bdcce2;padding-top:24px;font-size:42px;line-height:1.2;font-weight:550}
+.cover h1{font-size:146px;line-height:1.05;letter-spacing:-7px;font-weight:650;margin-top:78px}.role{font-size:48px;line-height:1.2;letter-spacing:-1px;margin-top:25px}.salary{font-size:224px;line-height:1;letter-spacing:-13px;font-weight:650;color:var(--blue);margin-top:82px;margin-left:-8px}.period{font-size:64px;line-height:1.12;letter-spacing:-1.7px;margin-top:17px;font-weight:550}.caveat{font-size:46px;line-height:1.2;letter-spacing:-.7px;margin-top:57px}.source{font-size:42px;line-height:1.3;color:var(--muted)}.cover .source{position:absolute;left:88px;top:1020px}.cover .footer{display:flex;justify-content:space-between}
+.details{background:#fff}.details h1{font-size:101px;line-height:1.04;letter-spacing:-4px;font-weight:650;margin-top:82px}.duration{font-size:93px;line-height:1.05;letter-spacing:-3.5px;color:var(--blue);margin-top:67px;font-weight:600}.location{font-size:49px;line-height:1.2;margin-top:19px;letter-spacing:-1px}.date-block{border-top:2px solid #d7dfe9;margin-top:49px;padding-top:36px}.date-label{font-size:43px;line-height:1.2;letter-spacing:-.5px}.date{font-size:83px;line-height:1.08;letter-spacing:-3px;margin-top:20px;font-weight:600}.closure{font-size:47px;line-height:1.2;letter-spacing:-.7px;margin-top:15px}.details .source{position:absolute;left:88px;top:1060px}.details .footer{border-color:#d7dfe9}
+.action{background:var(--blue);color:#fff}.action .brand img{background:#fff;border-radius:9px;padding:7px}.action h1{font-size:103px;line-height:1.05;letter-spacing:-4px;font-weight:650;margin-top:88px}.proof-label{font-size:42px;line-height:1.2;margin-top:55px}.proof{display:block;width:904px;height:auto;margin-top:20px;border:2px solid rgba(255,255,255,.5)}.instruction{font-size:70px;line-height:1.12;letter-spacing:-2px;font-weight:600;margin-top:54px}.website{position:absolute;left:88px;right:88px;bottom:215px;height:126px;background:#fff;color:var(--blue);display:flex;align-items:center;justify-content:space-between;padding:0 35px;font-size:64px;letter-spacing:-2px;font-weight:650}.website .arrow{font-size:68px;font-weight:400}.action .footer{border-color:rgba(255,255,255,.45)}
+</style></head><body>
+<section class="slide cover active" aria-label="Reported Singapore intern pay">
+ <div class="top"><div class="brand"><img data-asset="logo" alt="">JJIntern</div><span class="page">01 / 03</span></div>
+ <h1>Google</h1>
+ <p class="role">SWE intern · Singapore</p>
+ <p class="salary">S$5.7k</p>
+ <p class="period">/month · reported</p>
+ <p class="caveat">2027 pay unconfirmed.</p>
+ <p class="source">NodeFlair · 2 salary reports<br>Report dates undisclosed</p>
+ <div class="footer"><span>The 2027 opportunity</span><span>→</span></div>
+</section>
+<section class="slide details" aria-label="Google 2027 internship details">
+ <div class="top"><div class="brand"><img data-asset="logo" alt="">JJIntern</div><span class="page">02 / 03</span></div>
+ <h1>Google’s 2027<br>SWE internship.</h1>
+ <p class="duration">10–12 weeks</p>
+ <p class="location">Singapore · Paid</p>
+ <div class="date-block"><p class="date-label">Expected application window until</p><p class="date">15 Nov 2026</p><p class="closure">May close earlier.</p></div>
+ <p class="source">Google Careers · Checked 24 Oct 2026</p>
+ <div class="footer">Check the full requirements →</div>
+</section>
+<section class="slide action" aria-label="Find the Google role on JJIntern">
+ <div class="top"><div class="brand"><img data-asset="logo" alt="">JJIntern</div><span class="page">03 / 03</span></div>
+ <h1>Check your fit.<br>Find the role.</h1>
+ <p class="proof-label">On JJIntern · 24 Oct 2026</p>
+ <img class="proof" data-asset="role" alt="Actual JJIntern result for Google's Software Engineering Intern, 2027 role">
+ <p class="instruction">Search “Google”.</p>
+ <div class="website"><span>JJIntern.com/feed</span><span class="arrow">↗</span></div>
+ <div class="footer">Full role details. One place to look.</div>
+</section>
+<script>
+const assets=ASSET_DATA;
+document.querySelectorAll('[data-asset]').forEach(i=>i.src=assets[i.dataset.asset]);
+window.showSlide=i=>{document.querySelectorAll('.slide').forEach((s,n)=>s.classList.toggle('active',n===i));return true};
+window.ready=Promise.all([...document.images].map(i=>i.decode())).then(()=>document.fonts.ready).then(()=>true);
+</script></body></html>

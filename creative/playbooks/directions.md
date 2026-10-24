@@ -1,6 +1,6 @@
-# Six different ways to tell a JJIntern story
+# Eight different ways to tell a JJIntern story
 
-These are territories, not reusable slide layouts. Read [owner preferences](../CREATIVE-DIRECTION.md) and product evidence before choosing one. Make sound a deliberate choice; every version must work muted. The initial five hooks below are proposals. Territory 6 has an accepted local execution reference; none is a measured performance winner.
+These are territories, not reusable slide layouts. Read [owner preferences](../CREATIVE-DIRECTION.md) and product evidence before choosing one. Make sound a deliberate choice; every version must work muted. The initial five hooks below are proposals. Territory 6 has an accepted local execution reference. Territories 7–8 are the owner's 24 October 2026 priorities to test; none is a measured performance winner.
 
 ## 1. The unexpected job, examined
 
@@ -51,6 +51,18 @@ These are territories, not reusable slide layouts. Read [owner preferences](../C
 **Reference story:** a readable source becomes compact information → a sustained sense of speed → visible entry into JJIntern → short receipt → finding/applying payoff. **Visual language:** a few flat shapes, strong silhouette, original brand mark and ample clear space. The [accepted revision 11](../projects/discovery-packet/README.md) uses a pale-blue field and stationary foreground against a speeding background, then a centred capture.
 
 **Motion/sound:** quick connected morph, deliberate travel interval, geometric contact/occlusion, brief stable result and calmer copy. A drum-led score carries momentum; dings mark source and receipt. Use current owner preferences, not the abandoned travelling packet, whip or drifting Found result. **Product:** an explicitly scoped editorial discovery metaphor. It is not a UI demonstration, live vacancy announcement or measured ingestion event. Any factual capability or employer claim still needs evidence. **Payoff:** “We handle the finding. / You focus on applying.” **Ending:** the reference has a brand-only signoff and a destination in its caption. **Use:** a designed brand film about the discovery/applying division. **Failure:** abstract movement with no understandable transformation, unrelated logo crossfade, excessive holding, uniformly rushed pacing, passive music or an implied instant-detection/auto-apply promise.
+
+## 7. The pay number, explained
+
+**Audience/problem:** Singapore students want concrete reasons to investigate a company. **Idea:** lead with one sourced employer/role pay figure, explain its basis, then add a useful role detail. The number is the discovery, not a promise of an offer.
+
+**Story:** employer + qualified pay → inspectable source → relevant work or requirement → useful next step. **Visual language:** large number with an inseparable unit/context line, then evidence aligned to it. Use the [salary spotlight recipe](career-content.md) for hook options and timing. **Product:** a brief discovery signoff or verified destination after the value; a product demo is optional. **Failure:** unsourced pay, hidden annualisation, mixed locations/years, or an oversized number that leads only to a logo.
+
+## 8. Build your tech-company shortlist
+
+**Audience/problem:** students know famous names but need a useful way to choose what to investigate. **Idea:** three to five companies through one clear lens, each with a different supported reason to care.
+
+**Story:** audience + selection criterion → name and reason for each company → saveable recap → one next action. **Visual language:** a consistent company/reason hierarchy, varied compositions and a final comparison. Use the [shortlist and ranking recipes](career-content.md). **Product:** JJIntern helps the next discovery step, without implying every featured role is listed. **Failure:** logo parade, generic praise, mixed-market salary rankings or calling an editorial selection the objectively best employers. A countdown needs reasons; a ranked claim also needs comparable evidence.
 
 ## Rotation rule
 

@@ -1,0 +1,75 @@
+{
+  "checked": "2026-10-20",
+  "files": [
+    {
+      "file": "directory-empty.png",
+      "sha256": "53f4d3978aeb2d2e681b134e3f6acacfd16fc97f84bde4feaf2deadadf2cd4df",
+      "bytes": 234680
+    },
+    {
+      "file": "directory-01.png",
+      "sha256": "c0ef227eb68656fab77863b2ea0e35e37ec806715ea87a687c298d60b11afe3c",
+      "bytes": 243120
+    },
+    {
+      "file": "directory-02.png",
+      "sha256": "9fb09f67b19e3d0fcba53d8dc1203119cbda2cda3b691e6da4a73e0c7e2827a4",
+      "bytes": 201596
+    },
+    {
+      "file": "directory-03.png",
+      "sha256": "8583a82fd2df64ee51954aaf27acc0827c2c3abf2a2da8241ffc835413eb427d",
+      "bytes": 105748
+    },
+    {
+      "file": "directory-04.png",
+      "sha256": "374fcb13bc401664ae7005c8e67743c01918facb7f4678e130af0e6482f2d8e5",
+      "bytes": 105857
+    },
+    {
+      "file": "directory-05.png",
+      "sha256": "34efe1f50f6167f66cc1d3c12ffb1e5795b36018f263f048e0ec59afb5fee54f",
+      "bytes": 106272
+    },
+    {
+      "file": "directory-06.png",
+      "sha256": "0a7f236a856301b9592b0f8f52d853712b012379ec6e8976f3d8d85ece6dd30f",
+      "bytes": 106731
+    },
+    {
+      "file": "directory-07.png",
+      "sha256": "ac99a120b2275d759ffd577363e5151d3f4683f9d64c3aaafc305dfea46f8e18",
+      "bytes": 107138
+    },
+    {
+      "file": "directory-08.png",
+      "sha256": "e2e8c8db2844538dde245421ac1b9e63ba83fc2249cb2f42eda42a1d5f76d669",
+      "bytes": 107326
+    },
+    {
+      "file": "directory-09.png",
+      "sha256": "1789aef1b60ed7e971804ab51d4e6e312f59608e26b51580056c97d4a3f183ac",
+      "bytes": 107501
+    },
+    {
+      "file": "directory-microsoft.png",
+      "sha256": "744e09b3ee25c91cea58cf543aba75f7343d0ac625d36483f9c3781dd89a92f1",
+      "bytes": 107481
+    },
+    {
+      "file": "feed-all.png",
+      "sha256": "69b921d5a8e08f29278d6ade2834b2a03a768bc00ff5ba06a0fcdc0264f279d7",
+      "bytes": 259828
+    },
+    {
+      "file": "feed-tech.png",
+      "sha256": "d1f22a015ef5877d8c366fb82a15f17331a236155115912eed791d815e101f52",
+      "bytes": 269373
+    },
+    {
+      "file": "feed-finance.png",
+      "sha256": "c4e10847c26d033600ddbb335fb91b8a7558838fb3bf223c40a0ab9ecba3f52f",
+      "bytes": 272285
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+GOOGLE 2027 SINGAPORE SWE PICTURE CAROUSEL
+Checked: 24 October 2026, Europe/Stockholm
+
+Employer source
+https://www.google.com/about/careers/applications/jobs/results/104489346874122950
+Official Google Careers listing: Software Engineering Intern, 2027 (English), Singapore.
+Supports paid 10–12-week duration; the anticipated 15 November 2026 window and possible earlier closure; rolling review; the study-year/location/work-rights context. No pay amount is stated. The qualification list also mentions PhD study separately; this carousel does not promise PhD eligibility and directs readers to the full requirements.
+
+Product destination
+https://jjintern.com/feed
+Logged-out search for Google returned the exact role. Clicking its title expanded the full details. Its Open application button was labelled via LinkedIn; no application handoff or submission was tested. The carousel promises finding and reading the role on JJIntern, not a direct application to Google.
+
+Claim and capture records
+creative/claims/ledger.json: OPP-GOOGLE-SWE-SG-20261024
+creative/product/evidence.md: P11
+evidence/capture-record.json: actual input, title click, screenshots and hashes.
+evidence/02-google-role-crop.png is the exact authentic crop used on picture 4.
+evidence/01-google-search.png is a loading-state capture; it is excluded from the carousel.
+
+Asset provenance
+JJIntern mark: existing creative/assets/evidence/product/logo-mark.png, unchanged, modest display size.
+Google mark: appears only inside the authentic JJIntern product crop; no independent employer-logo asset or endorsement is claimed.
+Typography: installed system sans stack; no font files redistributed.
+Layout: original authored HTML/CSS, rendered to four sRGB PNG pictures with isolated Chrome.
+
+Publication note
+Recheck the exact employer role and the JJIntern result before posting. Do not use the date-led cover after the opportunity closes. A physical phone and the account's actual carousel upload/caption controls still need preview checks. No post was published by this workflow.

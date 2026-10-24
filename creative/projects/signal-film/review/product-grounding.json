@@ -1,0 +1,82 @@
+{
+  "checked": "2026-10-20",
+  "timezone": "Europe/London",
+  "researcher": "product_evidence subagent",
+  "scope": "Read-only public JJIntern product exploration in a fresh isolated logged-out Chrome profile. No account, employer-handoff, application, saved state, private data or external publication.",
+  "sources": [
+    {"url": "https://jjintern.com/", "method": "Web open; public homepage positioning and explicit illustrative disclosures read", "limitation": "Marketing descriptions are not operation tests."},
+    {"url": "https://jjintern.com/companies", "method": "Actual theme toggle and text input events. Microsoft search narrowed the directory to Microsoft.", "record": "../captures/capture-record.json"},
+    {"url": "https://jjintern.com/feed", "method": "Actual Tech and Finance category clicks produced distinct settled role sets.", "record": "../captures/capture-record.json"},
+    {"path": "../../../product/evidence.md#p06--owner-confirmed-scheduled-discovery-cadence", "method": "Prior responsible-owner statement on 17 October 2026", "limitation": "No scheduler, run logs, delivery or latency verification."}
+  ],
+  "recommended_strengths": [
+    {
+      "strength": "Finance and technology discovery in one feed",
+      "permitted_copy": ["Finance. Tech. One feed.", "Explore finance and tech internships."],
+      "proof": "Fresh public all-role, Tech and Finance states; homepage explicitly positions Singapore finance and tech internships.",
+      "assets": ["../captures/feed-all.png", "../captures/feed-tech.png", "../captures/feed-finance.png"],
+      "boundary": "No complete coverage, employer-confirmed availability or accurate classification guarantee. Do not call a shown historical row newly posted. Counts and relative dates are the site's snapshot, not independently verified facts."
+    },
+    {
+      "strength": "Search a company and narrow the directory",
+      "permitted_copy": ["Find your focus.", "Search companies.", "Go straight to the company."],
+      "proof": "Fresh actual input of Microsoft, one letter at a time, narrowed directory to Microsoft.",
+      "assets": ["../captures/directory-empty.png", "../captures/directory-04.png", "../captures/directory-microsoft.png"],
+      "boundary": "Company presence does not imply partnership, endorsement or currently open employer vacancy. Do not imply saved/watchlist persistence from the page title."
+    },
+    {
+      "strength": "Choose Finance or Tech to narrow the feed",
+      "permitted_copy": ["Choose your direction.", "Find your focus."],
+      "proof": "Actual Tech click changed first row from OCBC to Tower Research; actual Finance click changed first row to EY. Different role sets settled before capture.",
+      "assets": ["../captures/feed-all.png", "../captures/feed-tech.png", "../captures/feed-finance.png"],
+      "boundary": "Only these categories were tested. Role-filter menu, sorting and persistence were not tested in this audit."
+    },
+    {
+      "strength": "Scheduled discovery checks",
+      "permitted_copy": ["We check every 30 minutes.", "JJIntern checks for internship postings every 30 minutes."],
+      "proof": "Owner confirmation P06 / PROD-CHECK-CADENCE-OWNER-20261017.",
+      "boundary": "Scheduled checking only. No instant ingestion, max 30-minute arrival, alert timing or complete employer/source coverage. Keep the numerical cadence separated from fast editorial travel or a depicted new vacancy."
+    },
+    {
+      "strength": "Browse without an account",
+      "permitted_copy": ["Start exploring.", "Browse without an account."],
+      "proof": "Fresh isolated logged-out session loaded directory and feed; homepage FAQ explicitly says browsing internships and exploring companies needs no account.",
+      "boundary": "This does not establish free access to every feature, perpetual pricing, signup completion or time to signup."
+    }
+  ],
+  "recommended_story_copy": [
+    "Too many tabs.",
+    "One clear direction.",
+    "Finance. Tech. One feed.",
+    "Find your focus.",
+    "We check every 30 minutes.",
+    "We handle the finding.",
+    "You focus on applying.",
+    "JJIntern.com"
+  ],
+  "unsupported_for_this_film": [
+    "Save, tracking or Telegram operation demos; authenticated persistence/delivery not tested",
+    "AI matching, auto-apply, resume scoring or interview coaching",
+    "Instant, real time, never miss, every internship or complete coverage",
+    "Measured time savings, improved acceptance, salary or hiring outcome",
+    "A company tile as evidence of partnership or endorsement",
+    "Homepage illustrative roles or application board used as live vacancies or authentic user outcomes"
+  ],
+  "brand": {
+    "logo": "../../../assets/evidence/product/logo-mark.png",
+    "logo_rules": "Use original raster with unchanged proportions, colour and silhouette; modest size. No vector trace or invented official wordmark.",
+    "palette": {"background": "#edf3ff", "surface": "#ffffff", "ink": "#203145", "blue": "#0071e3"},
+    "font": "System sans as defined in brand tokens; no new downloaded substitute."
+  },
+  "desktop_capture_crops_native_pixels": [
+    {"files": ["directory-empty.png", "directory-04.png", "directory-microsoft.png"], "crop_xywh": [32, 450, 1736, 466], "purpose": "Whole authentic search field and first tile row; aggregate live-role count excluded."},
+    {"files": ["feed-all.png", "feed-tech.png", "feed-finance.png"], "crop_xywh": [32, 720, 1716, 700], "purpose": "Authentic category/search controls, column labels and first three results; aggregate counters excluded."}
+  ],
+  "portrait_capture_crops_native_pixels": [
+    {"files": ["portrait-directory-empty.png", "portrait-directory-04.png", "portrait-directory-microsoft.png"], "source_size": [1560, 2700], "crop_xywh": [30, 756, 1500, 696], "purpose": "Whole genuine search field and first complete company tile. 520 CSS viewport at DPR 3."},
+    {"files": ["portrait-feed-all.png", "portrait-feed-tech.png", "portrait-feed-finance.png"], "source_size": [1560, 2700], "suggested_start_xy": [24, 174], "suggested_width": 1506, "purpose": "Genuine mobile layout after actual 125px scroll. All three filter controls and whole first result preserved. Choose height for one or two complete rows according to available film space; source roles are readable and untruncated."}
+  ],
+  "portrait_record": "../captures/portrait-capture-record.json",
+  "edit_note": "Crops may reframe original pixels. Do not remove or replace text within captures, redraw controls or invent a state. The site uses truncation in this viewport; primary film typography carries the benefit while the UI supplies proof.",
+  "release_limitations": "No publishing performed. Fresh screenshot evidence verifies depicted public interactions only. Physical-phone playback, platform overlay preview, and final rights/asset review remain separate."
+}

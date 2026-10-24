@@ -1,0 +1,25 @@
+{
+  "verification": "Both master revisions decoded to float PCM. The difference includes minute normalization changes; click-window levels are numerical diagnostics, not a subjective audibility judgment.",
+  "retained_original_musical_events": 547,
+  "original_events_equal": true,
+  "v01_wav_sha256_unchanged": true,
+  "click_windows": [
+    {
+      "onset_s": 14.4,
+      "window_seconds": 0.012,
+      "difference_signal_peak_dbfs": -7.827711733868103,
+      "difference_signal_rms_dbfs": -19.077459394832587,
+      "v01_bed_rms_dbfs": -26.735196555899105,
+      "difference_to_v01_bed_rms_db": 7.657737161066523
+    },
+    {
+      "onset_s": 14.48,
+      "window_seconds": 0.012,
+      "difference_signal_peak_dbfs": -11.842486798405327,
+      "difference_signal_rms_dbfs": -21.695040014346482,
+      "v01_bed_rms_dbfs": -29.544083514137135,
+      "difference_to_v01_bed_rms_db": 7.84904349979065
+    }
+  ],
+  "subjective_listening_performed": false
+}

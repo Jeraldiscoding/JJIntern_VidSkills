@@ -1,0 +1,74 @@
+JJINTERN — FIND YOUR FOCUS
+20 October 2026, Europe/London
+32.000 seconds / native 60fps / original stereo score
+
+DELIVERY
+JJIntern-Find-your-focus-wide.mp4       1920x1080 16:9
+JJIntern-Find-your-focus-vertical.mp4   1080x1920 9:16
+H.264 High, yuv420p, BT.709 limited range, constant 60 fps, AAC 320k 48kHz, faststart.
+Each format is composed separately. The portrait result zoom keeps the actual query
+and company heading readable at a 360px digital preview. It is not a centre crop.
+
+STORY AND TRANSITIONS
+0–3.25: Abstract career-page tabs enter, circle the hook, then accelerate.
+3.25–4.65: Same tab shapes collapse into ticks around the search aperture.
+4.4–7.1: Focus headline resolves over the orbit; original brand mark appears.
+7.1–8: Headline clears; aperture boundary grows into authentic feed surface.
+8–12: Finance/Tech editorial labels accompany real distinct category captures.
+12–14.105: Real company-search input states enter Microsoft.
+14.3–15.1: Portrait-only tight crop of genuine pixels brings query/result forward.
+15.1–17.55: Stable company-result reading hold.
+17.55–18: Search aperture gives way to scheduled-check orbit.
+18–21.25: 30 minutes held, with repeating clock markers, not a latency stopwatch.
+21.25–22: Copy clears; circle unwraps to a forward path.
+22–24.2: Blue field and staggered payoff reveal.
+24.2–28: Routes unite into one forward stroke; text holds, then field clears.
+28–29.45: Original mark, typeset name, action and domain settle.
+29.45–32: Stable end frame, original musical resolution and clean tail.
+
+PRODUCT TRUTH
+Fresh public input/result states captured 20 Oct 2026 in isolated logged-out Chrome.
+No DOM rewriting. Directory and feed categories actually tested. Contiguous crops
+retain original pixels. Source data/relative ages are site displays, not independent
+vacancy verification. No opening advertised as newly posted or currently available.
+P10 records search/filter/theme/logged-out browsing. P06 records owner-confirmed
+scheduled 30-minute checking only. No instant alerts, complete coverage, auto-apply,
+authenticated tracking, guarantees or salary claims. See claim ledger record
+CREATIVE-FIND-YOUR-FOCUS-20261020 and project review/product-grounding.json.
+
+ASSETS AND SOUND
+Original 512px JJIntern mark kept unchanged and modestly sized. macOS system sans;
+no OS font files redistributed. Third-party company marks remain inside authentic
+product screenshots in their directory/feed context. Original 120 BPM score, no
+third-party recordings, samples or loops. Source/audio manifest documents provenance.
+WAV measured −15.11 LUFS / −1.59 dBTP; AAC roundtrip −1.41 dBTP.
+
+REPRODUCTION FROM REPOSITORY ROOT
+Requires installed Node, Google Chrome, ffmpeg/ffprobe and standard-library Python.
+Run an isolated local Chrome profile (do not use a personal browser profile):
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --headless=new --disable-gpu --hide-scrollbars --no-first-run --no-default-browser-check --remote-debugging-port=9372 --user-data-dir=/private/tmp/jjintern-signal-render-profile --allow-file-access-from-files about:blank
+python3 creative/projects/signal-film/v01/audio/build_score.py
+node creative/projects/signal-film/v01/source/render.mjs 9372 stills wide
+node creative/projects/signal-film/v01/source/render.mjs 9372 stills vertical
+node creative/projects/signal-film/v01/source/render.mjs 9372 full wide
+node creative/projects/signal-film/v01/source/render.mjs 9372 full vertical
+node creative/projects/signal-film/v01/source/check-playback.mjs 9372
+python3 creative/projects/signal-film/v01/source/verify-export.py
+python3 creative/scripts/validate-system.py
+
+The renderer injects archived assets into source/preview.html; no online request is
+needed to rerender. Source captures are retained in ../captures/. Exact source and
+asset SHA-256 values, browser version and encoder command are in review manifests.
+No publishing, paid services or production-data changes occurred.
+
+CHECK LIMITS
+Frame inspection and digital 360px preview are distinct from a physical phone check.
+Sound-enabled browser playback is distinct from subjective listening. Physical-phone
+viewing, subjective listening and actual destination upload preview remain pending.
+
+FINAL TECHNICAL RESULT
+Both files: 32.000s, 1920 native frames at60fps, complete decode, faststart, correct
+colour/codec/audio format. Four real-time browser passes (both formats, muted and
+audio enabled) reached the end without media errors. Minor browser presentation
+frame drops under concurrent checking are recorded, not attributed to the encoded
+files. Final composition stability allows negligible lossy-codec edge residuals.

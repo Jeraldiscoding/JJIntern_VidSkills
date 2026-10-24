@@ -1,0 +1,228 @@
+{
+  "checked": "2026-10-24",
+  "timezone": "Europe/Stockholm",
+  "context": "Isolated logged-out Chrome, real input and clicks; no application submitted",
+  "states": [
+    {
+      "file": "01-google-search.png",
+      "sha256": "b766ef7b8bcc3a35d08670b8b99a3bd74cc052bb66d15fa3483424d19d2c0c63",
+      "url": "https://jjintern.com/feed",
+      "text": "JJ Intern\nSign in\n0 tracked\nFind\nTargets\nPlan\nTrack\nOPEN ROLES\n1,493\nLAST 24H\n2\nAll roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓\nGoogle\n4d ago\nAccount Executive, Business Intern, 2027 (English)\nSummer\nOther\n·\n4d ago\n+\nSet status\nGoogle\n4d ago\nAccount Executive, MBA Intern, 2027\nSummer\nOther\n·\n4d ago\n+\nSet status\nGoogle\n1w ago\nSoftware Engineering Intern, 2027 (English)\n—\nSWE\n·\n1w ago\n+\nSet status\nGoogle\n1w ago\nForward Deployed Engineer Intern, 2027\n—\nSWE\n·\n1w ago\n+\nSet status\nGoogle\n1w ago\nData Center Technician Intern, 2027\n—\nInfra\n·\n1w ago\n+\nSet status\n\n5 roles · you've seen them all",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 3
+      }
+    },
+    {
+      "file": "02-google-role-crop.png",
+      "sha256": "9508f3032aee553e6f80d36bc2291b98d6f1a46c7dfcd0297589c5344d021680",
+      "crop_css_pixels": {
+        "x": 0,
+        "y": 560.25,
+        "width": 390,
+        "height": 120.875
+      },
+      "url": "https://jjintern.com/feed",
+      "text": "JJ Intern\nSign in\n0 tracked\nFind\nTargets\nPlan\nTrack\nOPEN ROLES\n1,493\nLAST 24H\n2\nAll roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓\nGoogle\n4d ago\nAccount Executive, Business Intern, 2027 (English)\nSummer\nOther\n·\n4d ago\n+\nSet status\nGoogle\n4d ago\nAccount Executive, MBA Intern, 2027\nSummer\nOther\n·\n4d ago\n+\nSet status\nGoogle\n1w ago\nSoftware Engineering Intern, 2027 (English)\n—\nSWE\n·\n1w ago\n+\nSet status\nGoogle\n1w ago\nForward Deployed Engineer Intern, 2027\n—\nSWE\n·\n1w ago\n+\nSet status\nGoogle\n1w ago\nData Center Technician Intern, 2027\n—\nInfra\n·\n1w ago\n+\nSet status\n\n5 roles · you've seen them all",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 3
+      }
+    },
+    {
+      "file": "03-google-details.png",
+      "sha256": "444eff3604d31979ef840ed63bf37201c22328754d2c61f44e8c9af176f8d982",
+      "url": "https://jjintern.com/feed",
+      "text": "JJ Intern\nSign in\n0 tracked\nFind\nTargets\nPlan\nTrack\nOPEN ROLES\n1,493\nLAST 24H\n2\nAll roles\nFinance\nTech\nSort\nRecent\n↓\nRoles\nAll roles\n↓\nGoogle\n4d ago\nAccount Executive, Business Intern, 2027 (English)\nSummer\nOther\n·\n4d ago\n+\nSet status\nGoogle\n4d ago\nAccount Executive, MBA Intern, 2027\nSummer\nOther\n·\n4d ago\n+\nSet status\nGoogle\n1w ago\nSoftware Engineering Intern, 2027 (English)\n—\nSWE\n·\n1w ago\n+\nSet status\n\nGoogle\n\nSoftware Engineering Intern, 2027 (English)\nSingapore\nUnknown\nPosted 1w ago\nvia LinkedIn\n\nLast seen at source 1d ago.\n\nABOUT THIS ROLE\n\nApplications will be reviewed on a rolling basis and it’s in the candidate’s best interest to apply early. The anticipated application window is open until November 15, 2026 , but may close earlier if all available projects are full. Applications submitted after the application window or once role is closed/projects are full will not be considered. Participation in the internship program requires that you are located in Singapore for the duration of the internship program. Google is a global company and, in order to facilitate efficient collaboration and communication globally, English proficiency is a requirement for this internship program. Google will be prioritizing applicants who have a current right to work in Singapore, and do not require Google's sponsorship of a visa.\n\nMinimum qualifications: Currently pursuing a Bachelor's, Master's, or PhD degree in Computer Science, or a related technical field. Enrolled in the penultimate academic year of a Bachelor’s or Master’s degree. Experience with coding in C, C++, Java, JavaScript, Python, or another relevant programming language. Experience working in Unix/Linux environments. Experience with data structures, algorithms, and software design. Ability to communicate in English fluently to participate in technical discussions.\n\nPreferred qualifications: Ability to work on projects related to mobile development, distributed and parallel systems, machine learning, information retrieval, natural language processing, networking, developing large software systems, or security software development. Ability to showcase tech projects and participate in computer science-related extracurricular activities.\n\nAbout The Job Join us for a unique 10-12 week paid internship that offers personal and professional development, an executive speaker series, and community-building. The Software Engineering Internship program will give you an opportunity to work on complex computer science solutions, develop scalable, distributed software systems, and also collaborate on multitudes of smaller projects that have universal appeal. Google is and always will be an engineering company. We hire people with a broad set of technical skills who are ready to address some of technology's greatest challenges and make an impact on millions, if not billions, of users. At Google, engineers not only revolutionize search, they routinely work on massive scalability and storage solutions, large-scale applications and entirely new platforms for developers around the world. From Google Ads to Chrome, Android to YouTube, Social to Local, Google engineers are changing the world one technological achievement after another. Responsibilities Specific responsibilities vary by project area. Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also Google's EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know by completing our Accommodations for Applicants form .\n\nDETAILS\nLocation\nSingapore\nPeriod\nUnknown\nPosted\n1w ago\nSource\nLinkedIn\nType\nInternship\nTRACKS\nSWE\nSTATUS\n+\nSet status\nOpen application →\nvia LinkedIn\nGoogle\n1w ago\nForward Deployed Engineer Intern, 2027\n—\nSWE\n·\n1w ago\n+\nSet status\nGoogle\n1w ago\nData Center Technician Intern, 2027\n—\nInfra\n·\n1w ago\n+\nSet status\n\n5 roles · you've seen them all",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 3
+      }
+    }
+  ],
+  "details": {
+    "links": [
+      {
+        "text": "JJ Intern",
+        "url": "https://jjintern.com/feed"
+      },
+      {
+        "text": "Find",
+        "url": "https://jjintern.com/feed"
+      },
+      {
+        "text": "Target Companies",
+        "url": "https://jjintern.com/companies"
+      },
+      {
+        "text": "Plan",
+        "url": "https://jjintern.com/calendar"
+      },
+      {
+        "text": "Track",
+        "url": "https://jjintern.com/saved"
+      },
+      {
+        "text": "",
+        "url": "https://jjintern.com/feedback"
+      },
+      {
+        "text": "",
+        "url": "https://jjintern.com/profile"
+      },
+      {
+        "text": "Sign in",
+        "url": "https://jjintern.com/login"
+      },
+      {
+        "text": "",
+        "url": "https://jjintern.com/feedback"
+      },
+      {
+        "text": "",
+        "url": "https://jjintern.com/profile"
+      },
+      {
+        "text": "Sign in",
+        "url": "https://jjintern.com/login"
+      },
+      {
+        "text": "Find",
+        "url": "https://jjintern.com/feed"
+      },
+      {
+        "text": "Targets",
+        "url": "https://jjintern.com/companies"
+      },
+      {
+        "text": "Plan",
+        "url": "https://jjintern.com/calendar"
+      },
+      {
+        "text": "Track",
+        "url": "https://jjintern.com/saved"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "aria": "Switch to dark mode"
+      },
+      {
+        "text": "All roles",
+        "aria": null
+      },
+      {
+        "text": "Finance",
+        "aria": null
+      },
+      {
+        "text": "Tech",
+        "aria": null
+      },
+      {
+        "text": "",
+        "aria": "Clear search"
+      },
+      {
+        "text": "Sort\nRecent\n↓",
+        "aria": "Choose sort order"
+      },
+      {
+        "text": "Roles\nAll roles\n↓",
+        "aria": "Choose role filters"
+      },
+      {
+        "text": "Google",
+        "aria": null
+      },
+      {
+        "text": "",
+        "aria": "View details"
+      },
+      {
+        "text": "Account Executive, Business Intern, 2027 (English)",
+        "aria": null
+      },
+      {
+        "text": "+\nSet status",
+        "aria": null
+      },
+      {
+        "text": "Google",
+        "aria": null
+      },
+      {
+        "text": "",
+        "aria": "View details"
+      },
+      {
+        "text": "Account Executive, MBA Intern, 2027",
+        "aria": null
+      },
+      {
+        "text": "+\nSet status",
+        "aria": null
+      },
+      {
+        "text": "Google",
+        "aria": null
+      },
+      {
+        "text": "",
+        "aria": "Collapse"
+      },
+      {
+        "text": "Software Engineering Intern, 2027 (English)",
+        "aria": null
+      },
+      {
+        "text": "+\nSet status",
+        "aria": null
+      },
+      {
+        "text": "+\nSet status",
+        "aria": null
+      },
+      {
+        "text": "Open application →",
+        "aria": null
+      },
+      {
+        "text": "Google",
+        "aria": null
+      },
+      {
+        "text": "",
+        "aria": "View details"
+      },
+      {
+        "text": "Forward Deployed Engineer Intern, 2027",
+        "aria": null
+      },
+      {
+        "text": "+\nSet status",
+        "aria": null
+      },
+      {
+        "text": "Google",
+        "aria": null
+      },
+      {
+        "text": "",
+        "aria": "View details"
+      },
+      {
+        "text": "Data Center Technician Intern, 2027",
+        "aria": null
+      },
+      {
+        "text": "+\nSet status",
+        "aria": null
+      }
+    ]
+  }
+}

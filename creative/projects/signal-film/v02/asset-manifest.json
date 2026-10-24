@@ -1,0 +1,55 @@
+{
+  "title": "JJIntern — Find your focus",
+  "revision": "v02",
+  "date": "2026-10-20",
+  "timezone": "Europe/London",
+  "assets": [
+    {
+      "path": "creative/projects/signal-film/v02/source/motion.html",
+      "sha256": "f861fb8e32faadda76d2d8d9f16f897f0e79654f4b367230dddd1bc96d019cc5",
+      "bytes": 14902
+    },
+    {
+      "path": "creative/projects/signal-film/v02/source/render.mjs",
+      "sha256": "7cd8c3698cef683f5f667162204679c08531833cd03633d7221c620077af5343",
+      "bytes": 4911
+    },
+    {
+      "path": "creative/projects/signal-film/v02/audio/build_score.py",
+      "sha256": "2b0d3b9c50cdc91a821baff49c49628c5a7b498f487eab5b6e685d14766cb99a",
+      "bytes": 27618
+    },
+    {
+      "path": "creative/projects/signal-film/v02/audio/jjintern-find-your-focus-original-score.wav",
+      "sha256": "56388c0586afd6f87efcd0c1cee4e4d762de8338641146e2bdf2e7d7b54332de",
+      "bytes": 9216102
+    },
+    {
+      "path": "creative/assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c",
+      "bytes": 165756
+    }
+  ],
+  "captures_manifest": "../captures/portrait-manifest.json",
+  "claim_ids": [
+    "CREATIVE-FIND-YOUR-FOCUS-20261020",
+    "PROD-CHECK-CADENCE-OWNER-20261017"
+  ],
+  "evidence": [
+    "P10",
+    "P06"
+  ],
+  "click_cue": {
+    "press_seconds": 14.4,
+    "release_seconds": 14.48,
+    "zoom_seconds": [
+      14.48,
+      15.58
+    ],
+    "kind": "Editorial cursor/ripple with original synthesized mouse switch. Camera enlarges genuine pixels; no new navigation state or product-click verification."
+  },
+  "requested_label_removal": "Example feed removed per explicit current owner instruction; no substitute label added.",
+  "sound": "Original v01 arrangement plus two synthesized mouse-switch events. See audio manifest.",
+  "previous_revision": "../v01/",
+  "external_publication": false
+}

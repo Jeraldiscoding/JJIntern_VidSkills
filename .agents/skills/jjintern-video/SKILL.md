@@ -12,14 +12,15 @@ Required inputs: selected brief, platform/duration, evidence IDs, authentic asse
 - [Product truth](../../../creative/product/brief.md), [brand guide](../../../creative/brand/guide.md), and [tokens](../../../creative/brand/tokens.json).
 - [Video workflow](../../../creative/playbooks/video.md), [platform guidance](../../../creative/references/platform-guidance.md), and [review rubric](../../../creative/qa/rubric.md).
 - Use the [brief template](../../../creative/examples/brief-template.md) for shot fields; inspect existing project render scripts before choosing tools.
+- For salary spotlights and company shortlists/rankings, load [career content](../../../creative/playbooks/career-content.md). Lead with useful career information; an editorial piece need not contain a product demo.
 
 ## Workflow
 
-1. Confirm concept selection, hook/payoff, CTA, claims and actual product action/result. Refresh time-sensitive facts and placement guidance.
+1. Confirm concept selection, hook/payoff, CTA, claims and actual product action/result where depicted. Refresh time-sensitive facts and placement guidance.
 2. Write every shot's time range, visual, exact copy, motion, change/purpose, product asset, sound cue and intended understanding. Include essential qualifiers on the relevant shot.
 3. Storyboard hook, input, result and payoff. Use faithful real UI; label prototypes. Never hide loading failures with invented rows.
 4. Make a rough with stable reading holds and movement that reveals, connects, compares or demonstrates. Review the premise before effects or final polish.
-5. Load verified fonts/assets explicitly, protect private information, and use no avatar, voiceover or generated person by default. Document rights for sound; silence is acceptable.
+5. Load verified fonts/assets explicitly, protect private information, and use no avatar, voiceover or generated person by default. Document rights for sound and follow the brief's music direction; a silent structure pass does not complete a music-led deliverable.
 6. Render with the existing maintainable stack. Inspect representative frames and watch the full file muted and with sound. Verify dimensions, duration, codec and final frame with available media tools.
 7. Export video, exact transcript/caption, source/claim manifest and completed review. Distinguish concept, assets, artifact and release status; log one-variable testing intent.
 

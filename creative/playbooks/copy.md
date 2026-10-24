@@ -29,6 +29,12 @@ The owner's anecdote about a friend earning S$12.5k at Temasek is **unverified**
 
 Use product labels exactly in a demo. If interface text is awkward, retain it in the capture and make the surrounding editorial copy clear. Avoid manufacturing social proof, student counts, results, speed or employer relationships.
 
+## Salary and company-list hooks
+
+Use the [career content playbook](career-content.md) for worked hooks, visible qualifications and body/CTA structure. Keep the exciting fact at the front; evidence discipline should sharpen it, not replace every salary story with a generic warning about pay.
+
+“Best” must answer “best for whom, by what measure?” For an editorial selection, prefer “Three tech companies for your SWE shortlist” and deliver a concrete reason for each. Use “highest-paying” only with a defined comparison set and compatible evidence. Do not add “secret,” “guaranteed,” “easy” or “hiring now” for intensity unless the exact assertion is supported.
+
 ## Discovery-film copy reference
 
 The [current film](../projects/discovery-packet/README.md) uses **“We handle the finding. / You focus on applying.”** Preserve that responsibility split; feedback about shortening “the applying” section did not authorize an auto-apply claim. Its Microsoft / SWE Internship label is editorial, not evidence of a current opening. Fast graphics and a ding do not establish notification latency or a newly released vacancy.

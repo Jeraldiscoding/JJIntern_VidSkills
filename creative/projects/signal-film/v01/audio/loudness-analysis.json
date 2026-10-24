@@ -1,0 +1,50 @@
+{
+  "first_pass": {
+    "input_i": "-22.03",
+    "input_tp": "-5.47",
+    "input_lra": "6.50",
+    "input_thresh": "-32.62",
+    "output_i": "-14.76",
+    "output_tp": "-1.60",
+    "output_lra": "2.90",
+    "output_thresh": "-25.12",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.24"
+  },
+  "normalization": {
+    "input_i": "-22.03",
+    "input_tp": "-5.47",
+    "input_lra": "6.50",
+    "input_thresh": "-32.62",
+    "output_i": "-14.95",
+    "output_tp": "-1.60",
+    "output_lra": "3.10",
+    "output_thresh": "-25.31",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.05"
+  },
+  "final_measurement": {
+    "input_i": "-15.11",
+    "input_tp": "-1.59",
+    "input_lra": "3.50",
+    "input_thresh": "-25.61",
+    "output_i": "-15.08",
+    "output_tp": "-1.60",
+    "output_lra": "3.10",
+    "output_thresh": "-25.41",
+    "normalization_type": "dynamic",
+    "target_offset": "0.08"
+  },
+  "aac_320k_roundtrip": {
+    "input_i": "-15.13",
+    "input_tp": "-1.41",
+    "input_lra": "3.50",
+    "input_thresh": "-25.62",
+    "output_i": "-15.08",
+    "output_tp": "-1.60",
+    "output_lra": "3.10",
+    "output_thresh": "-25.41",
+    "normalization_type": "dynamic",
+    "target_offset": "0.08"
+  }
+}

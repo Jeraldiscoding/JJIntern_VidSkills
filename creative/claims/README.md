@@ -15,4 +15,6 @@ Use [template.json](template.json) for a new claim and add the completed record 
 
 `editorial_approved` approves only the wording and scope listed in that record. It is not render, rights, accessibility or publication approval. `release_hold` identifies what remains unresolved. Refresh a record by retaining its ID, adding a check-history entry, and updating the evidence and allowed wording together.
 
+For a company ranking, record the criterion, comparison set, location, relevant dates, source/method and treatment of ties or missing data. Comparable salary records are required for a pay ranking; an employer's reputation is not a measurement. An editorial shortlist can proceed with a clear selection lens and a sourced reason per company. Keep third-party rankings attributed to their publisher/year and avoid turning “best by this measure” into a universal verdict. See [career content](../playbooks/career-content.md).
+
 The populated GIC record supports an eligibility discovery for university students. Its placement city, intake year, pay and live application status are unknown. Polytechnic students must not be shown as eligible for this university programme without additional primary evidence. [Brief B](../briefs/B-opportunity.md) carries those limits into the script. The Temasek S$12.5k anecdote is explicitly excluded.

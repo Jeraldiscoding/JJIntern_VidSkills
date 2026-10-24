@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-10-24",
+  "timezone": "Europe/Stockholm",
+  "concept": "reported local salary hook → official opportunity → verified website action",
+  "assets": "original JJIntern mark and genuine loaded Google role crop reused; provenance hashes verified",
+  "artifact": "three 1080x1350 PNGs individually viewed at full size and as 360px panels",
+  "independent_review": "Agent reviewed the three images, source/caption/alt text, claim and P11; independently checked NodeFlair indexed content and Google official facts. Images passed. Source-note consistency finding resolved by adding caption URL/date and explicitly including accompanying source record in ledger requirements.",
+  "checks_passed": [
+    "Google SWE intern/Singapore pay scope, SGD monthly period and reported status visible with amount",
+    "Two-report sample, unknown report dates and unconfirmed 2027 pay visible on cover",
+    "No foreign-currency conversion, overseas proxy, invented range or base-pay assertion",
+    "Expected application window and possible early closure shown together",
+    "Three pictures use short copy and one consistent JJIntern feed/search action",
+    "Original role crop matches P11; no fabricated employer UI or application promise",
+    "Exported image bounds, typography, qualifiers and CTA visually checked; no visible overlap or clipping",
+    "PNG dimensions, source/output/asset hashes and ZIP byte contents verified"
+  ],
+  "contrast_ratios": {
+    "ink_on_pale": 11.89,
+    "muted_on_pale": 5.225,
+    "muted_on_white": 5.816,
+    "white_on_blue": 4.697,
+    "large_blue_on_pale": 4.219
+  },
+  "contrast_note": "Large blue salary passes 3:1 large-type benchmark; authored small text passes 4.5:1. Authentic UI pixels are unchanged.",
+  "pending": [
+    "Physical-phone inspection",
+    "Actual account carousel upload preview",
+    "Publication-day employer/JJIntern/source recheck"
+  ],
+  "limitations": [
+    "Salary source was inspected through exact-URL indexed content; direct opens timed out and isolated browser hit Cloudflare verification",
+    "Two undated self-reports are a local reported benchmark, not evidence of a likely or confirmed 2027 offer",
+    "No post published, analytics result, application handoff or application submission"
+  ],
+  "claim_ids": [
+    "PAY-GOOGLE-SWE-INTERN-SG-NODEFLAIR-20261024",
+    "OPP-GOOGLE-SWE-SG-20261024"
+  ],
+  "source_inspection": "evidence/salary-inspection.json",
+  "render": "review/render-manifest.json",
+  "delivery": "review/delivery-manifest.json"
+}

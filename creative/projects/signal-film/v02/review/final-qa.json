@@ -1,0 +1,163 @@
+{
+  "title": "JJIntern \u2014 Find your focus",
+  "revision": "v02",
+  "date": "2026-10-20",
+  "timezone": "Europe/London",
+  "requested_changes": [
+    "Smoother transitions",
+    "Click effect and sound at Microsoft zoom",
+    "Remove Example feed"
+  ],
+  "concept_status": "Existing selected film retained; refinement requested by owner.",
+  "asset_status": "Authentic P10 captures retained; original score extended with two synthesized mouse-switch events.",
+  "artifact_status": "Both final cuts rendered, encoded frames inspected, and muted/audio-enabled real-time browser playback completed.",
+  "release_status": "Local deliverables complete; physical-phone, subjective listening and actual upload preview not performed.",
+  "request_checks": {
+    "label_removed_from_motion_source": true,
+    "label_removed_from_transcript": true,
+    "continuous_tab_shape": true,
+    "feed_directory_shared_surface": true,
+    "click_press_at_seconds": 14.4,
+    "click_release_at_seconds": 14.48,
+    "smooth_zoom_interval_seconds": [
+      14.48,
+      15.58
+    ],
+    "original_capture_pixels_preserved": true,
+    "no_invented_navigation_state": true
+  },
+  "technical": {
+    "all_pass": true,
+    "record": "technical-qa.json",
+    "outputs": [
+      {
+        "format": "wide",
+        "sha256": "36df47159f202db670868d92829577d6f058e041bb9e0b3cdf5125cc92cf738a",
+        "bytes": 5999330,
+        "checks": {
+          "dimensions": true,
+          "duration": true,
+          "native_60fps": true,
+          "frames_1920": true,
+          "h264_yuv420p": true,
+          "bt709": true,
+          "aac_stereo_48k": true,
+          "faststart": true,
+          "full_decode": true,
+          "stable_final_hold": true
+        }
+      },
+      {
+        "format": "vertical",
+        "sha256": "c968a777c60b3551e42a5f7a9752484406c1e4986a96a919f9b54fe99fa143ab",
+        "bytes": 5424274,
+        "checks": {
+          "dimensions": true,
+          "duration": true,
+          "native_60fps": true,
+          "frames_1920": true,
+          "h264_yuv420p": true,
+          "bt709": true,
+          "aac_stereo_48k": true,
+          "faststart": true,
+          "full_decode": true,
+          "stable_final_hold": true
+        }
+      }
+    ]
+  },
+  "visual_inspection": [
+    "Tab silhouette and color continuity at compaction",
+    "Focus type clears before aperture paper appears at7.12/7.25",
+    "Same screen frame continues through feed-to-directory transition",
+    "Pointer lands beside Microsoft name and ripple follows correct crop",
+    "Zoom settles with readable real query/result",
+    "Portrait directory caption appears at settled final position",
+    "Clock rim and ticks fade from blue receiving ring",
+    "Slower payoff fill and ending wipe",
+    "Example feed absent from both exported feature scenes"
+  ],
+  "audio": {
+    "record": "../audio/audio-manifest.json",
+    "integrated_lufs": -15.11,
+    "true_peak_dbtp": -1.59,
+    "aac_roundtrip": {
+      "integrated_lufs": -15.13,
+      "true_peak_dbtp": -1.41
+    },
+    "subjective_listening_performed": false
+  },
+  "independent_review": "independent-qa.json",
+  "hard_failures_observed": [],
+  "performed_checks": [
+    "Full encoded video/audio decode",
+    "1920frames per32-second export at60fps",
+    "Dimensions/codec/color/faststart/audio format",
+    "Stable encoded end frame with lossy-codec tolerance",
+    "Source and asset provenance",
+    "Representative final decoded visuals",
+    "Full real-time browser playback for both formats, muted and audio-enabled, ended at 32 seconds with no media errors"
+  ],
+  "pending_checks": [
+    "Subjective listening",
+    "Physical phone",
+    "Actual upload preview"
+  ],
+  "claim_context": "Explicit owner removal of editorial Example feed label supersedes v01 requirement for this revision. Actual P10 screenshots remain; no availability or measured-speed claim added. Click is an editorial focus/zoom cue.",
+  "previous_revision_preserved": "../v01/",
+  "published": false,
+  "documentation_validation": {
+    "passed": true,
+    "script": "creative/scripts/validate-system.py",
+    "result": "148 JSON files, 73 Markdown files, five skills, evidence hashes, claim context and capture/result invariants."
+  },
+  "independent_review_result": {
+    "record": "independent-qa.json",
+    "unresolved_findings": 0,
+    "final_export_hashes_verified": true
+  },
+  "real_time_browser_playback": {
+    "record": "browser-playback.json",
+    "all_four_passes_completed": true,
+    "scope": "Real-time local browser decode with muted and audio-enabled passes; screenshots from the decoded media. Not subjective listening or physical-phone playback.",
+    "passes": [
+      {
+        "format": "wide",
+        "muted": true,
+        "completed_seconds": 32,
+        "ended": true,
+        "error": null,
+        "decoded_frame_counter": 1920,
+        "dropped_frame_counter": 2
+      },
+      {
+        "format": "wide",
+        "muted": false,
+        "completed_seconds": 32,
+        "ended": true,
+        "error": null,
+        "decoded_frame_counter": 3840,
+        "dropped_frame_counter": 35
+      },
+      {
+        "format": "vertical",
+        "muted": true,
+        "completed_seconds": 32,
+        "ended": true,
+        "error": null,
+        "decoded_frame_counter": 1920,
+        "dropped_frame_counter": 1
+      },
+      {
+        "format": "vertical",
+        "muted": false,
+        "completed_seconds": 32,
+        "ended": true,
+        "error": null,
+        "decoded_frame_counter": 3840,
+        "dropped_frame_counter": 1
+      }
+    ],
+    "counter_note": "Frame counters are cumulative across the muted and audio-enabled passes for each format. Occasional browser presentation drops are distinct from encoded frame loss; both exports contain and fully decode all 1920 frames."
+  }
+}

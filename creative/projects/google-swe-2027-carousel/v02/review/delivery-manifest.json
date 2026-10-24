@@ -1,0 +1,41 @@
+{
+  "checked": "2026-10-24",
+  "files": [
+    {
+      "path": "images/01-salary.png",
+      "sha256": "5831a87843e771a9960526d7168e49ca7bbd3988c8cf9ce03e60eabe92b70c52",
+      "bytes": 103246
+    },
+    {
+      "path": "images/02-opportunity.png",
+      "sha256": "519354b45472de71bc3dae55dbc9feed5257c36ac01ce4075092b7ca92c9d292",
+      "bytes": 118869
+    },
+    {
+      "path": "images/03-visit-jjintern.png",
+      "sha256": "e4997f5d815301f35d6c3efb32ef32885922ef86ccbdf1b7a27d04de0eeeed6d",
+      "bytes": 115011
+    },
+    {
+      "path": "caption.txt",
+      "sha256": "4828856167bbeafa1acc6e2c13fdc993ebb5ba0e0222dda252292aa188ef2b9e",
+      "bytes": 513
+    },
+    {
+      "path": "alt-text.txt",
+      "sha256": "da83b47eb613cd56757b068a493b5b8099b6e2f97fa0af103ee8a5e940d4c4ae",
+      "bytes": 1027
+    },
+    {
+      "path": "sources.txt",
+      "sha256": "5aa3a973f90af70ee2a93ceaf57eaa8a32844588b85b3febca3f5336cabfb315",
+      "bytes": 3497
+    }
+  ],
+  "archive": {
+    "path": "JJIntern-Google-2027-salary-picture-post.zip",
+    "sha256": "ff5272912c110619dd3f6d6f98415b798a0e7ca7cf1bafe5790284ddf27b7259",
+    "bytes": 320571
+  },
+  "contents_verified": true
+}

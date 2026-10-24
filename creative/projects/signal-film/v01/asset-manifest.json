@@ -1,0 +1,46 @@
+{
+  "title": "JJIntern — Find your focus",
+  "date": "2026-10-20",
+  "timezone": "Europe/London",
+  "claim_ids": [
+    "CREATIVE-FIND-YOUR-FOCUS-20261020",
+    "PROD-CHECK-CADENCE-OWNER-20261017"
+  ],
+  "product_evidence": [
+    "P10",
+    "P06"
+  ],
+  "assets": [
+    {
+      "path": "creative/projects/signal-film/v01/source/motion.html",
+      "sha256": "da406c006b844ddae44d4facc8ba60a726db6ffe22ec1e0ffead4cbd0539061f",
+      "bytes": 12706
+    },
+    {
+      "path": "creative/projects/signal-film/v01/source/render.mjs",
+      "sha256": "855717005df46c5fab9c4ed6c67b5a43f3c33c849f7345e7e746430012277815",
+      "bytes": 4756
+    },
+    {
+      "path": "creative/projects/signal-film/v01/audio/build_score.py",
+      "sha256": "7761be9f5aaf17aecf7c17818844cbc3e1d6c481c675f133bf41f5f62759ec17",
+      "bytes": 25671
+    },
+    {
+      "path": "creative/projects/signal-film/v01/audio/jjintern-find-your-focus-original-score.wav",
+      "sha256": "6fbbbdf0ee1e90ae66eb9f3da22e93e175cc753c67e755854c0b31941fbf47eb",
+      "bytes": 9216102
+    },
+    {
+      "path": "creative/assets/evidence/product/logo-mark.png",
+      "sha256": "56c13f967c7ac90d5b40df2bb33ff1dfacd8a5630169e79613ca55138cd99f3c",
+      "bytes": 165756
+    }
+  ],
+  "captures_manifest": "../captures/portrait-manifest.json",
+  "font": "macOS system sans stack. No font files redistributed.",
+  "logo_treatment": "Original512×512PNG, unchanged silhouette/colour/aspect ratio, drawn at modest size.",
+  "screenshots": "Actual logged-out interaction states; contiguous crops; time compressed, not measured speed.",
+  "sound": "Original synthesis; no third-party samples. Seeaudio/audio-manifest.json.",
+  "external_publication": false
+}

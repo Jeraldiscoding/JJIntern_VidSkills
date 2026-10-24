@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "maintained_at": "2026-10-17",
-  "date_context": "Europe/Stockholm; research date, not an intake year",
+  "maintained_at": "2026-10-24",
+  "date_context": "Latest entry 24 October 2026, Europe/Stockholm; earlier dates/timezones retained in source records.",
   "records": [
     {
       "id": "OPP-GIC-ELIGIBILITY-20261017",
@@ -506,6 +506,534 @@
           {
             "date": "2026-10-17",
             "result": "User requested revision11 with the data packet fixed during the speed shot, JJIntern approaching from the right, slower convergence into the receiver and a short Found bubble above a stationary centered logo. Revision11 holds the packet at fixed position/scale for four seconds, then closes the gap and uses a shared moving aperture for physical entry before centering the intact original mark. The separate Found screen remains removed and exact finding/applying copy is retained. Rendered boards and native convergence/result frames were inspected; one transient payoff-accent overlap with the fading logo was repaired and re-inspected in the refreshed native 9.820 frame. Motion remains an editorial discovery metaphor, not authentic product UI, a verified current Microsoft vacancy, actual ingestion event, employer relationship or measured product speed. No new product fact or outcome claim was established. Encoded/audio checks and existing external release checks remain separate; no publication."
+          }
+        ]
+      }
+    },
+    {
+      "id": "CREATIVE-FIND-YOUR-FOCUS-20261020",
+      "type": "product_creative",
+      "status": "editorial_approved",
+      "claim_text": "Explore finance and tech internships on JJIntern; search a company to narrow its directory. JJIntern checks for postings every 30 minutes, at responsible-owner-confirmed scheduled-check scope.",
+      "employer": null,
+      "exact_role_or_programme": null,
+      "role_scope": "Product demonstration and editorial discovery metaphor; no individual live-vacancy claim",
+      "requisition_id": null,
+      "location": {
+        "advertised_work_location": null,
+        "country": null,
+        "eligibility_geography": null,
+        "status": "Audience Singapore; no specific vacancy-location claim"
+      },
+      "programme_year": null,
+      "programme_year_status": "not_applicable",
+      "compensation": {
+        "amount": null,
+        "currency_iso": null,
+        "pay_period": null,
+        "base_or_total": null,
+        "gross_or_net": null,
+        "employer_confirmed_or_reported_estimate": null,
+        "status": "not_applicable_no_compensation_claim",
+        "original_source_wording": null,
+        "derived_calculation": null,
+        "calculation_formula": null,
+        "fx_source_and_date": null,
+        "context_to_show": []
+      },
+      "availability": {
+        "status": "unknown",
+        "intake": null,
+        "deadline": null,
+        "application_url": null,
+        "application_destination_inspected": false,
+        "basis": "No live vacancy claim. Real public roles and directory shown as product examples."
+      },
+      "sources": [
+        {
+          "url_or_repo_path": "https://jjintern.com/companies",
+          "owner": "JJIntern",
+          "primary": true,
+          "source_type": "observed_public_interaction",
+          "published_at": null,
+          "checked_at": "2026-10-20",
+          "inspection_method": "Recorded real public browser input/result or prior direct owner statement, as specified.",
+          "supporting_section": null,
+          "finding_paraphrase": "Real Microsoft input narrowed directory to Microsoft.",
+          "short_quote_optional": null,
+          "evidence_asset_path": "creative/projects/signal-film/captures/portrait-capture-record.json",
+          "access_limitations": "No authenticated account or backend telemetry inspected."
+        },
+        {
+          "url_or_repo_path": "https://jjintern.com/feed",
+          "owner": "JJIntern",
+          "primary": true,
+          "source_type": "observed_public_interaction",
+          "published_at": null,
+          "checked_at": "2026-10-20",
+          "inspection_method": "Recorded real public browser input/result or prior direct owner statement, as specified.",
+          "supporting_section": null,
+          "finding_paraphrase": "Actual category clicks produced distinct Finance and Tech results without login.",
+          "short_quote_optional": null,
+          "evidence_asset_path": "creative/projects/signal-film/captures/capture-record.json",
+          "access_limitations": "No authenticated account or backend telemetry inspected."
+        },
+        {
+          "url_or_repo_path": "creative/product/evidence.md#p06--owner-confirmed-scheduled-discovery-cadence",
+          "owner": "JJIntern",
+          "primary": true,
+          "source_type": "responsible_owner_statement",
+          "published_at": null,
+          "checked_at": "2026-10-17",
+          "inspection_method": "Recorded real public browser input/result or prior direct owner statement, as specified.",
+          "supporting_section": null,
+          "finding_paraphrase": "Owner states the site scrapes every 30 minutes. No scheduler logs or latency verified.",
+          "short_quote_optional": null,
+          "evidence_asset_path": "creative/product/evidence.md",
+          "access_limitations": "No authenticated account or backend telemetry inspected."
+        }
+      ],
+      "qualifications": {
+        "must_appear_on_screen_with_claim": [
+          "Company directory context next to company-search demonstration"
+        ],
+        "must_appear_in_caption_or_destination": [
+          "Destination https://jjintern.com/feed"
+        ],
+        "unknowns": [
+          "Employer-confirmed current availability",
+          "Authenticated feature persistence",
+          "Measured scheduler reliability and alert latency"
+        ]
+      },
+      "allowed_wording": [
+        "So many tabs.",
+        "Find your focus.",
+        "Finance. Tech. One place to start.",
+        "Know the company?",
+        "Company directory",
+        "Go straight to it.",
+        "We check every 30 minutes.",
+        "Less searching. More possibilities.",
+        "JJIntern. Explore internships. jjintern.com"
+      ],
+      "prohibited_inferences": [
+        "Employer endorsement or partnership from directory tile",
+        "Live or newly posted vacancy from site display",
+        "Time-compressed editing as measured product speed",
+        "Instant detection/alert delivery, maximum 30-minute latency or comprehensive coverage",
+        "Authenticated save/track persistence, auto-apply or Telegram delivery",
+        "Quantified time saving, salary or guaranteed outcome"
+      ],
+      "jjintern_listing_verified": false,
+      "jjintern_listing_evidence": "Actual feed display captured; independent employer availability remains unverified.",
+      "review": {
+        "researcher": "Primary film editor and product-evidence reviewer",
+        "checked_at": "2026-10-20",
+        "recheck_on_publication_day": true,
+        "release_hold": [
+          "Physical-phone playback",
+          "Actual upload/placement preview",
+          "Subjective music listening"
+        ],
+        "check_history": [
+          {
+            "date": "2026-10-20",
+            "finding": "Fresh public interactions, original captures, composed frames and decoded exports inspected; exact conditional scope retained."
+          },
+          {
+            "date": "2026-10-20",
+            "revision": "signal-film/v02",
+            "owner_instruction": "Remove the Example feed label. Add smoother transitions and Microsoft click effect/sound.",
+            "resolution": "Label removed as explicitly requested. Existing genuine P10 captures retained; no new availability or live-vacancy claim. Pointer/ripple/sound cue an editorial camera zoom, not an untested navigation behavior.",
+            "prior_revision": "signal-film/v01 retains its original label and review history."
+          }
+        ]
+      }
+    },
+    {
+      "id": "E02-STRIPE-SG-SWE-2026-10-24",
+      "type": "compensation",
+      "status": "editorial_approved",
+      "claim_text": "The specified Stripe Singapore Software Engineer Intern listing publishes an annual SGD 72,000 salary rate, equivalent to SGD 6,000 per month by division by 12.",
+      "employer": "Stripe",
+      "exact_role_or_programme": "Software Engineer, Intern",
+      "role_scope": "specific_employer_requisition",
+      "requisition_id": "8130883",
+      "location": {
+        "advertised_work_location": "Singapore",
+        "country": "Singapore",
+        "eligibility_geography": null,
+        "status": "employer_listing_confirmed; individual work eligibility and sponsorship not established"
+      },
+      "programme_year": 2027,
+      "programme_year_status": "specified_in_linked_employer_application_form",
+      "compensation": {
+        "amount": 72000,
+        "currency_iso": "SGD",
+        "pay_period": "annual salary rate",
+        "base_or_total": "published salary rate; benefits and additional compensation not itemised",
+        "gross_or_net": "not stated in inspected source",
+        "employer_confirmed_or_reported_estimate": "employer_published",
+        "status": "source_verified_at_check_date",
+        "original_source_wording": "The annual salary range for this role in the primary location is SGD 72,000 - SGD 72,000.",
+        "derived_calculation": 6000,
+        "calculation_formula": "SGD 72,000 per year / 12 = SGD 6,000 per month equivalent",
+        "fx_source_and_date": null,
+        "context_to_show": [
+          "Stripe Software Engineer Intern; Singapore",
+          "Monthly equivalent of published annual salary rate",
+          "S$72,000/year divided by 12; not placement earnings",
+          "Source checked 24 October 2026; linked form refers to 2027 internships"
+        ]
+      },
+      "availability": {
+        "status": "role_listing_and_application_form_accessible_at_check; submission_not_tested",
+        "intake": "2027; linked form describes 12- and 24-week internships with approximate cohort dates",
+        "deadline": null,
+        "application_url": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&token=8130883",
+        "application_destination_inspected": true,
+        "basis": "Followed the listing through Stripe apply page to matching Greenhouse form. Read role application fields and 2027 cohort context. No data entered or application submitted. No closing date established."
+      },
+      "sources": [
+        {
+          "url_or_repo_path": "https://stripe.com/careers/listing/software-engineer-intern/8130883",
+          "owner": "Stripe",
+          "primary": true,
+          "source_type": "employer_role_listing",
+          "published_at": null,
+          "checked_at": "2026-10-24",
+          "inspection_method": "Live public web-reader text inspected; no screenshot or video playback",
+          "supporting_section": "Role title; office location; employment type; Pay and benefits",
+          "finding_paraphrase": "Singapore intern role; annual SGD 72,000–72,000 range. Monthly equivalent calculated separately.",
+          "short_quote_optional": null,
+          "evidence_asset_path": null,
+          "access_limitations": "Compensation components and gross/net not fully specified; no publication date or deadline established."
+        },
+        {
+          "url_or_repo_path": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&token=8130883",
+          "owner": "Stripe",
+          "primary": true,
+          "source_type": "employer_linked_application_form",
+          "published_at": null,
+          "checked_at": "2026-10-24",
+          "inspection_method": "Live public web-reader text inspected; no screenshot or video playback",
+          "supporting_section": "Internship Information",
+          "finding_paraphrase": "Matching form names 2027 internships and approximate cohort options.",
+          "short_quote_optional": null,
+          "evidence_asset_path": null,
+          "access_limitations": "Form read only; submission success, applicant eligibility and sponsorship outcomes not established."
+        }
+      ],
+      "qualifications": {
+        "must_appear_on_screen_with_claim": [
+          "Singapore",
+          "S$ / SGD and per-month equivalent wording",
+          "S$72,000/year / 12 beside the monthly claim"
+        ],
+        "must_appear_in_caption_or_destination": [
+          "Official role source and check date",
+          "Annual rate converted to monthly equivalent, not a guarantee of actual instalments or placement total",
+          "Check current employer requirements; intake context comes from the 2027 application form"
+        ],
+        "unknowns": [
+          "Actual payment schedule",
+          "Gross/net and complete benefits breakdown",
+          "Application deadline",
+          "Individual eligibility and sponsorship",
+          "Presence of this role on JJIntern"
+        ]
+      },
+      "allowed_wording": [
+        "Stripe SWE intern: S$6k/month equivalent — Singapore · S$72,000/year / 12.",
+        "Stripe publishes an annual salary rate of S$72,000 for this Singapore SWE intern role."
+      ],
+      "prohibited_inferences": [
+        "All Stripe internships worldwide pay this amount.",
+        "S$72,000 is total internship earnings.",
+        "Monthly-equivalent arithmetic establishes actual instalments, net pay, or a complete compensation package.",
+        "Current form visibility guarantees continued availability, acceptance or a deadline.",
+        "This role is listed on JJIntern, or Stripe endorses/partners with JJIntern."
+      ],
+      "jjintern_listing_verified": false,
+      "jjintern_listing_evidence": null,
+      "review": {
+        "researcher": "Codex research; user requested skills and research first",
+        "checked_at": "2026-10-24",
+        "recheck_on_publication_day": true,
+        "release_hold": [
+          "No video/script release review performed",
+          "Recheck pay and application destination on publication day",
+          "Any source screenshot must be captured and reviewed before use",
+          "Verify JJIntern listing separately if a role-specific product CTA is planned"
+        ],
+        "check_history": [
+          {
+            "checked_at": "2026-10-24",
+            "timezone": "Europe/Stockholm",
+            "finding": "Employer pay page and matching application form read; annual-to-monthly arithmetic checked. Approval is for scoped wording only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "OPP-GOOGLE-SWE-SG-20261024",
+      "type": "opportunity",
+      "status": "editorial_approved",
+      "claim_text": "Google advertises a paid 2027 software engineering internship in Singapore; its published anticipated application window may close early. The exact role was found and opened on the public JJIntern feed.",
+      "employer": "Google",
+      "exact_role_or_programme": "Software Engineering Intern, 2027 (English)",
+      "role_scope": "specific_employer_role_listing_and_verified_jjintern_discovery",
+      "requisition_id": "104489346874122950",
+      "location": {
+        "advertised_work_location": "Singapore",
+        "country": "Singapore",
+        "eligibility_geography": "Must be located in Singapore during the programme; existing Singapore work authorization without Google visa sponsorship is prioritized, not stated as an absolute exclusion.",
+        "status": "official_employer_location_confirmed"
+      },
+      "programme_year": 2027,
+      "programme_year_status": "explicit_in_official_role_title",
+      "compensation": {
+        "amount": null,
+        "currency_iso": null,
+        "pay_period": null,
+        "base_or_total": null,
+        "gross_or_net": null,
+        "employer_confirmed_or_reported_estimate": "employer_confirms_paid_only",
+        "status": "paid_internship_confirmed; amount_and_payment_basis_not_published",
+        "original_source_wording": "10-12 week paid internship",
+        "derived_calculation": null,
+        "calculation_formula": null,
+        "fx_source_and_date": null,
+        "context_to_show": [
+          "Paid; the employer listing publishes no amount. Any local reported benchmark must be separately attributed and qualified under PAY-GOOGLE-SWE-INTERN-SG-NODEFLAIR-20261024."
+        ]
+      },
+      "availability": {
+        "status": "official_role_listing_accessible; application_acceptance_not_tested",
+        "intake": "2027 as named in the official title; precise placement dates not established",
+        "deadline": "Anticipated application window through 15 November 2026; may close earlier if projects fill. Not a guaranteed final deadline; exact closing time unspecified.",
+        "application_url": "https://www.google.com/about/careers/applications/jobs/results/104489346874122950",
+        "application_destination_inspected": false,
+        "basis": "Official exact-role page and Apply control were read. Neither sign-in/application form nor JJIntern Open application handoff was followed; the latter is labelled via LinkedIn. Published window wording may be attributed to Google with its early-closure caveat. Do not assert continued application acceptance or a tested direct Google handoff."
+      },
+      "sources": [
+        {
+          "url_or_repo_path": "https://www.google.com/about/careers/applications/jobs/results/104489346874122950",
+          "owner": "Google",
+          "primary": true,
+          "source_type": "employer_specific_role_listing",
+          "published_at": null,
+          "checked_at": "2026-10-24",
+          "inspection_method": "Opened and read live public employer page in web reader; exact role and all qualifications visible. No application submitted.",
+          "supporting_section": "Role title/location; application-window notice; minimum qualifications; About the job",
+          "finding_paraphrase": "Paid 10–12-week Singapore internship for 2027. Rolling review; anticipated window until 15 November 2026, potentially earlier closure when projects fill. Penultimate Bachelor’s/Master’s requirement, relevant technical studies, programming, Unix/Linux, algorithms/data structures/software design, and English. Existing Singapore work rights without sponsorship are prioritized.",
+          "short_quote_optional": null,
+          "evidence_asset_path": null,
+          "access_limitations": "No pay amount or precise placement/closing time. The degree list mentions PhD but separately requires penultimate Bachelor’s/Master’s; do not infer general PhD eligibility. Application form and acceptance untested."
+        },
+        {
+          "url_or_repo_path": "https://jjintern.com/feed",
+          "owner": "JJIntern",
+          "primary": true,
+          "source_type": "observed_public_product_interaction",
+          "published_at": null,
+          "checked_at": "2026-10-24",
+          "inspection_method": "Primary production agent used isolated logged-out Chrome at 390×844 CSS pixels, 3× device scale: actual Google query and exact-title click; evidence reviewer inspected record and original PNGs.",
+          "supporting_section": "Five displayed search matches; Google Software Engineering Intern, 2027 (English) row and expanded role description",
+          "finding_paraphrase": "The named role appeared in the actual search result and its click expanded Singapore details. Matching source text was visible. Open application was labelled via LinkedIn and was not clicked.",
+          "short_quote_optional": null,
+          "evidence_asset_path": "creative/projects/google-swe-2027-carousel/evidence/capture-record.json",
+          "access_limitations": "Search screenshot 01 is a transient loading state; its text snapshot was later and must not be treated as matching pixels. Crop 02 and expanded screenshot 03 are loaded. Site row dates, counts and last-seen labels are not independently verified freshness or vacancy claims."
+        }
+      ],
+      "qualifications": {
+        "must_appear_on_screen_with_claim": [
+          "Singapore and 2027 beside the role hook.",
+          "Any 15 November date must be labelled expected/anticipated window, with may close earlier visible on the same panel.",
+          "Eligibility copy is a quick check, not complete qualification: penultimate Bachelor’s/Master’s; Singapore presence; existing work-rights priority is not an absolute ban on sponsorship applicants."
+        ],
+        "must_appear_in_caption_or_destination": [
+          "Official Google URL and checked 24 October 2026.",
+          "Consult full technical, English, study and work-rights requirements. No eligibility guarantee.",
+          "Visit JJIntern.com/feed, search Google, then open Software Engineering Intern, 2027 (English). Application submission is outside this demonstrated journey."
+        ],
+        "unknowns": [
+          "Salary amount/currency/payment basis",
+          "Exact placement dates and closing time",
+          "Actual application acceptance and remaining projects",
+          "Individual eligibility and sponsorship outcome",
+          "JJIntern LinkedIn handoff destination and any direct employer application path",
+          "Authenticated tracking or persistence"
+        ]
+      },
+      "allowed_wording": [
+        "Google 2027. Don’t wait for the deadline. (With Singapore role context; resolve on the next panel using the qualified published window.)",
+        "10–12 weeks. Paid. Singapore.",
+        "Google lists an expected window through 15 Nov 2026. It may close earlier if projects fill.",
+        "JJIntern.com/feed → search Google → open Software Engineering Intern, 2027 (English).",
+        "Find the role on JJIntern, then read the full requirements."
+      ],
+      "prohibited_inferences": [
+        "Inferring any employer-confirmed 2027 salary amount, benefits package or placement earnings from this role listing. Separately sourced reported pay must follow PAY-GOOGLE-SWE-INTERN-SG-NODEFLAIR-20261024.",
+        "Guaranteed open until 15 November, invented exact deadline time, countdown or remaining-place count.",
+        "Applications are currently accepted, apply now, or successful employer application submission without checking the actual form.",
+        "Every technical student qualifies; every PhD student qualifies; sponsorship is guaranteed or all applicants needing it are excluded.",
+        "Apply directly on JJIntern; JJIntern submits the application; the observed handoff goes directly to Google.",
+        "Employer endorsement, partnership, exclusivity or complete company coverage.",
+        "Captured row age, last-seen labels or feed counters establish newness, availability or measured scrape latency.",
+        "The loading-state screenshot 01 proves the five loaded search results."
+      ],
+      "jjintern_listing_verified": true,
+      "jjintern_listing_evidence": "P11 in creative/product/evidence.md; creative/projects/google-swe-2027-carousel/evidence/capture-record.json; genuine loaded role crop 02-google-role-crop.png and expanded details 03-google-details.png. Query Google returned five displayed roles; the exact role title was clicked. Initial 01-google-search.png is a loading-state capture and is excluded from loaded-result production proof.",
+      "review": {
+        "researcher": "Company-source research/evidence agent and primary production agent",
+        "checked_at": "2026-10-24",
+        "recheck_on_publication_day": true,
+        "release_hold": [
+          "Reopen official source and JJIntern exact role on publication day; update or retire time-sensitive wording if changed.",
+          "Final rendered mobile/placement review is recorded at project level.",
+          "Application destination must be checked before adding an apply-now or confirmed-availability claim; current creative only promises verified search and role details."
+        ],
+        "check_history": [
+          {
+            "checked_at": "2026-10-24",
+            "timezone": "Europe/Stockholm",
+            "finding": "Official Google page read. Actual JJIntern Google search and exact-title expansion captured; record and original role crop/details visually reviewed. Initial search PNG shows transient loading despite later text snapshot and is excluded from result proof. No application handoff or submission performed."
+          },
+          {
+            "checked_at": "2026-10-24",
+            "timezone": "Europe/Stockholm",
+            "finding": "Added a separate undated NodeFlair local salary benchmark after the owner requested reported pay. This official opportunity record still has no published salary amount; its compensation amount remains null."
+          }
+        ]
+      }
+    },
+    {
+      "id": "PAY-GOOGLE-SWE-INTERN-SG-NODEFLAIR-20261024",
+      "type": "reported_compensation_benchmark",
+      "status": "reported_benchmark_verified_qualified_use_only",
+      "claim_text": "NodeFlair reports S$5,700 per month for Google Software Engineer interns in Singapore, based on two user submissions with undisclosed dates. This is a reported local benchmark, not confirmed pay for the 2027 internship.",
+      "employer": "Google",
+      "exact_role_or_programme": "Software Engineer (Intern), Singapore — NodeFlair role/seniority category; not an identified intake or requisition",
+      "role_scope": "local_user_reported_role_and_seniority_benchmark_not_current_employer_offer",
+      "requisition_id": null,
+      "location": {
+        "advertised_work_location": "Singapore",
+        "country": "Singapore",
+        "eligibility_geography": null,
+        "status": "Singapore salary category explicitly named by NodeFlair; no eligibility inference"
+      },
+      "programme_year": null,
+      "programme_year_status": "unknown; submission dates hidden, so no internship year can be assigned; 2027 refers only to the separately sourced opportunity",
+      "compensation": {
+        "amount": 5700,
+        "currency_iso": "SGD",
+        "pay_period": "month",
+        "base_or_total": "unknown; fixed, variable and stock components are locked",
+        "gross_or_net": "unknown; not established by accessible data",
+        "employer_confirmed_or_reported_estimate": "user_reported_benchmark; two NodeFlair submissions; not employer confirmed",
+        "status": "exact_local_role_benchmark_verified_in_indexed_source_content; dates_and_current_offer_pay_unknown",
+        "original_source_wording": "S$5,700 / mth; Based on User Submissions",
+        "derived_calculation": null,
+        "calculation_formula": null,
+        "fx_source_and_date": null,
+        "context_to_show": [
+          "Singapore · SWE intern",
+          "Reported pay; NodeFlair; 2 reports",
+          "Report dates undisclosed; 2027 pay unconfirmed"
+        ]
+      },
+      "availability": {
+        "status": "not_established_by_salary_reports",
+        "intake": null,
+        "deadline": null,
+        "application_url": null,
+        "application_destination_inspected": false,
+        "basis": "This record makes no vacancy, application or intake claim. Current role facts and the verified JJIntern search journey are scoped separately in OPP-GOOGLE-SWE-SG-20261024."
+      },
+      "sources": [
+        {
+          "url_or_repo_path": "https://nodeflair.com/companies/google/salaries/software_engineer-intern/Singapore",
+          "owner": "NodeFlair",
+          "primary": true,
+          "source_type": "original_publisher_of_anonymous_user_reported_salary_aggregation",
+          "published_at": null,
+          "checked_at": "2026-10-24",
+          "inspection_method": "Read indexed full page content returned by web search for this exact URL. A direct web-reader open timed out. No authenticated data accessed. An isolated Chrome visit reached Cloudflare verification without salary content; production independently rechecked the indexed content.",
+          "supporting_section": "Google Software Engineer (Intern) Salaries in Singapore; Based on User Submissions; two visible entries",
+          "finding_paraphrase": "The local intern category displays two monthly SGD reports at 5,700. Dates are hidden; values are rounded to the nearest hundred. Pay components are inaccessible.",
+          "short_quote_optional": null,
+          "evidence_asset_path": "creative/projects/google-swe-2027-carousel/v02/evidence/salary-inspection.json",
+          "access_limitations": "Source index reported a crawl about three weeks earlier; this check does not establish live-page freshness. Submission dates and individual job titles are concealed. Do not count the locked $12,345 demonstration row as a report."
+        },
+        {
+          "url_or_repo_path": "https://nodeflair.com/companies/google/salaries/software_engineer/Singapore",
+          "owner": "NodeFlair",
+          "primary": true,
+          "source_type": "same_publisher_parent_role_summary_not_independent_corroboration",
+          "published_at": null,
+          "checked_at": "2026-10-24",
+          "inspection_method": "Read indexed full page content returned by web search for this exact URL. A direct web-reader open timed out.",
+          "supporting_section": "Intern seniority summary",
+          "finding_paraphrase": "Intern weighted average is S$5,700 per month with 2 salaries. This confirms sample count within the same dataset, not an additional source or sample.",
+          "short_quote_optional": null,
+          "evidence_asset_path": null,
+          "access_limitations": "Undated salary sample; weighted-average method not evaluated. Other seniorities and listed jobs are outside the claim."
+        }
+      ],
+      "qualifications": {
+        "must_appear_on_screen_with_claim": [
+          "Google SWE intern and Singapore location.",
+          "S$ or SGD, monthly period, and reported beside the amount.",
+          "NodeFlair, 2 reports, dates undisclosed.",
+          "2027 pay unconfirmed when the salary hook is used to introduce the 2027 role."
+        ],
+        "unknowns": [
+          "Reporting dates and internship years",
+          "Representativeness beyond two submissions",
+          "Base pay versus total compensation and included components",
+          "Gross versus net",
+          "Employer-confirmed 2027 pay and any individual offer"
+        ],
+        "must_appear_in_caption_or_destination": [
+          "Exact NodeFlair source URL and checked 24 October 2026.",
+          "This is a small, undated local reporting sample; Google has not published a 2027 amount in the inspected official role listing.",
+          "Amounts are rounded by the source; base versus total and gross versus net are unknown."
+        ],
+        "supporting_context_destination": "creative/projects/google-swe-2027-carousel/v02/sources.txt",
+        "destination_scope": "For these salary-source details, destination means the accompanying packaged source record linked from the project, not the JJIntern website. The caption also carries the exact NodeFlair URL/check date. This preserves the shared qualification schema while making the required disclosure location explicit."
+      },
+      "allowed_wording": [
+        "Google · Singapore SWE intern · S$5.7k/month reported. (With NodeFlair · 2 reports · dates undisclosed and 2027 pay unconfirmed visible.)",
+        "NodeFlair reports S$5,700/month from two Singapore Google SWE intern submissions; dates are undisclosed.",
+        "Use as reported pay context for exploring the separately verified 2027 role, without presenting it as that role’s offer."
+      ],
+      "prohibited_inferences": [
+        "Google pays 2027 Singapore interns S$5,700/month; confirmed 2027 salary; guaranteed or likely offer amount.",
+        "Calling the figure base pay, take-home pay, total compensation or a complete benefits package.",
+        "Assigning a programme year or recent-report date from the source check date.",
+        "An invented salary range, median, minimum or maximum, or internship-total earnings.",
+        "Converting overseas Google compensation or pooling different roles, locations, currencies or intake years.",
+        "Counting the parent summary as independent corroboration or the locked demonstration row as a third report.",
+        "Using this pay sample as evidence that applications are open, the role is available, or JJIntern has an employer partnership."
+      ],
+      "jjintern_listing_verified": false,
+      "jjintern_listing_evidence": null,
+      "review": {
+        "researcher": "Salary evidence update agent; independently checked exact NodeFlair indexed content",
+        "checked_at": "2026-10-24",
+        "recheck_on_publication_day": true,
+        "release_hold": [
+          "Recheck source on publication day; retain small-sample and unknown-date limitations.",
+          "Use only the qualified wording above; separate current opportunity facts from this undated benchmark.",
+          "Final render and phone/placement review are project-level checks."
+        ],
+        "check_history": [
+          {
+            "checked_at": "2026-10-24",
+            "timezone": "Europe/Stockholm",
+            "finding": "Two exact local reports and matching parent sample count inspected in indexed source content; direct reader opens timed out. Programme year remains null. Distinct status explicitly allows qualified reported-benchmark use without satisfying or bypassing the editorial_approved current-intake salary condition."
           }
         ]
       }
